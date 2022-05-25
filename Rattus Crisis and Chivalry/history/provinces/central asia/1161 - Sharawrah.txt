@@ -1,0 +1,6 @@
+owner=X00
+controller=X00
+add_core=ARA
+add_core=X07
+trade_goods = wool
+life_rating = 10

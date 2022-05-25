@@ -1,0 +1,6 @@
+owner=ZAZ
+controller=ZAZ
+add_core=ZAZ
+trade_goods = coal
+life_rating = 40
+terrain = mining_district

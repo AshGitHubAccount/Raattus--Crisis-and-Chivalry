@@ -1,0 +1,11 @@
+owner=ARG
+controller=ARG
+add_core=ARG
+trade_goods = cattle
+life_rating = 39
+state_building=
+{
+	level=1
+	building = artillery_factory
+	upgrade = yes
+}

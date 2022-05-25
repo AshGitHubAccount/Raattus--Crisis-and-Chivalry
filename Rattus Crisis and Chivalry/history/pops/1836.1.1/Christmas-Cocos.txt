@@ -1,0 +1,9 @@
+2244 = {
+	farmers=
+	{
+		culture = frankish
+		religion = catholic
+		size= 14
+	}
+
+}

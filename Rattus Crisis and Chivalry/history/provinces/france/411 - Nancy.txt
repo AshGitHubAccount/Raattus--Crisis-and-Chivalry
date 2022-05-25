@@ -1,0 +1,18 @@
+owner=LOT
+controller=LOT
+
+add_core=LOT
+trade_goods = dye
+life_rating = 31
+state_building=
+{
+	level=1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = fertilizer_factory
+	upgrade = yes
+}

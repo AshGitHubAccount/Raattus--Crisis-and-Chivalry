@@ -1,0 +1,7 @@
+owner=KAT
+controller=KAT
+add_core=HND
+add_core=KAT
+add_core=SIN
+trade_goods = grain
+life_rating = 35

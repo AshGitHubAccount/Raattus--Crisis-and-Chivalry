@@ -1,0 +1,6 @@
+owner=ABO
+controller=ABO
+add_core=ABO
+trade_goods = cattle
+life_rating = 20
+terrain = savanna

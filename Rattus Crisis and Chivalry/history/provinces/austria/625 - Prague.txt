@@ -1,0 +1,17 @@
+owner=WSF
+controller=WSF
+add_core=BOH
+add_core=CZE
+add_core=WSF
+trade_goods = coal
+life_rating = 35
+state_building= {
+level=1
+	building = cement_factory
+	upgrade = yes
+	}
+	state_building= {
+level=1
+	building = glass_factory
+	upgrade = yes
+	}

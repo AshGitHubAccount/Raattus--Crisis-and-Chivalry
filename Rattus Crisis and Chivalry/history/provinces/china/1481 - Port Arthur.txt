@@ -1,0 +1,10 @@
+owner=YAN
+controller=YAN
+add_core=CHI
+add_core=YAN
+add_core=MCK
+add_core=MHX
+add_core=MJZ
+trade_goods = timber
+life_rating = 32
+fort = 1

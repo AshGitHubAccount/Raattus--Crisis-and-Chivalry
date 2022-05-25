@@ -1,0 +1,6 @@
+owner=WSF
+controller=WSF
+add_core=GER
+add_core=WSF
+trade_goods = fish
+life_rating = 40

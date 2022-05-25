@@ -1,0 +1,6 @@
+owner=BPR
+controller=BPR
+add_core=BPR
+add_core=HND
+trade_goods = fruit
+life_rating = 35

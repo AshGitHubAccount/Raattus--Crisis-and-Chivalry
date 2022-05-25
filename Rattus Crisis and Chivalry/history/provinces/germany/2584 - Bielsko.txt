@@ -1,0 +1,12 @@
+owner=WSF
+controller=WSF
+add_core=WSF
+add_core=SLV
+add_core=WSF
+trade_goods = coal
+life_rating = 40
+state_building= {
+level=1
+	building = glass_factory
+	upgrade = yes
+	}

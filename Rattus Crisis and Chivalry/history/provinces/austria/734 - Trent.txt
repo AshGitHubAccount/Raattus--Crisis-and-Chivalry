@@ -1,0 +1,6 @@
+owner=TTB
+controller=TTB
+add_core=TTB
+trade_goods = grain
+life_rating = 35
+fort = 1

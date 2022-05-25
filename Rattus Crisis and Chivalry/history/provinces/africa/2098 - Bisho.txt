@@ -1,0 +1,5 @@
+owner=CEG
+controller=CEG
+add_core=CEG
+trade_goods = wool
+life_rating = 35

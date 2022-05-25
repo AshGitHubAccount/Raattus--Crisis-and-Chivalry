@@ -1,0 +1,5 @@
+owner=LNB
+controller=LNB
+add_core=LNB
+trade_goods = cattle
+life_rating = 40

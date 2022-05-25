@@ -1,0 +1,189 @@
+
+substate =
+{
+	first="MEX"
+	second="UCA"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+substate =
+{
+	first="LOT"
+	second="X25"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+substate=
+{
+	first="USA"
+	second="SHX"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+
+substate=
+{
+	first="X00"
+	second="ARA"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+substate=
+{
+	first="X00"
+	second="JIM"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+substate=
+{
+	first="AFG"
+	second="PNJ"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="PER"
+	second="X20"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="PER"
+	second="BLC"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="PER"
+	second="KHO"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+
+substate=
+{
+	first="LNA"
+	second="SIA"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="YUA"
+	second="X12"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="YUA"
+	second="QIC"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="YUA"
+	second="BRY"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="YUA"
+	second="TRX"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="NZH"
+	second="YAR"
+	start_date="1770.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="BPR"
+	second="SDY"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+substate=
+{
+	first="HDU"
+	second="XMA"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="MAW"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="DLH"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="BNG"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="KAT"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="NEP"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="HDU"
+	second="KAS"
+	start_date="1730.4.25"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="LOT"
+	second="MJP"
+	start_date="1730.4.24"
+	end_date="1936.1.1"
+}

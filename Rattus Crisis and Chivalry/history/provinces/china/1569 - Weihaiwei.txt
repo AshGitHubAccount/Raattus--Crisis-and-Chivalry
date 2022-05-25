@@ -1,0 +1,7 @@
+owner=QIC
+controller=QIC
+add_core=QIC
+add_core=MNX
+trade_goods = grain
+life_rating = 32
+colonial = 1

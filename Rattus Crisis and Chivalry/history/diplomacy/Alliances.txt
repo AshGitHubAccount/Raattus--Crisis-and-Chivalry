@@ -1,0 +1,128 @@
+#EXAMPLES
+#alliance=
+#{
+#	first="SCA"
+#	second="YUE"
+#	start_date="1716.5.7"
+#	end_date="1936.1.1"
+#}
+#
+#alliance=
+#{
+#	first="USA"
+#	second="CAN"
+#	start_date="1632.5.28"
+#	end_date="1936.1.1"
+#}
+
+#THE NORTHERN ITALIAN CONFEDERATION - LUCCA
+alliance=
+{
+	first="LUC"
+	second="LOM"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="LUC"
+	second="GEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="LUC"
+	second="VEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="LUC"
+	second="FER"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="LUC"
+	second="TUS"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+
+#THE NORTHERN ITALIAN CONFEDERATION - TUSCANY
+alliance=
+{
+	first="TUS"
+	second="LOM"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="TUS"
+	second="GEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="TUS"
+	second="VEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="TUS"
+	second="FER"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+#THE NORTHERN ITALIAN CONFEDERATION - FERRARA
+alliance=
+{
+	first="FER"
+	second="LOM"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="FER"
+	second="GEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="FER"
+	second="VEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+#THE NORTHERN ITALIAN CONFEDERATION - LOMBARDY
+alliance=
+{
+	first="LOM"
+	second="GEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+alliance=
+{
+	first="LOM"
+	second="VEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}
+#THE NORTHERN ITALIAN CONFEDERATION - GENOA
+alliance=
+{
+	first="GEN"
+	second="VEN"
+	start_date="1716.5.7"
+	end_date="1936.1.1"
+}

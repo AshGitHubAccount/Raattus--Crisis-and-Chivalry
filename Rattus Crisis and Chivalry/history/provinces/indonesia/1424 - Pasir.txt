@@ -1,0 +1,8 @@
+owner=LOT
+controller=LOT
+add_core=KTI
+add_core=MLY
+trade_goods = sulphur
+life_rating = 35
+colonial=2
+fort = 1

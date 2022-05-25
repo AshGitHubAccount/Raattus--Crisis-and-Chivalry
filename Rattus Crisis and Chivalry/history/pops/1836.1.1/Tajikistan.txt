@@ -1,0 +1,384 @@
+1201 = {
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 2796
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 1700
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 123
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 36
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 38
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 159
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 32929
+	}
+
+	soldiers=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 1045
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 2971
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 215
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 63
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 66
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 277
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = coptic
+		size= 9483
+	}
+
+}
+1207 = {
+	slaves=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 5867
+	}
+
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 704
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 1408
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 229
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 53
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 28
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 296
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 26616
+	}
+
+}
+1208 = {
+	slaves=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 1103
+	}
+
+	soldiers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 464
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 166
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 27
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 6
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 70
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = shiite
+		size= 6441
+	}
+
+	slaves=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 2426
+	}
+
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 1020
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 895
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 145
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 34
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 376
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 13290
+	}
+
+	slaves=
+	{
+		culture = uighur
+		religion = sunni
+		size= 1409
+	}
+
+	soldiers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 593
+	}
+
+	artisans=
+	{
+		culture = uighur
+		religion = sunni
+		size= 387
+	}
+
+	clergymen=
+	{
+		culture = uighur
+		religion = sunni
+		size= 63
+	}
+
+	bureaucrats=
+	{
+		culture = uighur
+		religion = sunni
+		size= 15
+	}
+
+	officers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 16
+	}
+
+	aristocrats=
+	{
+		culture = uighur
+		religion = sunni
+		size= 163
+	}
+
+	farmers=
+	{
+		culture = uighur
+		religion = sunni
+		size= 7939
+	}
+
+	slaves=
+	{
+		culture = uighur
+		religion = shiite
+		size= 61
+	}
+
+	soldiers=
+	{
+		culture = uighur
+		religion = shiite
+		size= 26
+	}
+
+	artisans=
+	{
+		culture = uighur
+		religion = shiite
+		size= 54
+	}
+
+	clergymen=
+	{
+		culture = uighur
+		religion = shiite
+		size= 9
+	}
+
+	bureaucrats=
+	{
+		culture = uighur
+		religion = shiite
+		size= 2
+	}
+
+	officers=
+	{
+		culture = uighur
+		religion = shiite
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = uighur
+		religion = shiite
+		size= 23
+	}
+
+	farmers=
+	{
+		culture = uighur
+		religion = shiite
+		size= 282
+	}
+
+}

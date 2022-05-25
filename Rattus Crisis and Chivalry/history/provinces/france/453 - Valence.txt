@@ -1,0 +1,8 @@
+owner=OCC
+controller=OCC
+
+add_core=OCC
+add_core=TUL
+trade_goods = fruit
+life_rating = 31
+fort = 1

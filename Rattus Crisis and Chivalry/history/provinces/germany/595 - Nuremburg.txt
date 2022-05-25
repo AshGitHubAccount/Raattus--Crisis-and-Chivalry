@@ -1,0 +1,9 @@
+owner=ANS
+controller=ANS
+add_core=ANS
+add_core=GER
+add_core=NUM
+add_core=ANS
+trade_goods = grain
+life_rating = 40
+fort = 1

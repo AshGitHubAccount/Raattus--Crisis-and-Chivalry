@@ -1,0 +1,170 @@
+2126 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 6621
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 229
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 4348
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 404
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 38
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 2
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 2
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = protestant
+		size= 1148
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 40
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 546
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 51
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 4
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 33
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 184
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = protestant
+		size= 6230
+	}
+
+	soldiers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 218
+	}
+
+	artisans=
+	{
+		culture = africaine
+		religion = protestant
+		size= 2478
+	}
+
+	clergymen=
+	{
+		culture = africaine
+		religion = protestant
+		size= 230
+	}
+
+	bureaucrats=
+	{
+		culture = africaine
+		religion = protestant
+		size= 18
+	}
+
+	officers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = africaine
+		religion = protestant
+		size= 149
+	}
+
+	farmers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 1565
+	}
+
+}

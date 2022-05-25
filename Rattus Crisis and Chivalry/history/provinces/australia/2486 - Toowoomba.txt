@@ -1,0 +1,7 @@
+owner=X25
+controller=X25
+add_core=AUI
+add_core=AUW
+add_core=X25
+trade_goods = cattle
+life_rating = 32

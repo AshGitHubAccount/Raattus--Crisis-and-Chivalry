@@ -1,0 +1,16 @@
+owner=SOM
+controller=SOM
+add_core=ADA
+add_core=SOM
+trade_goods = fish
+life_rating = 31
+terrain = semidesert
+colonial=2
+naval_base = 2
+fort = 1
+state_building=
+{
+	level=1
+	building = canned_food_factory
+	upgrade = yes
+}

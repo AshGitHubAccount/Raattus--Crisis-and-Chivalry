@@ -1,0 +1,9 @@
+owner=ARA
+controller=ARA
+add_core=ARA
+add_core=OMA
+add_core=X07
+trade_goods = fish
+life_rating = 31
+terrain = mountain
+fort = 1

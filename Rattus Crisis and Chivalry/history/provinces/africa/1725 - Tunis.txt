@@ -1,0 +1,8 @@
+owner=NAV
+controller=NAV
+add_core=NAV
+trade_goods = grain
+life_rating = 35
+naval_base = 2
+fort = 1
+colonial=2

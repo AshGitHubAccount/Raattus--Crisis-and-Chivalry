@@ -1,0 +1,4 @@
+owner=MLT
+controller=MLT
+trade_goods = fruit
+life_rating = 32

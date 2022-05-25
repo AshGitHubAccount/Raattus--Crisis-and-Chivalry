@@ -1,0 +1,5 @@
+FEOowner=FEO
+controller=FEO
+add_core=FEO
+trade_goods = fish
+life_rating = 35

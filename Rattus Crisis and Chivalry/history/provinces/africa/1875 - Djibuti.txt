@@ -1,0 +1,7 @@
+owner=X00
+controller=X00
+add_core=AWS
+trade_goods = cattle
+life_rating = 10
+terrain = semidesert
+colonial=2

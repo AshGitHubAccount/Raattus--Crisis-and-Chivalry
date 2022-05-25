@@ -1,0 +1,5 @@
+owner=SHX
+controller=SHX
+add_core=SHX
+trade_goods = coal
+life_rating = 35

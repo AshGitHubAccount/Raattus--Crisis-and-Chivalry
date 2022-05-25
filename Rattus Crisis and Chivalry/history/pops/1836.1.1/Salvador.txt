@@ -1,0 +1,200 @@
+2191 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 216
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 1513
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 81
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 11
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 182
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 19599
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 433
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = catholic
+		size= 7574
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = catholic
+		size= 406
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = catholic
+		size= 54
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 43
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = catholic
+		size= 909
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 33877
+	}
+
+}
+2192 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 143
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 1003
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 54
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 7
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 120
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 12992
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 287
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = catholic
+		size= 5020
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = catholic
+		size= 269
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = catholic
+		size= 36
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 29
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = catholic
+		size= 602
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = catholic
+		size= 22455
+	}
+
+}

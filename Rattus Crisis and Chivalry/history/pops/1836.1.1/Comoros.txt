@@ -1,0 +1,298 @@
+2123 = {
+	slaves=
+	{
+		culture = malagasy
+		religion = sunni
+		size= 90
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 44
+	}
+
+	clergymen=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 8
+	}
+
+	officers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 4062
+	}
+
+	bureaucrats=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 1
+	}
+
+	slaves=
+	{
+		culture = malagasy
+		religion = coptic
+		size= 42
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 117
+	}
+
+	artisans=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 86
+	}
+
+	clergymen=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 16
+	}
+
+	bureaucrats=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 2
+	}
+
+	officers=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 18
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 1799
+	}
+
+	slaves=
+	{
+		culture = amhara
+		religion = coptic
+		size= 146
+	}
+
+	soldiers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 409
+	}
+
+	artisans=
+	{
+		culture = amhara
+		religion = coptic
+		size= 423
+	}
+
+	clergymen=
+	{
+		culture = amhara
+		religion = coptic
+		size= 79
+	}
+
+	bureaucrats=
+	{
+		culture = amhara
+		religion = coptic
+		size= 11
+	}
+
+	officers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 22
+	}
+
+	aristocrats=
+	{
+		culture = amhara
+		religion = coptic
+		size= 89
+	}
+
+	farmers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 6126
+	}
+
+}
+2124 = {
+	slaves=
+	{
+		culture = malagasy
+		religion = sunni
+		size= 79
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 15
+	}
+
+	artisans=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 3
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = sunni
+		size= 173
+	}
+
+	slaves=
+	{
+		culture = malagasy
+		religion = coptic
+		size= 37
+	}
+
+	soldiers=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 7
+	}
+
+	artisans=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 5
+	}
+
+	clergymen=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 1
+	}
+
+	farmers=
+	{
+		culture = kilombero
+		religion = coptic
+		size= 75
+	}
+
+	slaves=
+	{
+		culture = amhara
+		religion = coptic
+		size= 130
+	}
+
+	soldiers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = amhara
+		religion = coptic
+		size= 26
+	}
+
+	clergymen=
+	{
+		culture = amhara
+		religion = coptic
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = amhara
+		religion = coptic
+		size= 1
+	}
+
+	officers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = amhara
+		religion = coptic
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = amhara
+		religion = coptic
+		size= 249
+	}
+
+}

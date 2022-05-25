@@ -1,0 +1,817 @@
+#Sphere of Influence
+
+AFG = {
+	value = 0
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+AOT = {
+	value = 0
+	level = 2
+}
+ARG = {
+	value = 0
+	level = 2
+}
+ATJ = {
+	value = 0
+	level = 2
+}
+AYU = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 0
+	level = 2
+}
+BNG = {
+	value = 0
+	level = 2
+}
+BOH = {
+	value = 0
+	level = 2
+}
+BPR = {
+	value = 0
+	level = 2
+}
+BRT = {
+	value = -2
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRY = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BYZ = {
+	value = 0
+	level = 2
+}
+CAL = {
+	value = 0
+	level = 2
+}
+CAM = {
+	value = 0
+	level = 2
+}
+CAN = {
+	value = 0
+	level = 2
+}
+CDL = {
+	value = 0
+	level = 2
+}
+CHL = {
+	value = 0
+	level = 2
+}
+CWU = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+DLI = {
+	value = 0
+	level = 2
+}
+EGY = {
+	value = 0
+	level = 2
+}
+GYN = {
+	value = 0
+	level = 2
+}
+HSC = {
+	value = -11
+	level = 2
+}
+IRE = {
+	value = 0
+	level = 2
+}
+ITA = {
+	value = 12
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+KAS = {
+	value = 0
+	level = 2
+}
+KAT = {
+	value = 0
+	level = 2
+}
+KEL = {
+	value = 0
+	level = 2
+}
+KER = {
+	value = 0
+	level = 2
+}
+KIT = {
+	value = 0
+	level = 2
+}
+KON = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 0
+	level = 2
+}
+KRC = {
+	value = 0
+	level = 2
+}
+KSJ = {
+	value = 0
+	level = 2
+}
+KTI = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LAN = {
+	value = 0
+	level = 2
+}
+LIT = {
+	value = 0
+	level = 2
+}
+LNA = {
+	value = 0
+	level = 2
+}
+LOT = {
+	value = 325
+	influence_value = 18
+	level = 3
+}
+LSK = {
+	value = 0
+	level = 2
+}
+LUN = {
+	value = 0
+	level = 2
+}
+MAW = {
+	value = 0
+	level = 2
+}
+MEX = {
+	value = -50
+	level = 2
+}
+MIR = {
+	value = 0
+	level = 2
+}
+MJP = {
+	value = 0
+	level = 2
+}
+MKS = {
+	value = 13
+	level = 2
+}
+MLC = {
+	value = 0
+	level = 2
+}
+MLD = {
+	value = 0
+	level = 2
+}
+MLS = {
+	value = 0
+	level = 2
+}
+MMA = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 0
+	level = 2
+}
+MUL = {
+	value = 0
+	level = 2
+}
+NDO = {
+	value = 0
+	level = 2
+}
+NEP = {
+	value = 0
+	level = 2
+}
+NGA = {
+	value = 0
+	level = 2
+}
+PAT = {
+	value = 0
+	level = 2
+}
+PER = {
+	value = 0
+	level = 2
+}
+PEU = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 0
+	level = 2
+}
+PLB = {
+	value = 0
+	level = 2
+}
+PLC = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRU = {
+	value = 0
+	level = 2
+}
+QIC = {
+	value = 0
+	level = 2
+}
+RHD = {
+	value = 0
+	level = 2
+}
+ROT = {
+	value = 0
+	level = 2
+}
+RWA = {
+	value = 0
+	level = 2
+}
+RYA = {
+	value = 0
+	level = 2
+}
+SAL = {
+	value = 75
+	military_access = yes
+	influence_value = 26
+	level = 5
+}
+SAX = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = -11
+	level = 2
+}
+SHS = {
+	value = 0
+	level = 2
+}
+SHX = {
+	value = 0
+	level = 2
+}
+SIA = {
+	value = 0
+	level = 2
+}
+SIB = {
+	value = 0
+	level = 2
+}
+SLO = {
+	value = -9
+	level = 2
+}
+SOK = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = -24
+	level = 2
+}
+SWI = {
+	value = -8
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 0
+	level = 2
+}
+TTE = {
+	value = 0
+	level = 2
+}
+TUL = {
+	value = 0
+	level = 2
+}
+UCA = {
+	value = 0
+	level = 2
+}
+UIL = {
+	value = 17
+	level = 2
+}
+USA = {
+	value = 188
+	influence_value = 34
+	level = 4
+}
+WES = {
+	value = 0
+	level = 2
+}
+WHA = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+X00 = {
+	value = -5
+	level = 2
+}
+X01 = {
+	value = 0
+	level = 2
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X08 = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 0
+	level = 2
+}
+X17 = {
+	value = -15
+	level = 2
+}
+X20 = {
+	value = 0
+	level = 2
+}
+X22 = {
+	value = 0
+	level = 2
+}
+X23 = {
+	value = 0
+	level = 2
+}
+X25 = {
+	value = 198
+	influence_value = 37
+	level = 2
+}
+YKA = {
+	value = 0
+	level = 2
+}
+YUE = {
+	value = 0
+	level = 2
+}
+ZAZ = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Chilpéric de Châlon-Arlay"
+	date="1703.3.5"
+	type=sea
+	personality="stalwart"
+	background="generals_aide"
+}
+
+leader = {
+	name="Eugène de Cuiseaux"
+	date="1720.10.28"
+	type=land
+	personality="earnest"
+	background="aristocrat"
+}
+
+leader = {
+	name="François d'Aban"
+	date="1725.3.17"
+	type=land
+	personality="audacious"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Jean-Baptiste de Tonnerre"
+	date="1725.4.22"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Lothair de Pontailler"
+	date="1729.5.9"
+	type=land
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+
+#Armies
+army = {
+	name="1st Army"
+	location=185
+	regiment = {
+		name="1st Saint Johns Infantry"
+		type=infantry
+		home=74
+	}
+	regiment = {
+		name="1st Montreal Artillery"
+		type=artillery
+		home=58
+	}
+	regiment = {
+		name="1st Trois-Rivières Infantry"
+		type=infantry
+		home=64
+	}
+	regiment = {
+		name="4th Montreal Artillery"
+		type=artillery
+		home=58
+	}
+}
+
+army = {
+	name="9th Army"
+	location=41
+	regiment = {
+		name="1st Montreal Infantry"
+		type=infantry
+		home=58
+	}
+	regiment = {
+		name="2nd Montreal Infantry"
+		type=infantry
+		home=58
+	}
+	regiment = {
+		name="1st Quebec City Artillery"
+		type=artillery
+		home=65
+	}
+	regiment = {
+		name="1st Toronto Artillery"
+		type=artillery
+		home=46
+	}
+}
+
+army = {
+	name="6th Army"
+	location=61
+	regiment = {
+		name="2nd Saint Johns Infantry"
+		type=infantry
+		home=74
+	}
+	regiment = {
+		name="1st Toronto Infantry"
+		type=infantry
+		home=46
+	}
+	regiment = {
+		name="1st Saint Johns Artillery"
+		type=artillery
+		home=74
+	}
+	regiment = {
+		name="2nd Toronto Artillery"
+		type=artillery
+		home=46
+	}
+}
+
+army = {
+	name="3rd Army"
+	location=75
+	regiment = {
+		name="3rd Montreal Infantry"
+		type=infantry
+		home=58
+	}
+	regiment = {
+		name="4th Montreal Infantry"
+		type=infantry
+		home=58
+	}
+	regiment = {
+		name="2nd Montreal Artillery"
+		type=artillery
+		home=58
+	}
+	regiment = {
+		name="6th Montreal Infantry"
+		type=infantry
+		home=58
+	}
+	regiment = {
+		name="1st Hamilton Artillery"
+		type=artillery
+		home=55
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=2625
+	regiment = {
+		name="1st Fredericton Infantry"
+		type=infantry
+		home=68
+	}
+	regiment = {
+		name="3rd Montreal Artillery"
+		type=artillery
+		home=58
+	}
+	regiment = {
+		name="5th Montreal Artillery"
+		type=artillery
+		home=58
+	}
+}
+
+navy = {
+	name="9th Fleet"
+	location=2888
+	ship = {
+		name="Ontario"
+		type=frigate
+	}
+	ship = {
+		name="Quebeck"
+		type=frigate
+	}
+}
+
+army = {
+	name="5th Army"
+	location=2593
+	regiment = {
+		name="5th Montreal Infantry"
+		type=infantry
+		home=58
+	}
+}
+
+army = {
+	name="7th Army"
+	location=37
+	regiment = {
+		name="1st Detroit Infantry"
+		type=infantry
+		home=173
+	}
+	regiment = {
+		name="1st Kingston Artillery"
+		type=artillery
+		home=56
+	}
+	regiment = {
+		name="1st Sherbrooke Infantry"
+		type=infantry
+		home=66
+	}
+	regiment = {
+		name="3rd Toronto Artillery"
+		type=artillery
+		home=46
+	}
+}
+
+navy = {
+	name="10th Fleet"
+	location=61
+	ship = {
+		name="Nova Scotia"
+		type=frigate
+	}
+	ship = {
+		name="1st Ungava Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="11th Fleet"
+	location=2937
+	ship = {
+		name="New Brunswick"
+		type=frigate
+	}
+	ship = {
+		name="Manitoba"
+		type=frigate
+	}
+	ship = {
+		name="British Columbia"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2946
+	ship = {
+		name="Price Edward Island"
+		type=frigate
+	}
+	ship = {
+		name="Saskatchewan"
+		type=frigate
+	}
+	ship = {
+		name="2nd Fort George Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="13th Fleet"
+	location=48
+	ship = {
+		name="1st Fort George Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Canadian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Copenhagen Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Chicoutimi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Quebec City Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Quebec City Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Copenhagen Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Chicoutimi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Quebec City Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Inverness Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Fort George Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Chicoutimi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Quebec City Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Ungava Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Fort George Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Chicoutimi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Truro Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Fort George Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=61
+	ship = {
+		name="Prince Edward Island"
+		type=manowar
+	}
+	ship = {
+		name="Alberta"
+		type=manowar
+	}
+	ship = {
+		name="1st Ungava Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st North West River Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Quebec City Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Fort George Man'o'war"
+		type=manowar
+	}
+}
+

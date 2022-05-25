@@ -1,0 +1,10 @@
+owner=BPR
+controller=BPR
+add_core=BPR
+add_core=BUR
+add_core=IDO
+add_core=PEG
+trade_goods = fish
+life_rating = 35
+colonial=2
+naval_base = 1

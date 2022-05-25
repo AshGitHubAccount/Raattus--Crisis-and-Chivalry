@@ -1,0 +1,5 @@
+owner=X20
+controller=X20
+add_core=SRN
+trade_goods = cotton
+life_rating = 35

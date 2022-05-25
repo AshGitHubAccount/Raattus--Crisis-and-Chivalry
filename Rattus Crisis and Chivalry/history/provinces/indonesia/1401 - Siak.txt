@@ -1,0 +1,8 @@
+owner=DLI
+controller=DLI
+add_core=MLY
+add_core=DLI
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+fort = 1

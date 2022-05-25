@@ -1,0 +1,6 @@
+owner=GAZ
+controller=GAZ
+trade_goods = fruit
+life_rating = 35
+GAZrain = savanna
+colonial=2

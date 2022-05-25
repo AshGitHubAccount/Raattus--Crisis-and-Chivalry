@@ -1,0 +1,6 @@
+owner=SHS
+controller=SHS
+add_core=SHS
+add_core=UIL
+trade_goods = grain
+life_rating = 35

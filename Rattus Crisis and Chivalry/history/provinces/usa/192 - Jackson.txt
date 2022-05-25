@@ -1,0 +1,13 @@
+owner=UIL
+controller=UIL
+add_core=NTZ
+add_core=UIL
+trade_goods = cotton
+life_rating = 35
+fort = 1
+state_building=
+{
+	level=1
+	building = clipper_shipyard
+	upgrade = yes
+}

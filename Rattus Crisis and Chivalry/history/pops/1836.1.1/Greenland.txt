@@ -1,0 +1,109 @@
+251 = {
+	soldiers=
+	{
+		culture = inuit
+		religion = animist
+		size= 8
+	}
+
+	farmers=
+	{
+		culture = inuit
+		religion = animist
+		size= 354
+	}
+
+	farmers=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 781
+	}
+
+	artisans=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 48
+	}
+
+	clergymen=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 16
+	}
+
+	soldiers=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 8
+	}
+
+}
+2636 = {
+	soldiers=
+	{
+		culture = inuit
+		religion = animist
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = inuit
+		religion = animist
+		size= 122
+	}
+
+	artisans=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 16
+	}
+
+	soldiers=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 6
+	}
+
+	clergymen=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 4
+	}
+
+	farmers=
+	{
+		culture = french_canadian
+		religion = protestant
+		size= 268
+	}
+
+}

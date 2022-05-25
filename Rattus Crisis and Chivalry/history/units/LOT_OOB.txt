@@ -1,0 +1,952 @@
+#Sphere of Influence
+
+X23 = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+WES = {
+	value = 60		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+X17 = {
+	value = 40		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+HES = {
+	value = 40		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+MJP = {
+	value = 200		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
+LAN = {
+	value = 90		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+SRI = {
+	value = 87		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+LSK = {
+	value = 150		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+KER = {
+	value = 23		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+WHA = {
+	value = 75		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BRT = {
+	value = 55		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+GRN = {
+	value = 45		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+TER = {
+	value = 25		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+AOT = {
+	value = -50		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+#Leaders
+leader = {
+	name="Clodomir de Dammartin"
+	date="1697.8.28"
+	type=land
+	personality="earnest"
+	background="aristocrat"
+}
+
+leader = {
+	name="Clodomir de Rochechouart"
+	date="1700.4.26"
+	type=sea
+	personality="disciplined"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Isidore de Chandieu"
+	date="1702.1.3"
+	type=land
+	personality="persistant"
+	background="bureaucrat_speed"
+}
+
+leader = {
+	name="Clodoald de Châlon"
+	date="1703.5.6"
+	type=land
+	personality="persistant"
+	background="brownnoser"
+}
+
+leader = {
+	name="Zwentibold le Corgne"
+	date="1713.8.7"
+	type=land
+	personality="intuitive"
+	background="drillmaster"
+}
+
+leader = {
+	name="Henri l'Écrabouilleur"
+	date="1719.8.15"
+	type=land
+	personality="stalwart"
+	background="bootlicker"
+}
+
+leader = {
+	name="Sigebert de Lalaing"
+	date="1719.8.21"
+	type=land
+	personality="stalwart"
+	background="artillerist"
+}
+
+leader = {
+	name="Michel de Châlon-Arlay"
+	date="1723.1.20"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+
+#Armies
+
+army = {
+	name="Armée de l'Autunois"
+	location=392
+	regiment = {
+		name="1st Arlon Infantry"
+		type=infantry
+		home=398
+	}
+	regiment = {
+		name="1st Palu Infantry"
+		type=infantry
+		home=1435
+	}
+	regiment = {
+		name="1st Menado Artillery"
+		type=artillery
+		home=1433
+	}
+	regiment = {
+		name="1st Palu Artillery"
+		type=artillery
+		home=1435
+	}
+	regiment = {
+		name="2nd Palu Artillery"
+		type=artillery
+		home=1435
+	}
+	regiment = {
+		name="1st Menado Infantry"
+		type=infantry
+		home=1433
+	}
+	regiment = {
+		name="3rd Palu Artillery"
+		type=artillery
+		home=1435
+	}
+	regiment = {
+		name="1st Besançon Infantry"
+		type=infantry
+		home=432
+	}
+	regiment = {
+		name="1st Paris Infantry"
+		type=infantry
+		home=425
+	}
+	regiment = {
+		name="1st Verdun Artillery"
+		type=artillery
+		home=413
+	}
+	regiment = {
+		name="1st Paris Artillery"
+		type=artillery
+		home=425
+	}
+	regiment = {
+		name="1st Chaumont Artillery"
+		type=artillery
+		home=407
+	}
+	regiment = {
+		name="3rd Macon Infantry"
+		type=infantry
+		home=431
+	}
+	regiment = {
+		name="2nd Ghent Artillery"
+		type=artillery
+		home=389
+	}
+}
+
+army = {
+	name="Armée de l'Auxonnois"
+	location=1418
+	regiment = {
+		name="2nd Besançon Infantry"
+		type=infantry
+		home=432
+	}
+	regiment = {
+		name="1st Dijon Infantry"
+		type=infantry
+		home=428
+	}
+	regiment = {
+		name="1st Emden Artillery"
+		type=artillery
+		home=543
+	}
+	regiment = {
+		name="1st La Roche Artillery"
+		type=artillery
+		home=437
+	}
+	regiment = {
+		name="1st Arras Artillery"
+		type=artillery
+		home=401
+	}
+	regiment = {
+		name="7th Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="3rd Paris Artillery"
+		type=artillery
+		home=425
+	}
+}
+
+army = {
+	name="Armée de Quercy"
+	location=1421
+	regiment = {
+		name="1st Arnhem Infantry"
+		type=infantry
+		home=382
+	}
+	regiment = {
+		name="1st Namur Infantry"
+		type=infantry
+		home=392
+	}
+	regiment = {
+		name="2nd Dijon Infantry"
+		type=infantry
+		home=428
+	}
+	regiment = {
+		name="1st Siak Infantry"
+		type=infantry
+		home=1401
+	}
+	regiment = {
+		name="2nd Arras Artillery"
+		type=artillery
+		home=401
+	}
+	regiment = {
+		name="2nd Paris Artillery"
+		type=artillery
+		home=425
+	}
+	regiment = {
+		name="1st Arnhem Artillery"
+		type=artillery
+		home=382
+	}
+	regiment = {
+		name="2nd Rouen Infantry"
+		type=infantry
+		home=415
+	}
+	regiment = {
+		name="1st Tournai Artillery"
+		type=artillery
+		home=393
+	}
+	regiment = {
+		name="3rd Besançon Infantry"
+		type=infantry
+		home=432
+	}
+	regiment = {
+		name="2nd Bruges Infantry"
+		type=infantry
+		home=388
+	}
+	regiment = {
+		name="1st Châteauroux Infantry"
+		type=infantry
+		home=446
+	}
+	regiment = {
+		name="2nd Angers Infantry"
+		type=infantry
+		home=434
+	}
+	regiment = {
+		name="2nd Paris Infantry"
+		type=infantry
+		home=425
+	}
+	regiment = {
+		name="1st Arras Infantry"
+		type=infantry
+		home=401
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=415
+	ship = {
+		name="2nd Caen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Channel Islands Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Caen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Rouen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Channel Islands Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Caen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Rouen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Rouen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Caen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Channel Islands Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Caen Man'o'war"
+		type=manowar
+	}
+}
+
+
+army = {
+	name="Free Swiss Guard"
+	location=413
+	regiment = {
+		name="1st Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="2nd Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="3rd Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="4th Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="5th Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="6th Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="8th Moulins Infantry"
+		type=infantry
+		home=430
+	}
+	regiment = {
+		name="1st Bogor Infantry"
+		type=infantry
+		home=1414
+	}
+	regiment = {
+		name="1st Ghent Infantry"
+		type=infantry
+		home=389
+	}
+	regiment = {
+		name="1st Rouen Infantry"
+		type=infantry
+		home=415
+	}
+	regiment = {
+		name="1st Charleroi Infantry"
+		type=infantry
+		home=394
+	}
+	regiment = {
+		name="1st Bruges Infantry"
+		type=infantry
+		home=388
+	}
+	regiment = {
+		name="4th Besançon Infantry"
+		type=cursassier
+		home=432
+	}
+	regiment = {
+		name="1st Angers Infantry"
+		type=cursassier
+		home=434
+	}
+	regiment = {
+		name="3rd Dijon Infantry"
+		type=infantry
+		home=428
+	}
+	regiment = {
+		name="4th Dijon Infantry"
+		type=infantry
+		home=428
+	}
+}
+
+army = {
+	name="Scottish Guard"
+	location=443
+	regiment = {
+		name="1st Macon Infantry"
+		type=cursassier
+		home=431
+	}
+	regiment = {
+		name="2nd Macon Infantry"
+		type=infantry
+		home=431
+	}
+	regiment = {
+		name="1st Macon Artillery"
+		type=artillery
+		home=431
+	}
+	regiment = {
+		name="4th Macon Infantry"
+		type=infantry
+		home=431
+	}
+	regiment = {
+		name="2nd Macon Artillery"
+		type=cursassier
+		home=431
+	}
+	regiment = {
+		name="1st Auxerre Infantry"
+		type=infantry
+		home=429
+	}
+	regiment = {
+		name="2nd Auxerre Infantry"
+		type=infantry
+		home=429
+	}
+	regiment = {
+		name="1st Chaumont Infantry"
+		type=infantry
+		home=407
+	}
+	regiment = {
+		name="2nd Chaumont Infantry"
+		type=infantry
+		home=407
+	}
+}
+
+navy = {
+	name="5th Fleet"
+	location=1413
+	ship = {
+		name="1st Batavia Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Batavia Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Batavia Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Cirebon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Batavia Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="20th Fleet"
+	location=375
+	ship = {
+		name="9th Amsterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Amsterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Leeuwarden Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Dunkirk Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="14th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Rotterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Rotterdam Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="3rd Army"
+	location=428
+	regiment = {
+		name="1st Caen Infantry"
+		type=infantry
+		home=418
+	}
+	regiment = {
+		name="2nd Lille Infantry"
+		type=infantry
+		home=399
+	}
+	regiment = {
+		name="1st Lille Infantry"
+		type=infantry
+		home=399
+	}
+	regiment = {
+		name="1st Bogor Artillery"
+		type=artillery
+		home=1414
+	}
+	regiment = {
+		name="2nd Caen Infantry"
+		type=infantry
+		home=418
+	}
+	regiment = {
+		name="1st Madura Artillery"
+		type=artillery
+		home=1421
+	}
+	regiment = {
+		name="1st Rouen Artillery"
+		type=artillery
+		home=415
+	}
+}
+
+army = {
+	name="1st Army"
+	location=425
+	regiment = {
+		name="1st Kota Waringin Artillery"
+		type=artillery
+		home=1427
+	}
+	regiment = {
+		name="1st Laon Artillery"
+		type=artillery
+		home=403
+	}
+	regiment = {
+		name="1st Lille Infantry"
+		type=infantry
+		home=399
+	}
+	regiment = {
+		name="1st Bogor Artillery"
+		type=artillery
+		home=1414
+	}
+	regiment = {
+		name="2nd Caen Infantry"
+		type=infantry
+		home=418
+	}
+	regiment = {
+		name="1st Madura Artillery"
+		type=artillery
+		home=1421
+	}
+	regiment = {
+		name="1st Rouen Artillery"
+		type=artillery
+		home=415
+	}
+	regiment = {
+		name="1st Charleroi Artillery"
+		type=artillery
+		home=394
+	}
+	regiment = {
+		name="1st Ghent Artillery"
+		type=artillery
+		home=389
+	}
+	regiment = {
+		name="1st Angers Artillery"
+		type=artillery
+		home=434
+	}
+}
+
+navy = {
+	name="31st Fleet"
+	location=418
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Amsterdam Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Amiens Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="6th Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Rotterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="12th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Amsterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="13th Middelburg Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Rotterdam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Leeuwarden Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Leeuwarden Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Utrecht Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Utrecht Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="83rd Fleet"
+	location=1421
+	ship = {
+		name="4th Leeuwarden Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Utrecht Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Utrecht Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Leeuwarden Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="12th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Rouen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Utrecht Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Bogor Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Bogor Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=437
+	ship = {
+		name="1st Malacca Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Palembang Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Siak Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Bali Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Palembang Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Semarang Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Bali Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Yogyakarta Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Cirebon Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Tanjungpinang Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Inderagiri Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Surakarta Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Padang Clipper Transport"
+		type=clipper_transport
+	}
+}
+

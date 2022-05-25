@@ -1,0 +1,100 @@
+203 = {
+	slaves=
+	{
+		culture = afro_antillean
+		religion = catholic
+		size= 213
+	}
+
+	soldiers=
+	{
+		culture = nouvellien
+		religion = catholic
+		size= 8
+	}
+
+	farmers=
+	{
+		culture = nouvellien
+		religion = catholic
+		size= 156
+	}
+
+	artisans=
+	{
+		culture = nouvellien
+		religion = catholic
+		size= 8
+	}
+
+	clergymen=
+	{
+		culture = nouvellien
+		religion = catholic
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = nouvellien
+		religion = catholic
+		size= 1
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = protestant
+		size= 1008
+	}
+
+	soldiers=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 36
+	}
+
+	artisans=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 81
+	}
+
+	clergymen=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 26
+	}
+
+	bureaucrats=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 2
+	}
+
+	officers=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 17
+	}
+
+	farmers=
+	{
+		culture = nouvellien
+		religion = protestant
+		size= 650
+	}
+
+}

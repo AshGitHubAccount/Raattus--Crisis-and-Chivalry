@@ -1,0 +1,7 @@
+owner=NZH
+controller=NZH
+add_core=NZH
+add_core=PRM
+add_core=UGR
+trade_goods = iron
+life_rating = 35

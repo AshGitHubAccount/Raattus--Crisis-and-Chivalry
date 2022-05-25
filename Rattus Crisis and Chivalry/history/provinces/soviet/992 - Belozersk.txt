@@ -1,0 +1,9 @@
+owner=YAR
+controller=YAR
+add_core=NVG
+add_core=RUS
+add_core=X10
+add_core=X15
+add_core=YAR
+trade_goods = cattle
+life_rating = 35

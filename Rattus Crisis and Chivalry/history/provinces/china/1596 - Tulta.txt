@@ -1,0 +1,9 @@
+owner=YUA
+controller=X12
+add_core=KHA
+add_core=MGL
+add_core=OIR
+add_core=YUA
+add_core=ZUN
+trade_goods = cotton
+life_rating = 32

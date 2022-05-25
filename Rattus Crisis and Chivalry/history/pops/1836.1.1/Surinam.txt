@@ -1,0 +1,137 @@
+2240 = {
+	slaves=
+	{
+		culture = guajiro
+		religion = animist
+		size= 1624
+	}
+
+	soldiers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 17
+	}
+
+	farmers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 25
+	}
+
+	slaves=
+	{
+		culture = afro_brazilian
+		religion = catholic
+		size= 10423
+	}
+
+	artisans=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 1731
+	}
+
+	aristocrats=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 207
+	}
+
+	clergymen=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 80
+	}
+
+	soldiers=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 106
+	}
+
+	bureaucrats=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 11
+	}
+
+	officers=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 9
+	}
+
+}
+2245 = {
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 3
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 276
+	}
+
+	farmers=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 1574
+	}
+
+	artisans=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 78
+	}
+
+	aristocrats=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 16
+	}
+
+	soldiers=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 17
+	}
+
+	clergymen=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 2
+	}
+
+	officers=
+	{
+		culture = brazilian
+		religion = catholic
+		size= 1
+	}
+
+}

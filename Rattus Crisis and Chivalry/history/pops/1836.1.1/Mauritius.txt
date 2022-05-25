@@ -1,0 +1,186 @@
+2125 = {
+	soldiers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 230
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 10962
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 405
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 37
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 2
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = sunni
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 40
+	}
+
+	artisans=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 548
+	}
+
+	clergymen=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 51
+	}
+
+	bureaucrats=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 4
+	}
+
+	officers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 33
+	}
+
+	farmers=
+	{
+		culture = ifriqi
+		religion = protestant
+		size= 1345
+	}
+
+	soldiers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 218
+	}
+
+	artisans=
+	{
+		culture = africaine
+		religion = protestant
+		size= 2483
+	}
+
+	clergymen=
+	{
+		culture = africaine
+		religion = protestant
+		size= 231
+	}
+
+	bureaucrats=
+	{
+		culture = africaine
+		religion = protestant
+		size= 18
+	}
+
+	officers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = africaine
+		religion = protestant
+		size= 149
+	}
+
+	farmers=
+	{
+		culture = africaine
+		religion = protestant
+		size= 7812
+	}
+
+}
+2128 = {
+	soldiers=
+	{
+		culture = frankish
+		religion = catholic
+		size= 3
+	}
+
+	farmers=
+	{
+		culture = frankish
+		religion = catholic
+		size= 155
+	}
+
+	artisans=
+	{
+		culture = frankish
+		religion = catholic
+		size= 6
+	}
+
+	clergymen=
+	{
+		culture = frankish
+		religion = catholic
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = frankish
+		religion = catholic
+		size= 2
+	}
+
+}

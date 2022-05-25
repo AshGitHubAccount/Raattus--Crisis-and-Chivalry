@@ -1,0 +1,5 @@
+owner=SHX
+controller=SHX
+add_core=SHX
+trade_goods = cattle
+life_rating = 35

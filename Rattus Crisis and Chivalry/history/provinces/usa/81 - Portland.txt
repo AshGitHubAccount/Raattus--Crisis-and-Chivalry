@@ -1,0 +1,6 @@
+owner=LSK
+controller=LSK
+add_core=LSK
+add_core=KIO
+trade_goods = fish
+life_rating = 20

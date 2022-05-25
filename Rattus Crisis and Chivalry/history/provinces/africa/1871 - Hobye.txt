@@ -1,0 +1,8 @@
+owner=SOM
+controller=SOM
+add_core=SOM
+trade_goods = grain
+life_rating = 31
+terrain = semidesert
+colonial=2
+naval_base = 2

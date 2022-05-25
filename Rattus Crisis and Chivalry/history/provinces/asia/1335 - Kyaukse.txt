@@ -1,0 +1,7 @@
+owner=BPR
+controller=BPR
+add_core=BPR
+add_core=BUR
+add_core=IDO
+trade_goods = opium
+life_rating = 35

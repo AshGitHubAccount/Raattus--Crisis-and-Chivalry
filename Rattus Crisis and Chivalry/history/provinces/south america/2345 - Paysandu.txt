@@ -1,0 +1,6 @@
+owner=ARG
+controller=ARG
+add_core=ARG
+add_core=CUA
+trade_goods = grain
+life_rating = 35

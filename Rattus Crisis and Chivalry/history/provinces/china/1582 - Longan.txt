@@ -1,0 +1,4 @@
+owner=TIB
+controller=TIB
+trade_goods = cattle
+life_rating = 32

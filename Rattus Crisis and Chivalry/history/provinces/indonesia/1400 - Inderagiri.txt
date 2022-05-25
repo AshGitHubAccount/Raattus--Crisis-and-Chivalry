@@ -1,0 +1,7 @@
+owner=DLI
+controller=DLI
+add_core=MLY
+add_core=DLI
+trade_goods = fruit
+life_rating = 32
+colonial=2

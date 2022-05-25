@@ -1,0 +1,8 @@
+owner=RHD
+controller=RHD
+add_core=IDO
+add_core=RHD
+trade_goods = wool
+life_rating = 34
+naval_base = 1
+fort = 1

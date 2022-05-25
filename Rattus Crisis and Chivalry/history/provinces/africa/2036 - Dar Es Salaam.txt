@@ -1,0 +1,9 @@
+owner=ROT
+controller=ROT
+add_core=PTE
+add_core=SWA
+add_core=X09
+trade_goods = fish
+life_rating = 35
+terrain = savanna
+colonial=2

@@ -1,0 +1,5 @@
+owner=HOD
+controller=HOD
+trade_goods = cattle
+life_rating = 15
+terrain = boreal

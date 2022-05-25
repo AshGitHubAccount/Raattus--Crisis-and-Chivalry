@@ -1,0 +1,7 @@
+owner=TAI
+controller=TAI
+add_core=TAI
+trade_goods = fish
+life_rating = 32
+colonial=2
+fort = 1

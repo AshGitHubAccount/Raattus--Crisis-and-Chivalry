@@ -1,0 +1,927 @@
+######################
+###	New ITALY EVENTS 9000###
+######################
+
+
+######################
+###	New SPAIN EVENTS 8000###
+######################
+country_event = {
+	id = 899850
+	title = "SPA8000.T"
+	desc = "SPA8000.D" #spain's a country, but it's also a country at war. let's kill these guys before we talk about more
+	trigger = { 
+	tag = SPA
+	NOT = { has_country_flag = spa_die_glc }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "SPA8000.A"
+	war = {
+		target = GLC
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	war = {
+		target = CAT
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	set_country_flag = spa_die_glc
+	}
+}
+country_event = {
+	id = 899851
+	title = "SPA8001.T"
+	desc = "SPA8001.D" #spain proper intro & execution of traitors
+	trigger = { 
+	war = no
+	tag = SPA
+	NOT = { has_country_flag = spa_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 15
+	}
+	
+	option = { 
+	name = "SPA8001.A"
+	set_country_flag = spa_intro
+	}
+}
+country_event = {
+	id = 899852
+	title = "SPA8002.T"
+	desc = "SPA8002.D" #spain proper intro & execution of traitors
+	trigger = { 
+	tag = SPA
+	NOT = { has_country_flag = spa_por_rival }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "SPA8002.A"
+	set_country_flag = spa_por_rival
+	POR = {
+	relation = { who = SPA value = -400 }
+	}
+}
+	}
+country_event = {
+	id = 899853
+	title = "SPA8003.T"
+	desc = "SPA8003.D" #catalonia try not to die
+	trigger = { 
+	tag = CAT
+	NOT = { has_country_flag = fight_for_life_ibr }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "SPA8003.A"
+	set_country_flag = fight_for_life_ibr
+	add_country_modifier = {
+	name = small_country_draft
+				duration = 1095
+		 } 
+	}
+}
+country_event = {
+	id = 899854
+	title = "SPA8004.T"
+	desc = "SPA8004.D" #spain reintegrates galicia if they take it
+	trigger = { 
+	tag = SPA
+	war = no
+	owns = 474
+	NOT = { has_country_flag = galicia_traitors }
+	}
+	
+	mean_time_to_happen = { 
+	days = 25
+	}
+	
+	option = { 
+	name = "SPA8004.A"
+	set_country_flag = galicia_traitors
+	474 = { add_core = SPA }
+	476 = { add_core = SPA }
+	}
+}
+	country_event = {
+	id = 899855
+	title = "SPA8005.T"
+	desc = "SPA8005.D" #catalonia try not to die
+	trigger = { 
+	tag = GLC
+	NOT = { has_country_flag = fight_for_life_ibr_glc }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "SPA8005.A"
+	set_country_flag = fight_for_life_ibr_glc
+	add_country_modifier = {
+	name = small_country_draft
+				duration = 1095
+		 } 
+	}
+}
+######################
+###	New USA EVENTS 7000###
+######################
+
+
+######################
+###	New BYZANTIUM 6000 EVENTS ###
+######################
+
+######################
+###	New LOTHARINGIA 5000 EVENTS ###
+######################
+country_event = {
+	id = 599850
+	title = "LOT5000.T"
+	desc = "LOT5000.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_the_french_walk }
+	}
+	
+	mean_time_to_happen = { 
+	days = 15
+	}
+	
+	option = { 
+	name = "LOT5000.A"
+	remove_accepted_culture = french
+	remove_accepted_culture = rollonian
+	set_country_flag = lot_the_french_walk
+	set_country_flag = lot_crying_face
+	}
+}
+country_event = {
+	id = 599852
+	title = "LOT5002.T"
+	desc = "LOT5002.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "LOT5002.A"
+	add_country_modifier = {
+	name = kounic_dynasty
+				duration = -1
+		 } 
+	set_country_flag = lot_intro
+	}
+}
+country_event = {
+	id = 599853
+	title = "LOT5003.T"
+	desc = "LOT5003.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_our_special_relationship }
+	}
+	
+	mean_time_to_happen = { 
+	days = 365
+	}
+	
+	option = { 
+	name = "LOT5003.A"
+	add_country_modifier = {
+	name = supporting_mjp
+				duration = -1
+		 }
+	set_country_flag = lot_our_special_relationship
+	}
+}
+country_event = {
+	id = 599854
+	title = "LOT5004.T"
+	desc = "LOT5004.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "LOT5004.A"
+	set_country_flag = lot_intro
+	}
+}
+country_event = {
+	id = 599855
+	title = "LOT5005.T"
+	desc = "LOT5005.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "LOT5005.A"
+	set_country_flag = lot_intro
+	}
+}
+country_event = {
+	id = 599856
+	title = "LOT5006.T"
+	desc = "LOT5006.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag = lot_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "LOT5006.A"
+	set_country_flag = lot_intro
+	}
+}
+######################
+###	New INTERSLAVIA 4000 EVENTS ###
+######################
+country_event = {
+	id = 499850
+	title = "WSF4000.T"
+	desc = "WSF4000.D"
+	trigger = { 
+	tag = WSF
+	NOT = { has_country_flag = wsf_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "WSF4000.A"
+	add_country_modifier = {
+	name = kounic_dynasty
+				duration = -1
+		 } 
+	set_country_flag = wsf_intro
+	}
+}
+country_event = {
+	id = 499849
+	title = "WSF4049.T"
+	desc = "WSF4049.D"
+	trigger = { 
+	tag = MOL
+	NOT = { has_country_flag = mol_plot_question }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "MOL4000.A"
+	set_country_flag = mol_plot_question
+	}
+}
+country_event = {
+	id = 499851
+	title = "WSF4001.T" #how should we attack hungary?
+	desc = "WSF4001.D"
+	trigger = { 
+	tag = WSF
+	NOT = { has_country_flag = wsf_scheme }
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = { 
+	name = "WSF4001.A" #ask moldavia 
+	any_country = {
+			limit = {has_country_flag = mol_plot_question}
+			country_event = 499853
+		}
+	set_country_flag = wsf_scheme
+	}
+	option = { 
+	name = "WSF4001.B" #just go in on our own
+	war = {
+		target = HUN
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	HUN = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = wsf_brave
+	}
+	
+	option = { 
+	name = "WSF4001.C" #we're cowards
+	set_country_flag = wsf_coward
+	}
+	
+	option = { 
+	name = "WSF4001.D" #wait 1 year
+	set_country_flag = wsf_patient
+	}
+}
+country_event = {
+	id = 499852
+	title = "WSF4002.T"
+	desc = "WSF4002.D"
+	trigger = { 
+	year = 1837
+	tag = WSF
+	NOT = { has_country_flag = wsf_patient_tiger }
+	has_country_flag = wsf_patient
+	}
+	
+	mean_time_to_happen = { 
+	days = 220
+	}
+
+	option = { 
+	name = "WSF4002.A"
+	HUN = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	war = {
+		target = HUN
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	set_country_flag = wsf_patient_tiger
+	}
+}
+country_event = {
+	id = 499853
+	title = "WSF4003.T" #moldavias response
+	desc = "WSF4003.D"
+	trigger = { 
+	tag = MOL
+	NOT = { has_country_flag = mol_response }
+	has_country_flag = mol_scheme_question
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "WSF4003.A" #accept 
+	any_country = {
+			limit = { has_country_flag = wsf_scheme }
+			country_event = 499854
+		}
+	set_country_flag = mol_response
+	prestige = 5
+	ai_chance = { 
+	factor = 75
+	}
+	}
+	
+	option = { 
+	name = "WSF4003.B" #decline 
+	prestige = -5
+	any_country = {
+			limit = { has_country_flag = wsf_scheme }
+			country_event = 499856
+		}
+	ai_chance = { 
+	factor = 25 
+	}
+	set_country_flag = mol_response
+	}
+}
+country_event = {
+	id = 499854
+	title = "WSF4004.T" #wsf recieves positive
+	desc = "WSF4004.D"
+	trigger = { 
+	tag = WSF
+	NOT = { has_country_flag = wsf_positive_lets_go }
+	has_country_flag = mol_positive
+	}
+	
+	mean_time_to_happen = { 
+	days = 2
+	}
+	
+	option = { 
+	name = "WSF4004.A" #moldavia accepted we're going in bois 
+	any_country = {
+			limit = { has_country_flag = mol_response }
+			country_event = 499855
+		}
+	HUN = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	war = {
+		target = HUN
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	prestige = 1
+	}
+}
+country_event = {
+	id = 499855
+	title = "WSF4005.T" #WSF says lets go
+	desc = "WSF4005.D"
+	trigger = { 
+	tag = MOL
+	NOT = { has_country_flag = mol_war_time_hun }
+	has_country_flag = mol_lets_fucking_go
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "WSF4003.A" #let's suppport our slavic brother
+	war = {
+		target = HUN
+			attacker_goal = {
+				casus_belli = acquire_any_state
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	prestige = 3
+	}
+}
+country_event = {
+	id = 499856
+	title = "WSF4006.T" #wsf recieves negative response
+	desc = "WSF4006.D"
+	trigger = { 
+	tag = WSF
+	NOT = { has_country_flag = wsf_deciding_strategy }
+	has_country_flag = mol_negative
+	}
+	
+	mean_time_to_happen = { 
+	days = 2
+	}
+	
+	option = { 
+	name = "WSF4006.A" #moldavia decline, buncha bitches, let's go cry
+	set_country_flag = wsf_coward
+	set_country_flag = wsf_deciding_strategy
+	}
+	option = { 
+	name = "WSF4006.B" #moldavia declined? DECLARE WAR ON BOTH
+	set_country_flag = wsf_very_brave
+	set_country_flag = wsf_deciding_strategy
+	war = {
+		target = HUN
+			attacker_goal = {
+				casus_belli = acquire_state
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		war = {
+		target = MOL
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	HUN = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	MOL = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+	option = { 
+	name = "WSF4006.C" #moldavia declined, we'll go in on our own in '37
+	set_country_flag = wsf_patient_tiger
+	set_country_flag = wsf_deciding_strategy
+	}
+}
+######################
+###	New JAPAN EVENTS 3000 ###
+######################
+country_event = {
+	id = 399850 
+	title = "JAP3000.T"
+	desc = "JAP3000.D" #Telling japan they have about 60 days to prepare for war.
+	trigger = { 
+	tag = JAP
+	NOT = { has_country_flag = jap_imperial_wrath }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "JAP3000.A"
+	set_country_flag = jap_imperial_wrath
+	OTM = {
+	set_country_flag = otm_oh_god_im_gonna_die
+	}
+	}
+}
+
+country_event = {
+	id = 399851
+	title = "JAP3001.T"
+	desc = "JAP3001.D" #Telling japan they have to win this war or die with dishonor
+	trigger = { 
+	tag = JAP
+	NOT = { has_country_flag = jap_imperial_fury }
+	}
+	
+	mean_time_to_happen = { 
+	days = 50
+	}
+	
+	option = { 
+	name = "JAP3001.A"
+	war = {
+		target = OTM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+		OTM = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = jap_imperial_fury
+	}
+}
+
+country_event = {
+	id = 399852
+	title = "JAP3002.T"
+	desc = "JAP3002.D" #Japan reintegrates the traitors. the ringleaders commit seppuku. the emperor learns spains schemeing
+	trigger = { 
+	war = no
+	tag = JAP
+	NOT = { has_country_flag = jap_repatriation }
+	has_country_flag = jap_imperial_fury
+	}
+	
+	mean_time_to_happen = { 
+	days = 10
+	}
+	
+	option = { 
+	name = "JAP3001.A"
+	1659 = { add_core = JAP }
+	1639 = { add_core = JAP }
+	1641 = { add_core = JAP }
+	1667 = { add_core = JAP }
+	1665 = { add_core = JAP }
+	1666 = { add_core = JAP }
+	1638 = { add_core = JAP }
+	1640 = { add_core = JAP }
+	1660 = { add_core = JAP }
+	1661 = { add_core = JAP }
+	1664 = { add_core = JAP }
+	1663 = { add_core = JAP }
+	1662 = { add_core = JAP }
+	set_country_flag = jap_repatriation
+	}
+}
+country_event = {
+	id = 399853
+	title = "JAP3003.T"
+	desc = "JAP3003.D" #otomo actually wins, somehow
+	trigger = { 
+	war = no
+	tag = OTM
+	NOT = { has_country_flag = otm_happy_face }
+	has_country_flag = otm_oh_god_im_gonna_die
+	}
+	
+	mean_time_to_happen = { 
+	days = 10
+	}
+	
+	option = { 
+	name = "JAP3003.A"
+	1657 = { add_core = OTM }
+	1655 = { add_core = OTM }
+	1656 = { add_core = OTM }
+	1658 = { add_core = OTM }
+	1675 = { add_core = OTM }
+	1647 = { add_core = OTM }
+	1646 = { add_core = OTM }
+	1648 = { add_core = OTM }
+	1677 = { add_core = OTM }
+	1676 = { add_core = OTM }
+	1651 = { add_core = OTM }
+	1649 = { add_core = OTM }
+	1650 = { add_core = OTM }
+	1653 = { add_core = OTM }
+	1674 = { add_core = OTM }
+	1645 = { add_core = OTM }
+	1669 = { add_core = OTM }
+	set_country_flag = otm_happy_face
+	}
+}
+country_event = {
+	id = 399854
+	title = "JAP3004.T"
+	desc = "JAP3004.D" #Now that the traitors are dealt with, let's learn about japans history
+	trigger = { 
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3004.A"
+	set_country_flag = jap_intro }
+}
+country_event = {
+	id = 399855
+	title = "JAP3005.T"
+	desc = "JAP3005.D" #The Kurafura mission to Lotellum
+	trigger = { 
+	year = 1840
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3005.A"
+	set_country_flag = jap_intro
+	}
+}
+country_event = {
+	id = 399856
+	title = "JAP3006.T"
+	desc = "JAP3006.D" #Japanese marines land in Api?
+	trigger = { 
+	year = 1843
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3005.A"
+	set_country_flag = jap_intro
+	}
+}
+country_event = {
+	id = 399857
+	title = "JAP3007.T"
+	desc = "JAP3007.D" #the reform bill
+	trigger = {
+		year = 1847
+	tag = JAP
+	NOT = { has_country_flag = jap_bill_introd }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3007.A"
+	set_country_flag = the_bill_lives }
+	
+	option = { 
+	name = "JAP3007.B"
+	set_country_flag = the_bill_dies
+	}
+}
+country_event = {
+	id = 399858
+	title = "JAP3008.T"
+	desc = "JAP3008.D" #Now that the traitors are dealt with, let's learn about japans history
+	trigger = { 
+	year = 1850
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3008.A"
+	set_country_flag = jap_intro
+	}
+}
+country_event = {
+	id = 399859
+	title = "JAP3009.T"
+	desc = "JAP3009.D" # continuation of intro, yuan empire
+	trigger = { 
+	year = 1850
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3009.A"
+	set_country_flag = jap_intro
+	}
+}
+country_event = {
+	id = 399860 
+	title = "JAP3010.T"
+	desc = "JAP3010.D" #continuation of intro, contacts in chinese cities
+	trigger = { 
+	year = 1850
+	tag = JAP
+	NOT = { has_country_flag = jap_intro }
+	has_country_flag = jap_repatriation
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "JAP3010.A"
+	set_country_flag = jap_intro
+	}
+}
+######################
+###	New AKSUM EVENTS 2000 ###
+######################
+
+######################
+###	New SCANDINAVIA 1000 EVENTS ###
+######################
+
+######################
+###	New MEXICO EVENTS 000 ###
+######################
+
+######################
+###	New SIKH EMPIRE 1599-1899EVENTS ###
+######################
+
+######################
+###	New PERSIA EVENTS 1099-1499###
+######################
+
+######################
+###	New HINDUSTAN EVENTS 2599-2999###
+######################
+country_event = {
+	id = 2599 
+	title = "HDU2599.T"
+	desc = "HDU2599.D" #Telling hindustan they are the china of this world and are thus, cursed
+	trigger = { 
+	tag = HDU
+	NOT = { has_country_flag = hdu_cursed }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "HDU2599.A"
+	set_country_flag = hdu_cursed
+	add_country_modifier = {
+	name = heavy_be_the_indian_crown
+				duration = -1
+				}
+	}
+}
+country_event = {
+	id = 2600
+	title = "HDU2600.T"
+	desc = "HDU2600.D" #Telling the minors they are the chinese statlets of this world and are thus, cursed
+	trigger = { 
+	tag = MAW
+	tag = DLH
+	tag = BNG
+	NOT = { has_country_flag = ind_cursed }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "HDU2600.A"
+	set_country_flag = ind_cursed
+	add_country_modifier = {
+	name = heavy_be_the_lesser_crowns
+				duration = -1
+				}
+	}
+}
+
+######################
+###	New YUAN EVENTS 2099-2499###
+######################
+
+######################
+###	New RUSSIAN EVENTS 3599 -3999###
+######################
+
+######################
+###	New SOUTH AMERICAN 3099 - 3499EVENTS ###
+######################

@@ -1,0 +1,8 @@
+owner=JIM
+controller=JIM
+add_core=ADA
+add_core=JIM
+trade_goods = grain
+life_rating = 10
+terrain = dryhills
+colonial=2

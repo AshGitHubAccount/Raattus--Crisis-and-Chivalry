@@ -1,0 +1,7 @@
+owner=X00
+controller=X00
+add_core=ARA
+add_core=X07
+trade_goods = opium
+life_rating = 20
+terrain = desert

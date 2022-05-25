@@ -1,0 +1,1400 @@
+783 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 1033
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 230
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 42
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 29110
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 30
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 4
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 6
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 2247
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 23
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 67
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 9
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 12
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 2541
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 357
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 65
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 1173
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 143
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 1315
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 170
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 239
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 15164
+	}
+
+}
+784 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 25
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 4
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 5
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 9871
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 12
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 31
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 6
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1116
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 40
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 96
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 16
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 2
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 20
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 3786
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 6
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 163
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 27
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 34
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 359
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 76
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 619
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 101
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 15
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 130
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 6655
+	}
+
+}
+785 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 116
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 29
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 6
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 11414
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 36
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 6
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 7
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = protestant
+		size= 1290
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 46
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 110
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 3
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 23
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 4380
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 7
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 189
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 31
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 5
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 40
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 414
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 88
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 716
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 116
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 18
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 150
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 7696
+	}
+
+}
+786 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 274
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 274
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 45
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 7
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 58
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 26773
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 8
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 291
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 7
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 61
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 407
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 141
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 1131
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 184
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 28
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 238
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 12402
+	}
+
+}
+787 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 139
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 139
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 23
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 3
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 29
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 13613
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 6
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 151
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 25
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 32
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 368
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 70
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 570
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 93
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 14
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 120
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 6092
+	}
+
+}
+788 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 1033
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 131
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 21
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 27
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 13861
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 9
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 29
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 6
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 860
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 8
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 177
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 29
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 37
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 585
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 77
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 645
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 105
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 16
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 135
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 6706
+	}
+
+}
+789 = {
+	soldiers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 117
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 59
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 10
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 12
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = catholic
+		size= 11512
+	}
+
+	soldiers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 82
+	}
+
+	artisans=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 141
+	}
+
+	clergymen=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 23
+	}
+
+	bureaucrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 4
+	}
+
+	officers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = bosniak
+		religion = orthodox
+		size= 7960
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 219
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 36
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 5
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 46
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = orthodox
+		size= 657
+	}
+
+	soldiers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 98
+	}
+
+	artisans=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 809
+	}
+
+	clergymen=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 131
+	}
+
+	bureaucrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 20
+	}
+
+	officers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 16
+	}
+
+	aristocrats=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 170
+	}
+
+	farmers=
+	{
+		culture = rhomaoi
+		religion = coptic
+		size= 8514
+	}
+
+}

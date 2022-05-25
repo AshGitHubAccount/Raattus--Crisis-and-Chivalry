@@ -1,0 +1,7 @@
+owner=X00
+controller=X00
+add_core=AWS
+trade_goods = fish
+life_rating = 31
+terrain = desert
+colonial=2

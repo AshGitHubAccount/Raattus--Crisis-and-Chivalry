@@ -1,0 +1,5 @@
+owner=QAS
+controller=QAS
+add_core=QAS
+trade_goods = cattle
+life_rating = 35

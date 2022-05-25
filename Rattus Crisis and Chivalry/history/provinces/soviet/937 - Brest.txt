@@ -1,0 +1,6 @@
+owner=WSF
+controller=WSF
+add_core=BYE
+add_core=WSF
+trade_goods = grain
+life_rating = 35

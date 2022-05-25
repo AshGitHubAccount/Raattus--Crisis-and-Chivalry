@@ -1,0 +1,134 @@
+#Sphere of Influence
+
+AOT = {
+	value = 0
+	level = 2
+}
+ATJ = {
+	value = 0
+	level = 2
+}
+BMN = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRY = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+BSK = {
+	value = 0
+	level = 2
+}
+DLI = {
+	value = 0
+	level = 2
+}
+KAZ = {
+	value = 0
+	level = 2
+}
+KEL = {
+	value = 0
+	level = 2
+}
+KHI = {
+	value = 0
+	level = 2
+}
+KRC = {
+	value = 0
+	level = 2
+}
+LSK = {
+	value = 0
+	level = 2
+}
+MJP = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = 0
+	level = 2
+}
+NOG = {
+	value = 0
+	level = 2
+}
+PAT = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 0
+	level = 2
+}
+PLB = {
+	value = 0
+	level = 2
+}
+QIC = {
+	value = 77
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+ROT = {
+	value = 0
+	level = 2
+}
+SIB = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+TTE = {
+	value = 0
+	level = 2
+}
+UCA = {
+	value = 0
+	level = 2
+}
+WSI = {
+	value = 0
+	level = 2
+}
+X12 = {
+	value = 75
+	military_access = yes
+	influence_value = 56
+	level = 5
+}
+
+#Leaders
+leader = {
+	name="Toghon Temür Borjigin"
+	date="1530.4.26"
+	type=land
+	personality="stalwart"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="Batu Borjigin"
+	date="1690.4.26"
+	type=land
+	personality="persistant"
+	background="bureaucrat_speed"
+}
+
+
+#Armies

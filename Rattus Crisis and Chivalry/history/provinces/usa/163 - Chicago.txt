@@ -1,0 +1,7 @@
+owner=UIL
+controller=UIL
+add_core=KSK
+add_core=UIL
+trade_goods = coal
+life_rating = 35
+terrain = mining_district

@@ -1,0 +1,7 @@
+owner=GZK
+controller=GZK
+add_core=AZB
+add_core=QAR
+add_core=X05
+trade_goods = wool
+life_rating = 35

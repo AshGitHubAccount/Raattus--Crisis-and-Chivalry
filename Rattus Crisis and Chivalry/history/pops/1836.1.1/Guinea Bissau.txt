@@ -1,0 +1,228 @@
+1877 = {
+	slaves=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 367
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 92
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 322
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 4
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 19
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 3758
+	}
+
+	slaves=
+	{
+		culture = wolof
+		religion = catholic
+		size= 1739
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 435
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = catholic
+		size= 3368
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = catholic
+		size= 313
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 43
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 31
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 202
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 15626
+	}
+
+}
+1878 = {
+	slaves=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 332
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 75
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 262
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 3
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 16
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 3025
+	}
+
+	slaves=
+	{
+		culture = wolof
+		religion = catholic
+		size= 1574
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 354
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = catholic
+		size= 2740
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = catholic
+		size= 254
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 35
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 25
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 164
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 12557
+	}
+
+}

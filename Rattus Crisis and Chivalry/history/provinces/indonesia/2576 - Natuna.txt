@@ -1,0 +1,11 @@
+owner=LOT
+controller=LOT
+add_core=BRU
+add_core=LAN
+add_core=MLY
+trade_goods = fish
+life_rating = 32
+colonial=2
+naval_base = 1
+terrain = small_island
+fort = 1

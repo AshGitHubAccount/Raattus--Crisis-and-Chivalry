@@ -1,0 +1,7 @@
+owner=UIL
+controller=UIL
+add_core=CAQ
+add_core=PCA
+add_core=UIL
+trade_goods = cotton
+life_rating = 35

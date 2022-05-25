@@ -1,0 +1,202 @@
+1189 = {
+	soldiers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 3923
+	}
+
+	artisans=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 2201
+	}
+
+	clergymen=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 159
+	}
+
+	bureaucrats=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 46
+	}
+
+	officers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 59
+	}
+
+	aristocrats=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 206
+	}
+
+	farmers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 36053
+	}
+
+	soldiers=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 1251
+	}
+
+	artisans=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 2862
+	}
+
+	clergymen=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 207
+	}
+
+	bureaucrats=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 60
+	}
+
+	officers=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 76
+	}
+
+	aristocrats=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 267
+	}
+
+	farmers=
+	{
+		culture = kirgiz
+		religion = coptic
+		size= 8880
+	}
+
+}
+1190 = {
+	soldiers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 254
+	}
+
+	artisans=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 508
+	}
+
+	clergymen=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 82
+	}
+
+	bureaucrats=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 13
+	}
+
+	officers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 107
+	}
+
+	farmers=
+	{
+		culture = kirgiz
+		religion = sunni
+		size= 11716
+	}
+
+}
+1203 = {
+	soldiers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 2134
+	}
+
+	artisans=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 2596
+	}
+
+	clergymen=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 187
+	}
+
+	bureaucrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 55
+	}
+
+	officers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 58
+	}
+
+	aristocrats=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 242
+	}
+
+	farmers=
+	{
+		culture = uzbek
+		religion = sunni
+		size= 23570
+	}
+
+}

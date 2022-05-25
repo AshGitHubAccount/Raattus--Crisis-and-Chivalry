@@ -1,0 +1,7 @@
+owner=QAS
+controller=QAS
+add_core=KZN
+add_core=QAS
+add_core=X14
+trade_goods = cattle
+life_rating = 35

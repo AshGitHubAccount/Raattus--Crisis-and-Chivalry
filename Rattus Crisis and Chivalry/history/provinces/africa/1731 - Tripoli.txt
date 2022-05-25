@@ -1,0 +1,7 @@
+owner=MLT
+controller=MLT
+add_core=MLT
+trade_goods = fruit
+life_rating = 35
+terrain = plains
+naval_base = 2

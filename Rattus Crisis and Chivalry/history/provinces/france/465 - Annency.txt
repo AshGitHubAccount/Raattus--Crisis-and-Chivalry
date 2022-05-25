@@ -1,0 +1,6 @@
+owner=OCC
+controller=OCC
+add_core=OCC
+trade_goods = coal
+life_rating = 33
+fort = 1

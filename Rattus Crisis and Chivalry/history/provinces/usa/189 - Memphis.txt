@@ -1,0 +1,6 @@
+owner=UIL
+controller=UIL
+add_core=CHN
+add_core=UIL
+trade_goods = tobacco
+life_rating = 35
