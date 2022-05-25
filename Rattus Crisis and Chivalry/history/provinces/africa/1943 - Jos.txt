@@ -1,5 +1,5 @@
-owner=DGI
-controller=DGI
-add_core=DGI
+owner=ITA
+controller=ITA
+add_core=ITA
 trade_goods = fruit
 life_rating = 35

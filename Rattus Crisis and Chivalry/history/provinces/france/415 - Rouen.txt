@@ -1,6 +1,5 @@
 owner=LOT
 controller=LOT
-
 add_core=LOT
 trade_goods = fish
 life_rating = 32
@@ -10,7 +9,7 @@ state_building=
 	building = fabric_factory
 	upgrade = yes
 }
-{
+state_building={
 	level=1
 	building = glass_factory
 	upgrade = yes

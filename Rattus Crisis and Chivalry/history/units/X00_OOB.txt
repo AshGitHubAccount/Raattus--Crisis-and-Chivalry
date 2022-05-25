@@ -1022,7 +1022,7 @@ army = {
 	}
 	regiment = {
 		name="3rd Jimma Infantry"
-		type=infantry
+		type=guard
 		home=1863
 	}
 	regiment = {

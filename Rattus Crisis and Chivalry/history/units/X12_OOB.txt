@@ -317,14 +317,14 @@ army = {
 	name="1st Army"
 	location=1197
 	regiment = {
-		name="1st Ili Infantry"
+		name="1st Legazpi Infantry"
 		type=infantry
 		home=1595
 	}
 	regiment = {
-		name="1st Tashkent Infantry"
+		name="1st Albacete Infantry"
 		type=infantry
-		home=1195
+		home=1197
 	}
 }
 

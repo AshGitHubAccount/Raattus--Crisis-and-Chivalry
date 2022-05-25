@@ -480,18 +480,18 @@ army = {
 	name="2nd Army"
 	location=1077
 	regiment = {
-		name="1st Hengzhou Irregulars"
-		type=irregular
+		name="1st Hengzhou infantrys"
+		type=infantry
 		home=1527
 	}
 	regiment = {
-		name="1st Pingle Irregulars"
-		type=irregular
+		name="1st Pingle infantrys"
+		type=infantry
 		home=1504
 	}
 	regiment = {
-		name="2nd Pingle Irregulars"
-		type=irregular
+		name="2nd Pingle infantrys"
+		type=infantry
 		home=1504
 	}
 	regiment = {
@@ -505,8 +505,8 @@ army = {
 		home=1501
 	}
 	regiment = {
-		name="1st Canton Irregulars"
-		type=irregular
+		name="1st Canton infantrys"
+		type=infantry
 		home=1493
 	}
 }
@@ -515,8 +515,8 @@ army = {
 	name="1st Army"
 	location=1596
 	regiment = {
-		name="1st Maoming Irregulars"
-		type=irregular
+		name="1st Maoming infantrys"
+		type=infantry
 		home=1495
 	}
 	regiment = {
@@ -525,8 +525,8 @@ army = {
 		home=1495
 	}
 	regiment = {
-		name="3rd Maoming Irregulars"
-		type=irregular
+		name="3rd Maoming infantrys"
+		type=infantry
 		home=1495
 	}
 	regiment = {
@@ -540,8 +540,8 @@ army = {
 	name="3rd Army"
 	location=1075
 	regiment = {
-		name="1st Shaozhou Irregulars"
-		type=irregular
+		name="1st Shaozhou infantrys"
+		type=infantry
 		home=1500
 	}
 	regiment = {
@@ -550,8 +550,8 @@ army = {
 		home=1493
 	}
 	regiment = {
-		name="3rd Pingle Irregulars"
-		type=irregular
+		name="3rd Pingle infantrys"
+		type=infantry
 		home=1504
 	}
 	regiment = {
@@ -565,8 +565,8 @@ army = {
 	name="4th Army"
 	location=1468
 	regiment = {
-		name="1st Quanzhou Irregulars"
-		type=irregular
+		name="1st Quanzhou infantrys"
+		type=infantry
 		home=1484
 	}
 	regiment = {
@@ -585,8 +585,8 @@ army = {
 	name="Free Company"
 	location=1525
 	regiment = {
-		name="2nd Maoming Irregulars"
-		type=irregular
+		name="2nd Maoming infantrys"
+		type=infantry
 		home=1495
 	}
 }

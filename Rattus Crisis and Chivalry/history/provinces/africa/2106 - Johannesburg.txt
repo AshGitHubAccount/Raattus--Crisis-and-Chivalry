@@ -3,4 +3,4 @@ controller=PNT
 add_core=PNT
 trade_goods = wool
 life_rating = 20
-PNTrain = mining_district
+terrain = mining_district

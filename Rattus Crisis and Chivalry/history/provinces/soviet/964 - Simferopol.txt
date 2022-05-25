@@ -1,4 +1,4 @@
-FEOowner=FEO
+owner=FEO
 controller=FEO
 add_core=FEO
 trade_goods = fish

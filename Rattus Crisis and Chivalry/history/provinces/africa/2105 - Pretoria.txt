@@ -3,4 +3,4 @@ controller=PNT
 add_core=PNT
 trade_goods = cattle
 life_rating = 15
-PNTrain = mining_district
+terrain = mining_district

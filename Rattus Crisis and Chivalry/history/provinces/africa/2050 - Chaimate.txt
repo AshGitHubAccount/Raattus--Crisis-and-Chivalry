@@ -3,4 +3,4 @@ controller=GAZ
 add_core=GAZ
 trade_goods = cattle
 life_rating = 35
-GAZrain = savanna
+terrain = savanna

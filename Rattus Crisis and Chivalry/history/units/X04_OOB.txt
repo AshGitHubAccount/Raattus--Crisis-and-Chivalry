@@ -414,7 +414,7 @@ army = {
 	location=942
 	regiment = {
 		name="1st Orsha Infantry"
-		type=infantry
+		type=artillery
 		home=944
 	}
 	regiment = {

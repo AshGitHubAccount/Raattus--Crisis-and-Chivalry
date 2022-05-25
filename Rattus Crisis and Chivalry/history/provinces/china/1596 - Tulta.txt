@@ -1,6 +1,5 @@
 owner=YUA
-controller=X12
-add_core=KHA
+controller=YUA
 add_core=MGL
 add_core=OIR
 add_core=YUA

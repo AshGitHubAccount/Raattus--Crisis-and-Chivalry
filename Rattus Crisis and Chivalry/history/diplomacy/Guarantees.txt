@@ -1,8 +1,1 @@
-guarantee=
-{
-	first="BYZ"
-	second="SLO"
-	start_date="1727.4.7"
-	end_date="1936.1.1"
-}
-
+#

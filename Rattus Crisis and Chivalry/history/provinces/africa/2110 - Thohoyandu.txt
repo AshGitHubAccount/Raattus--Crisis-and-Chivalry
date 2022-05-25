@@ -3,4 +3,4 @@ controller=PNT
 add_core=PNT
 trade_goods = wool
 life_rating = 15
-PNTrain = mountain
+terrain = mountain
