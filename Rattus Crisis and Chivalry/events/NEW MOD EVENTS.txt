@@ -64,7 +64,7 @@ country_event = {
 country_event = {
 	id = 899852
 	title = "SPA8002.T"
-	desc = "SPA8002.D" #spain proper intro & execution of traitors
+	desc = "SPA8002.D" #spain-portugal rivalry
 	trigger = { 
 	tag = SPA
 	NOT = { has_country_flag = spa_por_rival }
@@ -129,7 +129,7 @@ country_event = {
 	country_event = {
 	id = 899855
 	title = "SPA8005.T"
-	desc = "SPA8005.D" #catalonia try not to die
+	desc = "SPA8005.D" #galicia try not to die
 	trigger = { 
 	tag = GLC
 	NOT = { has_country_flag = fight_for_life_ibr_glc }
