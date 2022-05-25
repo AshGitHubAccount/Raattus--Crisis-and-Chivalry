@@ -9,6 +9,7 @@ mamluk;Mamluk;;;;;;;
 PROV299;Cornicopia;x
 CEG;Koftei;;;;;
 PNT;Aytos;;;;;
+PROV334;Maermo;x
 PROV749;Roma;x
 PROV372;Keevenhagen;x
 LAT;Kurland;;;;;;;
@@ -26,7 +27,7 @@ MAS;Kwa;;;;;;;;;;
 GRE;Elláda;;;;;;;;;;
 BYZ;Elláda;;;;;;;;;;
 ITA;Italia;;;;;;;;;;
-SPA;Spanish Empire;;;;;;;;;;;;
+SPA;Spain;;;;;;;;;;;;
 BOH;Bohemia;;;;;;;;;;;;;
 SLO;Grand Duchy of Cilli;;;;;;;;;
 CAL;Republica de California;;;;;;;;;;;;;;;
@@ -2217,7 +2218,7 @@ SON_reactionary;Partido Imperialista;Partido Imperialista;Partido Imperialista;;
 SON_socialist;Partido Socialist;Partido socialiste;Partido Socialist;;;;;;;;;;;
 SON_communist;Partido Communist;Partido communiste;Partido Communist;;;;;;;;;;;
 SON_fascist;Partido Fascist;Partido fasciste;Partido Fascist;;;;;;;;;;;
-SPC;Spanish Empire;;;;;;;;;;;;;
+SPC;Spain;;;;;;;;;;;;;
 SPC_absolute_monarchy;Carlist Spain;;;;;;;;;;;;;
 SPC_prussian_constitutionalism;Carlist Spain;;;;;;;;;;;;;
 SPC_hms_government;Carlist Spain;;;;;;;;;;;;;
@@ -2794,9 +2795,9 @@ BSH_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 BSH_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;
 BSH_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;
 BSH_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;
-BUG;Uganda;;;;;;;;;;;;;
-BUG_absolute_monarchy;Buganda;;;;;;;;;;;;;
-BUG_ADJ;Ugandan;;;;;;;;;;;;;
+BUG;Tukari;;;;;;;;;;;;;
+BUG_absolute_monarchy;Tukari;;;;;;;;;;;;;
+BUG_ADJ;Tukarian;;;;;;;;;;;;;
 BUG_conservative;Uganda Patriotic Movement;;;;;;;;;;;;;
 BUG_liberal;Democratic Party;;;;;;;;;;;;;
 BUG_reactionary;Kabaka Yekka;;;;;;;;;;;;;

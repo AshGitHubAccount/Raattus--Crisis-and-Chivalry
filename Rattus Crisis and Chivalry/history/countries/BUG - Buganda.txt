@@ -1,5 +1,5 @@
 capital = 2019
-primary_culture = baganda
+primary_culture = kwa
 culture = zzz_religion_shamanism
 religion = shamanism
 government = absolute_monarchy
