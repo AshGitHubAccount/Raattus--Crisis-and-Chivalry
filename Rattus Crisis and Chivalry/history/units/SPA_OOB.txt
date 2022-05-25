@@ -658,7 +658,7 @@ army = {
 	}
 	regiment = {
 		name="1st Covilhã Artillery"
-		type=curassier
+		type=cuirassier 
 		home=506
 	}
 	regiment = {
@@ -714,7 +714,7 @@ army = {
 	}
 	regiment = {
 		name="1st Almería Artillery"
-		type=curassier
+		type=cuirassier 
 		home=515
 	}
 	regiment = {
@@ -779,7 +779,7 @@ army = {
 	}
 	regiment = {
 		name="1st Grand Bassam Artillery"
-		type=curassier
+		type=cuirassier 
 		home=1894
 	}
 	regiment = {
@@ -794,7 +794,7 @@ army = {
 	}
 	regiment = {
 		name="1st Sekondi Artillery"
-		type=curassier
+		type=cuirassier 
 		home=1909
 	}
 	regiment = {
