@@ -3,15 +3,7 @@
 
 A bit of a wacky, unrealistic world where the global powers of the world have recently collapsed from a chain-reaction of economic tragedy and plagues. Countries with flavor or planned flavor:
 
-Lotharingia
-Spain
-Italy
-Zapadoslavia
-Greece
-Aksum
-Scandinavia
-America
-Japan
+Lotharingia, Spain, Italy, Zapadoslavia, Greece, Aksum, Scandinavia, America, Japan, the Sikh Empire, and Yuan
 
 Other countries may receive content but these are the priority targets for 1.0
 
