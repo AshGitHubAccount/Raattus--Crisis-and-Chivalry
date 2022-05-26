@@ -1,7 +1,27 @@
 ######################
 ###	New ITALY DECISIONS ###
 ######################
-
+political_decisions = {
+	industralize_italy = {
+	picture = italian_islands
+		potential = {
+			is_culture_group = italian
+			year = 1850
+			NOT = { has_global_flag = pay_for_it }
+		}
+		allow = {			
+			year = 1850
+		}
+		
+		effect = {
+            set_global_flag = pay_for_it
+            money = -50000
+            766 = { trade_goods = coal }
+            747 = { trade_goods = iron }
+            473 = { trade_goods = coal }
+        }
+		}
+		}
 ######################
 ###	New SPANISH DECISIONS ###
 ######################

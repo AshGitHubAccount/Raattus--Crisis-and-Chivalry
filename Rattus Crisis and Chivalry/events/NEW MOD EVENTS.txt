@@ -1,7 +1,302 @@
 ######################
 ###	New ITALY EVENTS 9000###
 ######################
+country_event = { 
+	id = 72900 
+	title = "ITA9001.T"
+	desc = "ITA9001.D" #global event for everyone to remember the 110 years since the Cilli war
+	picture = "ItalyBattle"
+	trigger = { 
+	NOT = { has_country_flag = cilli_memory }
+	}
+	
+	mean_time_to_happen = { 
+	days = 234
+	}
+	
+	option = { 
+	name = "ITA9001.A"
+	set_country_flag = cilli_memory
+	}
+}
+country_event = {
+	id = 72902
+	title = "ITA9002.T"
+	desc = "ITA9002.D" #italy intro, north italy and cilli
+	
+	trigger = { 
+	tag = ITA
+	NOT = { has_country_flag = ita_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 15
+	}
+	
+	option = { 
+	name = "ITA9002.A"
+	prestige = -1
+	set_country_flag = ita_intro
+}
+}
+country_event = {
+	id = 72903
+	title = "ITA9003.T" 
+	desc = "ITA9003.D" #malta left our nation to ensure it's own survival in north africa. should we return to glory we could use their officers
+	
+	trigger = { 
+	tag = ITA
+	year = 1837
+	NOT = { has_country_flag = ita_malta_intro}
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "ITA9003.A"
+	 add_country_modifier = {
+				name = maltese_officer_corp
+				duration = 7300
+		 }
+	set_country_flag = maltese_officers
+}
+}
+country_event = {
+	id = 72904
+	title = "ITA9004.T"
+	desc = "ITA9004.D"
+	
+	trigger = { 
+	war = no
+	tag = ITA
+	year = 1842
+	NOT = { has_country_flag = italian_urbanization}
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "ITA9004.A"
+	set_country_flag = italian_urbanization
+}
+}
+country_event = {
+	id = 72905
+	title = "ITA9005.T"
+	desc = "ITA9005.D"
+	
+	trigger = { 
+	tag = ITA
+	year = 1843
+	NOT = { has_country_flag = new_revolution}
+	}
+	
+	mean_time_to_happen = { 
+	days = 500
+	}
+	
+	option = { 
+	name = "ITA9005.A"
+	prestige = -10
+	any_pop = { militancy = -3 }
+	set_country_flag = new_revolution
+	}
+	
+option = { 
+	name = "ITA9006.B"
+	prestige = 10
+	any_pop = { militancy = 3 }
+	set_country_flag = new_revolution
+	}
+}
 
+country_event = {
+	id = 72906
+	title = "ITA9006.T"
+	desc = "ITA9006.D"
+	
+	trigger = { 
+	tag = ITA
+	year = 1847
+	NOT = { has_country_flag = revolution_burns }
+	}
+	
+	mean_time_to_happen = { 
+	days = 250
+	}
+	
+	option = { 
+	name = "ITA9006.A"
+	set_country_flag = revolution_burns
+	prestige = -25
+	add_country_modifier = {
+				name = revolutionary_leader
+				duration = 3000
+		 }
+	}
+	
+	option = { 
+	name = "ITA9007.B"
+	add_country_modifier = {
+				name = revolutionary_crusher
+				duration = 3000
+		 }
+	set_country_flag = revolution_burns
+	}
+}
+country_event = {
+	id = 72907
+	title = "ITA9007.T"
+	desc = "ITA9007.D"
+	
+	trigger = { 
+	tag = ITA
+	year = 1850
+	war = no
+	NOT = { has_country_flag = malta_integration }
+	}
+	
+	mean_time_to_happen = { 
+	days = 800
+	}
+	
+	option = { 
+	
+	name = "ITA9007.A"
+	set_country_flag = malta_integration
+	prestige = 5
+	1730 = { add_core = ITA } 
+	1733 = { add_core = ITA } 
+	1731 = { add_core = ITA } 
+	1732 = { add_core = ITA } 
+	1744 = { add_core = ITA }
+1744 = { add_core = ITA }
+1740 = { add_core = ITA } 
+1735 = { add_core = ITA } 
+1736 = { add_core = ITA } 	
+1737 = { add_core = ITA } 
+1734 = { add_core = ITA } 
+	}
+}
+#THE NORTHERN ITALY CHAIN
+country_event = {
+	id = 72908
+	title = "ITA9008.T"
+	desc = "ITA9008.D"
+	
+	trigger = { 
+	year = 1837
+	tag = ITA
+	NOT = { has_country_flag = ita_north_staredown}
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = { 
+	name = "ITA9008.A"
+	set_country_flag = ita_north_staredown
+	set_country_flag = ita_brothers_war
+}
+}
+country_event = {
+	id = 72909
+	title = "ITA9009.T"
+	desc = "ITA9009.D"
+	
+	trigger = { 
+	has_country_flag = ita_brothers_war
+	tag = ITA
+	NOT = { has_country_flag = ita_north_gov_declaration }
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = { 
+	name = "ITA9009.A"
+	set_country_flag = ita_north_gov_declaration
+	}
+}
+country_event = {
+	id = 72910
+	title = "ITA9010.T"
+	desc = "ITA9010.D" #
+	
+	trigger = { 
+	has_country_flag = ita_brothers_war
+	has_country_flag = ita_north_gov_declaration
+	tag = ITA
+	NOT = { has_country_flag = ita_north_countdown}
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = { 
+	name = "ITA9010.A"
+	set_country_flag = ita_north_countdown
+}
+}
+country_event = {
+	id = 72911
+	title = "ITA9011.T"
+	desc = "ITA9011.D" #
+	
+	trigger = { 
+	has_country_flag = ita_brothers_war
+	has_country_flag = ita_north_countdown
+	tag = ITA
+	NOT = { has_country_flag = ita_north_showdown
+	}
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = {
+	name = "ITA9010.A"
+	set_country_flag = ita_north_countdown
+}
+}
+country_event = {
+	id = 72912
+	title = "ITA9012.T"
+	desc = "ITA9012.D"
+	
+	trigger = { 
+	has_country_flag = ita_brothers_war
+	has_country_flag = ita_north_countdown
+	tag = ITA
+	NOT = { has_country_flag = ita_north_showdown}
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	
+	option = { 
+	name = "ITA9012.A"
+	war = {
+		target = LOM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	set_country_flag = ita_north_showdown
+}
+}
 
 ######################
 ###	New SPAIN EVENTS 8000###
@@ -148,10 +443,293 @@ country_event = {
 		 } 
 	}
 }
+country_event = {
+	id = 899856
+	title = "SPA9006.T"
+	desc = "SPA9006.D"
+	trigger = { 
+	war = no
+		tag = SPA
+	NOT = { has_country_flag = spanish_reforms }
+	}
+	
+	mean_time_to_happen = { 
+	days = 234
+	}
+	
+	option = { 
+	name = "ITA9006.A"
+	add_accepted_culture = andalucian
+	prestige = -10
+	set_country_flag = spanish_reforms
+	}
+}
+country_event = {
+	id = 899857
+	title = "SPA9007.T"
+	desc = "SPA9007.D"
+	trigger = { 
+	tag = SPA
+	year = 1840
+	NOT = { has_country_flag = spanish_flavor_1 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 200
+	}
+	
+	option = { 
+	name = "SPA9007.A"
+	set_country_flag = spanish_flavor_1
+	}
+}
+country_event = {
+	id = 899858
+	title = "SPA9008.T"
+	desc = "SPA9008.D"
+	trigger = { 
+	tag = SPA
+	year = 1841
+	NOT = { has_country_flag = spanish_italian }
+	}
+	
+	mean_time_to_happen = { 
+	days = 350
+	}
+	
+	option = { 
+	name = "ITA9008.A"
+	set_country_flag = spanish_italian 
+	}
+}
+country_event = {
+	id = 899859
+	title = "SPA9009.T"
+	desc = "SPA9009.D"
+	trigger = { 
+	tag = SPA
+	year = 1842
+	NOT = { has_country_flag = spanish_urbanize }
+	}
+	
+	mean_time_to_happen = { 
+	days = 450
+	}
+	
+	option = { 
+	name = "ITA9009.A"
+	509 = {
+				life_rating = 5
+			}
+		521 = {
+				life_rating = 5
+			}
+		498 = {
+				life_rating = 5
+			}
+	set_country_flag = spanish_urbanize
+	}
+	}
+country_event = {
+	id = 899860
+	title = "SPA9010.T"
+	desc = "SPA9010.D"
+	trigger = { 
+	tag = SPA
+	year = 1844
+	NOT = { has_country_flag = spanish_agitation }
+	}
+	
+	mean_time_to_happen = { 
+	days = 650
+	}
+	
+	option = { 
+	name = "ITA9010.A"
+	set_country_flag = spanish_agitation
+	}
+}
+country_event = {
+	id = 899861
+	title = "SPA9011.T"
+	desc = "SPA9011.D"
+	trigger = { 
+	tag = SPA
+	year = 1847
+	NOT = { has_country_flag = spanish_springtime }
+	}
+	
+	mean_time_to_happen = { 
+	days = 650
+	}
+	
+	option = { 
+	name = "SPA9011.A"
+	set_country_flag = spanish_springtime
+	}
+}
+country_event = {
+	id = 899862
+	title = "SPA9012.T"
+	desc = "SPA9012.D"
+	trigger = {
+	ARN = { vassal_of = THIS }  
+	NAV = { vassal_of = THIS }  
+	X19 = { vassal_of = THIS }  	
+	tag = SPA
+	year = 1878
+	NOT = { has_country_flag = spanish_integrations }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	
+	name = "SPA9012.A"
+	inherit = ARN
+	inherit = NAV
+	inherit = X19
+	set_country_flag = spanish_integrations
+	}
+}
 ######################
 ###	New USA EVENTS 7000###
 ######################
-
+country_event = {
+	id = 52900
+	title = "USA9001.T"
+	desc = "USA9001.D"
+	trigger = { 
+	tag = USA
+	NOT = { has_country_flag = usa_history }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "USA9001.A"
+	set_country_flag = usa_history
+	}
+}
+country_event = {
+	id = 52901
+	title = "USA9002.T"
+	desc = "USA9002.D"
+	trigger = { 
+	tag = USA
+	NOT = { has_country_flag = usa_regency }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "USA9002.A"
+	add_country_modifier = {
+	name = james_regency
+				duration = 5113
+		 }
+	set_country_flag = usa_regency
+	}
+}
+country_event = {
+	id = 52902
+	title = "USA9003.T"
+	desc = "USA9003.D"
+	trigger = { 
+	tag = USA
+	NOT = { has_country_flag = usa_rivalry }
+	}
+	
+	mean_time_to_happen = { 
+	days = 350
+	}
+	
+	option = { 
+	
+	name = "USA9003.A"
+	#ADD CORES ON AMERICAN CONFEDERATION, ADD CORES ON USA
+	set_country_flag = usa_rivalry
+	}
+}
+country_event = {
+	id = 52903
+	title = "USA9004.T"
+	desc = "USA9004.D"
+	trigger = { 
+	tag = USA
+	year = 1843
+	NOT = { has_country_flag = usa_liberty_rebels }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "USA9004.A"
+	any_pop = { 
+		scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+			}
+	set_country_flag = usa_liberty_rebels
+	}
+}
+country_event = {
+	id = 52904
+	title = "USA9005.T"
+	desc = "USA9005.D"
+	trigger = { 
+	year = 1850
+	tag = USA
+	NOT = { has_country_flag = usa_james_comes_of_age }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	
+	name = "ITA9005.A"
+	set_country_flag = usa_james_comes_of_age
+	prestige = 5
+	set_country_flag = usa_james_forever
+	}
+	option = { 
+	
+	name = "USA9005.B"
+	prestige = -5
+	set_country_flag = usa_congress_supreme
+	set_country_flag = usa_james_comes_of_age
+	}
+}
+country_event = {
+	id = 52905
+	title = "USA9006.T"
+	desc = "USA9006.D"
+	trigger = { 
+	tag = USA
+	NOT = { has_country_flag = usa_manifest_destiny_mod }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "USA9006.A"
+	#THIS WILL MAKE USA HAVE CORES ON CALIFORNIA & SUCH, NOT FINISHED YET CAL = { all_core = { add_core = USA } }
+	set_country_flag = usa_manifest_destiny_mod
+	}
+}
 
 ######################
 ###	New BYZANTIUM 6000 EVENTS ###
@@ -227,56 +805,86 @@ country_event = {
 }
 country_event = {
 	id = 599854
-	title = "LOT5004.T"
-	desc = "LOT5004.D"
+	title = "LOT9004.T"
+	desc = "LOT9004.D"
 	trigger = { 
 	tag = LOT
-	NOT = { has_country_flag = lot_intro }
+	year = 1842
+	NOT = { has_country_flag =  lot_spy_italy }
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 150
 	}
 	
 	option = { 
-	name = "LOT5004.A"
-	set_country_flag = lot_intro
+	name = "LOT9004.A"
+	set_country_flag = lot_spy_italy
 	}
 }
 country_event = {
 	id = 599855
-	title = "LOT5005.T"
-	desc = "LOT5005.D"
+	title = "LOT9005.T"
+	desc = "LOT9005.D"
 	trigger = { 
 	tag = LOT
-	NOT = { has_country_flag = lot_intro }
+	year = 1838
+	NOT = { has_country_flag =  lot_true_french }
+	NOT = { has_country_flag =  lot_fla_time }
+	has_country_flag = lot_lowlands_focus
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 300
 	}
 	
 	option = { 
-	name = "LOT5005.A"
-	set_country_flag = lot_intro
+	FLA = { all_core = { add_core = LOT } }
+	name = "LOT9005.A"
+	set_country_flag = lot_fla_time
 	}
 }
 country_event = {
 	id = 599856
-	title = "LOT5006.T"
-	desc = "LOT5006.D"
+	title = "LOT9006.T"
+	desc = "LOT9006.D"
 	trigger = { 
 	tag = LOT
-	NOT = { has_country_flag = lot_intro }
+	year = 1844
+	NOT = { has_country_flag =  lot_brittany }
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 300
 	}
 	
 	option = { 
-	name = "LOT5006.A"
-	set_country_flag = lot_intro
+	name = "LOT9006.A"
+	set_country_flag = lot_brittany
+	}
+}
+country_event = {
+	id = 599857
+	title = "LOT9007.T"
+	desc = "LOT9007.D"
+	trigger = { 
+	tag = LOT
+	NOT = { has_country_flag =  lot_choice }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "LOT9007.A"
+	set_country_flag = lot_choice
+	set_country_flag = lot_true_french
+	}
+	option = { 
+	name = "LOT9007.B"
+	set_country_flag = lot_choice
+	set_country_flag = lot_lowlands_focus
 	}
 }
 ######################
@@ -892,11 +1500,9 @@ country_event = {
 country_event = {
 	id = 2600
 	title = "HDU2600.T"
-	desc = "HDU2600.D" #Telling the minors they are the chinese statlets of this world and are thus, cursed
+	desc = "HDU2600.D" #Telling the minors they are the chinese statlets of this world and are thus, cursed MAW 
 	trigger = { 
 	tag = MAW
-	tag = DLH
-	tag = BNG
 	NOT = { has_country_flag = ind_cursed }
 	}
 	
@@ -913,7 +1519,50 @@ country_event = {
 				}
 	}
 }
-
+country_event = {
+	id = 2601
+	title = "HDU2601.T"
+	desc = "HDU2601.D" #Telling the minors they are the chinese statlets of this world and are thus, cursed DLH
+	trigger = { 
+	tag = DLH
+	NOT = { has_country_flag = ind_cursed }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "HDU2601.A"
+	set_country_flag = ind_cursed
+	add_country_modifier = {
+	name = heavy_be_the_lesser_crowns
+				duration = -1
+				}
+	}
+}
+country_event = {
+	id = 2602
+	title = "HDU2602.T"
+	desc = "HDU2602.D" #Telling the minors they are the chinese statlets of this world and are thus, cursed BNG
+	trigger = { 
+	tag = BNG
+	NOT = { has_country_flag = ind_cursed }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "HDU2602.A"
+	set_country_flag = ind_cursed
+	add_country_modifier = {
+	name = heavy_be_the_lesser_crowns
+				duration = -1
+				}
+	}
+}
 ######################
 ###	New YUAN EVENTS 2099-2499###
 ######################

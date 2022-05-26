@@ -14,7 +14,6 @@ heavy_be_the_indian_crown = {
 pop_militancy_modifier = 0.03
 mobilisation_size = -0.25
 org_regain = -0.1
-poor_everyday_needs = -0.09
 research_points_modifier = -0.6
 }
 heavy_be_the_lesser_crowns = {
@@ -82,6 +81,7 @@ lothars_will = {
 population_growth = 0.008
     assimilation_rate = 0.15
 	}
+	
 ####AI Personalities
 
 coward_ai = {
