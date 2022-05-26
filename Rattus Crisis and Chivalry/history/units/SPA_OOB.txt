@@ -8,6 +8,12 @@ ARN = {
 	influence_value = 50
 	level = 5
 }
+WOL = {
+	value = 25
+	military_access = yes
+	influence_value = 50
+	level = 5
+}
 
 BRZ = {
 	value = 155

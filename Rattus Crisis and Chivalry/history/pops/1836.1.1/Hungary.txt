@@ -152,7 +152,7 @@
 	{
 		culture = hungarian
 		religion = catholic
-		size= 964
+		size= 4464
 	}
 
 	artisans=
@@ -450,7 +450,7 @@
 	{
 		culture = interslav
 		religion = catholic
-		size= 588
+		size= 4588
 	}
 
 	artisans=

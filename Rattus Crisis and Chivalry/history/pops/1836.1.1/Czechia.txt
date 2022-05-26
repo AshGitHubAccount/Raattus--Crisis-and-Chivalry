@@ -3,7 +3,7 @@
 	{
 		culture = interslav
 		religion = hussite
-		size= 2527
+		size= 5527
 	}
 
 	artisans=

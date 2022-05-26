@@ -4,3 +4,42 @@
 #Leaders
 
 #Armies
+army = {
+	name="Armée de l'Auxonnois"
+	location=376
+	regiment = {
+		name="2nd Besançon Infantry"
+		type=infantry
+		home=376
+	}
+	regiment = {
+		name="1st Dijon Infantry"
+		type=infantry
+		home=376
+	}
+	regiment = {
+		name="1st Emden Artillery"
+		type=infantry
+		home=375
+	}
+	regiment = {
+		name="1st La Roche Artillery"
+		type=cuirassier
+		home=375
+	}
+	regiment = {
+		name="1st Arras Artillery"
+		type=hussar
+		home=377
+	}
+	regiment = {
+		name="7th Moulins Infantry"
+		type=infantry
+		home=377
+	}
+	regiment = {
+		name="3rd Paris Artillery"
+		type=artillery
+		home=385
+	}
+}

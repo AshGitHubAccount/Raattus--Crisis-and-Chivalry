@@ -201,7 +201,7 @@
 	{
 		culture = russian
 		religion = orthodox
-		size= 751
+		size= 7451
 	}
 
 	artisans=
@@ -4955,7 +4955,7 @@
 	{
 		culture = tatar
 		religion = sunni
-		size= 1162
+		size= 4162
 	}
 
 	artisans=

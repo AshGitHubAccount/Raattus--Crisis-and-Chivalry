@@ -3,7 +3,7 @@
 	{
 		culture = slovak
 		religion = catholic
-		size= 708
+		size= 4708
 	}
 
 	artisans=

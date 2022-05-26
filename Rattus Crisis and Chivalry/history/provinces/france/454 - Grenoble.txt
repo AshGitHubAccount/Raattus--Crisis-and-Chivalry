@@ -1,6 +1,5 @@
 owner=OCC
 controller=OCC
-
 add_core=OCC
 add_core=TUL
 trade_goods = wool

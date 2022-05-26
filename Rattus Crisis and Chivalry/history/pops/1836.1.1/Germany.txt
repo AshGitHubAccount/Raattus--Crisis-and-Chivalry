@@ -3268,7 +3268,7 @@ farmers=
 	{
 		culture = western_slavic
 		religion = catholic
-		size= 900
+		size= 5000
 	}
 
 	artisans=

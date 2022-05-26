@@ -695,7 +695,7 @@
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 1033
+		size= 4033
 	}
 
 	artisans=
@@ -737,9 +737,14 @@
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 84090
+		size= 44090
 	}
-
+farmers =
+	{
+		culture = ukrainian
+		religion = orthodox
+		size= 44090
+	}
 	soldiers=
 	{
 		culture = ukrainian
@@ -884,7 +889,13 @@
 	{
 		culture = polish
 		religion = protestant
-		size= 61696
+		size= 21696
+	}
+	farmers=
+	{
+		culture = polish
+		religion = protestant
+		size= 41696
 	}
 
 }
@@ -1082,9 +1093,14 @@
 	{
 		culture = polish
 		religion = protestant
-		size= 31278
+		size= 14278
 	}
-
+farmers=
+	{
+		culture = polish
+		religion = protestant
+		size= 11278
+	}
 	soldiers=
 	{
 		culture = ukrainian
@@ -1182,9 +1198,14 @@
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 110195
+		size= 50195
 	}
-
+farmers=
+	{
+		culture = ukrainian
+		religion = orthodox
+		size= 60195
+	}
 	soldiers=
 	{
 		culture = ukrainian
@@ -1231,9 +1252,14 @@
 	{
 		culture = ukrainian
 		religion = catholic
-		size= 46390
+		size= 16390
 	}
-
+farmers=
+	{
+		culture = ukrainian
+		religion = catholic
+		size= 36390
+	}
 	soldiers=
 	{
 		culture = ukrainian
@@ -1627,7 +1653,13 @@
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 41793
+		size= 21793
+	}
+farmers=
+	{
+		culture = ukrainian
+		religion = orthodox
+		size= 21793
 	}
 
 	soldiers=
@@ -2475,7 +2507,7 @@ serfs=
 		religion = protestant
 		size= 27642
 	}
-	serfs=
+	farmers=
 	{
 		culture = interslav
 		religion = protestant
@@ -2526,7 +2558,7 @@ serfs=
 		size= 77
 	}
 
-	serfs=
+	farmers=
 	{
 		culture = ukrainian
 		religion = orthodox
@@ -3322,7 +3354,7 @@ serfs=
 	{
 		culture = ukrainian
 		religion = orthodox
-		size= 1272
+		size= 4272
 	}
 
 	artisans=
@@ -5668,9 +5700,14 @@ serfs=
 	{
 		culture = tatar
 		religion = sunni
-		size= 24434
+		size= 14434
 	}
-
+farmers=
+	{
+		culture = tatar
+		religion = sunni
+		size= 14434
+	}
 	soldiers=
 	{
 		culture = tatar
@@ -6057,9 +6094,14 @@ serfs=
 	{
 		culture = tatar
 		religion = sunni
-		size= 27035
+		size= 17035
 	}
-
+farmers=
+	{
+		culture = tatar
+		religion = sunni
+		size= 17035
+	}
 	soldiers=
 	{
 		culture = tatar
@@ -6402,7 +6444,13 @@ serfs=
 	{
 		culture = ukrainian
 		religion = protestant
-		size= 69423
+		size= 29423
+	}
+	farmers=
+	{
+		culture = ukrainian
+		religion = protestant
+		size= 39423
 	}
 
 }

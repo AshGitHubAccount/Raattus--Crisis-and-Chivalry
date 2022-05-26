@@ -536,7 +536,7 @@
 	{
 		culture = polish
 		religion = catholic
-		size= 1119
+		size= 5119
 	}
 
 	artisans=
@@ -2394,7 +2394,7 @@ farmers=
 	{
 		culture = interslav
 		religion = catholic
-		size= 2218
+		size= 5218
 	}
 
 	artisans=

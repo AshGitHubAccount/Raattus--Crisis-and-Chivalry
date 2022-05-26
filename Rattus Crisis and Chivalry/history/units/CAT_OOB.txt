@@ -528,3 +528,61 @@ ZAZ = {
 #Leaders
 
 #Armies
+army = {
+	name="Defese Garrison"
+	location=501
+	regiment = {
+		name="1st Legazpi Infantry"
+		type=infantry
+		home=501
+	}
+	regiment = {
+		name="1st Albacete Infantry"
+		type=infantry
+		home=501
+	}
+	regiment = {
+		name="1st Palawan Infantry"
+		type=infantry
+		home=498
+	}
+	regiment = {
+		name="1st Legazpi Artillery"
+		type=artillery
+		home=498
+	}
+	regiment = {
+		name="1st Manila Artillery"
+		type=cuirassier
+		home=498
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=hussar
+		home=499
+	}
+}
+army = {
+	name="Defese Garrison 2"
+	location=500
+	regiment = {
+		name="1st Legazpi Infantry"
+		type=infantry
+		home=500
+	}
+	regiment = {
+		name="1st Albacete Infantry"
+		type=infantry
+		home=501
+	}
+	regiment = {
+		name="1st Palawan Infantry"
+		type=infantry
+		home=464
+	}
+	regiment = {
+		name="1st Legazpi Artillery"
+		type=artillery
+		home=464
+	}
+}

@@ -5884,7 +5884,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 2095
+		size= 5095
 	}
 
 	artisans=
@@ -5984,7 +5984,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 2472
+		size= 5472
 	}
 
 	artisans=
@@ -6084,7 +6084,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 582
+		size= 4582
 	}
 
 	artisans=
@@ -6782,7 +6782,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 647
+		size= 4647
 	}
 
 	artisans=

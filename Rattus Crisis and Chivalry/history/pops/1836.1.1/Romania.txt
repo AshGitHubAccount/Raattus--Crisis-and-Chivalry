@@ -469,7 +469,7 @@
 	{
 		culture = romanian
 		religion = catholic
-		size= 904
+		size= 4904
 	}
 
 	artisans=
