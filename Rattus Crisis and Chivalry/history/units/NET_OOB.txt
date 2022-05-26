@@ -43,3 +43,43 @@ army = {
 		home=385
 	}
 }
+navy = {
+	name="1st Fleet"
+	location=376
+	ship = {
+		name="Fort Rannoch"
+		type=frigate
+	}
+	ship = {
+		name="Parnell"
+		type=clipper_transport
+	}
+	ship = {
+		name="Oileáin Árann"
+		type=clipper_transport
+	}
+	ship = {
+		name="an Chláir"
+		type=clipper_transport
+	}
+	ship = {
+		name="Cliona"
+		type=frigate
+	}
+	ship = {
+		name="Mhaigh Eo"
+		type=clipper_transport
+	}
+		ship = {
+		name="an Chláir"
+		type=clipper_transport
+	}
+	ship = {
+		name="Cliona"
+		type=frigate
+	}
+	ship = {
+		name="Mhaigh Eo"
+		type=clipper_transport
+	}
+}

@@ -626,5 +626,13 @@ leader = {
 	background="natural_born_leader"
 }
 
-
 #Armies
+army = {
+name="1st Army"
+	location=569
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=569
+}
+}

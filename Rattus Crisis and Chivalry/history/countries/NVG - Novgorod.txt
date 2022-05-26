@@ -5,9 +5,9 @@ religion = orthodox
 government = presidential_dictatorship
 plurality = 0
 nationalvalue = nv_equality
-literacy = 0.384162
+literacy = 0.284162
 
-civilized = yes
+civilized = no
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -45,29 +45,25 @@ consciousness = 1.44303
 nonstate_consciousness= 0
 
 # Technologies
-army_command_principle = 1
-bronze_muzzle_loaded_artillery = 1
-classicism_n_early_romanticism = 1
 flintlock_rifles = 1
-late_enlightenment_philosophy = 1
-mechanical_production = 1
-military_staff_system = 1
-no_standard = 1
-piston_steam_engine = 1
-
-basic_chemistry = 1
-malthusian_thought = 1
-
-introspectionism = 1
-post_napoleonic_thought = 1
-early_classical_theory_and_critique = 1
-freedom_of_trade = 1
-guild_based_production = 1
-private_banks = 1
-clipper_design = 1
-post_nelsonian_thought = 1
-prestige=5
+land_reform=no_land_reform
+admin_reform=no_admin_reform
+finance_reform=no_finance_reform
+education_reform=no_education_reform
+transport_improv=no_transport_improv
+pre_indust=no_pre_indust
+industrial_construction=no_industrial_construction
+foreign_training=yes_foreign_training
+foreign_weapons=yes_foreign_weapons
+military_constructions=no_military_constructions
+foreign_officers=no_foreign_officers
+army_schools=no_army_schools
+foreign_naval_officers=no_foreign_naval_officers
+naval_schools=no_naval_schools
+foreign_navies=no_foreign_navies
+prestige=1
 oob = "NVG_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_NVG
 set_country_flag = eu4_country_NOV
+set_country_flag = russian_warlord_phase

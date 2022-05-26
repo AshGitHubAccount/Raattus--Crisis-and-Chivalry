@@ -112,5 +112,30 @@ ZAZ = {
 }
 
 #Leaders
-
+leader = {
+	name="Johnny Iocket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
 #Armies
+army = {
+	name="1st Army"
+	location=1027
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1027
+	}
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1022
+	}
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1029
+	}
+}

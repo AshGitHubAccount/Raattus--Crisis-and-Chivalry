@@ -534,5 +534,44 @@ ZAZ = {
 }
 
 #Leaders
-
+leader = {
+	name="Johnny Zocket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
 #Armies
+army = {
+name="1st Army"
+	location=724
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=724
+}
+}
+navy = {
+	name="1st Fleet"
+	location=724
+	ship = {
+		name="Fort Rannoch"
+		type=frigate
+	}
+	ship = {
+		name="Parnell"
+		type=clipper_transport
+	}
+	ship = {
+		name="Oileáin Árann"
+		type=clipper_transport
+	}
+	ship = {
+		name="an Chláir"
+		type=clipper_transport
+	}
+	ship = {
+		name="Cliona"
+		type=frigate
+	}
+}

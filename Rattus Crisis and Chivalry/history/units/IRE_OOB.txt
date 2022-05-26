@@ -173,7 +173,15 @@ navy = {
 		type=manowar
 	}
 }
-
+army = {
+	name="1st Army"
+	location=263
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=263
+}
+}
 navy = {
 	name="1st Fleet"
 	location=261

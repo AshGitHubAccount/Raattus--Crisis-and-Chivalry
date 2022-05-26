@@ -526,5 +526,35 @@ ZAZ = {
 }
 
 #Leaders
-
+leader = {
+	name="Johnny Socket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
 #Armies
+army = {
+	name="1st Army"
+	location=272
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=272
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=270
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=272
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=268
+}
+}

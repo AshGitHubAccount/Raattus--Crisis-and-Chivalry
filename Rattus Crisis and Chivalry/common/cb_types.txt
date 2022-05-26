@@ -1822,6 +1822,7 @@ free_peoples = {
         NOT = {
             FROM = { war_with = THIS }
             FROM = { is_substate = yes }
+			has_country_flag = russian_warlord_phase
         }
         NOT = {
             tag = FROM
@@ -2185,6 +2186,7 @@ liberate_country = {
         NOT = {
             FROM = { war_with = THIS }
             FROM = { is_substate = yes }
+			has_country_flag = russian_warlord_phase
         }
 
         FROM = {
@@ -3561,7 +3563,11 @@ humiliate = {
             }
         }
     }
-
+allowed_countries = {
+NOT = {
+			has_country_flag = russian_warlord_phase
+        }
+}
     po_remove_prestige = yes
 
     tws_battle_factor = 2.0
@@ -4354,7 +4360,7 @@ demand_concession_casus_belli = {
 
     allowed_states = {
         any_owned_province = { is_colonial = no }
-
+			NOT = { has_country_flag = russian_warlord_phase }
         NOT = { any_owned_province = { is_capital = yes } }
         OR = {
             any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -7381,7 +7387,11 @@ make_puppet = {
             THIS = { ai = no }
         }
     }
-
+allowed_countries = {
+NOT = {
+			has_country_flag = russian_warlord_phase
+        }
+}
     # THIS - us
     # FROM - country scope is possible match?
     # war target country of goal is scope
