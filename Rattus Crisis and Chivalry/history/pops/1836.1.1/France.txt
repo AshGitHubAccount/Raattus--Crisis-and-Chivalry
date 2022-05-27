@@ -7460,28 +7460,28 @@ farmers=
 
 	soldiers=
 	{
-		culture = north_italian
+		culture = enderian
 		religion = catholic
 		size= 854
 	}
 
 	artisans=
 	{
-		culture = north_italian
+		culture = enderian
 		religion = catholic
 		size= 2720
 	}
 
 	clergymen=
 	{
-		culture = north_italian
+		culture = enderian
 		religion = catholic
 		size= 442
 	}
 
 	bureaucrats=
 	{
-		culture = north_italian
+		culture = enderian
 		religion = catholic
 		size= 68
 	}
@@ -7814,7 +7814,7 @@ farmers=
 470 = {
 	soldiers=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 569
 	}
@@ -7826,35 +7826,35 @@ soldiers=
 	}
 	artisans=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 402
 	}
 
 	clergymen=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 65
 	}
 
 	bureaucrats=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 11
 	}
 
 	officers=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 84
 	}
@@ -7873,21 +7873,21 @@ soldiers=
 	}
 	soldiers=
 	{
-		culture = occitan
+		culture = enderian
 		religion = protestant
 		size= 42
 	}
 
 	artisans=
 	{
-		culture = occitan
+		culture = enderian
 		religion = protestant
 		size= 208
 	}
 
 	clergymen=
 	{
-		culture = occitan
+		culture = enderian
 		religion = protestant
 		size= 34
 	}
@@ -7973,7 +7973,7 @@ soldiers=
 471 = {
 	soldiers=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 312
 	}
@@ -7987,28 +7987,28 @@ soldiers=
 
 	clergymen=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 41
 	}
 
 	bureaucrats=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 6
 	}
 
 	officers=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = occitan
+		culture = enderian
 		religion = catholic
 		size= 53
 	}

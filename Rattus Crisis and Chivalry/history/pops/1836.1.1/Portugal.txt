@@ -96,9 +96,14 @@
 	{
 		culture = portuguese
 		religion = catholic
-		size= 62807
+		size= 22807
 	}
-
+farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 42807
+	}
 	soldiers=
 	{
 		culture = portuguese
@@ -189,7 +194,13 @@
 	{
 		culture = portuguese
 		religion = catholic
-		size= 77835
+		size= 37835
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 47835
 	}
 
 }
@@ -444,7 +455,13 @@
 	{
 		culture = portuguese
 		religion = catholic
-		size= 38241
+		size= 18241
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 28241
 	}
 
 }
@@ -495,7 +512,13 @@
 	{
 		culture = portuguese
 		religion = catholic
-		size= 37864
+		size= 17864
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 27864
 	}
 
 }
@@ -546,7 +569,13 @@
 	{
 		culture = portuguese
 		religion = catholic
-		size= 37860
+		size= 7860
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 30860
 	}
 
 }
