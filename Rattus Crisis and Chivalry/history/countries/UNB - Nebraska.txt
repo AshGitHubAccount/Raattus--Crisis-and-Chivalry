@@ -1,11 +1,11 @@
 capital = 123
-primary_culture = yankee
+primary_culture = rhenish_german
 culture = zzz_religion_protestant
 religion = protestant
 government = democracy
 plurality = 0
 nationalvalue = nv_liberty
-literacy = 0
+literacy = 0.43
 
 civilized = yes
 
@@ -18,14 +18,14 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 # Political Reforms
-slavery=yes_slavery
-vote_franschise=none_voting
-upper_house_composition=appointed
-voting_system=jefferson_method
+slavery=no_slavery
+vote_franschise=universal_weighted_voting
+upper_house_composition=state_equal_weight
+voting_system=first_past_the_post
 public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=no_trade_unions
-political_parties=underground_parties
+press_rights=free_press
+trade_unions=state_controlled
+political_parties=gerrymandering
 
 ruling_party = UNB_reactionary
 upper_house = 
@@ -44,7 +44,26 @@ consciousness = 0
 nonstate_consciousness= 0
 
 # Technologies
-prestige=0
+army_command_principle = 1
+bronze_muzzle_loaded_artillery = 1
+classicism_n_early_romanticism = 1
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+mechanical_production = 1
+military_staff_system = 1
+no_standard = 1
+piston_steam_engine = 1
+basic_chemistry = 1
+malthusian_thought = 1
+introspectionism = 1
+post_napoleonic_thought = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+private_banks = 1
+clipper_design = 1
+post_nelsonian_thought = 1
+prestige=1
 oob = "UNB_OOB.txt"
 set_country_flag = new_world_nation
 set_country_flag = religi

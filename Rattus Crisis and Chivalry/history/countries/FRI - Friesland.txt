@@ -20,13 +20,13 @@ school_reforms = no_schools
 
 # political reforms
 slavery=no_slavery
-vote_franschise=none_voting
-upper_house_composition=party_appointed
+vote_franschise=universal_weighted_voting
+upper_house_composition=state_equal_weight
 voting_system=first_past_the_post
 public_meetings=yes_meeting
-press_rights=censored_press
+press_rights=free_press
 trade_unions=state_controlled
-political_parties=harassment
+political_parties=gerrymandering
 
 ruling_party = FRI_liberal
 upper_house = 
@@ -45,7 +45,26 @@ consciousness = 1.25132
 nonstate_consciousness= 0
 
 # Technologies
-prestige=0
+army_command_principle = 1
+bronze_muzzle_loaded_artillery = 1
+classicism_n_early_romanticism = 1
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+mechanical_production = 1
+military_staff_system = 1
+no_standard = 1
+piston_steam_engine = 1
+basic_chemistry = 1
+malthusian_thought = 1
+introspectionism = 1
+post_napoleonic_thought = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+guild_based_production = 1
+private_banks = 1
+clipper_design = 1
+post_nelsonian_thought = 1
+prestige=1
 oob = "FRI_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_FRI

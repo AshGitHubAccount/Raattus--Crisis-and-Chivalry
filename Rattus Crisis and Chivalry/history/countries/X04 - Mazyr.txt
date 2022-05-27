@@ -1,7 +1,5 @@
 capital = 942
-primary_culture = polish
-culture = byelorussian
-culture = russian
+primary_culture = byelorussian
 culture = zzz_religion_protestant
 religion = protestant
 government = democracy
@@ -21,14 +19,14 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # political reforms
-slavery=yes_slavery
-vote_franschise=none_voting
-upper_house_composition=party_appointed
+slavery=no_slavery
+vote_franschise=wealth_voting
+upper_house_composition=state_equal_weight
 voting_system=first_past_the_post
-public_meetings=no_meeting
-press_rights=state_press
-trade_unions=no_trade_unions
-political_parties=underground_parties
+public_meetings=yes_meeting
+press_rights=censored_press
+trade_unions=state_controlled
+political_parties=gerrymandering
 
 ruling_party = X04_liberal
 upper_house = 

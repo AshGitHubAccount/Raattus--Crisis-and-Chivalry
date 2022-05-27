@@ -169,17 +169,7 @@ country_event = {
 	name = "ITA9007.A"
 	set_country_flag = malta_integration
 	prestige = 5
-	1730 = { add_core = ITA } 
-	1733 = { add_core = ITA } 
-	1731 = { add_core = ITA } 
-	1732 = { add_core = ITA } 
-	1744 = { add_core = ITA }
-1744 = { add_core = ITA }
-1740 = { add_core = ITA } 
-1735 = { add_core = ITA } 
-1736 = { add_core = ITA } 	
-1737 = { add_core = ITA } 
-1734 = { add_core = ITA } 
+	MLT = { all_core = { add_core = ITA } }
 	}
 }
 #THE NORTHERN ITALY CHAIN
@@ -297,7 +287,121 @@ country_event = {
 	set_country_flag = ita_north_showdown
 }
 }
-
+country_event = {
+	id = 72913
+	title = "ITA9013.T"
+	desc = "ITA9013.D"
+	
+	trigger = { 
+	has_country_flag = ita_north_showdown
+	war = no
+	tag = ITA
+	owns = 726
+	NOT = { has_country_flag = ita_north_integration}
+	}
+	
+	mean_time_to_happen = { 
+	days = 45
+	}
+	
+	option = { 
+	name = "ITA9012.A"
+	inherit = VEN
+	inherit = GEN
+	inherit = TUS
+	inherit = LUC
+	inherit = FER
+	VEN = { all_core = { add_core = ITA } }
+	GEN = { all_core = { add_core = ITA } }
+	TUS = { all_core = { add_core = ITA } }
+	LUC = { all_core = { add_core = ITA } }
+	FER = { all_core = { add_core = ITA } }
+	LOM = { all_core = { add_core = ITA } }
+	set_country_flag = ita_north_integration
+}
+}
+ # RESERVERED FOR NORTH ITALY WINNING country_event = {
+#	id = 72913
+#	title = "ITA9013.T"
+#	desc = "ITA9013.D"
+#	
+#	trigger = { 
+#	has_country_flag = ita_north_integration
+#	war = no
+#	tag = ITA
+#	owns = 726
+#	NOT = { has_country_flag = ita_north_finale}
+#	}
+#	
+#	mean_time_to_happen = { 
+#	days = 45
+#	}
+#	
+#	option = { 
+#	name = "ITA9012.A"
+#	inherit = VEN
+#	inherit = GEN
+#	inherit = TUS
+#	inherit = LUC
+#	inherit = FER
+#	set_country_flag = ita_north_finale
+#}
+#}
+# RESERVERED FOR NORTH ITALY WINNING  country_event = {
+#	id = 72913
+#	title = "ITA9013.T"
+#	desc = "ITA9013.D"
+#	
+#	trigger = { 
+#	has_country_flag = ita_north_integration
+#	war = no
+#	tag = ITA
+#	owns = 726
+#	NOT = { has_country_flag = ita_north_finale}
+#	}
+#	
+#	mean_time_to_happen = { 
+#	days = 45
+#	}
+#	
+#	option = { 
+#	name = "ITA9012.A"
+#	inherit = VEN
+#	inherit = GEN
+#	inherit = TUS
+#	inherit = LUC
+#	inherit = FER
+#	set_country_flag = ita_north_finale
+#}
+#}
+# RESERVERED FOR NORTH ITALY WINNING  country_event = {
+#	id = 72913
+#	title = "ITA9013.T"
+#	desc = "ITA9013.D"
+#	
+#	trigger = { 
+#	has_country_flag = ita_north_integration
+#	war = no
+#	tag = ITA
+#	owns = 726
+#	NOT = { has_country_flag = ita_north_finale}
+#	}
+#	
+#	mean_time_to_happen = { 
+#	days = 45
+#	}
+#	
+#	option = { 
+#	name = "ITA9012.A"
+#	inherit = VEN
+#	inherit = GEN
+#	inherit = TUS
+#	inherit = LUC
+#	inherit = FER
+#	set_country_flag = ita_north_finale
+#}
+#}
+# END NORTH ITALIAN EVENT CHAIN
 ######################
 ###	New SPAIN EVENTS 8000###
 ######################

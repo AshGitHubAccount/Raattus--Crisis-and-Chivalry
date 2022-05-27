@@ -1,6 +1,5 @@
 owner=LOM
-controller=VEN
-
+controller=LOM
 add_core=LOM
 trade_goods = cotton
 life_rating = 45
