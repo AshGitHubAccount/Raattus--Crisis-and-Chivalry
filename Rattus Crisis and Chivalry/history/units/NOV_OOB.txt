@@ -24,4 +24,34 @@ army = {
 		type=infantry
 		home=281
 }
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=281
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=281
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=280
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=279
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=279
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=280
+}
 }

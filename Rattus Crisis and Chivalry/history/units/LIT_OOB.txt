@@ -435,5 +435,20 @@ ZAZ = {
 }
 
 #Leaders
-
+leader = {
+	name="Johnny Zocket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
 #Armies
+army = {
+name="1st Army"
+	location=360
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=360
+}
+}

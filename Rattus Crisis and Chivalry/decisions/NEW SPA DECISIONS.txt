@@ -18,7 +18,7 @@ political_decisions = {
             money = -300000
             515 = { trade_goods = sulphur }
             491 = { trade_goods = coal }
-            510 = { trade_goods = coal }
+            516 = { trade_goods = coal }
         }
 		}
 		}

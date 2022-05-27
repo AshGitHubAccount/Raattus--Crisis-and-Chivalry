@@ -181,6 +181,46 @@ army = {
 		type=infantry
 		home=263
 }
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=263
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=263
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=261
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=261
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=263
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=258
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=258
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=258
+}
 }
 navy = {
 	name="1st Fleet"

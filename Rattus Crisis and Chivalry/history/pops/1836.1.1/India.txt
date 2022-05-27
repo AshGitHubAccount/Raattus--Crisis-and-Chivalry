@@ -45,7 +45,7 @@
 	{
 		culture = pashtun
 		religion = sunni
-		size= 118026
+		size= 318026
 	}
 
 }
@@ -1620,7 +1620,7 @@
 	{
 		culture = panjabi
 		religion = sunni
-		size= 192479
+		size= 692479
 	}
 
 	soldiers=
@@ -1869,7 +1869,7 @@
 	{
 		culture = rajput
 		religion = hindu
-		size= 70076
+		size= 470076
 	}
 
 	soldiers=
@@ -3381,7 +3381,7 @@
 	{
 		culture = bengali
 		religion = hindu
-		size= 461354
+		size= 761354
 	}
 
 }
@@ -5226,7 +5226,7 @@
 	{
 		culture = rajput
 		religion = hindu
-		size= 122477
+		size= 622477
 	}
 
 }
@@ -5328,7 +5328,7 @@
 	{
 		culture = kanauji
 		religion = hindu
-		size= 426394
+		size= 826394
 	}
 
 }
@@ -5579,7 +5579,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 118996
+		size= 518996
 	}
 
 }
@@ -5781,7 +5781,7 @@
 	{
 		culture = asian_minor
 		religion = sikh
-		size= 417383
+		size= 717383
 	}
 
 }
@@ -5934,7 +5934,7 @@
 	{
 		culture = asian_minor
 		religion = hindu
-		size= 119857
+		size= 419857
 	}
 
 }
@@ -5985,7 +5985,7 @@
 	{
 		culture = telegu
 		religion = hindu
-		size= 263075
+		size= 663075
 	}
 
 }
@@ -6238,7 +6238,7 @@
 	{
 		culture = telegu
 		religion = hindu
-		size= 325213
+		size= 925213
 	}
 
 }
@@ -6542,7 +6542,7 @@
 	{
 		culture = gujarati
 		religion = hindu
-		size= 417995
+		size= 917995
 	}
 
 }
@@ -7148,7 +7148,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 178496
+		size= 578496
 	}
 
 }
@@ -8016,7 +8016,7 @@
 	{
 		culture = telegu
 		religion = hindu
-		size= 177949
+		size= 477949
 	}
 
 }
@@ -8539,7 +8539,7 @@
 	{
 		culture = kannada
 		religion = hindu
-		size= 178354
+		size= 578354
 	}
 
 }
@@ -8792,7 +8792,7 @@
 	{
 		culture = malayalam
 		religion = hindu
-		size= 165348
+		size= 565348
 	}
 
 }

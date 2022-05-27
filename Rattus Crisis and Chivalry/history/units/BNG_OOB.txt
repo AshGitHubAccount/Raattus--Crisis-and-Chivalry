@@ -606,7 +606,7 @@ leader = {
 #Armies
 army = {
 	name="4th Army"
-	location=1472
+	location=1251
 	regiment = {
 		name="1st Bardwan Irregulars"
 		type=irregular
@@ -636,7 +636,7 @@ army = {
 
 army = {
 	name="22nd Army"
-	location=1512
+	location=1248
 	regiment = {
 		name="1st Chittagong Irregulars"
 		type=irregular
@@ -671,7 +671,7 @@ army = {
 
 army = {
 	name="3rd Army"
-	location=1472
+	location=1254
 	regiment = {
 		name="2nd Chittagong Irregulars"
 		type=irregular
@@ -701,7 +701,7 @@ army = {
 
 army = {
 	name="5th Army"
-	location=1474
+	location=1327
 	regiment = {
 		name="1st Calcutta Irregulars"
 		type=irregular
@@ -726,7 +726,7 @@ army = {
 
 navy = {
 	name="5th Fleet"
-	location=2796
+	location=1256
 	ship = {
 		name="Baitarani"
 		type=frigate

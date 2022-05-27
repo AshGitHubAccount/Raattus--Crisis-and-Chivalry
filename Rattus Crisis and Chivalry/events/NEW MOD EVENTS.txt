@@ -698,6 +698,75 @@ country_event = {
 	set_country_flag = spanish_integrations
 	}
 }
+country_event = {
+	id = 899863
+	title = "SPA9013.T"
+	desc = "SPA9013.D" #1840 west indies begin to break
+	trigger = {
+	year = 1840
+	NOT = { has_country_flag = wsi_failing }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	2211 = { add_core = CUB }
+	2212 = { add_core = CUB }
+	2210 = { add_core = CUB }
+	2209 = { add_core = CUB }
+	2218 = { add_core = CUB }
+	2217 = { add_core = JAM }
+	2215 = { add_core = HAI }
+	2213 = { add_core = HAI }
+	2216 = { add_core = HAI }
+	2214 = { add_core = HAI }
+	2223 = { add_core = SAT }
+	2226 = { add_core = SAT }
+	45 = { add_core = SAT }
+	2236 = { add_core = SAT }
+	3246 = { add_core = SAT }
+	2224 = { add_core = SAT }
+	2227 = { add_core = SAT }
+	2225 = { add_core = SAT }
+	2230 = { add_core = SAT }
+	2232 = { add_core = SAT }
+	2228 = { add_core = SAT }
+	2231 = { add_core = SAT }
+	2409 = { add_core = SAT }
+	2233 = { add_core = SAT }
+	2238 = { add_core = SAT }
+	2237 = { add_core = SAT }
+	2234 = { add_core = VNZ }
+	2235 = { add_core = VNZ }
+	name = "SPA9013.A"
+	set_country_flag = spanish_integrations
+	}
+}
+country_event = {
+	id = 899864
+	title = "SPA9013.T"
+	desc = "SPA9013.D" #1845 west indies breaks
+	trigger = {
+	year = 1845
+	has_country_flag = wsi_failing
+	NOT = { has_country_flag = wsi_breaks }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	release = SAT
+	release = HAI
+	release = JAM
+	release = CUB
+	name = "SPA9013.A"
+	set_country_flag = wsi_breaks
+	}
+}
 ######################
 ###	New USA EVENTS 7000###
 ######################
@@ -836,7 +905,7 @@ country_event = {
 }
 
 ######################
-###	New BYZANTIUM 6000 EVENTS ###
+###	New GREECE 6000 EVENTS ###
 ######################
 
 ######################
