@@ -1,0 +1,24 @@
+######################
+###	New SPANISH DECISIONS ###
+######################
+political_decisions = {
+	industralize_spain = {
+	picture = italian_islands
+		potential = {
+		tag = SPA
+			year = 1850
+			NOT = { has_global_flag = pay_for_it_spa }
+		}
+		allow = {			
+			regenerative_furnaces = 1
+		}
+		
+		effect = {
+            set_global_flag = pay_for_it_spa
+            money = -300000
+            515 = { trade_goods = sulphur }
+            491 = { trade_goods = coal }
+            510 = { trade_goods = coal }
+        }
+		}
+		}

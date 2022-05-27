@@ -10,32 +10,24 @@ political_decisions = {
 			NOT = { has_global_flag = pay_for_it }
 		}
 		allow = {			
-			year = 1850
+			regenerative_furnaces = 1
 		}
 		
 		effect = {
             set_global_flag = pay_for_it
-            money = -50000
-            766 = { trade_goods = coal }
+            money = -300000
+            762 = { trade_goods = coal }
             747 = { trade_goods = iron }
             473 = { trade_goods = coal }
         }
 		}
 		}
 ######################
-###	New SPANISH DECISIONS ###
-######################
-
-######################
 ###	New USA DECISIONS ###
 ######################
 
 ######################
 ###	New BYZANTINE DECISIONS ###
-######################
-
-######################
-###	New LOTHARINGIAN DECISIONS ###
 ######################
 
 ######################
