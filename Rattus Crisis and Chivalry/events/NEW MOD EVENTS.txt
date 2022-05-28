@@ -7,11 +7,13 @@ country_event = {
 	desc = "ITA9001.D" #global event for everyone to remember the 110 years since the Cilli war
 	picture = "ItalyBattle"
 	trigger = { 
+	year = 1836
+	month = 8
 	NOT = { has_country_flag = cilli_memory }
 	}
 	
 	mean_time_to_happen = { 
-	days = 234
+	days = 2
 	}
 	
 	option = { 
@@ -767,6 +769,30 @@ country_event = {
 	set_country_flag = wsi_breaks
 	}
 }
+country_event = {
+	id = 899865
+	title = "SPA9014.T"
+	desc = "SPA9014.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "SPA9014.A"
+	set_country_flag = spa_aks_secret_silk_yes
+	any_country = {
+			limit = { has_country_flag = aks_secret_silk }
+			country_event = 299872
+		}
+	}
+	option = { 
+	name = "SPA9014.B"
+	any_country = {
+			limit = { has_country_flag = aks_secret_silk }
+			country_event = 299873
+		}
+	set_country_flag =  spa_aks_secret_silk_no
+	}
+}
 ######################
 ###	New USA EVENTS 7000###
 ######################
@@ -1058,6 +1084,53 @@ country_event = {
 	name = "LOT9007.B"
 	set_country_flag = lot_choice
 	set_country_flag = lot_lowlands_focus
+	}
+}
+country_event = {
+	id = 599858
+	title = "LOT5008.T"
+	desc = "LOT5008.D"
+	trigger = { 
+	year = 1840
+	tag = LOT
+	NOT = { has_country_flag = lot_the_cornish_walk }
+	}
+	
+	mean_time_to_happen = { 
+	days = 15
+	}
+	
+	option = { 
+	name = "LOT5008.A"
+	diplomatic_influence = {
+	who = KER
+	value = -200
+	}
+	set_country_flag = lot_the_cornish_walk
+	}
+}
+country_event = {
+	id = 599859
+	title = "LOT5009.T"
+	desc = "LOT5009.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5000.A"
+	set_country_flag = lot_aks_secret_indy_yes
+	any_country = {
+			limit = { has_country_flag = aks_secret_indy }
+			country_event = 299868
+		}
+	}
+	option = { 
+	name = "LOT5000.B"
+	any_country = {
+			limit = { has_country_flag = aks_secret_indy }
+			country_event = 299869
+		}
+	set_country_flag = lot_aks_secret_indy_no
 	}
 }
 ######################
@@ -1355,6 +1428,93 @@ country_event = {
 	set_country_flag = wsf_deciding_strategy
 	}
 }
+country_event = {
+	id = 499857
+	title = "WSF4007.T"
+	desc = "WSF4007.D" #the situation in russia
+	trigger = { 
+	tag = WSF
+	NOT = { has_country_flag = wsf_flavor_1 }
+	}
+	
+	mean_time_to_happen = {
+	year = 1840
+	days = 1
+	}
+	
+	option = { 
+	name = "WSF4007.A"
+	set_country_flag = wsf_flavor_1
+	}
+}
+country_event = {
+	id = 499858
+	title = "WSF4008.T"
+	desc = "WSF4008.D" #slovak or sorbian accepted?
+	trigger = {
+	year = 1843
+	tag = WSF
+	NOT = { has_country_flag = wsf_flavor_2 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4007.A"
+	set_country_flag = wsf_flavor_2
+	}
+}
+country_event = {
+	id = 499859
+	title = "WSF4009.T"
+	desc = "WSF4009.D" #the kounic dynasty's history
+	trigger = { 
+	year = 1846
+	tag = WSF
+	NOT = { has_country_flag = wsf_flavor_3 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "WSF4007.A"
+	set_country_flag = wsf_flavor_3
+	}
+}
+country_event = {
+	id = 499860
+	title = "WSF4010.T"
+	desc = "WSF4010.D" #the kounic dynasty's history
+	trigger = { 
+	year = 1847
+	tag = WSF
+	NOT = { has_country_flag = wsf_reform_or_strangle }
+	}
+	
+	mean_time_to_happen = { 
+	days = 15
+	}
+	
+	option = { 
+	name = "WSF4010.A"
+	set_country_flag = wsf_reform_republic
+	set_country_flag = wsf_reform_or_strangle
+	}
+	option = { 
+	name = "WSF4010.B"
+	set_country_flag = wsf_reform_monarchy
+	set_country_flag = wsf_reform_or_strangle
+	}
+	option = { 
+	name = "WSF4010.C"
+	set_country_flag = wsf_kounic_monarchy
+	set_country_flag = wsf_reform_or_strangle
+	}
+}
 ######################
 ###	New JAPAN EVENTS 3000 ###
 ######################
@@ -1570,19 +1730,20 @@ country_event = {
 	title = "JAP3008.T"
 	desc = "JAP3008.D" #Now that the traitors are dealt with, let's learn about japans history
 	trigger = { 
-	year = 1850
+	war = no
+	year = 1843
 	tag = JAP
-	NOT = { has_country_flag = jap_intro }
+	NOT = { has_country_flag = jap_flavor_1 }
 	has_country_flag = jap_repatriation
 	}
 	
 	mean_time_to_happen = { 
-	days = 5
+	days = 75
 	}
 	
 	option = { 
 	name = "JAP3008.A"
-	set_country_flag = jap_intro
+	set_country_flag = jap_flavor_1
 	}
 }
 country_event = {
@@ -1590,19 +1751,19 @@ country_event = {
 	title = "JAP3009.T"
 	desc = "JAP3009.D" # continuation of intro, yuan empire
 	trigger = { 
-	year = 1850
+	year = 1841
 	tag = JAP
-	NOT = { has_country_flag = jap_intro }
+	NOT = { has_country_flag = jap_intro_yuan }
 	has_country_flag = jap_repatriation
 	}
 	
 	mean_time_to_happen = { 
-	days = 5
+	days = 51
 	}
 	
 	option = { 
 	name = "JAP3009.A"
-	set_country_flag = jap_intro
+	set_country_flag = jap_intro_yuan
 	}
 }
 country_event = {
@@ -1610,25 +1771,282 @@ country_event = {
 	title = "JAP3010.T"
 	desc = "JAP3010.D" #continuation of intro, contacts in chinese cities
 	trigger = { 
-	year = 1850
+	year = 1842
 	tag = JAP
-	NOT = { has_country_flag = jap_intro }
+	NOT = { has_country_flag = jap_intro_china }
 	has_country_flag = jap_repatriation
 	}
 	
 	mean_time_to_happen = { 
-	days = 5
+	days = 55
 	}
 	
 	option = { 
 	name = "JAP3010.A"
-	set_country_flag = jap_intro
+	set_country_flag = jap_intro_china
+	}
+}
+country_event = {
+	id = 399861
+	title = "JAP3011.T"
+	desc = "JAP3011.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "JAP3011.A"
+	set_country_flag = jap_aks_secret_tea_yes
+	any_country = {
+			limit = { has_country_flag = aks_secret_indy }
+			country_event = 299870
+		}
+	}
+	option = { 
+	name = "JAP3011.B"
+	any_country = {
+			limit = { has_country_flag = aks_secret_indy }
+			country_event = 299871
+		}
+	set_country_flag = jap_aks_secret_tea_no
 	}
 }
 ######################
-###	New AKSUM EVENTS 2000 ###
+###	New AKSUM (X00) EVENTS 2000 ###
 ######################
-
+country_event = {
+	id = 299860 
+	title = "AKS2000.T"
+	desc = "AKS2000.D"
+	trigger = { 
+	tag = X00
+	NOT = { has_country_flag = aks_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "AKS2000.A"
+	set_country_flag = aks_intro
+	}
+}
+country_event = {
+	id = 299861
+	title = "AKS2001.T"
+	desc = "AKS2001.D"
+	trigger = { 
+	tag = X00
+	NOT = { has_country_flag = aks_history }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "AKS2001.A"
+	set_country_flag = aks_history
+	}
+}
+country_event = {
+	id = 299862
+	title = "AKS2002.T"
+	desc = "AKS2002.D"
+	trigger = { 
+	year = 1840
+	tag = X00
+	NOT = { has_country_flag = aks_narrow_sea }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "AKS2002.A"
+	set_country_flag = aks_narrow_sea
+	}
+}
+country_event = {
+	id = 299863
+	title = "AKS2003.T"
+	desc = "AKS2003.D"
+	trigger = { 
+	year = 1842
+	tag = X00
+	NOT = { has_country_flag = aks_monopoly }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "AKS2003.A"
+	set_country_flag = aks_monopoly
+	}
+}
+country_event = {
+	id = 299864
+	title = "AKS2004.T"
+	desc = "AKS2004.D"
+	trigger = { 
+	year = 1844
+	tag = X00
+	NOT = { has_country_flag = aks_sena_rebels }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "AKS2004.A"
+	set_country_flag = aks_sena_rebels
+	}
+}
+country_event = {
+	id = 299865
+	title = "AKS2005.T"
+	desc = "AKS2005.D"
+	
+	is_triggered_only = yes 
+	
+	
+	option = { 
+	name = "AKS2005.A"
+	any_country = {
+			limit = { 
+			tag = SPA
+			}
+       country_event = { id = 899865 days = 1 }
+	}
+	set_country_flag = aks_secret_silk
+	}
+}
+country_event = {
+	id = 299866
+	title = "AKS2006.T"
+	desc = "AKS2006.D"
+	
+	is_triggered_only = yes 
+	
+	
+	option = { 
+	name = "AKS2006.A"
+	any_country = {
+			limit = { 
+			tag = LOT
+			}
+       country_event = { id = 599859 days = 1 }
+	}
+	set_country_flag = aks_secret_indy
+	}
+}
+country_event = {
+	id = 299867
+	title = "AKS2007.T"
+	desc = "AKS2007.D"
+	
+	is_triggered_only = yes 
+	
+	
+	option = { 
+	name = "AKS2007.A"
+	any_country = {
+			limit = { 
+			tag = JAP
+			}
+       country_event = { id = 399861 days = 1 }
+	}
+	set_country_flag = aks_secret_tea
+	}
+}
+country_event = {
+	id = 299868
+	title = "AKS2008.T"
+	desc = "AKS2008.D"
+	
+is_triggered_only = yes
+	
+	option = { 
+	name = "AKS2008.A"
+	set_country_flag = aks_secret_indy_yes
+	}
+}
+country_event = {
+	id = 299869
+	title = "AKS2009.T"
+	desc = "AKS2009.D"
+	
+is_triggered_only = yes
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "AKS2009.A"
+	set_country_flag = aks_secret_indy_no
+	}
+}
+country_event = {
+	id = 299870
+	title = "AKS2010.T"
+	desc = "AKS2010.D"
+	
+is_triggered_only = yes
+	
+	option = { 
+	name = "AKS2010.A"
+	set_country_flag = aks_secret_tea_yes
+	}
+}
+country_event = {
+	id = 299871
+	title = "AKS2011.T"
+	desc = "AKS2011.D"
+	
+is_triggered_only = yes
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "AKS2011.A"
+	set_country_flag = aks_secret_tea_no
+	}
+}
+country_event = {
+	id = 299872
+	title = "AKS2012.T"
+	desc = "AKS2012.D"
+	
+is_triggered_only = yes
+	
+	option = { 
+	name = "AKS2012.A"
+	set_country_flag = aks_secret_silk_yes
+	}
+}
+country_event = {
+	id = 299873
+	title = "AKS2013.T"
+	desc = "AKS2013.D"
+	
+is_triggered_only = yes
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "AKS2013.A"
+	set_country_flag = aks_secret_silk_no
+	}
+}
 ######################
 ###	New SCANDINAVIA 1000 EVENTS ###
 ######################

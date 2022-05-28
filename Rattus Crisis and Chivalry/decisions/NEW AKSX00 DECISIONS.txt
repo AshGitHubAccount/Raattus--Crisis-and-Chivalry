@@ -1,0 +1,77 @@
+######################
+###	New AKSUM (X00) DECISIONS ###
+######################
+political_decisions = {
+	the_secret_of_tea = {
+	picture = italian_islands
+		potential = {
+			tag = X00
+			year = 1845
+			NOT = { has_global_flag = aks_secret_silk }
+		}
+		allow = {
+			year = 1850
+			is_greater_power = yes
+			money = 500000
+			# SOME OTHER TECH? regenerative_furnaces = 1
+		}
+		
+		effect = {
+            set_global_flag = aks_secret_silk
+            money = -500000
+		country_event = 299865
+        }
+	}
+		
+		
+
+}
+political_decisions = {
+	the_secret_of_indy = {
+	picture = italian_islands
+		potential = {
+			tag = X00
+			year = 1855
+			NOT = { has_global_flag = aks_secret_indy }
+		}
+		allow = {
+			year = 1860
+			is_greater_power = yes
+			money = 500000
+		}
+		
+		effect = {
+            set_global_flag = aks_secret_silk
+            money = -500000
+		country_event = 299866
+        }
+	}
+		
+		
+
+}
+political_decisions = {
+	the_secret_of_silk = {
+	picture = italian_islands
+		potential = {
+			tag = X00
+			year = 1860
+			NOT = { has_global_flag = aks_secret_silk }
+		}
+		allow = {
+			year = 1865
+			is_greater_power = yes
+			money = 500000
+			# SOME OTHER TECH? regenerative_furnaces = 1
+		}
+		
+		effect = {
+            set_global_flag = aks_secret_silk
+            money = -500000
+		country_event = 299867
+        }
+	}
+		
+		
+
+}
