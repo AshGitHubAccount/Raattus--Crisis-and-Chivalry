@@ -135,43 +135,55 @@ X25 = {
 #Armies
 army = {
 	name="1st Army"
-	location=931
+	location=1178
 	regiment = {
 		name="1st Duqm Irregulars"
 		type=irregular
-		home=931
+		home=1172
 	}
 	regiment = {
 		name="1st Dubai Irregulars"
 		type=irregular
-		home=934
+		home=1168
 	}
 }
 
 army = {
 	name="2nd Army"
-	location=1154
+	location=1166
 	regiment = {
 		name="1st Riyadh Irregulars"
 		type=irregular
-		home=1153
+		home=1157
 	}
 	regiment = {
 		name="1st Duqm Cavalry"
 		type=cavalry
-		home=1160
+		home=1172
 	}
 	regiment = {
 		name="1st Abha Cavalry"
 		type=cavalry
-		home=1154
+		home=1155
 	}
 }
 
+navy = {
+	name="Istawal-al Masqat"
+	location=1166
+	ship = {
+		name="Jidda"
+		type=manowar
+	}
+	ship = {
+		name="Taif"
+		type=manowar
+	}
+}
 
 navy = {
 	name="1st Fleet"
-	location=935
+	location=1166
 	ship = {
 		name="Akram"
 		type=frigate
@@ -191,14 +203,6 @@ navy = {
 	ship = {
 		name="Atif"
 		type=frigate
-	}
-	ship = {
-		name="Jidda"
-		type=manowar
-	}
-	ship = {
-		name="Taif"
-		type=manowar
 	}
 }
 
