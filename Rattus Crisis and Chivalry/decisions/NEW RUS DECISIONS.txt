@@ -1,0 +1,28 @@
+######################
+###	New RUSSIAN DECISIONS ###
+######################
+political_decisions = {
+unite_pocca = {
+	picture = italian_islands
+		potential = {
+			is_culture_group = east_slavic
+			year = 1836
+			NOT = { has_global_flag = ok_cool_ig }
+		}
+		allow = {
+		owns = 1008
+		owns = 1003
+		owns = 1024
+		year = 1850
+		owns = 943
+		owns = 1026 
+		}
+		
+		effect = {
+            set_global_flag = ok_cool_ig
+           change_tag = RUS	
+		   clr_country_flag = russian_warlord_phase
+        }
+		}
+		
+}

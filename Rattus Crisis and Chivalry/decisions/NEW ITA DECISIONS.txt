@@ -235,10 +235,6 @@ abolish_italian_minors = {
 ######################
 
 ######################
-###	New RUSSIAN DECISIONS ###
-######################
-
-######################
 ###	New SOUTH AMERICAN DECISIONS ###
 ######################
 

@@ -1550,9 +1550,20 @@ country_event = {
 	}
 	
 	option = { 
-	name = "WSF4007.A"
+	name = "WSF4008.A"
+	random_list = {
+			50 = { 
+			set_country_flag = wsf_sorbian_random
+			add_accepted_culture = slovak
+			}
+			50 = {
+			add_accepted_culture = sorbian
+	       set_country_flag = wsf_slovak_random
+			}
+		}
 	set_country_flag = wsf_flavor_2
 	}
+
 }
 country_event = {
 	id = 499859
@@ -1569,14 +1580,14 @@ country_event = {
 	}
 	
 	option = { 
-	name = "WSF4007.A"
+	name = "WSF4009.A"
 	set_country_flag = wsf_flavor_3
 	}
 }
 country_event = {
 	id = 499860
 	title = "WSF4010.T"
-	desc = "WSF4010.D" #the kounic dynasty's history
+	desc = "WSF4010.D" #zapos struggle for government
 	trigger = { 
 	year = 1847
 	tag = WSF
@@ -2309,25 +2320,6 @@ country_event = {
 	
 	option = { 
 	name = "RUS3599.A"
-	set_country_flag = russian_warlord_intro
-	}
-}
-country_event = {
-	id = 3600
-	title = "RUS3600.T"
-	desc = "RUS3600.D" #Telling russia they are united smileyface
-	trigger = { 
-	owns = 726
-	has_country_flag = russian_warlord_phase
-	NOT = { has_country_flag = russian_warlord_intro }
-	}
-	
-	mean_time_to_happen = { 
-	days = 30
-	}
-	
-	option = { 
-	name = "RUS3600.A"
 	set_country_flag = russian_warlord_intro
 	}
 }
