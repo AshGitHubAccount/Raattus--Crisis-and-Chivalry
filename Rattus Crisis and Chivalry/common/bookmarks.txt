@@ -5,4 +5,8 @@ bookmark =
 	date = 1836.1.1
 	cameraX = 2950 
 	cameraY = 1550
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
