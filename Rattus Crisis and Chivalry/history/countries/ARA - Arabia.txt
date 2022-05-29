@@ -5,7 +5,7 @@ religion = coptic
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_tradition
-literacy = 0.0917443
+literacy = 0.217443
 
 
 # Social Reforms

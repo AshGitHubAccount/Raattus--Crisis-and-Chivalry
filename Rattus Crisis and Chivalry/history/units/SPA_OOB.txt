@@ -776,6 +776,91 @@ army = {
 	}
 }
 
+army = {
+	name="30th Army"
+	location=510
+	regiment = {
+		name="1st Grand Bassam Artillery"
+		type=infantry
+		home=1894
+	}
+	regiment = {
+		name="1st Benin Artillery"
+		type=infantry
+		home=1928
+	}
+	regiment = {
+		name="1st Córdoba Artillery"
+		type=infantry
+		home=510
+	}
+	regiment = {
+		name="1st Sekondi Artillery"
+		type=infantry
+		home=1909
+	}
+	regiment = {
+		name="1st Grand Bassam Artillery"
+		type=cuirassier 
+		home=1894
+	}
+	regiment = {
+		name="1st Benin Artillery"
+		type=hussar
+		home=1928
+	}
+	regiment = {
+		name="1st Córdoba Artillery"
+		type=hussar
+		home=510
+	}
+	regiment = {
+		name="1st Sekondi Artillery"
+		type=cuirassier 
+		home=1909
+	}
+	regiment = {
+		name="2nd Toledo Infantry"
+		type=infantry
+		home=489
+	}
+	regiment = {
+		name="1st Valencia Infantry"
+		type=infantry
+		home=503
+	}
+	regiment = {
+		name="2nd Covilhã Infantry"
+		type=infantry
+		home=503
+	}
+	regiment = {
+		name="1st Évora Infantry"
+		type=infantry
+		home=503
+	}
+	regiment = {
+		name="3rd Zamboanga Infantry"
+		type=infantry
+		home=1462
+	}
+	regiment = {
+		name="3rd Manila Artillery"
+		type=artillery
+		home=1455
+	}
+	regiment = {
+		name="4th Zamboanga Infantry"
+		type=infantry
+		home=1462
+	}
+	regiment = {
+		name="1st Vigan Artillery"
+		type=artillery
+		home=1456
+	}
+}
+
 navy = {
 ship = {
 		name="1st Casablanca Frigate"
