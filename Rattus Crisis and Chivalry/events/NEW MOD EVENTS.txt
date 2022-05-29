@@ -793,6 +793,62 @@ country_event = {
 	set_country_flag =  spa_aks_secret_silk_no
 	}
 }
+country_event = {
+	id = 899866
+	title = "SPA9015.T"
+	desc = "SPA9015.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "SPA9015.A"
+	war = {
+		target = ARN
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	war = {
+		target = X19
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	war = {
+		target = NAV
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	NAV = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	X19 = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	ARN = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+}
 ######################
 ###	New USA EVENTS 7000###
 ######################
@@ -1106,6 +1162,10 @@ country_event = {
 	who = KER
 	value = -200
 	}
+	KER = {
+	relation = { who = LOT value = -400 }
+	}
+	relation = { who = KER value = -400 }
 	set_country_flag = lot_the_cornish_walk
 	}
 }

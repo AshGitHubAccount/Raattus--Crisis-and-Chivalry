@@ -21,4 +21,47 @@ political_decisions = {
             516 = { trade_goods = coal }
         }
 		}
+		
+	conquer_governates = {
+	picture = italian_islands
+		potential = {
+		tag = SPA
+			year = 1841
+			NOT = { has_global_flag = spa_conquer_governates }
 		}
+		allow = {			
+			steamers = 1
+			year = 1842
+			iron_muzzle_loaded_artillery = 1
+			medicine = 1
+			is_greater_power = yes
+		}
+		
+		effect = {
+            set_global_flag = spa_conquer_governates
+           country_event = 899866
+        }
+		}	
+	annex_governates = {
+	picture = italian_islands
+		potential = {
+		tag = SPA
+			year = 1870
+			NOT = { has_global_flag = spa_annex_governates }
+		}
+		allow = {			
+			year = 1878
+			is_greater_power = yes
+			is_our_vassal = ARN
+			is_our_vassal = NAV
+			is_our_vassal = X19
+		}
+		
+		effect = {
+            set_global_flag = spa_annex_governates
+          inherit = ARN
+		   inherit = NAV
+		    inherit = X19
+        }
+		}
+}

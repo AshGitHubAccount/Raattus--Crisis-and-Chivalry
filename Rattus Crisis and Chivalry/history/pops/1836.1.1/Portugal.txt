@@ -569,13 +569,13 @@ farmers=
 	{
 		culture = portuguese
 		religion = catholic
-		size= 7860
+		size= 22860
 	}
 	farmers=
 	{
 		culture = spanish
 		religion = catholic
-		size= 30860
+		size= 15860
 	}
 
 }
