@@ -3,7 +3,7 @@
 	{
 		culture = ashkenazi
 		religion = jewish
-		size= 5102
+		size= 102
 	}
 
 	farmers=
@@ -174,7 +174,7 @@
 	{
 		culture = khoisan
 		religion = shamanism
-		size= 4461
+		size= 61
 	}
 
 	farmers=
@@ -244,7 +244,7 @@ farmers=
 	{
 		culture = khoisan
 		religion = shamanism
-		size= 4455
+		size= 55
 	}
 
 	farmers=
@@ -1835,7 +1835,7 @@ farmers=
 	{
 		culture = nguni
 		religion = shamanism
-		size= 5420
+		size= 420
 	}
 
 	artisans=
@@ -1928,7 +1928,7 @@ farmers=
 	{
 		culture = nguni
 		religion = shamanism
-		size= 5332
+		size= 332
 	}
 
 	artisans=

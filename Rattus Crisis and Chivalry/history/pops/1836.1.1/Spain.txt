@@ -1,72 +1,83 @@
 474 = {
 	soldiers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 10015
 	}
 
 	craftsmen=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 8170
 	}
 
 	artisans=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 25036
 	}
-
+artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size= 25036
+	}
 	clergymen=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 2325
 	}
 
 	clerks=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 493
 	}
 
 	bureaucrats=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 322
 	}
 
 	officers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 375
 	}
 
 	capitalists=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 312
 	}
 
 	aristocrats=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 1502
 	}
 
 	farmers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size= 130281
+		size= 60281
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 70281
 	}
 
 }
@@ -145,51 +156,57 @@
 476 = {
 	soldiers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 1724
 	}
 
 	artisans=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 12066
 	}
 
 	clergymen=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 1120
 	}
 
 	bureaucrats=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 156
 	}
 
 	officers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 112
 	}
 
 	aristocrats=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size= 724
 	}
 
 	farmers=
 	{
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size= 70286
+		size= 30286
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 50286
 	}
 
 }
@@ -240,7 +257,13 @@
 	{
 		culture = spanish
 		religion = catholic
-		size= 53237
+		size= 13237
+	}
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 43237
 	}
 
 }
@@ -500,7 +523,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 42766
+		size= 12766
+	}
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 32766
 	}
 
 }
@@ -623,7 +652,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 33993
+		size= 13993
+	}
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 23993
 	}
 
 }
@@ -725,7 +760,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 27412
+		size= 7412
+	}
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 20412
 	}
 
 }
@@ -1168,7 +1209,7 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 5831
+		size= 9831
 	}
 
 	clergymen=
@@ -1219,11 +1260,11 @@ craftsmen=
 	{
 		culture = catalan
 		religion = catholic
-		size= 11646
+		size= 16646
 	}
 craftsmen=
 	{
-		culture = catalan
+		culture = spanish
 		religion = catholic
 		size= 11646
 	}
@@ -1259,7 +1300,13 @@ craftsmen=
 	{
 		culture = catalan
 		religion = catholic
-		size= 52487
+		size= 12487
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 42487
 	}
 
 }
@@ -1361,7 +1408,13 @@ craftsmen=
 	{
 		culture = catalan
 		religion = catholic
-		size= 43079
+		size= 13079
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 33079
 	}
 
 }
@@ -1714,7 +1767,13 @@ craftsmen=
 	{
 		culture = catalan
 		religion = catholic
-		size= 86546
+		size= 36546
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 56546
 	}
 
 }
@@ -1821,7 +1880,13 @@ craftsmen=
 	{
 		culture = catalan
 		religion = catholic
-		size= 82146
+		size= 42146
+	}
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size= 42146
 	}
 
 }
@@ -1871,6 +1936,12 @@ craftsmen=
 	farmers=
 	{
 		culture = spanish
+		religion = catholic
+		size= 9263
+	}
+	farmers=
+	{
+		culture = andalucian
 		religion = catholic
 		size= 39263
 	}
@@ -2046,7 +2117,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 70178
+		size= 30178
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 40178
 	}
 
 }
@@ -2097,8 +2174,15 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 64096
+		size= 14096
 	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 54096
+	}
+
 
 }
 511 = {
@@ -2148,7 +2232,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 26620
+		size= 6620
+	}
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 20020
 	}
 
 }
@@ -2162,7 +2252,7 @@ craftsmen=
 
 	artisans=
 	{
-		culture = spanish
+		culture = andalucian
 		religion = catholic
 		size= 12569
 	}
@@ -2199,7 +2289,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 72838
+		size= 12838
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 62838
 	}
 
 }
@@ -2299,7 +2395,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 38442
+		size= 28442
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 48442
 	}
 
 }
@@ -2314,7 +2416,7 @@ craftsmen=
 	artisans=
 	{
 		culture = andalucian
-		religion = sunni
+		religion = catholic
 		size= 1882
 	}
 
@@ -2349,20 +2451,20 @@ craftsmen=
 	farmers=
 	{
 		culture = andalucian
-		religion = sunni
+		religion = catholic
 		size= 32215
 	}
 
 	soldiers=
 	{
-		culture = spanish
+		culture = andalucian
 		religion = catholic
 		size= 1422
 	}
 
 	artisans=
 	{
-		culture = spanish
+		culture = andalucian
 		religion = catholic
 		size= 12933
 	}
@@ -2399,7 +2501,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 54509
+		size= 22509
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 25509
 	}
 
 }
@@ -2499,7 +2607,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 31611
+		size= 11611
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 21611
 	}
 
 }
@@ -2550,7 +2664,13 @@ craftsmen=
 	{
 		culture = spanish
 		religion = catholic
-		size= 45907
+		size= 15907
+	}
+	farmers=
+	{
+		culture = andalucian
+		religion = catholic
+		size= 35907
 	}
 
 }

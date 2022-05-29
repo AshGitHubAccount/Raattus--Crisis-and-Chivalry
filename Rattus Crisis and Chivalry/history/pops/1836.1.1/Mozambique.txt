@@ -478,35 +478,35 @@
 2053 = {
 	aristocrats=
 	{
-		culture = english
+		culture = portuguese
 		religion = catholic
 		size= 100
 	}
 
 	clergymen=
 	{
-		culture = english
+		culture = portuguese
 		religion = catholic
 		size= 100
 	}
 
 	artisans=
 	{
-		culture = english
+		culture = portuguese
 		religion = catholic
 		size= 100
 	}
 
 	soldiers=
 	{
-		culture = english
+		culture = portuguese
 		religion = catholic
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = english
+		culture = portuguese
 		religion = catholic
 		size= 1000
 	}
@@ -541,7 +541,7 @@
 
 	farmers=
 	{
-		culture = english
+		culture = shona
 		religion = animist
 		size= 10850
 	}
@@ -934,9 +934,9 @@
 
 	soldiers=
 	{
-		culture = english
-		religion = protestant
-		size= 5100
+		culture = shona
+		religion = animist
+		size= 100
 	}
 
 	farmers=
@@ -1062,30 +1062,30 @@
 2058 = {
 	aristocrats=
 	{
-		culture = english
-		religion = protestant
+		culture = shona
+		religion = animist
 		size= 3350
 	}
 
 	clergymen=
 	{
-		culture = english
-		religion = protestant
+		culture = shona
+		religion = animist
 		size= 375
 	}
 
 	artisans=
 	{
-		culture = english
-		religion = protestant
+		culture = shona
+		religion = animist
 		size= 1750
 	}
 
 	soldiers=
 	{
-		culture = english
-		religion = protestant
-		size= 6350
+		culture = shona
+		religion = animist
+		size= 350
 	}
 
 	farmers=
@@ -1499,22 +1499,22 @@
 2064 = {
 	aristocrats=
 	{
-		culture = english
-		religion = protestant
+		culture = yao
+		religion = sunni
 		size= 250
 	}
 
 	clergymen=
 	{
-		culture = english
-		religion = protestant
-		size= 5250
+		culture = yao
+		religion = sunni
+		size= 250
 	}
 
 	artisans=
 	{
-		culture = english
-		religion = protestant
+		culture = yao
+		religion = sunni
 		size= 1250
 	}
 
@@ -1541,22 +1541,22 @@
 
 	aristocrats=
 	{
-		culture = english
-		religion = protestant
+		culture = makua
+		religion = animist
 		size= 200
 	}
 
 	clergymen=
 	{
-		culture = english
-		religion = protestant
+		culture = makua
+		religion = animist
 		size= 200
 	}
 
 	artisans=
 	{
-		culture = english
-		religion = protestant
+		culture = makua
+		religion = animist
 		size= 900
 	}
 

@@ -1154,67 +1154,6 @@ country_event = {
 }
 
 country_event = { 
-	id = 550000
-	title = EVTNAMEBYZ
-	desc = EVTDESCBYZ
-
-	trigger = { 
-		tag = BYZ
-		number_of_states = 3
-		NOT = { has_global_flag = greek_BYZ }
-	}
-
-	mean_time_to_happen = { months = 1 }
-
-	option = { 
-		name = EVTOPTABYZ
-		set_global_flag = greek_BYZ
-		GRE = {
-			all_core = {
-				add_core = BYZ
-			}
-		}
-		GRE = {
-			all_core = {
-				remove_core = GRE
-			}
-		}
-		GRE = {
-			any_owned = {
-				limit = { is_primary_culture = yes } #workaround to get Greek provinces
-				add_core = GRE
-			}
-		}
-	}
-}
-country_event = { 
-	id = 550001
-	title = EVTNAMEGRE
-	desc = EVTDESCGRE
-
-	trigger = { 
-		NOT = { exists = BYZ }
-		ai = no #So the player will cry at 1453
-		has_global_flag = greek_BYZ
-	}
-
-	mean_time_to_happen = { months = 1 }
-
-	option = { 
-		name = EVTOPTAGRE
-		clr_global_flag = greek_BYZ
-		BYZ = {
-			all_core = {
-				limit = { is_primary_culture = yes } #workaround to get Greek provinces
-				add_core = GRE
-			}
-		}
-		BYZ = {
-			all_core = { remove_core = BYZ }
-		}
-	}
-}
-country_event = { 
 	id = 550002
 	title = EVTNAMEITP
 	desc = EVTDESCITP
