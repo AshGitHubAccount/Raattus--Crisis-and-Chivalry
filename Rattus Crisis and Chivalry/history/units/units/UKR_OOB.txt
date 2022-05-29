@@ -1,0 +1,45 @@
+#Sphere of Influence
+
+
+#Leaders
+
+#Armies
+army = {
+	name="UKR Defense Force"
+	location=958
+	regiment = {
+		name="2nd Besançon Infantry"
+		type=infantry
+		home=960
+	}
+	regiment = {
+		name="1st Dijon Infantry"
+		type=infantry
+		home=963
+	}
+	regiment = {
+		name="1st Emden Artillery"
+		type=infantry
+		home=963
+	}
+	regiment = {
+		name="1st La Roche Artillery"
+		type=infantry
+		home=963
+	}
+	regiment = {
+		name="1st Arras Artillery"
+		type=hussar
+		home=963
+	}
+	regiment = {
+		name="7th Moulins Infantry"
+		type=infantry
+		home=1019
+	}
+	regiment = {
+		name="3rd Paris Artillery"
+		type=infantry
+		home=1019
+	}
+}

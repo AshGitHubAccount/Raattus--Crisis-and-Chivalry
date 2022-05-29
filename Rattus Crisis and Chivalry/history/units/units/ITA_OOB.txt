@@ -1,0 +1,487 @@
+#Sphere of Influence
+
+MLT = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+MRL = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+FIU = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+FIU = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+#Leaders
+leader = {
+	name="Paolo di Ferrari"
+	date="1717.11.21"
+	type=land
+	personality="disciplined"
+	background="artillerist"
+}
+
+leader = {
+	name="Constanzo Vico"
+	date="1717.11.24"
+	type=land
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Paolo di Busca"
+	date="1719.3.13"
+	type=land
+	personality="coolminded"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Paolo di Busca"
+	date="1719.3.14"
+	type=land
+	personality="coolminded"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Alberto Pallavicini"
+	date="1719.3.14"
+	type=land
+	personality="persistant"
+	background="generals_aide"
+}
+
+leader = {
+	name="Romeo Casanova"
+	date="1730.1.15"
+	type=sea
+	personality="coolminded"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="Benedetto Barzagli"
+	date="1730.1.16"
+	type=sea
+	personality="chivalrous"
+	background="artillerist"
+}
+
+
+#Armies
+navy = {
+	name="4th Fleet"
+	location=754
+	ship = {
+		name="Fulmine"
+		type=clipper_transport
+	}
+	ship = {
+		name="Lampo"
+		type=clipper_transport
+	}
+	ship = {
+		name="Freccia"
+		type=frigate
+	}
+	ship = {
+		name="Dardo"
+		type=frigate
+	}
+	ship = {
+		name="Strale"
+		type=frigate
+	}
+	ship = {
+		name="Euro"
+		type=frigate
+	}
+	ship = {
+		name="Espero"
+		type=frigate
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=2567
+	ship = {
+		name="Ostro"
+		type=frigate
+	}
+	ship = {
+		name="Zeffiro"
+		type=frigate
+	}
+	ship = {
+		name="Nembo"
+		type=clipper_transport
+	}
+	ship = {
+		name="Bersagliere"
+		type=frigate
+	}
+}
+
+navy = {
+	name="6th Fleet"
+	location=2567
+	ship = {
+		name="Ostro"
+		type=clipper_transport
+	}
+	ship = {
+		name="Zeffiro"
+		type=clipper_transport
+	}
+	ship = {
+		name="Nembo"
+		type=clipper_transport
+	}
+	ship = {
+		name="Bersagliere"
+		type=clipper_transport
+	}
+	ship = {
+		name="Fulmine"
+		type=clipper_transport
+	}
+	ship = {
+		name="Lampo"
+		type=clipper_transport
+	}
+	ship = {
+		name="Freccia"
+		type=frigate
+	}
+	ship = {
+		name="Dardo"
+		type=frigate
+	}
+	ship = {
+		name="Strale"
+		type=frigate
+	}
+	ship = {
+		name="Euro"
+		type=frigate
+	}
+	ship = {
+		name="Espero"
+		type=frigate
+	}
+}
+army = {
+	name="Armata di Siracusa"
+	location=764
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="1 Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="3nd Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=755
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=cuirassier
+		home=757
+	}
+}
+army = {
+	name="Armata di Aquilia"
+	location=10
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=751
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=751
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=751
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=751
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=753
+	}
+	regiment = {
+		name="1 Palermo Artillery"
+		type=artillery
+		home=753
+	}
+	regiment = {
+		name="3nd Palermo Artillery"
+		type=artillery
+		home=753
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=755
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=cuirassier
+		home=754
+	}
+}
+
+army = {
+	name="Armata di Brindisi"
+	location=758
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="1 Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="3nd Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=755
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=cuirassier
+		home=757
+	}
+}
+army = {
+	name="Armata di Capua"
+	location=757
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=762
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=761
+	}
+	regiment = {
+		name="1st Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="2nd Palermo Artillery"
+		type=artillery
+		home=759
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=755
+	}
+	regiment = {
+		name="2nd Syracuse Cavalry"
+		type=cuirassier
+		home=757
+	}
+}
+
+army = {
+	name="Armata di Roma"
+	location=749
+	regiment = {
+		name="1st Roman Infantry"
+		type=infantry
+		home=749
+	}
+	regiment = {
+		name="2nd Roman Infantry"
+		type=infantry
+		home=749
+	}
+	regiment = {
+		name="3th Roman Infantry"
+		type=infantry
+		home=749
+	}
+	regiment = {
+		name="4th Roman Infantry"
+		type=infantry
+		home=749
+	}
+	regiment = {
+		name="5th Roman Infantry"
+		type=infantry
+		home=749
+	}
+	regiment = {
+		name="1 Roman Artillery"
+		type=artillery
+		home=749
+	}
+	regiment = {
+		name="2nd Roman Artillery"
+		type=artillery
+		home=749
+	}
+	regiment = {
+		name="1st Roman Cavalry"
+		type=hussar
+		home=749
+	}
+	regiment = {
+		name="2nd Roman Cavalry"
+		type=cuirassier
+		home=749
+	}
+}
+navy = {
+	name="5th Fleet"
+	location=764
+	ship = {
+		name="Turbine"
+		type=frigate
+	}
+	ship = {
+		name="Aquilone"
+		type=frigate
+	}
+	ship = {
+		name="Borea"
+		type=frigate
+	}
+	ship = {
+		name="1st Palermo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Catania Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="Artigliere"
+		type=frigate
+	}
+	ship = {
+		name="2nd Catania Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Messina Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Palermo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Palermo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Messina Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Catania Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Palermo Clipper Transport"
+		type=clipper_transport
+	}
+}

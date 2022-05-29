@@ -1,0 +1,37 @@
+#Sphere of Influence
+AFG = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+#Leaders
+leader = {
+	name="Johnny Iocket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
+#Armies
+army = {
+	name="1st Army"
+	location=1003
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1003
+	}
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1000
+	}
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=998
+	}
+}

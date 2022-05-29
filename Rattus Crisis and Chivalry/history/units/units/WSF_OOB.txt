@@ -1,0 +1,183 @@
+#Sphere of Influence
+LIT = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POM = {
+	value = 50		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+MOL = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+#Leaders
+leader = {
+	name="Koda von Brno"
+	date="1699.8.31"
+	type=land
+	personality="audacious"
+	background="school_of_offense"
+}
+
+leader = {
+	name="Vaclav XXI"
+	date="1705.3.22"
+	type=land
+	personality="disciplined"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="William Blunder"
+	date="1705.4.18"
+	type=land
+	personality="stalwart"
+	background="bootlicker"
+}
+
+leader = {
+	name="Frederick 'The Terror of Kolberg'"
+	date="1723.2.3"
+	type=land
+	personality="stalwart"
+	background="natural_born_leader"
+}
+#Armies
+army = {
+	name="Royal Army of Warsaw"
+	location=706
+	regiment = {
+		name="1st Legazpi Infantry"
+		type=infantry
+		home=706
+	}
+	regiment = {
+		name="1st Albacete Infantry"
+		type=infantry
+		home=713
+	}
+	regiment = {
+		name="1st Palawan Infantry"
+		type=infantry
+		home=631
+	}
+	regiment = {
+		name="1st Legazpi Artillery"
+		type=artillery
+		home=632
+	}
+	regiment = {
+		name="1st Manila Artillery"
+		type=artillery
+		home=625
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=hussar
+		home=952
+	}
+}
+
+army = {
+	name="Royal Garrison of Prague"
+	location=625
+	regiment = {
+		name="1st Legazpi Infantry"
+		type=infantry
+		home=706
+	}
+	regiment = {
+		name="1st Albacete Infantry"
+		type=infantry
+		home=713
+	}
+	regiment = {
+		name="1st Palawan Infantry"
+		type=infantry
+		home=631
+	}
+	regiment = {
+		name="1st Legazpi Artillery"
+		type=artillery
+		home=632
+	}
+	regiment = {
+		name="1st Manila Artillery"
+		type=artillery
+		home=625
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=hussar
+		home=952
+	}
+}
+
+army = {
+	name="Royal Garrison of Gdansk"
+	location=690
+	regiment = {
+		name="1st Legazpi Infantry"
+		type=infantry
+		home=694
+	}
+	regiment = {
+		name="1st Albacete Infantry"
+		type=infantry
+		home=690
+	}
+	regiment = {
+		name="1st Palawan Infantry"
+		type=infantry
+		home=631
+	}
+	regiment = {
+		name="1st Legazpi Artillery"
+		type=infantry
+		home=632
+	}
+	regiment = {
+		name="1st Manila Artillery"
+		type=artillery
+		home=715
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=curassier
+		home=952
+	}
+	regiment = {
+		name="2nd Iloilo Artillery"
+		type=hussar
+		home=715
+	}
+}

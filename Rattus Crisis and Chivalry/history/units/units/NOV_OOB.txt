@@ -1,0 +1,57 @@
+#Sphere of Influence
+AKH = {
+	value = 0
+	level = 2
+}
+AOT = {
+	value = 0
+	level = 2
+}
+#Leaders
+leader = {
+	name="Johnny Nocket"
+	date="1712.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
+#Armies
+army = {
+	name="1st Army"
+	location=281
+	regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=281
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=281
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=281
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=280
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=279
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=279
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=280
+}
+}

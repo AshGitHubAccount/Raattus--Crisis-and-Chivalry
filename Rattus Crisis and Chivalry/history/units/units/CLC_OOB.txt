@@ -1,0 +1,27 @@
+#Sphere of Influence
+AFG = {
+	value = 0
+	level = 2
+}
+AKH = {
+	value = 0
+	level = 2
+}
+#Leaders
+leader = {
+	name="Johnny Brocket"
+	date="1711.12.12"
+	type=land
+	personality="disciplined"
+	background="war_college"
+}
+#Armies
+army = {
+	name="1st Army"
+	location=894
+	regiment = {
+		name="1st Cicilian Irregulars"
+		type=infantry
+		home=894
+	}
+}
