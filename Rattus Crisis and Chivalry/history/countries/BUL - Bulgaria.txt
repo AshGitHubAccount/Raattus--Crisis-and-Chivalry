@@ -5,7 +5,7 @@ religion = orthodox
 government = hms_government
 plurality = 0
 nationalvalue = nv_order
-literacy = 0
+literacy = 0.19231
 
 civilized = yes
 
@@ -66,7 +66,7 @@ guild_based_production = 1
 private_banks = 1
 clipper_design = 1
 post_nelsonian_thought = 1
-prestige=0
+prestige=2
 oob = "BUL_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_BUL

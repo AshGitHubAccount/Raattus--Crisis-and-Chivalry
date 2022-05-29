@@ -1,12 +1,12 @@
 capital = 994
-primary_culture = estonian
+primary_culture = finnish
 culture = zzz_religion_orthodox
 religion = orthodox
 government = democracy
 plurality = 0
 nationalvalue = nv_order
-literacy = 0.13
-
+literacy = 0.13123
+non_state_culture_literacy = 0.15
 civilized = yes
 
 # Social Reforms
@@ -54,10 +54,8 @@ mechanical_production = 1
 military_staff_system = 1
 no_standard = 1
 piston_steam_engine = 1
-
 basic_chemistry = 1
 malthusian_thought = 1
-
 introspectionism = 1
 post_napoleonic_thought = 1
 early_classical_theory_and_critique = 1
@@ -70,4 +68,3 @@ prestige=5
 oob = "IZH_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_IZH
-set_country_flag = russian_warlord_phase
