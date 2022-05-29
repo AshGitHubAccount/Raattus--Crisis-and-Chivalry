@@ -1,6 +1,7 @@
 ######################
 ###	New GREECE DECISIONS ###
 ######################
+political_decisions = {
 hellenic_parliament = {
         picture = hellenic_parliament
         potential = {
@@ -86,3 +87,4 @@ hellenic_parliament = {
             set_country_flag = greece_has_got_a_brand_new_bag
         }
     }
+}

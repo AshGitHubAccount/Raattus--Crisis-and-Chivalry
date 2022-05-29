@@ -2295,9 +2295,9 @@ country_event = {
 ######################
 
 country_event = {
-	id = 3599 
-	title = "RUS3599.T"
-	desc = "RUS3599.D" #Telling russia they are cursed but if they unite they will be slightly less cursed
+	id = 35999 
+	title = "RUS35999.T"
+	desc = "RUS35999.D" #Telling russia they are cursed but if they unite they will be slightly less cursed
 	trigger = { 
 	has_country_flag = russian_warlord_phase
 	NOT = { has_country_flag = russian_warlord_intro }
@@ -2308,14 +2308,14 @@ country_event = {
 	}
 	
 	option = { 
-	name = "RUS3599.A"
+	name = "RUS35999.A"
 	set_country_flag = russian_warlord_intro
 	}
 }
 country_event = {
-	id = 3600
-	title = "RUS3600.T"
-	desc = "RUS3600.D" #Telling russia they are united smileyface
+	id = 36000
+	title = "RUS36000.T"
+	desc = "RUS36000.D" #Telling russia they are united smileyface
 	trigger = { 
 	owns = 726
 	has_country_flag = russian_warlord_phase
@@ -2327,7 +2327,12 @@ country_event = {
 	}
 	
 	option = { 
-	name = "RUS3600.A"
+	owns = 1003
+	owns = 1008
+	owns = 943
+	owns = 1024
+	change_tag = RUS
+	name = "RUS36000.A"
 	set_country_flag = russian_warlord_intro
 	}
 }
