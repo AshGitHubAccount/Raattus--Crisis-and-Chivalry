@@ -2,7 +2,7 @@ capital = 1875
 primary_culture = bantoid
 culture = zzz_religion_shamanist
 religion = shamanist
-government = democracy
+government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_order
 literacy = 0.01
@@ -17,14 +17,15 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
+
 # Political Reforms
 slavery=yes_slavery
 vote_franschise=none_voting
-upper_house_composition=appointed
-voting_system=jefferson_method
-public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=no_trade_unions
+upper_house_composition=party_appointed
+voting_system=first_past_the_post
+public_meetings=no_meeting
+press_rights=state_press
+trade_unions=no_unions
 political_parties=underground_parties
 
 ruling_party = ETH_conservative

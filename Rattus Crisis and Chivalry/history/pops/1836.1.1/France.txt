@@ -5384,7 +5384,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 625
+		size= 4625
 	}
 
 	artisans=
@@ -5484,7 +5484,7 @@ farmers=
 	{
 		culture = occitan
 		religion = catholic
-		size= 475
+		size= 7475
 	}
 
 	artisans=
@@ -8180,21 +8180,21 @@ soldiers=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 1091
+		size= 5091
 	}
 
 	craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 8170
+		size= 9170
 	}
 
 	artisans=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 7635
+		size= 9635
 	}
 
 	clergymen=
@@ -8243,7 +8243,7 @@ soldiers=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 35713
+		size= 45713
 	}
 
 }

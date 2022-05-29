@@ -528,3 +528,139 @@ ZAZ = {
 #Leaders
 
 #Armies
+army = {
+	name="5th Army"
+	location=1659
+	regiment = {
+		name="1st Lahore Irregulars"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="1st Lahore Cavalry"
+		type=cavalry
+		home=1659
+	}
+	regiment = {
+		name="1st Delhi Artillery"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="2nd Lahore Irregulars"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="1st Amritsar Cavalry"
+		type=cavalry
+		home=1659
+	}
+	regiment = {
+		name="1st Lahore Artillery"
+		type=irregular
+		home=1659
+	}
+}
+army = {
+	name="5th Army"
+	location=1659
+	regiment = {
+		name="1st Lahore Irregulars"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="1st Lahore Cavalry"
+		type=cavalry
+		home=1659
+	}
+	regiment = {
+		name="1st Delhi Artillery"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="2nd Lahore Irregulars"
+		type=irregular
+		home=1659
+	}
+	regiment = {
+		name="1st Amritsar Cavalry"
+		type=cavalry
+		home=1659
+	}
+	regiment = {
+		name="1st Lahore Artillery"
+		type=irregular
+		home=1659
+	}
+}
+army = {
+	name="5th Army"
+	location=1638
+	regiment = {
+		name="1st Lahore Irregulars"
+		type=irregular
+		home=1640
+	}
+	regiment = {
+		name="1st Lahore Cavalry"
+		type=cavalry
+		home=1640
+	}
+	regiment = {
+		name="1st Delhi Artillery"
+		type=irregular
+		home=1640
+	}
+	regiment = {
+		name="2nd Lahore Irregulars"
+		type=irregular
+		home=1640
+	}
+	regiment = {
+		name="1st Amritsar Cavalry"
+		type=cavalry
+		home=1640
+	}
+	regiment = {
+		name="1st Lahore Artillery"
+		type=irregular
+		home=1640
+	}
+}
+army = {
+	name="5th Army"
+	location=1667
+	regiment = {
+		name="1st Lahore Irregulars"
+		type=irregular
+		home=1661
+	}
+	regiment = {
+		name="1st Lahore Cavalry"
+		type=cavalry
+		home=1661
+	}
+	regiment = {
+		name="1st Delhi Artillery"
+		type=irregular
+		home=1661
+	}
+	regiment = {
+		name="2nd Lahore Irregulars"
+		type=irregular
+		home=1661
+	}
+	regiment = {
+		name="1st Amritsar Cavalry"
+		type=cavalry
+		home=1661
+	}
+	regiment = {
+		name="1st Lahore Artillery"
+		type=irregular
+		home=1661
+	}
+}

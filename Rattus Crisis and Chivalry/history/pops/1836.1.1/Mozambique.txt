@@ -478,35 +478,35 @@
 2053 = {
 	aristocrats=
 	{
-		culture = portuguese
+		culture = english
 		religion = catholic
 		size= 100
 	}
 
 	clergymen=
 	{
-		culture = portuguese
+		culture = english
 		religion = catholic
 		size= 100
 	}
 
 	artisans=
 	{
-		culture = portuguese
+		culture = english
 		religion = catholic
 		size= 100
 	}
 
 	soldiers=
 	{
-		culture = portuguese
+		culture = english
 		religion = catholic
 		size= 150
 	}
 
 	farmers=
 	{
-		culture = portuguese
+		culture = english
 		religion = catholic
 		size= 1000
 	}
@@ -541,7 +541,7 @@
 
 	farmers=
 	{
-		culture = shona
+		culture = english
 		religion = animist
 		size= 10850
 	}
@@ -934,9 +934,9 @@
 
 	soldiers=
 	{
-		culture = shona
-		religion = animist
-		size= 100
+		culture = english
+		religion = protestant
+		size= 5100
 	}
 
 	farmers=
@@ -1062,30 +1062,30 @@
 2058 = {
 	aristocrats=
 	{
-		culture = shona
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 3350
 	}
 
 	clergymen=
 	{
-		culture = shona
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 375
 	}
 
 	artisans=
 	{
-		culture = shona
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 1750
 	}
 
 	soldiers=
 	{
-		culture = shona
-		religion = animist
-		size= 350
+		culture = english
+		religion = protestant
+		size= 6350
 	}
 
 	farmers=
@@ -1499,22 +1499,22 @@
 2064 = {
 	aristocrats=
 	{
-		culture = yao
-		religion = sunni
+		culture = english
+		religion = protestant
 		size= 250
 	}
 
 	clergymen=
 	{
-		culture = yao
-		religion = sunni
-		size= 250
+		culture = english
+		religion = protestant
+		size= 5250
 	}
 
 	artisans=
 	{
-		culture = yao
-		religion = sunni
+		culture = english
+		religion = protestant
 		size= 1250
 	}
 
@@ -1541,22 +1541,22 @@
 
 	aristocrats=
 	{
-		culture = makua
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 200
 	}
 
 	clergymen=
 	{
-		culture = makua
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 200
 	}
 
 	artisans=
 	{
-		culture = makua
-		religion = animist
+		culture = english
+		religion = protestant
 		size= 900
 	}
 

@@ -199,10 +199,6 @@ abolish_italian_minors = {
 ######################
 
 ######################
-###	New BYZANTINE DECISIONS ###
-######################
-
-######################
 ###	New COMMONWEALTH DECISIONS ###
 ######################
 

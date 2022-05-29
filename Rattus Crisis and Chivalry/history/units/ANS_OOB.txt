@@ -456,3 +456,12 @@ ZAZ = {
 #Leaders
 
 #Armies
+army = {
+	name="2nd Army"
+	location=595
+	regiment = {
+		name="1st Changzhou Irregulars"
+		type=infantry
+		home=595
+	}
+}

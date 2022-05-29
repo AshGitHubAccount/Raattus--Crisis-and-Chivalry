@@ -1743,7 +1743,7 @@ craftsmen=
 	{
 		culture = north_italian
 		religion = catholic
-		size= 37107
+		size= 57107
 	}
 
 }
@@ -2133,7 +2133,7 @@ craftsmen=
 	{
 		culture = north_italian
 		religion = catholic
-		size= 35975
+		size= 55975
 	}
 
 }
@@ -2287,7 +2287,7 @@ farmers=
 	{
 		culture = north_italian
 		religion = catholic
-		size= 35606
+		size= 45606
 	}
 
 }
@@ -3020,7 +3020,7 @@ craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 1783
+		size= 6783
 	}
 
 	artisans=
@@ -3033,13 +3033,13 @@ craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 6478
+		size= 9478
 	}
 	clergymen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 1159
+		size= 2159
 	}
 
 	bureaucrats=
@@ -3067,7 +3067,7 @@ craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 72612
+		size= 84612
 	}
 
 }
@@ -3118,7 +3118,7 @@ craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 44226
+		size= 60226
 	}
 
 }

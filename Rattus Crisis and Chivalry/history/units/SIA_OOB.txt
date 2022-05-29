@@ -404,3 +404,32 @@ YUE = {
 #Leaders
 
 #Armies
+army = {
+name="1st Army"
+	location=1346
+regiment = {
+		name="1st Lidian Irregulars"
+		type=irregular
+		home=1346
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=irregular
+		home=1351
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=irregular
+		home=1347
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=irregular
+		home=1347
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=irregular
+		home=1354
+}
+}

@@ -2218,7 +2218,7 @@
 	{
 		culture = panjabi
 		religion = sikh
-		size= 4877
+		size= 484877
 	}
 
 }
@@ -2575,7 +2575,7 @@
 	{
 		culture = avadhi
 		religion = hindu
-		size= 420811
+		size= 720811
 	}
 
 }
@@ -4277,7 +4277,7 @@
 	{
 		culture = asian_minor
 		religion = hindu
-		size= 78803
+		size= 578803
 	}
 
 	soldiers=
@@ -4426,7 +4426,7 @@
 	{
 		culture = asian_minor
 		religion = sikh
-		size= 5957
+		size= 665957
 	}
 
 }
@@ -5883,7 +5883,7 @@
 	{
 		culture = asian_minor
 		religion = hindu
-		size= 150260
+		size= 550260
 	}
 
 }
@@ -5934,7 +5934,7 @@
 	{
 		culture = asian_minor
 		religion = hindu
-		size= 419857
+		size= 919857
 	}
 
 }
@@ -6036,7 +6036,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 251002
+		size= 651002
 	}
 
 }
@@ -6644,7 +6644,7 @@
 	{
 		culture = gujarati
 		religion = hindu
-		size= 300025
+		size= 700025
 	}
 
 }
@@ -6695,7 +6695,7 @@
 	{
 		culture = gujarati
 		religion = hindu
-		size= 319427
+		size= 619427
 	}
 
 }
@@ -8488,7 +8488,7 @@
 	{
 		culture = kannada
 		religion = hindu
-		size= 156745
+		size= 556745
 	}
 
 }
@@ -8843,7 +8843,7 @@
 	{
 		culture = malayalam
 		religion = hindu
-		size= 130384
+		size= 530384
 	}
 
 }

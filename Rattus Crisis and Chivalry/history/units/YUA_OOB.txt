@@ -254,3 +254,165 @@ regiment = {
 		home=1612
 }
 }
+army = {
+name="1st Army"
+	location=1574
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1617
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1617
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1614
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1614
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1614
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1614
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1612
+}
+}
+army = {
+name="1st Army"
+	location=1617
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1617
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1614
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1612
+}
+}
+army = {
+name="1st Army"
+	location=1534
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1612
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1574
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1574
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1574
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1490
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1490
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1490
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=cavalry
+		home=1490
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=1490
+}
+}

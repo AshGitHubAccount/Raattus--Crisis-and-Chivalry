@@ -149,32 +149,32 @@ army = {
 	regiment = {
 		name="1st Palu Infantry"
 		type=infantry
-		home=1435
+		home=430
 	}
 	regiment = {
 		name="1st Menado Artillery"
 		type=artillery
-		home=1433
+		home=430
 	}
 	regiment = {
 		name="1st Palu Artillery"
 		type=artillery
-		home=1435
+		home=430
 	}
 	regiment = {
 		name="2nd Palu Artillery"
 		type=artillery
-		home=1435
+		home=430
 	}
 	regiment = {
 		name="1st Menado Infantry"
 		type=infantry
-		home=1433
+		home=430
 	}
 	regiment = {
 		name="3rd Palu Artillery"
 		type=artillery
-		home=1435
+		home=430
 	}
 	regiment = {
 		name="1st Besançon Infantry"
@@ -456,7 +456,7 @@ army = {
 	regiment = {
 		name="1st Bogor Infantry"
 		type=infantry
-		home=1414
+		home=430
 	}
 	regiment = {
 		name="1st Ghent Infantry"
@@ -709,7 +709,7 @@ army = {
 	regiment = {
 		name="1st Bogor Artillery"
 		type=artillery
-		home=1414
+		home=430
 	}
 	regiment = {
 		name="2nd Caen Infantry"
@@ -734,7 +734,7 @@ army = {
 	regiment = {
 		name="1st Kota Waringin Artillery"
 		type=artillery
-		home=1427
+		home=430
 	}
 	regiment = {
 		name="1st Laon Artillery"

@@ -474,7 +474,7 @@ army = {
 	}
 	regiment = {
 		name="1st Indore Artillery"
-		type=artillery
+		type=irregular
 		home=1271
 	}
 	regiment = {
@@ -484,7 +484,57 @@ army = {
 	}
 	regiment = {
 		name="1st Bhopal Artillery"
-		type=artillery
+		type=irregular
+		home=1272
+	}
+	regiment = {
+		name="1st Indore Irregulars"
+		type=irregular
+		home=1271
+	}
+	regiment = {
+		name="1st Gwalior Irregulars"
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Indore Artillery"
+		type=irregular
+		home=1271
+	}
+	regiment = {
+		name="1st Jubbulpore Irregulars"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="1st Bhopal Artillery"
+		type=irregular
+		home=1272
+	}
+	regiment = {
+		name="1st Indore Irregulars"
+		type=irregular
+		home=1271
+	}
+	regiment = {
+		name="1st Gwalior Irregulars"
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Indore Artillery"
+		type=irregular
+		home=1271
+	}
+	regiment = {
+		name="1st Jubbulpore Irregulars"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="1st Bhopal Artillery"
+		type=irregular
 		home=1272
 	}
 }
@@ -517,7 +567,7 @@ army = {
 	}
 	regiment = {
 		name="1st Jubbulpore Artillery"
-		type=artillery
+		type=irregular
 		home=1275
 	}
 	regiment = {
@@ -527,11 +577,139 @@ army = {
 	}
 	regiment = {
 		name="1st Gwalior Artillery"
-		type=artillery
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Udaipur Irregulars"
+		type=irregular
+		home=1269
+	}
+	regiment = {
+		name="1st Jubbulpore Artillery"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="2nd Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Gwalior Artillery"
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Udaipur Irregulars"
+		type=irregular
+		home=1269
+	}
+	regiment = {
+		name="1st Jubbulpore Artillery"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="2nd Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Gwalior Artillery"
+		type=irregular
 		home=1270
 	}
 }
-
+army = {
+	name="1st Army"
+	location=1270
+	regiment = {
+		name="1st Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Udaipur Irregulars"
+		type=irregular
+		home=1269
+	}
+	regiment = {
+		name="1st Jubbulpore Artillery"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="2nd Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Gwalior Artillery"
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Udaipur Irregulars"
+		type=irregular
+		home=1269
+	}
+	regiment = {
+		name="1st Jubbulpore Artillery"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="2nd Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Gwalior Artillery"
+		type=irregular
+		home=1270
+	}
+	regiment = {
+		name="1st Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Udaipur Irregulars"
+		type=irregular
+		home=1269
+	}
+	regiment = {
+		name="1st Jubbulpore Artillery"
+		type=irregular
+		home=1275
+	}
+	regiment = {
+		name="2nd Ahmedabad Irregulars"
+		type=irregular
+		home=1291
+	}
+	regiment = {
+		name="1st Gwalior Artillery"
+		type=irregular
+		home=1270
+	}
+}
 navy = {
 	name="2nd Fleet"
 	location=1292

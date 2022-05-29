@@ -478,42 +478,139 @@ leader = {
 #Armies
 army = {
 	name="2nd Army"
-	location=1077
+	location=1487
 	regiment = {
 		name="1st Hengzhou infantrys"
-		type=infantry
+		type=irregular
 		home=1527
 	}
 	regiment = {
 		name="1st Pingle infantrys"
-		type=infantry
+		type=irregular
 		home=1504
 	}
 	regiment = {
 		name="2nd Pingle infantrys"
-		type=infantry
+		type=irregular
 		home=1504
 	}
 	regiment = {
 		name="1st Maoming Artillery"
-		type=artillery
+		type=irregular
 		home=1495
 	}
 	regiment = {
 		name="1st Zhaoqing Artillery"
-		type=artillery
+		type=irregular
 		home=1501
 	}
 	regiment = {
 		name="1st Canton infantrys"
-		type=infantry
+		type=irregular
 		home=1493
 	}
 }
-
+army = {
+	name="2nd Army"
+	location=1503
+	regiment = {
+		name="1st Hengzhou infantrys"
+		type=irregular
+		home=1527
+	}
+	regiment = {
+		name="1st Pingle infantrys"
+		type=irregular
+		home=1504
+	}
+	regiment = {
+		name="2nd Pingle infantrys"
+		type=irregular
+		home=1504
+	}
+	regiment = {
+		name="1st Maoming Artillery"
+		type=irregular
+		home=1495
+	}
+	regiment = {
+		name="1st Zhaoqing Artillery"
+		type=irregular
+		home=1501
+	}
+	regiment = {
+		name="1st Canton infantrys"
+		type=irregular
+		home=1493
+	}
+}
+army = {
+	name="2nd Army"
+	location=1503
+	regiment = {
+		name="1st Hengzhou infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Pingle infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="2nd Pingle infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Maoming Artillery"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Zhaoqing Artillery"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Canton infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Hengzhou infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Pingle infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="2nd Pingle infantrys"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Maoming Artillery"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Zhaoqing Artillery"
+		type=irregular
+		home=1494
+	}
+	regiment = {
+		name="1st Canton infantrys"
+		type=irregular
+		home=1494
+	}
+}
 army = {
 	name="1st Army"
-	location=1596
+	location=1494
 	regiment = {
 		name="1st Maoming infantrys"
 		type=infantry
@@ -521,24 +618,24 @@ army = {
 	}
 	regiment = {
 		name="2nd Maoming Artillery"
-		type=artillery
+		type=irregular
 		home=1495
 	}
 	regiment = {
 		name="3rd Maoming infantrys"
-		type=infantry
+		type=irregular
 		home=1495
 	}
 	regiment = {
 		name="3rd Maoming Artillery"
-		type=artillery
+		type=irregular
 		home=1495
 	}
 }
 
 army = {
 	name="3rd Army"
-	location=1075
+	location=2632
 	regiment = {
 		name="1st Shaozhou infantrys"
 		type=infantry
@@ -546,7 +643,7 @@ army = {
 	}
 	regiment = {
 		name="1st Canton Artillery"
-		type=artillery
+		type=irregular
 		home=1493
 	}
 	regiment = {
@@ -556,14 +653,14 @@ army = {
 	}
 	regiment = {
 		name="2nd Pingle Artillery"
-		type=artillery
+		type=irregular
 		home=1504
 	}
 }
 
 army = {
 	name="4th Army"
-	location=1468
+	location=1495
 	regiment = {
 		name="1st Quanzhou infantrys"
 		type=infantry
@@ -571,19 +668,39 @@ army = {
 	}
 	regiment = {
 		name="1st Pingle Artillery"
-		type=artillery
+		type=irregular
 		home=1504
 	}
 	regiment = {
 		name="3rd Pingle Artillery"
-		type=artillery
+		type=irregular
 		home=1504
 	}
 }
 
 army = {
 	name="Free Company"
-	location=1525
+	location=1501
+	regiment = {
+		name="2nd Maoming infantrys"
+		type=infantry
+		home=1495
+	}
+	regiment = {
+		name="2nd Maoming infantrys"
+		type=infantry
+		home=1495
+	}
+	regiment = {
+		name="2nd Maoming infantrys"
+		type=infantry
+		home=1495
+	}
+	regiment = {
+		name="2nd Maoming infantrys"
+		type=infantry
+		home=1495
+	}
 	regiment = {
 		name="2nd Maoming infantrys"
 		type=infantry
@@ -593,7 +710,7 @@ army = {
 
 navy = {
 	name="2nd Fleet"
-	location=2823
+	location=1495
 	ship = {
 		name="1st Zhaoqing Frigate"
 		type=frigate

@@ -2443,7 +2443,7 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 412496
+		size= 112496
 	}
 
 	soldiers=
@@ -2492,7 +2492,7 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 501790
+		size= 301790
 	}
 
 }
@@ -2552,7 +2552,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 287697
+		size= 187697
 	}
 
 	soldiers=
@@ -2595,13 +2595,6 @@
 		culture = min
 		religion = mahayana
 		size= 11157
-	}
-
-	farmers=
-	{
-		culture = min
-		religion = mahayana
-		size= 229130
 	}
 
 	slaves=
@@ -3588,7 +3581,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 510939
+		size= 110939
 	}
 
 	soldiers=
@@ -3637,7 +3630,7 @@
 	{
 		culture = beifaren
 		religion = sunni
-		size= 159614
+		size= 59614
 	}
 
 }
@@ -3646,7 +3639,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 308441
+		size= 100441
 	}
 
 	soldiers=
@@ -3695,7 +3688,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 385557
+		size= 100557
 	}
 
 }
@@ -4637,7 +4630,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 197546
+		size= 100546
 	}
 
 	soldiers=
@@ -4680,13 +4673,6 @@
 		culture = nanfaren
 		religion = mahayana
 		size= 12484
-	}
-
-	farmers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 351000
 	}
 
 	slaves=
@@ -5100,7 +5086,7 @@
 	{
 		culture = nanfaren
 		religion = animist
-		size= 630726
+		size= 330726
 	}
 
 }
@@ -6119,7 +6105,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 707414
+		size= 307414
 	}
 
 }
@@ -6328,7 +6314,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 714807
+		size= 114807
 	}
 
 }
@@ -8284,7 +8270,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 339357
+		size= 139357
 	}
 
 	soldiers=
@@ -8384,7 +8370,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 553264
+		size= 353264
 	}
 
 	soldiers=
@@ -8433,7 +8419,7 @@
 	{
 		culture = beifaren
 		religion = shinto
-		size= 172624
+		size= 72624
 	}
 
 }
@@ -9502,7 +9488,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 808586
+		size= 400586
 	}
 
 }

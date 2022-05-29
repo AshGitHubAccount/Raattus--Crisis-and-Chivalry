@@ -5,7 +5,7 @@ religion = mahayana
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_autocracy
-literacy = 0.134645
+literacy = 0.064645
 
 
 # Social Reforms

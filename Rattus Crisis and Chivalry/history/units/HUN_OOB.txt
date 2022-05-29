@@ -122,5 +122,58 @@ army = {
 		type=infantry
 		home=950
 	}
+	regiment = {
+		name="1st Banská Bystrica Infantry"
+		type=cavalry
+		home=641
+	}
+	regiment = {
+		name="1st Ungvár Infantry"
+		type=infantry
+		home=641
+	}
+	regiment = {
+		name="1st Banská Bystrica Infantry"
+		type=infantry
+		home=636
+	}
+	regiment = {
+		name="1st Ungvár Infantry"
+		type=infantry
+		home=636
+	}
 }
-
+army = {
+	name="1st Army"
+	location=637
+	regiment = {
+		name="1st Banská Bystrica Infantry"
+		type=infantry
+		home=639
+	}
+	regiment = {
+		name="1st Ungvár Infantry"
+		type=cavalry
+		home=639
+	}
+	regiment = {
+		name="1st Banská Bystrica Infantry"
+		type=infantry
+		home=639
+	}
+	regiment = {
+		name="1st Ungvár Infantry"
+		type=infantry
+		home=652
+	}
+	regiment = {
+		name="1st Banská Bystrica Infantry"
+		type=infantry
+		home=652
+	}
+	regiment = {
+		name="1st Ungvár Infantry"
+		type=infantry
+		home=652
+	}
+}
