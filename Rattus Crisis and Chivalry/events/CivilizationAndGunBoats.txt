@@ -4371,10 +4371,6 @@ province_event = {
         OR = {
             AND = {
                 is_core = CHI
-				is_core = HDU
-				is_core = MAW
-				is_core = XMA
-				is_core = BNG
                 NOT = { province_id = 1498 }
                 NOT = { province_id = 1496 }
                 NOT = { province_id = 1569 }
