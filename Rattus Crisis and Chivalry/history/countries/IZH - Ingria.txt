@@ -1,5 +1,5 @@
 capital = 994
-primary_culture = estonian
+primary_culture = finnish
 culture = zzz_religion_orthodox
 religion = orthodox
 government = democracy
@@ -66,7 +66,7 @@ guild_based_production = 1
 private_banks = 1
 clipper_design = 1
 post_nelsonian_thought = 1
-prestige=5
+prestige=3
 oob = "IZH_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_IZH
