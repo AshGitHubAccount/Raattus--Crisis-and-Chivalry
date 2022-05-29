@@ -392,6 +392,7 @@ country_event = {
 #}
 #}
 # END NORTH ITALIAN EVENT CHAIN
+
 ######################
 ###	New SPAIN EVENTS 8000###
 ######################
@@ -771,6 +772,10 @@ country_event = {
 			limit = { has_country_flag = aks_secret_silk }
 			country_event = 299872
 		}
+		X00 = {
+	relation = { who = SPA value = 50 }
+	}
+		
 	}
 	option = { 
 	name = "SPA9014.B"
@@ -778,6 +783,9 @@ country_event = {
 			limit = { has_country_flag = aks_secret_silk }
 			country_event = 299873
 		}
+		X00 = {
+	relation = { who = SPA value = -50 }
+	}
 	set_country_flag =  spa_aks_secret_silk_no
 	}
 }
@@ -836,6 +844,32 @@ country_event = {
 		 }
 		 }
 	}
+}
+country_event = {
+    id = 899867
+    title = "SPA9016.T"
+    desc = "SPA9016.D"
+    picture = "goldrush"
+
+    trigger = {
+        year = 1838
+        515 = {
+            owned_by = THIS
+            NOT = { trade_goods = precious_metal }
+        }
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = { months = 24 }
+
+    option = {
+        name = "SPA9016.A"
+        515 = {
+            trade_goods = precious_metal
+            add_province_modifier = { name = silver_mine duration = -1 }
+        }
+    }
 }
 ######################
 ###	New USA EVENTS 7000###
@@ -1171,6 +1205,9 @@ country_event = {
 			limit = { has_country_flag = aks_secret_indy }
 			country_event = 299868
 		}
+	X00 = {
+	relation = { who = LOT value = 50 }
+	}
 	}
 	option = { 
 	name = "LOT5000.B"
@@ -1178,6 +1215,9 @@ country_event = {
 			limit = { has_country_flag = aks_secret_indy }
 			country_event = 299869
 		}
+	X00 = {
+	relation = { who = LOT value = -50 }
+	}
 	set_country_flag = lot_aks_secret_indy_no
 	}
 }
@@ -1848,6 +1888,9 @@ country_event = {
 			limit = { has_country_flag = aks_secret_indy }
 			country_event = 299870
 		}
+	X00 = {
+	relation = { who = JAP value = 50 }
+	}
 	}
 	option = { 
 	name = "JAP3011.B"
@@ -1856,6 +1899,9 @@ country_event = {
 			country_event = 299871
 		}
 	set_country_flag = jap_aks_secret_tea_no
+	X00 = {
+	relation = { who = JAP value = -50 }
+	}
 	}
 }
 ######################
@@ -2018,7 +2064,19 @@ country_event = {
 	
 is_triggered_only = yes
 	
-	option = { 
+	option = {	
+	random_list = {
+			35 = { 
+			set_country_flag = aks_secret_indy_yes_2
+	        prestige = 5
+	        years_of_research = 2
+			}
+			65 = {
+			1863 = { trade_goods = tea }
+			years_of_research = 1
+	        set_country_flag = aks_secret_indy_yes_1
+			}
+		}
 	name = "AKS2008.A"
 	set_country_flag = aks_secret_indy_yes
 	}
@@ -2048,6 +2106,19 @@ is_triggered_only = yes
 	
 	option = { 
 	name = "AKS2010.A"
+	random_list = {
+			35 = { 
+			set_country_flag = aks_secret_tea_yes_2
+	        prestige = 5
+	        1863 = { trade_goods = tea }
+			1855 = { trade_goods = tea }
+			}
+			65 = {
+			1863 = { trade_goods = tea }
+			prestige = 3
+	        set_country_flag = aks_secret_tea_yes_1
+			}
+		}
 	set_country_flag = aks_secret_tea_yes
 	}
 }
@@ -2075,6 +2146,19 @@ country_event = {
 is_triggered_only = yes
 	
 	option = { 
+	random_list = {
+			35 = { 
+			set_country_flag = aks_secret_silk_yes_2
+	        prestige = 5
+	        1875 = { trade_goods = silk }
+			1151 = { trade_goods = silk }
+			}
+			65 = {
+			1875 = { trade_goods = silk }
+			prestige = 3
+	        set_country_flag = aks_secret_silk_yes_1
+			}
+		}
 	name = "AKS2012.A"
 	set_country_flag = aks_secret_silk_yes
 	}

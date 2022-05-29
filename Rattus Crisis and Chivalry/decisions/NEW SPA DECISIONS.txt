@@ -16,7 +16,7 @@ political_decisions = {
 		effect = {
             set_global_flag = pay_for_it_spa
             money = -300000
-            515 = { trade_goods = sulphur }
+            506 = { trade_goods = sulphur }
             491 = { trade_goods = coal }
             516 = { trade_goods = coal }
         }
