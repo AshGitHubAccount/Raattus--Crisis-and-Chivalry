@@ -7,7 +7,6 @@ country_event = {
 	desc = "ITA9001.D" #global event for everyone to remember the 110 years since the Cilli war
 	picture = "ItalyBattle"
 	trigger = { 
-	year = 1836
 	month = 8
 	NOT = { has_country_flag = cilli_memory }
 	}
@@ -32,7 +31,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 15
+	days = 35
 	}
 	
 	option = { 
@@ -83,6 +82,15 @@ country_event = {
 	
 	option = { 
 	name = "ITA9004.A"
+	754 = {
+				life_rating = 5
+			}
+		759 = {
+				life_rating = 5
+			}
+		756 = {
+				life_rating = 5
+			}
 	set_country_flag = italian_urbanization
 }
 }
@@ -155,7 +163,8 @@ country_event = {
 	title = "ITA9007.T"
 	desc = "ITA9007.D"
 	
-	trigger = { 
+	trigger = {
+	owns = 1731
 	tag = ITA
 	year = 1850
 	war = no
@@ -218,6 +227,8 @@ country_event = {
 }
 country_event = {
 	id = 72910
+	news = yes
+	major = yes
 	title = "ITA9010.T"
 	desc = "ITA9010.D" #
 	
@@ -231,30 +242,7 @@ country_event = {
 	mean_time_to_happen = { 
 	days = 150
 	}
-	
 	option = { 
-	name = "ITA9010.A"
-	set_country_flag = ita_north_countdown
-}
-}
-country_event = {
-	id = 72911
-	title = "ITA9011.T"
-	desc = "ITA9011.D" #
-	
-	trigger = { 
-	has_country_flag = ita_brothers_war
-	has_country_flag = ita_north_countdown
-	tag = ITA
-	NOT = { has_country_flag = ita_north_showdown
-	}
-	}
-	
-	mean_time_to_happen = { 
-	days = 150
-	}
-	
-	option = {
 	name = "ITA9010.A"
 	set_country_flag = ita_north_countdown
 }
@@ -307,7 +295,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "ITA9012.A"
+	name = "ITA9013.A"
 	inherit = VEN
 	inherit = GEN
 	inherit = TUS
@@ -323,7 +311,34 @@ country_event = {
 }
 }
  # RESERVERED FOR NORTH ITALY WINNING country_event = {
-#	id = 72913
+#	id = 72914
+#	title = "ITA9014.T"
+#	desc = "ITA9014.D"
+#	
+#	trigger = { 
+#	has_country_flag = ita_north_integration
+#	war = no
+#	tag = ITA
+#	owns = 726
+#	NOT = { has_country_flag = ita_north_finale}
+#	}
+#	
+#	mean_time_to_happen = { 
+#	days = 45
+#	}
+#	
+#	option = { 
+#	name = "ITA9014.A"
+#	inherit = VEN
+#	inherit = GEN
+#	inherit = TUS
+#	inherit = LUC
+#	inherit = FER
+#	set_country_flag = ita_north_finale
+#}
+#}
+# RESERVERED FOR NORTH ITALY WINNING  country_event = {
+#	id = 72915
 #	title = "ITA9013.T"
 #	desc = "ITA9013.D"
 #	
@@ -350,34 +365,7 @@ country_event = {
 #}
 #}
 # RESERVERED FOR NORTH ITALY WINNING  country_event = {
-#	id = 72913
-#	title = "ITA9013.T"
-#	desc = "ITA9013.D"
-#	
-#	trigger = { 
-#	has_country_flag = ita_north_integration
-#	war = no
-#	tag = ITA
-#	owns = 726
-#	NOT = { has_country_flag = ita_north_finale}
-#	}
-#	
-#	mean_time_to_happen = { 
-#	days = 45
-#	}
-#	
-#	option = { 
-#	name = "ITA9012.A"
-#	inherit = VEN
-#	inherit = GEN
-#	inherit = TUS
-#	inherit = LUC
-#	inherit = FER
-#	set_country_flag = ita_north_finale
-#}
-#}
-# RESERVERED FOR NORTH ITALY WINNING  country_event = {
-#	id = 72913
+#	id = 72916
 #	title = "ITA9013.T"
 #	desc = "ITA9013.D"
 #	
@@ -953,7 +941,7 @@ country_event = {
 	
 	option = { 
 	
-	name = "ITA9005.A"
+	name = "USA9005.A"
 	set_country_flag = usa_james_comes_of_age
 	prestige = 5
 	set_country_flag = usa_james_forever
@@ -2222,6 +2210,43 @@ country_event = {
 ###	New RUSSIAN EVENTS 3599 -3999###
 ######################
 
+country_event = {
+	id = 3599 
+	title = "RUS3599.T"
+	desc = "RUS3599.D" #Telling russia they are cursed but if they unite they will be slightly less cursed
+	trigger = { 
+	has_country_flag = russian_warlord_phase
+	NOT = { has_country_flag = russian_warlord_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "RUS3599.A"
+	set_country_flag = russian_warlord_intro
+	}
+}
+country_event = {
+	id = 3600
+	title = "RUS3600.T"
+	desc = "RUS3600.D" #Telling russia they are united smileyface
+	trigger = { 
+	owns = 726
+	has_country_flag = russian_warlord_phase
+	NOT = { has_country_flag = russian_warlord_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "RUS3600.A"
+	set_country_flag = russian_warlord_intro
+	}
+}
 ######################
 ###	New SOUTH AMERICAN 3099 - 3499EVENTS ###
 ######################

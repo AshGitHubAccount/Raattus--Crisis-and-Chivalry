@@ -22,11 +22,7 @@ political_decisions = {
 		country_event = 299865
         }
 	}
-		
-		
 
-}
-political_decisions = {
 	the_secret_of_indy = {
 	picture = italian_islands
 		potential = {
@@ -46,11 +42,7 @@ political_decisions = {
 		country_event = 299866
         }
 	}
-		
-		
 
-}
-political_decisions = {
 	the_secret_of_silk = {
 	picture = italian_islands
 		potential = {
