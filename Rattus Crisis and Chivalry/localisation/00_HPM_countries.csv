@@ -4,33 +4,33 @@ orthodox;Galich Orthodoxy;;;;;;;;;;;;;
 coptic;Oriental Orthodoxy;;;;;;;;;;;;;
 GC_NAME;Crisis and Chivalry;x;;;;;
 GC_DESC;The ideals of the Dual Italian-Ethiopian Revolutions were believed to have met their final demise at the hands of the Trent Signatories, the traditional powers of Europe. Spain, Lotharingia, the Commonwealth, Byzantium, and Scandinavia. The flames may have been put out, but the embers may never entirely dissapate, the Trent Signatories lie defeated and weakened in the 110 years since. With this new era of unprecendented technological progress, doubts will be cast on certainties that have stood since time immemorial. Far away, across the briny foam, the riches of Asia and Africa beckon. My liege, choose your weapon, and let fortune favor the bold.;;;;;;
-pomeranian;Pomeranian;
+pomeranian;Pomeranian;;;;;;;;;;;x;;;;;;;
 finnougric;Finno-Ugric;;;;;;;;;;;;;
 frankish;Frankish;;;;;;
-PROV428;Dittonais;x
-PROV994;Päter;x
-PROV967;Theodoro;x
+PROV428;Dittonais;x;;;;;;;;;;x;;;;;;;
+PROV994;Päter;x;;;;;;;;;;x;;;;;;;
+PROV967;Theodoro;x;;;;;;;;;;x;;;;;;;
 LOM;Italien Confederation;;;;;;;;
 ABO;Kaiya;;;;;;;;
 mamluk;Mamluk;;;;;;;
-PROV299;Cornicopia;x
+PROV299;Cornicopia;x;;;;;;;;;;x;;;;;;;
 HSP;Madagasikari;;;;;;;
-CEG;Koftei;;;;;
-PNT;Aytos;;;;;
-RUS;Pocca;;;;;
-PROV334;Maermo;x
-PROV749;Roma;x
-PROV372;Keevenhagen;x
-LAT;Kurland;;;;;;;
+CEG;Koftei;;;;;;;;;;;;;;;x;;;;;;;;;;x;;;;;;;;;;;;;;
+PNT;Aytos;;;;;;;;;;;;;;;x;;;;;;;
+RUS;Pocca;;;;;;;;;;;;;;;x;;;;;;;
+PROV334;Maermo;x;;;;;;;;;;x;;;;;;;
+PROV749;Roma;x;;;;;;;;;;x;;;;;;;
+PROV372;Keevenhagen;x;;;;;;;;;;x;;;;;;;
+LAT;Kurland;;;;;;;;;;;;;;;;;x;;;;;;;
 PROV754;Capua;Capua;Capua;;Capua;;;;;;;;;x;;;;
-CAN;Borelia;;;;;;;
-TTB;Trent;
-X16_liberal;Masalia Party;;;;;
+CAN;Borelia;;;;;;;;;;;;;;;;;x;;;;;;;
+TTB;Trent;;;;;;;;;;;x;;;;;;;
+X16_liberal;Masalia Party;;;;;;;;;;;;;;;x;;;;;;;
 australienne;Belgian;;;;;;;;;;;;;;;;;
 french_american;Américaine;;;;;;;;;;;;;;;;
-ZBW;Sheffield;;;;;;
-UBV;Bavaria;
-MLT;Libia;
+ZBW;Sheffield;;;;;;;;;;;;;;;;x;;;;;;;
+UBV;Bavaria;;;;;;;;;;;x;;;;;;;
+MLT;Libia;;;;;;;;;;;x;;;;;;;
 DJI;Jossi;;;;;;;;
 MAS;Kwa;;;;;;;;;;
 GRE;Elláda;;;;;;;;;;

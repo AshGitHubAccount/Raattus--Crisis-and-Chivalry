@@ -549,6 +549,6 @@ army = {
 	regiment = {
 		name="1st Legazpi Artillery"
 		type=infantry
-		home=467
+		home=476
 	}
 }
