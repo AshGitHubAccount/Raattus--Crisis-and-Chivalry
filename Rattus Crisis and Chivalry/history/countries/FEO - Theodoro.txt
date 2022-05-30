@@ -1,5 +1,5 @@
 capital = 1047
-primary_culture = notios
+primary_culture = greek
 culture = zzz_religion_orthodox
 religion = orthodox
 government = absolute_monarchy
@@ -45,7 +45,7 @@ consciousness = 1.35252
 nonstate_consciousness= 0
 
 # Technologies
-prestige=6
+prestige=0.00158019
 oob = "FEO_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_FEO

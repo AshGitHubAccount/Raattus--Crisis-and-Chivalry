@@ -2,21 +2,13 @@ Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;P
 GER_hms_government;The German Empire;;;;;;;;;;;;;
 orthodox;Galich Orthodoxy;;;;;;;;;;;;;
 coptic;Oriental Orthodoxy;;;;;;;;;;;;;
-GC_NAME;Crisis and Chivalry;x;;;;;
-GC_DESC;The ideals of the Dual Italian-Ethiopian Revolutions were believed to have met their final demise at the hands of the Trent Signatories, the traditional powers of Europe. Spain, Lotharingia, the Commonwealth, Byzantium, and Scandinavia. The flames may have been put out, but the embers may never entirely dissapate, the Trent Signatories lie defeated and weakened in the 110 years since. With this new era of unprecendented technological progress, doubts will be cast on certainties that have stood since time immemorial. Far away, across the briny foam, the riches of Asia and Africa beckon. My liege, choose your weapon, and let fortune favor the bold.;;;;;;
 pomeranian;Pomeranian;
 finnougric;Finno-Ugric;;;;;;;;;;;;;
 frankish;Frankish;;;;;;
 PROV428;Dittonais;x
 PROV994;Päter;x
-PROV1008;Adisi Gondar;x
-PROV1003;Holmgardr;x
 PROV967;Theodoro;x
-PROV1001;Ladoga;x
-UNB;Rhenanie;;;;;;
 LOM;Italien Confederation;;;;;;;;
-RUS;Pocca;;;;;;
-JNN;Wattara;;;;;;
 ABO;Kaiya;;;;;;;;
 mamluk;Mamluk;;;;;;;
 PROV299;Cornicopia;x
@@ -2422,7 +2414,7 @@ TNT_liberal;Liberal Party;Parti libéral;Liberale Partei;;;;;;;;;;;
 TNT_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;
 TNT_conservative;Conservative Party;Parti conservateur;Konservative Partei;;;;;;;;;;;
 TNT_fascist;Unity Party;Parti unitaire;Einheitspartei;;;;;;;;;;;
-TOG;Gabu;;;;;;;;;;;;;
+TOG;Futa Jallon;;;;;;;;;;;;;
 TOG_ADJ;Futa Jallonlese;;;;;;;;;;;;;
 TOG_liberal;UCPN;;;;;;;;;;;;;
 TOG_conservative;Party of Progress;;;;;;;;;;;;;
@@ -2935,7 +2927,7 @@ KBO_anarcho_liberal;Freedom Faction;Faction de liberté;Freiheits Fraktion;;;;;;;
 KBO_socialist;People's welfare Faction;Faction du bien-être populaire;Volksbetreuungsamt Fraktion;;;;;;;;;;;
 KBO_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;
 KBO_fascist;Greater Kanem-Bornu Faction;Faction du Grand Empire du Kanem-Bornou;Großer Kanem-Bornu ReichFraktion;;;;;;;;;;;
-KNG;Futa Jallon;Ouattara;Wattara;;Wattara;;;;;;;;;
+KNG;Wattara;Ouattara;Wattara;;Wattara;;;;;;;;;
 KNG_ADJ;Wattaran;Wattaran;Wattaran;;;;;;;;;;;
 KNG_conservative;Fama's Faction;Faction Fama;Fama Fraktion;;;;;;;;;;;
 KNG_liberal;Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;
