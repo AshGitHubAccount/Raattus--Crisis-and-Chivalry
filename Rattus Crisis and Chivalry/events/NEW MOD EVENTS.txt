@@ -664,32 +664,6 @@ country_event = {
 	}
 }
 country_event = {
-	id = 899862
-	title = "SPA9012.T"
-	desc = "SPA9012.D"
-	trigger = {
-	ARN = { vassal_of = THIS }  
-	NAV = { vassal_of = THIS }  
-	X19 = { vassal_of = THIS }  	
-	tag = SPA
-	year = 1878
-	NOT = { has_country_flag = spanish_integrations }
-	}
-	
-	mean_time_to_happen = { 
-	days = 100
-	}
-	
-	option = { 
-	
-	name = "SPA9012.A"
-	inherit = ARN
-	inherit = NAV
-	inherit = X19
-	set_country_flag = spanish_integrations
-	}
-}
-country_event = {
 	id = 899863
 	title = "SPA9013.T"
 	desc = "SPA9013.D" #1840 west indies begin to break
@@ -737,8 +711,8 @@ country_event = {
 }
 country_event = {
 	id = 899864
-	title = "SPA9013.T"
-	desc = "SPA9013.D" #1845 west indies breaks
+	title = "SPA9012.T"
+	desc = "SPA9012.D" #1845 west indies breaks
 	trigger = {
 	year = 1845
 	has_country_flag = wsi_failing
@@ -754,7 +728,7 @@ country_event = {
 	release = HAI
 	release = JAM
 	release = CUB
-	name = "SPA9013.A"
+	name = "SPA9012.A"
 	set_country_flag = wsi_breaks
 	}
 }
@@ -1082,8 +1056,8 @@ country_event = {
 }
 country_event = {
 	id = 599854
-	title = "LOT9004.T"
-	desc = "LOT9004.D"
+	title = "LOT5004.T"
+	desc = "LOT5004.D"
 	trigger = { 
 	tag = LOT
 	year = 1842
@@ -1095,20 +1069,20 @@ country_event = {
 	}
 	
 	option = { 
-	name = "LOT9004.A"
+	name = "LOT5004.A"
 	set_country_flag = lot_spy_italy
 	}
 }
 country_event = {
 	id = 599855
-	title = "LOT9005.T"
-	desc = "LOT9005.D"
+	title = "LOT5005.T"
+	desc = "LOT5005.D"
 	trigger = { 
 	tag = LOT
 	year = 1838
-	NOT = { has_country_flag =  lot_true_french }
+	NOT = { has_country_flag =  lot_french_larp }
 	NOT = { has_country_flag =  lot_fla_time }
-	has_country_flag = lot_lowlands_focus
+	has_country_flag = lot_lowland_larp
 	}
 	
 	mean_time_to_happen = { 
@@ -1117,14 +1091,14 @@ country_event = {
 	
 	option = { 
 	FLA = { all_core = { add_core = LOT } }
-	name = "LOT9005.A"
+	name = "LOT5005.A"
 	set_country_flag = lot_fla_time
 	}
 }
 country_event = {
 	id = 599856
-	title = "LOT9006.T"
-	desc = "LOT9006.D"
+	title = "LOT5006.T"
+	desc = "LOT5006.D"
 	trigger = { 
 	tag = LOT
 	year = 1844
@@ -1136,32 +1110,8 @@ country_event = {
 	}
 	
 	option = { 
-	name = "LOT9006.A"
+	name = "LOT5006.A"
 	set_country_flag = lot_brittany
-	}
-}
-country_event = {
-	id = 599857
-	title = "LOT9007.T"
-	desc = "LOT9007.D"
-	trigger = { 
-	tag = LOT
-	NOT = { has_country_flag =  lot_choice }
-	}
-	
-	mean_time_to_happen = { 
-	days = 100
-	}
-	
-	option = { 
-	name = "LOT9007.A"
-	set_country_flag = lot_choice
-	set_country_flag = lot_true_french
-	}
-	option = { 
-	name = "LOT9007.B"
-	set_country_flag = lot_choice
-	set_country_flag = lot_lowlands_focus
 	}
 }
 country_event = {
@@ -1180,6 +1130,7 @@ country_event = {
 	
 	option = { 
 	name = "LOT5008.A"
+	prestige = -5
 	diplomatic_influence = {
 	who = KER
 	value = -200
@@ -1188,6 +1139,42 @@ country_event = {
 	relation = { who = LOT value = -400 }
 	}
 	relation = { who = KER value = -400 }
+	set_country_flag = lot_the_cornish_walk
+	ai_chance = { 
+	   factor = 100
+	   }
+	}
+	
+	option = { 
+	name = "LOT5008.B"
+	badboy = 15
+	prestige = -15
+	diplomatic_influence = {
+	who = KER
+	value = -200
+	}
+	KER = {
+	relation = { who = LOT value = -400 }
+	}
+	relation = { who = KER value = -400 }
+	war = {
+		target = KER
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	KER = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	ai_chance = { 
+	   factor = 0
+	   }
 	set_country_flag = lot_the_cornish_walk
 	}
 }
@@ -1221,6 +1208,33 @@ country_event = {
 	set_country_flag = lot_aks_secret_indy_no
 	}
 }
+country_event = {
+	id = 599860
+	title = "LOT5010.T"
+	desc = "LOT5010.D"
+	trigger = { 
+	tag = LOT
+	has_country_flag = lot_the_french_walk
+	NOT = { has_country_flag = lot_decision_time }
+	}
+	
+	mean_time_to_happen = { 
+	days = 60
+	}
+	
+	option = { 
+	name = "LOT5010.A"
+	add_accepted_culture = rhenish_german
+	set_country_flag = lot_lowland_larp
+	set_country_flag = lot_decision_time
+	}
+	option = { 
+	name = "LOT5010.B"
+	add_accepted_culture = french
+	set_country_flag = lot_french_larp
+	set_country_flag = lot_decision_time
+	}
+}
 ######################
 ###	New INTERSLAVIA 4000 EVENTS ###
 ######################
@@ -1243,6 +1257,10 @@ country_event = {
 	name = kounic_dynasty
 				duration = -1
 		 } 
+	remove_accepted_culture = czech
+	remove_accepted_culture = pomeranian
+	remove_accepted_culture = sorbian
+	remove_accepted_culture = slovak
 	set_country_flag = wsf_intro
 	}
 }
@@ -1260,7 +1278,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "MOL4000.A"
+	name = "MOL4049.A"
 	set_country_flag = mol_plot_question
 	}
 }
@@ -1373,7 +1391,7 @@ country_event = {
 	set_country_flag = mol_response
 	prestige = 5
 	ai_chance = { 
-	factor = 75
+	factor = 80
 	}
 	}
 	
@@ -1385,7 +1403,7 @@ country_event = {
 			country_event = 499856
 		}
 	ai_chance = { 
-	factor = 25 
+	factor = 20
 	}
 	set_country_flag = mol_response
 	}
@@ -1443,7 +1461,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "WSF4003.A" #let's suppport our slavic brother
+	name = "WSF4005.A" #let's suppport our slavic brother
 	war = {
 		target = HUN
 			attacker_goal = {
