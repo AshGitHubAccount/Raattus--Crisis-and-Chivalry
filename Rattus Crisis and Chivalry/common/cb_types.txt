@@ -8384,11 +8384,6 @@ treaty_port_casus_belli = {
             owns = 1637 #Cheju
             owns = 2589 #Tsushima
             owns = 12 #Sado
-			owns = 1319 #TRAVACOR
-			owns = 1312 #PONDICHERRY
-			owns = 2591 #TRANQEBAR
-			owns = 1288 #THATTA
-			owns = 1261 #CUTTACK
         }
     }
 
@@ -8432,11 +8427,6 @@ treaty_port_casus_belli = {
                         owns = 1637 #Cheju
                         owns = 2589 #Tsushima
                         owns = 12 #Sado
-						owns = 1319 #TRAVACOR
-			owns = 1312 #PONDICHERRY
-			owns = 2591 #TRANQEBAR
-			owns = 1288 #THATTA
-			owns = 1261 #CUTTACK
                     }
                 }
                 THIS = {

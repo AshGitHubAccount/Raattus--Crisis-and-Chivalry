@@ -5,7 +5,7 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_tradition
-literacy = 0.026863
+literacy = 0.466863
 
 civilized = yes
 
@@ -51,7 +51,7 @@ flintlock_rifles = 1
 late_enlightenment_philosophy = 1
 piston_steam_engine = 1
 post_nelsonian_thought = 1
-prestige=1
+prestige=0
 oob = "AOT_OOB.txt"
 set_country_flag = new_world_nation
 set_country_flag = religi
