@@ -227,8 +227,6 @@ country_event = {
 }
 country_event = {
 	id = 72910
-	news = yes
-	major = yes
 	title = "ITA9010.T"
 	desc = "ITA9010.D" #
 	
@@ -612,7 +610,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "ITA9009.A"
+	name = "SPA9009.A"
 	509 = {
 				life_rating = 5
 			}
@@ -640,7 +638,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "ITA9010.A"
+	name = "SPA9010.A"
 	set_country_flag = spanish_agitation
 	}
 }
@@ -1544,8 +1542,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	year = 1840
-	days = 1
+	days = 125
 	}
 	
 	option = { 
