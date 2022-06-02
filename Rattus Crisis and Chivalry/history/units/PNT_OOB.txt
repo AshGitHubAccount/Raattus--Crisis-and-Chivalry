@@ -4,3 +4,17 @@
 #Leaders
 
 #Armies
+army = {
+	name="New Spartaroi"
+	location=2105
+	regiment = {
+		name="1st Macon Infantry"
+		type=cursassier
+		home=2108
+	}
+	regiment = {
+		name="2nd Macon Infantry"
+		type=infantry
+		home=2109
+	}
+}

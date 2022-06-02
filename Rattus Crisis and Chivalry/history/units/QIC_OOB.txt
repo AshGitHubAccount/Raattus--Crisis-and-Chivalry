@@ -385,3 +385,66 @@ YUE = {
 #Leaders
 
 #Armies
+army = {
+	name="2nd Army"
+	location=1567
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1567
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1567
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1567
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1568
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1568
+	}regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1568
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1565
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1565
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1565
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1565
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1570
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1570
+	}
+}
