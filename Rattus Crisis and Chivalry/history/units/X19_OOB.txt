@@ -599,41 +599,26 @@ army = {
 	regiment = {
 		name="1st Warzazat Infantry"
 		type=infantry
-		home=1687
+		home=1699
 	}
 	regiment = {
 		name="1st Agadir Infantry"
 		type=infantry
-		home=1687
+		home=1694
 	}
 	regiment = {
 		name="1st Huribka Cavalry"
 		type=cavalry
-		home=1684
+		home=1692
 	}
 	regiment = {
 		name="2nd Agadir Infantry"
 		type=infantry
-		home=1692
+		home=1694
 	}
 	regiment = {
 		name="1st Marrakesh Cavalry"
 		type=cavalry
-		home=1699
-	}
-	regiment = {
-		name="1st Huribka Cavalry"
-		type=cavalry
-		home=1694
-	}
-	regiment = {
-		name="2nd Agadir Infantry"
-		type=infantry
-		home=1694
-	}
-	regiment = {
-		name="2nd Agadir Infantry"
-		type=infantry
 		home=1690
 	}
 }

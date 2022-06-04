@@ -628,7 +628,7 @@ army = {
 	}
 	regiment = {
 		name="1st Hangzhou Artillery"
-		type=irregular
+		type=artillery
 		home=1604
 	}
 	regiment = {
@@ -638,139 +638,11 @@ army = {
 	}
 	regiment = {
 		name="1st Huzhou Artillery"
-		type=irregular
-		home=1605
-	}
-	regiment = {
-		name="1st Changzhou Irregulars"
-		type=irregular
-		home=1537
-	}
-	regiment = {
-		name="1st Jinhua Irregulars"
-		type=irregular
-		home=1607
-	}
-	regiment = {
-		name="1st Hangzhou Artillery"
-		type=irregular
-		home=1604
-	}
-	regiment = {
-		name="1st Huizhou Irregulars"
-		type=irregular
-		home=1473
-	}
-	regiment = {
-		name="1st Huzhou Artillery"
-		type=irregular
-		home=1605
-	}
-	regiment = {
-		name="1st Changzhou Irregulars"
-		type=irregular
-		home=1537
-	}
-	regiment = {
-		name="1st Jinhua Irregulars"
-		type=irregular
-		home=1607
-	}
-	regiment = {
-		name="1st Hangzhou Artillery"
-		type=irregular
-		home=1604
-	}
-	regiment = {
-		name="1st Huizhou Irregulars"
-		type=irregular
-		home=1473
-	}
-	regiment = {
-		name="1st Huzhou Artillery"
-		type=irregular
+		type=artillery
 		home=1605
 	}
 }
-army = {
-	name="2nd Army"
-	location=1473
-	regiment = {
-		name="1st Changzhou Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Jinhua Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Hangzhou Artillery"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huizhou Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huzhou Artillery"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Changzhou Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Jinhua Irregulars"
-		type=irregular
-		home=1607
-	}
-	regiment = {
-		name="1st Hangzhou Artillery"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huizhou Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huzhou Artillery"
-		type=irregular
-		home=1605
-	}
-	regiment = {
-		name="1st Changzhou Irregulars"
-		type=irregular
-		home=1537
-	}
-	regiment = {
-		name="1st Jinhua Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Hangzhou Artillery"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huizhou Irregulars"
-		type=irregular
-		home=1539
-	}
-	regiment = {
-		name="1st Huzhou Artillery"
-		type=irregular
-		home=1605
-	}
-}
+
 navy = {
 	name="3rd Fleet"
 	location=1606
@@ -807,7 +679,7 @@ army = {
 	}
 	regiment = {
 		name="2nd Hangzhou Artillery"
-		type=irregular
+		type=artillery
 		home=1604
 	}
 	regiment = {
@@ -817,32 +689,7 @@ army = {
 	}
 	regiment = {
 		name="1st Shaoxing Artillery"
-		type=irregular
-		home=1609
-	}
-	regiment = {
-		name="1st Hangzhou Irregulars"
-		type=irregular
-		home=1604
-	}
-	regiment = {
-		name="1st Taizhou Irregulars"
-		type=irregular
-		home=1610
-	}
-	regiment = {
-		name="2nd Hangzhou Artillery"
-		type=irregular
-		home=1604
-	}
-	regiment = {
-		name="2nd Hangzhou Irregulars"
-		type=irregular
-		home=1604
-	}
-	regiment = {
-		name="1st Shaoxing Artillery"
-		type=irregular
+		type=artillery
 		home=1609
 	}
 }

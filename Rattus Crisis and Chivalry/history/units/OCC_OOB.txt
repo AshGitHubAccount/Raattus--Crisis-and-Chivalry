@@ -38,37 +38,3 @@ army = {
 		home=442
 	}
 }
-army = {
-	name="Armee Royale"
-	location=461
-	regiment = {
-		name="1st Madrid Artillery"
-		type=artillery
-		home=461
-	}
-	regiment = {
-		name="1st La Coruña Artillery"
-		type=infantry
-		home=461
-	}
-	regiment = {
-		name="2nd Madrid Artillery"
-		type=infantry
-		home=454
-	}
-	regiment = {
-		name="2nd La Coruña Artillery"
-		type=infantry
-		home=453
-	}
-	regiment = {
-		name="1st Granada Artillery"
-		type=infantry
-		home=448
-	}
-	regiment = {
-		name="1st Lagos Artillery"
-		type=hussar
-		home=449
-	}
-}

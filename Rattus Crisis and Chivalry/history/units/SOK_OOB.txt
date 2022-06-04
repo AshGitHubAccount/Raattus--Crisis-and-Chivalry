@@ -607,66 +607,32 @@ name="1st Army"
 	location=1948
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1948
 }
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1948
 }
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1948
 }
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1947
 }
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1947
 }
 regiment = {
 		name="1st Lidian Irregulars"
-		type=irregular
-		home=1945
-}
-}
-army = {
-name="1st Army"
-	location=1947
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
-		home=1948
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
-		home=1948
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
-		home=1948
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
-		home=1947
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
-		home=1947
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=irregular
+		type=infantry
 		home=1945
 }
 }

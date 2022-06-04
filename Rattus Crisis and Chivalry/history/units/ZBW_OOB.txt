@@ -18,19 +18,4 @@ regiment = {
 		type=infantry
 		home=2053
 }
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=2053
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=2053
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=2053
-}
 }

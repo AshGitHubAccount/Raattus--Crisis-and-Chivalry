@@ -631,32 +631,3 @@ navy = {
 	}
 }
 
-army = {
-name="1st Army"
-	location=271
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=271
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=271
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=269
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=cavalry
-		home=270
-}
-regiment = {
-		name="1st Lidian Irregulars"
-		type=artillery
-		home=267
-}
-}
