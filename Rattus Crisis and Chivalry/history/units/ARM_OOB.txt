@@ -455,22 +455,8 @@ ZAZ = {
 }
 
 #Leaders
-leader = {
-	name="Johnny Zocket"
-	date="1712.12.12"
-	type=land
-	personality="disciplined"
-	background="war_college"
-}
+
 #Armies
-army = {
-name="1st Army"
-	location=1092
-regiment = {
-		name="1st Lidian Irregulars"
-		type=infantry
-		home=1092
-}
 navy = {
 	name="3rd Fleet"
 	location=1094
@@ -479,4 +465,4 @@ navy = {
 		type=clipper_transport
 	}
 }
-}
+

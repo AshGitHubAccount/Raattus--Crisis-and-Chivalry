@@ -11,5 +11,173 @@ CYP = {
 	influence_value = 25
 }
 #Leaders
+leader = {
+	name="Pavlos Venizelo"
+	date="1700.8.28"
+	type=land
+	personality="unflinching"
+	background="drillmaster"
+}
 
+leader = {
+	name="Clodomir de Rochechouart"
+	date="1700.4.26"
+	type=sea
+	personality="disciplined"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Isidore de Chandieu"
+	date="1702.1.3"
+	type=land
+	personality="persistant"
+	background="bureaucrat_speed"
+}
 #Armies
+army = {
+	name="Armee Athens"
+	location=834
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=869
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=869
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=869
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=834
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=834
+	}
+	regiment = {
+		name="1 Palermo Artillery"
+		type=artillery
+		home=834
+	}
+	regiment = {
+		name="3nd Palermo Artillery"
+		type=artillery
+		home=834
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=834
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=cuirassier
+		home=834
+	}
+}
+army = {
+	name="Armee Konstantinople"
+	location=860
+	regiment = {
+		name="1st Palermo Infantry"
+		type=infantry
+		home=860
+	}
+	regiment = {
+		name="2nd Palermo Infantry"
+		type=infantry
+		home=860
+	}
+	regiment = {
+		name="3th Palermo Infantry"
+		type=infantry
+		home=861
+	}
+	regiment = {
+		name="4th Palermo Infantry"
+		type=infantry
+		home=861
+	}
+	regiment = {
+		name="5th Palermo Infantry"
+		type=infantry
+		home=858
+	}
+	regiment = {
+		name="1 Palermo Artillery"
+		type=artillery
+		home=858
+	}
+	regiment = {
+		name="3nd Palermo Artillery"
+		type=artillery
+		home=858
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=hussar
+		home=858
+	}
+	regiment = {
+		name="1st Syracuse Cavalry"
+		type=cuirassier
+		home=852
+	}
+}
+navy = {
+	name="1st Fleet"
+	location=822
+	ship = {
+		name="2nd Caen Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Amiens Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Lotharingian Clipper Transport"
+		type=clipper_transport
+	}
+}

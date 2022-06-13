@@ -190,35 +190,35 @@ substate=
 
 
 #NORTH ITALIAN CONFEDERATION
-substate=
+vassal=
 {
 	first="LOM"
 	second="LUC"
 	start_date="1730.4.24"
 	end_date="1936.1.1"
 }
-substate=
+vassal=
 {
 	first="LOM"
 	second="FER"
 	start_date="1730.4.24"
 	end_date="1936.1.1"
 }
-substate=
+vassal=
 {
 	first="LOM"
 	second="VEN"
 	start_date="1730.4.24"
 	end_date="1936.1.1"
 }
-substate=
+vassal=
 {
 	first="LOM"
 	second="GEN"
 	start_date="1730.4.24"
 	end_date="1936.1.1"
 }
-substate=
+vassal=
 {
 	first="LOM"
 	second="TUS"

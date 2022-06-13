@@ -147,7 +147,7 @@ army = {
 	regiment = {
 		name="1st Gafsa Infantry"
 		type=infantry
-		home=1713
+		home=1727
 	}
 	regiment = {
 		name="1st Laghwat Infantry"

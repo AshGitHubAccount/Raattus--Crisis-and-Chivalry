@@ -664,7 +664,7 @@ leader = {
 #Armies
 army = {
 	name="1st Army"
-	location=1138
+	location=1600
 	regiment = {
 		name="1st Semnan Irregulars"
 		type=irregular
@@ -699,7 +699,7 @@ army = {
 
 army = {
 	name="5th Army"
-	location=1129
+	location=267
 	regiment = {
 		name="2nd Semnan Irregulars"
 		type=irregular
@@ -729,7 +729,7 @@ army = {
 
 army = {
 	name="3rd Army"
-	location=1130
+	location=1600
 	regiment = {
 		name="1st Kashan Irregulars"
 		type=irregular
@@ -764,7 +764,7 @@ army = {
 
 navy = {
 	name="6th Fleet"
-	location=1145
+	location=2786
 	ship = {
 		name="Karun"
 		type=frigate
@@ -785,7 +785,7 @@ navy = {
 
 navy = {
 	name="1st Fleet"
-	location=1142
+	location=2723
 	ship = {
 		name="Helmand"
 		type=frigate

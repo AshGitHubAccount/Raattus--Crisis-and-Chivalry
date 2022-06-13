@@ -606,7 +606,7 @@ leader = {
 #Armies
 army = {
 	name="4th Army"
-	location=1251
+	location=1472
 	regiment = {
 		name="1st Bardwan Irregulars"
 		type=irregular
@@ -636,67 +636,7 @@ army = {
 
 army = {
 	name="22nd Army"
-	location=1248
-	regiment = {
-		name="1st Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="1st Dacca Artillery"
-		type=artillery
-		home=1254
-	}
-	regiment = {
-		name="2nd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="3rd Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="7th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="5th Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="1st Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="1st Dacca Artillery"
-		type=artillery
-		home=1254
-	}
-	regiment = {
-		name="2nd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="3rd Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="7th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="5th Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
+	location=1512
 	regiment = {
 		name="1st Chittagong Irregulars"
 		type=irregular
@@ -731,57 +671,7 @@ army = {
 
 army = {
 	name="3rd Army"
-	location=1254
-	regiment = {
-		name="2nd Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="1st Agartala Artillery"
-		type=artillery
-		home=2566
-	}
-	regiment = {
-		name="5th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="4th Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="2nd Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="1st Agartala Artillery"
-		type=artillery
-		home=2566
-	}
-	regiment = {
-		name="5th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="4th Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
+	location=1472
 	regiment = {
 		name="2nd Chittagong Irregulars"
 		type=irregular
@@ -811,87 +701,7 @@ army = {
 
 army = {
 	name="5th Army"
-	location=1327
-	regiment = {
-		name="1st Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="3rd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="4th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Bardwan Irregulars"
-		type=irregular
-		home=1253
-	}
-	regiment = {
-		name="1st Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="3rd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="4th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Bardwan Irregulars"
-		type=irregular
-		home=1253
-	}
-	regiment = {
-		name="1st Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="3rd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="4th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Bardwan Irregulars"
-		type=irregular
-		home=1253
-	}
-	regiment = {
-		name="1st Calcutta Irregulars"
-		type=irregular
-		home=1251
-	}
-	regiment = {
-		name="3rd Chittagong Artillery"
-		type=artillery
-		home=1257
-	}
-	regiment = {
-		name="4th Chittagong Irregulars"
-		type=irregular
-		home=1257
-	}
-	regiment = {
-		name="2nd Bardwan Irregulars"
-		type=irregular
-		home=1253
-	}
+	location=1474
 	regiment = {
 		name="1st Calcutta Irregulars"
 		type=irregular
@@ -916,7 +726,7 @@ army = {
 
 navy = {
 	name="5th Fleet"
-	location=1256
+	location=2796
 	ship = {
 		name="Baitarani"
 		type=frigate

@@ -21,13 +21,13 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # political reforms
-slavery=no_slavery
-vote_franschise=wealth_voting
-upper_house_composition=state_equal_weight
-voting_system=first_past_the_post
-public_meetings=yes_meeting
+slavery=yes_slavery
+vote_franschise=landed_voting
+upper_house_composition=appointed
+voting_system=jefferson_method
+public_meetings=no_meeting
 press_rights=censored_press
-trade_unions=state_controlled
+trade_unions=no_trade_unions
 political_parties=gerrymandering
 
 ruling_party = TER_reactionary

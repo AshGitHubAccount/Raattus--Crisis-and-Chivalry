@@ -661,7 +661,7 @@ leader = {
 #Armies
 army = {
 	name="2nd Army"
-	location=334
+	location=373
 	regiment = {
 		name="1st St Petersburg Infantry"
 		type=infantry
@@ -711,7 +711,7 @@ army = {
 
 navy = {
 	name="3rd Fleet"
-	location=367
+	location=2711
 	ship = {
 		name="Carl XIII"
 		type=manowar
@@ -732,7 +732,7 @@ navy = {
 
 army = {
 	name="5th Army"
-	location=372
+	location=984
 	regiment = {
 		name="1st Karlskrona Infantry"
 		type=infantry
@@ -749,38 +749,10 @@ army = {
 		home=372
 	}
 }
-army = {
-	name="5th Army"
-	location=339
-	regiment = {
-		name="1st Karlskrona Infantry"
-		type=infantry
-		home=346
-	}
-	regiment = {
-		name="1st Frederiksstad Artillery"
-		type=artillery
-		home=345
-	}
-	regiment = {
-		name="1st Copenhagen Infantry"
-		type=infantry
-		home=333
-	}
-	regiment = {
-		name="1st Copenhagen Infantry"
-		type=infantry
-		home=333
-	}
-	regiment = {
-		name="1st Copenhagen Infantry"
-		type=cavalry
-		home=334
-	}
-}
+
 navy = {
 	name="4th Fleet"
-	location=372
+	location=2711
 	ship = {
 		name="Packa"
 		type=frigate
@@ -849,7 +821,7 @@ navy = {
 
 navy = {
 	name="1st Fleet"
-	location=334
+	location=2716
 	ship = {
 		name="Gustav den Store"
 		type=manowar
