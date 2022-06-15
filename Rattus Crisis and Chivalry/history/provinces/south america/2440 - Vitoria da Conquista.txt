@@ -1,6 +1,6 @@
-owner=BRZ
-controller=BRZ
-add_core=BRZ
+owner=AGC
+controller=AGC
+add_core=AGC
 trade_goods = cattle
 life_rating = 35
 terrain = dryhills

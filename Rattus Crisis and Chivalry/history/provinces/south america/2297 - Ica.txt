@@ -1,6 +1,6 @@
-owner=PEU
-controller=PEU
-add_core=PEU
+owner=ALW
+controller=ALW
+add_core=ALW
 trade_goods = fish
 life_rating = 35
 terrain = dryhills

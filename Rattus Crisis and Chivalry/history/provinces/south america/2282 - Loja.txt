@@ -1,6 +1,6 @@
-owner=CLM
-controller=CLM
+owner=AUA
+controller=AUA
 add_core=CHM
-add_core=CLM
+add_core=AUA
 trade_goods = cattle
 life_rating = 34

@@ -1,6 +1,6 @@
-owner=BRZ
-controller=BRZ
-add_core=BRZ
+owner=BAS
+controller=BAS
+add_core=BAS
 add_core=TPQ
 trade_goods = tobacco
 life_rating = 35

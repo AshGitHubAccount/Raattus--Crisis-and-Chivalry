@@ -1,6 +1,6 @@
-owner=CHL
-controller=CHL
-add_core=CHL
+owner=AGU
+controller=AGU
+add_core=AGU
 trade_goods = fruit
 life_rating = 35
 terrain = farmlands

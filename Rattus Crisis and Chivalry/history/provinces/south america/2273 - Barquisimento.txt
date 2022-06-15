@@ -1,7 +1,7 @@
-owner=VNZ
-controller=VNZ
+owner=ARW
+controller=ARW
 add_core=ARW
-add_core=VNZ
+add_core=ARW
 trade_goods = coffee
 life_rating = 33
 terrain = montane_forest

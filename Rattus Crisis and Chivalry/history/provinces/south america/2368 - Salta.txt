@@ -1,6 +1,6 @@
-owner=CHL
-controller=CHL
+owner=ALN
+controller=ALN
 add_core=CCQ
-add_core=CHL
+add_core=ALN
 trade_goods = wool
 life_rating = 35

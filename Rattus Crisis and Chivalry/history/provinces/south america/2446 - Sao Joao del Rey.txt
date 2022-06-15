@@ -1,5 +1,5 @@
-owner=BRZ
-controller=BRZ
-add_core=BRZ
+owner=AES
+controller=AES
+add_core=AES
 trade_goods = coffee
 life_rating = 35

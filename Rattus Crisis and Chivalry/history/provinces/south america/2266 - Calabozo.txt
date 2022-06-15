@@ -1,6 +1,6 @@
-owner=VNZ
-controller=VNZ
+owner=ARW
+controller=ARW
 add_core=ARW
-add_core=VNZ
+add_core=ARW
 trade_goods = grain
 life_rating = 31

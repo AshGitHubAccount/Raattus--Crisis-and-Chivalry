@@ -1,6 +1,6 @@
-owner=BRZ
-controller=BRZ
-add_core=BRZ
+owner=PRG
+controller=PRG
+add_core=PRG
 add_core=TUA
 trade_goods = fruit
 life_rating = 31

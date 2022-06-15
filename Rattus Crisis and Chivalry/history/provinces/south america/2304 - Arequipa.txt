@@ -1,6 +1,6 @@
-owner=PEU
-controller=PEU
-add_core=PEU
+owner=ALW
+controller=ALW
+add_core=ALW
 trade_goods = sulphur
 life_rating = 31
 terrain = new_world_semidesert

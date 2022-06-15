@@ -1,7 +1,7 @@
-owner=PEU
-controller=PEU
+owner=AUA
+controller=AUA
 add_core=CJA
-add_core=PEU
+add_core=AUA
 trade_goods = rubber
 life_rating = 33
 terrain = montane_forest

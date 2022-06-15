@@ -1,6 +1,6 @@
-owner=PEU
-controller=PEU
+owner=ALW
+controller=ALW
 add_core=CSU
-add_core=PEU
+add_core=ALW
 trade_goods = sulphur
 life_rating = 39

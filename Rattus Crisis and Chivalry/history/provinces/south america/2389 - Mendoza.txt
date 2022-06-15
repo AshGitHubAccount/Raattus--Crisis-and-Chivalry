@@ -1,6 +1,6 @@
-owner=CHL
-controller=CHL
-add_core=CHL
+owner=ALN
+controller=ALN
+add_core=ALN
 trade_goods = fruit
 life_rating = 35
 terrain = dryhills
