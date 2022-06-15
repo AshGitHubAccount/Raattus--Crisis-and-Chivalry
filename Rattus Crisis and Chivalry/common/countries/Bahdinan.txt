@@ -1,5 +1,5 @@
 graphical_culture = MiddleEasternGC
-color = { 84  204  4 }
+color = { 52  153  196 }
 
 party = {
 	name = "KDS_conservative"

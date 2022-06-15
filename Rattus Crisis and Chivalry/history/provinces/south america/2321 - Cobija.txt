@@ -1,5 +1,5 @@
-owner=PEU
-controller=PEU
-add_core=PEU
+owner=ALW
+controller=ALW
+add_core=ALW
 trade_goods = tropical_wood
 life_rating = 31

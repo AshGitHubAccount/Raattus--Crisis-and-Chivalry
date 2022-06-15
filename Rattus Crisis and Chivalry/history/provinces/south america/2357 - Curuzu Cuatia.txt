@@ -1,5 +1,5 @@
-owner=ARG
-controller=REB
-add_core=ARG
+owner=BDN
+controller=BDN
+add_core=BDN
 trade_goods = tropical_wood
 life_rating = 35
