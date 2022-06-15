@@ -250,49 +250,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2432
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 120
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 19
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 25
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 53
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 8
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2
 	}
@@ -322,49 +322,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 1904
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 95
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 20
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 41
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 14
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 7
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2
 	}
@@ -550,9 +550,9 @@
 
 	soldiers=
 	{
-		culture = quechua
-		religion = inti
-		size= 151
+		culture = maranon
+		religion = catholic
+		size= 2151
 	}
 
 	artisans=
@@ -592,9 +592,9 @@
 
 	farmers=
 	{
-		culture = quechua
-		religion = inti
-		size= 11852
+		culture = maranon
+		religion = catholic
+		size= 17852
 	}
 
 }
@@ -636,23 +636,23 @@
 
 	officers=
 	{
-		culture = quechua
-		religion = inti
+		culture = maranon
+		religion = catholic
 		size= 21
 	}
 
 	aristocrats=
 	{
-		culture = quechua
-		religion = inti
+		culture = maranon
+		religion = catholic
 		size= 138
 	}
 
 	farmers=
 	{
-		culture = quechua
-		religion = inti
-		size= 11752
+		culture = maranon
+		religion = catholic
+		size= 22752
 	}
 
 }
@@ -1257,14 +1257,14 @@
 
 	farmers=
 	{
-		culture = quechua
-		religion = inti
+		culture = maranon
+		religion = catholic
 		size= 7402
 	}
 
 	slaves=
 	{
-		culture = quechua
+		culture = maranon
 		religion = catholic
 		size= 863
 	}
@@ -1285,7 +1285,7 @@
 
 	clergymen=
 	{
-		culture = quechua
+		culture = maranon
 		religion = catholic
 		size= 113
 	}
@@ -2321,7 +2321,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_maranon
 		religion = catholic
 		size= 1708
 	}

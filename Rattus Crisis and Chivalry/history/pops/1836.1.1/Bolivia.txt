@@ -1,14 +1,14 @@
 2310 = {
 	soldiers=
 	{
-		culture = aimara
+		culture = platinean
 		religion = inti
 		size= 469
 	}
 
 	artisans=
 	{
-		culture = aimara
+		culture = platinean
 		religion = inti
 		size= 1727
 	}
@@ -45,9 +45,14 @@
 	{
 		culture = aimara
 		religion = inti
+		size= 12237
+	}
+farmers=
+	{
+		culture = platinean
+		religion = catholic
 		size= 22237
 	}
-
 	soldiers=
 	{
 		culture = aimara
@@ -57,7 +62,7 @@
 
 	artisans=
 	{
-		culture = aimara
+		culture = platinean
 		religion = catholic
 		size= 12607
 	}
@@ -94,7 +99,13 @@
 	{
 		culture = aimara
 		religion = catholic
-		size= 61884
+		size= 21884
+	}
+	farmers=
+	{
+		culture = platinean
+		religion = catholic
+		size= 41884
 	}
 
 }

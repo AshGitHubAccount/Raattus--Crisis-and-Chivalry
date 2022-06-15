@@ -343,49 +343,49 @@
 2282 = {
 	soldiers=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 183
 	}
 
 	artisans=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 183
 	}
 
 	clergymen=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 30
 	}
 
 	bureaucrats=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 11
 	}
 
 	officers=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 4
 	}
 
 	aristocrats=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 39
 	}
 
 	farmers=
 	{
-		culture = quechua
+		culture = maranon
 		religion = inti
 		size= 8723
 	}
@@ -434,7 +434,7 @@
 
 	farmers=
 	{
-		culture = quechua
+		culture = maranon
 		religion = catholic
 		size= 27396
 	}

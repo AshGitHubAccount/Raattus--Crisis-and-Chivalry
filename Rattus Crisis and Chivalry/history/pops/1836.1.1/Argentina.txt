@@ -983,28 +983,28 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 65
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 287
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 47
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 17
 	}
@@ -1018,14 +1018,14 @@
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 60
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 6020
 	}
@@ -4872,49 +4872,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 1033
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 358
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 17
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 5
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = platinean
 		religion = catholic
 		size= 847
 	}

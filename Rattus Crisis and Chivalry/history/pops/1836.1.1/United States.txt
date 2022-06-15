@@ -7146,7 +7146,7 @@
 140 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 2727
 	}
@@ -7202,7 +7202,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = catholic
 		size= 7067
 	}
@@ -7260,7 +7260,7 @@
 141 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 449
 	}
@@ -7353,7 +7353,7 @@
 142 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 1578
 	}
@@ -7402,7 +7402,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = catholic
 		size= 4574
 	}
@@ -7902,21 +7902,21 @@
 147 = {
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 13
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 82
 	}
 
 	farmers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 1157
 	}
@@ -7937,77 +7937,77 @@
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 4
 	}
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 1
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 5
 	}
 
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 38
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 620
 	}
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 29
 	}
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 6
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 37
 	}
 
 	farmers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 3056
 	}
@@ -8137,35 +8137,35 @@
 
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 35
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 231
 	}
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 11
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 14
 	}
 
 	farmers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 2484
 	}
@@ -8207,14 +8207,14 @@
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 2
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = totemism
 		size= 2
 	}
@@ -8228,49 +8228,49 @@
 
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 106
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 1737
 	}
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 81
 	}
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 12
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 104
 	}
 
 	farmers=
 	{
-		culture = french_american
+		culture = americano
 		religion = catholic
 		size= 6280
 	}
@@ -8540,49 +8540,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 969
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 53
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 11
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 30
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 8
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 3
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 3
 	}
@@ -8766,49 +8766,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1115
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 58
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 12
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 12
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 9
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 3
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 2
 	}
@@ -8845,49 +8845,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1651
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 569
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 26
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 34
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1033
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 7
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 8
 	}
@@ -8917,49 +8917,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1295
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 284
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 16
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 45
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 4
 	}
@@ -8989,49 +8989,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 654
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 90
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 19
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 14
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1033
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 5
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 3
 	}
@@ -9068,70 +9068,70 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 4
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 10
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 16
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 93
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 4
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 1
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 11
 	}
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = protestant
 		size= 461
 	}
@@ -10185,35 +10185,35 @@
 165 = {
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 80
 	}
 
 	artisans=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 317
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 7539
 	}
 
 	clergymen=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 51
 	}
 
 	aristocrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 66
 	}
@@ -10248,14 +10248,14 @@
 
 	bureaucrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 8
 	}
 
 	officers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 10
 	}
@@ -10264,98 +10264,98 @@
 166 = {
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 12
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 6186
 	}
 
 	artisans=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 107
 	}
 
 	clergymen=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 12
 	}
 
 	aristocrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 31
 	}
 
 	bureaucrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 4
 	}
 
 	officers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 4
 	}
 
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 34
 	}
 
 	artisans=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 733
 	}
 
 	clergymen=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 82
 	}
 
 	bureaucrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 36
 	}
 
 	officers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 34
 	}
 
 	aristocrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 218
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 17512
 	}
@@ -10364,98 +10364,98 @@
 167 = {
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 68
 	}
 
 	artisans=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 165
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 2141
 	}
 
 	aristocrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 19
 	}
 
 	clergymen=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 7
 	}
 
 	bureaucrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 1
 	}
 
 	officers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 3
 	}
 
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 183
 	}
 
 	artisans=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 1081
 	}
 
 	clergymen=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 50
 	}
 
 	bureaucrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 10
 	}
 
 	officers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 130
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = catholic
 		size= 5045
 	}
@@ -10492,14 +10492,14 @@
 
 	soldiers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 22
 	}
 
 	farmers=
 	{
-		culture = central_algonquian
+		culture = americano
 		religion = totemism
 		size= 1988
 	}
@@ -10527,7 +10527,7 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 12684
 	}
@@ -10541,42 +10541,42 @@
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 691
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 112
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 145
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 41
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 22
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 146
 	}
@@ -10720,7 +10720,7 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 31007
 	}
@@ -10734,42 +10734,42 @@
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 6793
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1033
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 407
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 315
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 96
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 63
 	}
@@ -10936,49 +10936,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 14833
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 828
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 134
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 173
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1033
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 41
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 42
 	}
@@ -11867,49 +11867,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 30939
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 769
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 6492
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 389
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 301
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 93
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 37
 	}
@@ -12442,49 +12442,49 @@
 
 	farmers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 21117
 	}
 
 	soldiers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 328
 	}
 
 	artisans=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 1576
 	}
 
 	clergymen=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 256
 	}
 
 	aristocrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 331
 	}
 
 	bureaucrats=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 110
 	}
 
 	officers=
 	{
-		culture = mexican
+		culture = americano
 		religion = catholic
 		size= 51
 	}
@@ -13587,7 +13587,7 @@
 193 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 7919
 	}
@@ -13643,7 +13643,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = catholic
 		size= 5803
 	}
@@ -13701,7 +13701,7 @@
 194 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 2628
 	}
@@ -13757,7 +13757,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = catholic
 		size= 7297
 	}
@@ -13815,7 +13815,7 @@
 195 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 9533
 	}
@@ -13871,7 +13871,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = coptic
 		size= 6102
 	}

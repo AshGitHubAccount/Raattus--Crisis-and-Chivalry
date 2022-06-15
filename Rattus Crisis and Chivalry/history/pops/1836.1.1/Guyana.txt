@@ -1,14 +1,14 @@
 1979 = {
 	soldiers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1
 	}
 
 	farmers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 126
 	}
@@ -66,28 +66,28 @@
 2239 = {
 	slaves=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1975
 	}
 
 	soldiers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 21
 	}
 
 	farmers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 70
 	}
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = north_andean
 		religion = catholic
 		size= 11960
 	}
@@ -101,42 +101,42 @@
 
 	artisans=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 2041
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 122
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 95
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 20
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 124
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 11
 	}
@@ -159,56 +159,56 @@
 
 	farmers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 679
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 137
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 8
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 6
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 1
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = north_andean
 		religion = catholic
 		size= 8
 	}
@@ -217,98 +217,98 @@
 2243 = {
 	slaves=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 2651
 	}
 
 	soldiers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 27
 	}
 
 	artisans=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 191
 	}
 
 	clergymen=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 9
 	}
 
 	aristocrats=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 23
 	}
 
 	bureaucrats=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1
 	}
 
 	officers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1
 	}
 
 	slaves=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 6078
 	}
 
 	soldiers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 62
 	}
 
 	artisans=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 1065
 	}
 
 	clergymen=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 49
 	}
 
 	bureaucrats=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 8
 	}
 
 	officers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 6
 	}
 
 	aristocrats=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = catholic
 		size= 128
 	}

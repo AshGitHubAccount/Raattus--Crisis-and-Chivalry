@@ -1,28 +1,28 @@
 2240 = {
 	slaves=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 1624
 	}
 
 	soldiers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 17
 	}
 
 	farmers=
 	{
-		culture = guajiro
+		culture = north_andean
 		religion = animist
 		size= 25
 	}
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = north_andean
 		religion = catholic
 		size= 10423
 	}

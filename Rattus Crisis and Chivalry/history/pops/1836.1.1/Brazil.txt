@@ -1,7 +1,7 @@
 2306 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 1183
 	}
@@ -213,49 +213,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 1872
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 396
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 46
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 47
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 21
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 6
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 1
 	}
@@ -371,49 +371,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 1255
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 266
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 31
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 31
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 13
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = carribean 
 		religion = catholic
 		size= 1
 	}
@@ -436,56 +436,56 @@
 2404 = {
 	soldiers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 2
 	}
 
 	farmers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 118
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 635
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 134
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 16
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 16
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 2
 	}
@@ -508,63 +508,63 @@
 2405 = {
 	soldiers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 7
 	}
 
 	farmers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 338
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 1841
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 390
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 46
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 47
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 20
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 6
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 1
 	}
@@ -587,56 +587,56 @@
 2407 = {
 	soldiers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 2
 	}
 
 	farmers=
 	{
-		culture = carribean
+		culture = amazonian
 		religion = animist
 		size= 118
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 635
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 134
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 16
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 16
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = amazonian 
 		religion = catholic
 		size= 2
 	}
@@ -724,7 +724,7 @@
 2410 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 349
 	}
@@ -766,7 +766,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 689
 	}
@@ -878,7 +878,7 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 448
 	}
@@ -892,35 +892,35 @@
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 85
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 14
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4
 	}
@@ -929,7 +929,7 @@
 2411 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 128
 	}
@@ -1385,49 +1385,49 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 2812
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 603
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 72
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 32
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 70
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 8
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 3
 	}
@@ -1450,49 +1450,49 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4570
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 943
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 85
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 55
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 56
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 15
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 8
 	}
@@ -1529,63 +1529,63 @@
 2418 = {
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 22
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1092
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 4223
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 900
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 107
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 47
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 106
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 12
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 5
 	}
@@ -1636,140 +1636,140 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 45
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 2
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 5
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 203
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 16
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 96
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 691
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 11
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 506
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 109
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 13
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 13
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1
 	}
@@ -1799,7 +1799,7 @@
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 239
 	}
@@ -1848,140 +1848,140 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 13
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 114
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 6
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 2
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 14
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = catholic
 		size= 502
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 41
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 29
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1727
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 12
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 3
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1265
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 272
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 33
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 14
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 32
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1
 	}
@@ -1990,28 +1990,28 @@
 2421 = {
 	slaves=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 3321
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 145
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 2753
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 953
 	}
@@ -2025,77 +2025,77 @@
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 472
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 56
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 25
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 56
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 7
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 2
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 943
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 113
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 49
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 15
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 5
 	}
@@ -2104,63 +2104,63 @@
 2422 = {
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 5
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 287
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1421
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 73
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 31
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 31
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 13
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 2
 	}
@@ -2169,70 +2169,70 @@
 2423 = {
 	soldiers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 13
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 597
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 1385
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 289
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 34
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 34
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 14
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = tupinamba
 		religion = catholic
 		size= 2
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 47
 	}
@@ -2246,21 +2246,21 @@
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 2
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = tupinamba
 		religion = animist
 		size= 5
 	}
@@ -2332,7 +2332,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 194
 	}
@@ -2791,7 +2791,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 93
 	}
@@ -2961,49 +2961,49 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 155
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 749
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 62
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 20
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 7
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 140
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6604
 	}
@@ -3068,7 +3068,7 @@
 2428 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 632
 	}
@@ -3124,7 +3124,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 2044
 	}
@@ -3294,7 +3294,7 @@
 2429 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 1338
 	}
@@ -3350,7 +3350,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 15797
 	}
@@ -3436,7 +3436,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 41
 	}
@@ -3564,7 +3564,7 @@
 2431 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 3442
 	}
@@ -3620,7 +3620,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 10509
 	}
@@ -3678,7 +3678,7 @@
 2432 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 1776
 	}
@@ -3755,49 +3755,49 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4133
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6501
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 348
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 111
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 37
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 390
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 7277
 	}
@@ -3827,7 +3827,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 68
 	}
@@ -4018,7 +4018,7 @@
 2434 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 4236
 	}
@@ -4074,7 +4074,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 11763
 	}
@@ -4132,7 +4132,7 @@
 2435 = {
 	slaves=
 	{
-		culture = tupi
+		culture = brazilian
 		religion = animist
 		size= 999
 	}
@@ -4146,7 +4146,7 @@
 
 	artisans=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 103
 	}
@@ -4167,7 +4167,7 @@
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 1136
 	}
@@ -4188,7 +4188,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 11875
 	}
@@ -4209,21 +4209,21 @@
 
 	clergymen=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 214
 	}
 
 	bureaucrats=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 51
 	}
 
 	officers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 23
 	}
@@ -4237,7 +4237,7 @@
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 11883
 	}
@@ -4246,7 +4246,7 @@
 2436 = {
 	slaves=
 	{
-		culture = tupi
+		culture = brazilian
 		religion = animist
 		size= 3169
 	}
@@ -4260,14 +4260,14 @@
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 4628
 	}
 
 	slaves=
 	{
-		culture = afro_caribeno
+		culture = brazilian
 		religion = catholic
 		size= 18050
 	}
@@ -4323,49 +4323,49 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4133
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6640
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 356
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 95
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 38
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 797
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 14390
 	}
@@ -4407,7 +4407,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 14958
 	}
@@ -4486,7 +4486,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 88
 	}
@@ -4859,49 +4859,49 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 536
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 1174
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 220
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 70
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 23
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 493
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 12812
 	}
@@ -4987,49 +4987,49 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 1033
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 1449
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 272
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 87
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 29
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 304
 	}
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6684
 	}
@@ -5094,7 +5094,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 18139
 	}
@@ -5150,7 +5150,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 3865
 	}
@@ -5399,7 +5399,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 8
 	}
@@ -5413,7 +5413,7 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6201
 	}
@@ -5427,42 +5427,42 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 631
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 5155
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 276
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 308
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 88
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 29
 	}
@@ -5499,7 +5499,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 13
 	}
@@ -5704,49 +5704,49 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 7527
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 764
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 143
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 160
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 45
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 324
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 15
 	}
@@ -5869,7 +5869,7 @@
 2446 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 18950
 	}
@@ -5983,7 +5983,7 @@
 2447 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 21645
 	}
@@ -6095,7 +6095,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 81917
 	}
@@ -6153,7 +6153,7 @@
 2448 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 4481
 	}
@@ -6258,7 +6258,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 16566
 	}
@@ -6430,7 +6430,7 @@
 2450 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 9928
 	}
@@ -6535,7 +6535,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 4914
 	}
@@ -6649,7 +6649,7 @@
 2451 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 5455
 	}
@@ -6733,7 +6733,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 13739
 	}
@@ -6791,7 +6791,7 @@
 2452 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 1775
 	}
@@ -7010,28 +7010,28 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 1445
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 88
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 37
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 16
 	}
@@ -7045,21 +7045,21 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 37
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 5
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 2
 	}
@@ -7068,7 +7068,7 @@
 2455 = {
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = animist
 		size= 2163
 	}
@@ -7166,7 +7166,7 @@
 
 	slaves=
 	{
-		culture = tupi
+		culture = tupinamba
 		religion = catholic
 		size= 1070
 	}
@@ -7301,28 +7301,28 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 1445
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 88
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 37
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 16
 	}
@@ -7336,21 +7336,21 @@
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 37
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 5
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 2
 	}
@@ -8942,49 +8942,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 710
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 35
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 8
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 1
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = amazonian
 		religion = catholic
 		size= 7
 	}
@@ -9014,63 +9014,63 @@
 
 	craftsmen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6956
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 491
 	}
 
 	clerks=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 493
 	}
 
 	capitalists=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 42
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 29
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 22
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 30
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 6
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 4
 	}
@@ -9093,49 +9093,49 @@
 
 	farmers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 2563
 	}
 
 	artisans=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 526
 	}
 
 	aristocrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 62
 	}
 
 	clergymen=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 24
 	}
 
 	soldiers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 32
 	}
 
 	bureaucrats=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 8
 	}
 
 	officers=
 	{
-		culture = platinean
+		culture = brazilian
 		religion = catholic
 		size= 5
 	}

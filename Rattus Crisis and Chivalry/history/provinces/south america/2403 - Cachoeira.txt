@@ -1,5 +1,3 @@
-owner=ARW
-controller=ARW
-add_core=ARW
+
 trade_goods = tropical_wood
-life_rating = 31
+life_rating = 15

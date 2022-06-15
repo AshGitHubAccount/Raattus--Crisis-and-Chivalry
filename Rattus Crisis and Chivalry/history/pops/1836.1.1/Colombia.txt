@@ -143,7 +143,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 874
 	}
@@ -192,49 +192,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 349
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 777
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 126
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 58
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 163
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 15180
 	}
@@ -406,49 +406,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 481
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 1071
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 174
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 80
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 21
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 225
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 22006
 	}
@@ -704,7 +704,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 12986
 	}
@@ -753,49 +753,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 1282
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2852
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 464
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 214
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 57
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 599
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 46985
 	}
@@ -846,7 +846,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 6027
 	}
@@ -902,49 +902,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 130
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 356
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 58
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 26
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 74
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2052
 	}
@@ -1107,7 +1107,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 6579
 	}
@@ -1524,7 +1524,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 2638
 	}
@@ -1580,49 +1580,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 257
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 705
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 115
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 53
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 14
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 148
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 9882
 	}
@@ -1701,49 +1701,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 257
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 571
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 93
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 43
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 11
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 120
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 11737
 	}
@@ -1773,7 +1773,7 @@
 
 	slaves=
 	{
-		culture = afro_brazilian
+		culture = afro_caribbean
 		religion = catholic
 		size= 6123
 	}
@@ -1829,49 +1829,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 122
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 334
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 54
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 25
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 7
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 70
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 1600
 	}
@@ -2069,49 +2069,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 143
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 392
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 64
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 29
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 82
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 6419
 	}
@@ -2714,49 +2714,49 @@
 
 	farmers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 1904
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 95
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 20
 	}
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 41
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 14
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 7
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = maranon
 		religion = catholic
 		size= 2
 	}

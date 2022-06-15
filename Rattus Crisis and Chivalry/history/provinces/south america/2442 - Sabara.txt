@@ -1,5 +1,5 @@
-owner=AES
-controller=AES
-add_core=AES
+owner=AGC
+controller=AGC
+add_core=AGC
 trade_goods = cotton
 life_rating = 31
