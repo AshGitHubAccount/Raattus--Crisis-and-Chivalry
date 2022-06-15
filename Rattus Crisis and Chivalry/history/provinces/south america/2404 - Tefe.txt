@@ -1,5 +1,5 @@
-owner=BRZ
-controller=BRZ
-add_core=BRZ
+owner=AUA
+controller=AUA
+add_core=AUA
 trade_goods = rubber
 life_rating = 31

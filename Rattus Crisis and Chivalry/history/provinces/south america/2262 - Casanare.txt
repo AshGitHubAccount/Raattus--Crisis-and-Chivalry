@@ -1,6 +1,6 @@
-owner=CLM
-controller=CLM
-add_core=CLM
+owner=ARW
+controller=ARW
+add_core=ARW
 trade_goods = cattle
 life_rating = 35
 terrain = savanna
