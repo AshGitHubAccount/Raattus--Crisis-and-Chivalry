@@ -878,42 +878,42 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 298
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 36
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 3
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 3
 	}
@@ -969,35 +969,35 @@
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 1
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 16
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 2
 	}
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 226
 	}
@@ -1011,35 +1011,35 @@
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 19
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 344
 	}
@@ -1083,56 +1083,56 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 817
 	}
 	
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 404
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 44
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 20
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 20
 	}
 
 	bureaucrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 3
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 12
 	}
@@ -1246,42 +1246,42 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 162
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 60
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 12
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 10
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 4
 	}
@@ -1302,14 +1302,14 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 958
 	}
 	
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 158
 	}
@@ -1339,63 +1339,63 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 658
 	}
 	
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 361
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 35
 	}
 	
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 15
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 11
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 7
 	}
 
 	bureaucrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	officers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 8
 	}
@@ -1425,35 +1425,35 @@
 
 	farmers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 809
 	}
 
 	artisans=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 5
 	}
 
 	soldiers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 1
 	}
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 1
 	}
@@ -1474,35 +1474,35 @@
 
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 5
 	}
 	
 	clergymen=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = protestant
 		size= 5
 	}
 
 	bureaucrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 2
 	}
 
 	officers=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = americano
+		culture = nouvellien
 		religion = catholic
 		size= 7
 	}

@@ -1,6 +1,5 @@
 owner=IZH
 controller=IZH
-add_core=RUS
 add_core=IZH
 trade_goods = grain
 life_rating = 35

@@ -724,98 +724,98 @@
 2410 = {
 	slaves=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
-		size= 349
+		size= 3492
 	}
 
 	soldiers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 26
 	}
 
 	artisans=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 28
 	}
 
 	clergymen=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
 		size= 2
 	}
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = animist
-		size= 905
+		size= 9052
 	}
 
 	slaves=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 689
 	}
 
 	soldiers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 52
 	}
 
 	artisans=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 209
 	}
 
 	clergymen=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 11
 	}
 
 	bureaucrats=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 4
 	}
 
 	officers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 13
 	}
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = brazilian
 		religion = catholic
 		size= 1605
 	}
@@ -845,7 +845,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 89
+		size= 892
 	}
 
 	bureaucrats=
@@ -873,7 +873,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 4027
+		size= 9027
 	}
 
 	farmers=
@@ -3070,7 +3070,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 632
+		size= 6232
 	}
 
 	soldiers=
@@ -3091,7 +3091,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 1962
+		size= 8962
 	}
 
 	aristocrats=
@@ -3119,7 +3119,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 1
+		size= 12
 	}
 
 	slaves=
@@ -3133,7 +3133,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 188
+		size= 4188
 	}
 
 	artisans=
@@ -3189,7 +3189,7 @@
 	{
 		culture = brazilian
 		religion = animist
-		size= 89
+		size= 4489
 	}
 
 	artisans=
@@ -3245,7 +3245,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 117
+		size= 2117
 	}
 
 	artisans=
@@ -3287,7 +3287,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 3096
+		size= 9096
 	}
 
 }
@@ -3573,7 +3573,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 151
+		size= 2151
 	}
 
 	artisans=
@@ -3615,7 +3615,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 2
+		size= 22
 	}
 
 	slaves=
@@ -3629,7 +3629,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 461
+		size= 2461
 	}
 
 	artisans=
@@ -3657,7 +3657,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 21
+		size= 212
 	}
 
 	aristocrats=
@@ -3671,28 +3671,28 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 10522
+		size= 22522
 	}
 
 }
 2432 = {
 	slaves=
 	{
-		culture = tupinamba
+		culture = afro_brazilian
 		religion = animist
 		size= 1776
 	}
 
 	soldiers=
 	{
-		culture = tupinamba
+		culture = afro_brazilian
 		religion = animist
 		size= 67
 	}
 
 	farmers=
 	{
-		culture = tupinamba
+		culture = afro_brazilian
 		religion = animist
 		size= 1506
 	}
@@ -3722,14 +3722,14 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 186
+		size= 9286
 	}
 
 	clergymen=
 	{
 		culture = brazilian
 		religion = catholic
-		size= 47
+		size= 472
 	}
 
 	aristocrats=
@@ -3771,7 +3771,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 348
+		size= 2348
 	}
 
 	bureaucrats=
@@ -3799,7 +3799,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 7277
+		size= 19277
 	}
 
 }
@@ -3808,14 +3808,14 @@
 	{
 		culture = brazilian
 		religion = animist
-		size= 3228
+		size= 6228
 	}
 
 	soldiers=
 	{
 		culture = brazilian
 		religion = animist
-		size= 108
+		size= 1082
 	}
 
 	farmers=
@@ -3913,7 +3913,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 18
+		size= 5822
 	}
 
 	artisans=
@@ -3955,7 +3955,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 229
+		size= 2292
 	}
 
 	slaves=
@@ -4011,7 +4011,7 @@
 	{
 		culture = brazilian
 		religion = catholic
-		size= 3968
+		size= 9968
 	}
 
 }
@@ -4020,7 +4020,7 @@
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 4236
+		size= 42362
 	}
 
 	soldiers=
@@ -4076,14 +4076,14 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 11763
+		size= 22763
 	}
 
 	soldiers=
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 560
+		size= 5602
 	}
 
 	artisans=
@@ -4111,7 +4111,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 26
+		size= 262
 	}
 
 	aristocrats=
@@ -4125,7 +4125,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 10198
+		size= 40198
 	}
 
 }
@@ -4133,15 +4133,15 @@
 	slaves=
 	{
 		culture = brazilian
-		religion = animist
-		size= 999
+		religion = catholic
+		size= 9992
 	}
 
 	soldiers=
 	{
 		culture = afro_brazilian
 		religion = animist
-		size= 46
+		size= 462
 	}
 
 	artisans=
@@ -4168,8 +4168,8 @@
 	farmers=
 	{
 		culture = brazilian
-		religion = animist
-		size= 1136
+		religion = catholic
+		size= 31362
 	}
 
 	bureaucrats=
@@ -4197,7 +4197,7 @@
 	{
 		culture = afro_brazilian
 		religion = catholic
-		size= 548
+		size= 5482
 	}
 
 	artisans=
