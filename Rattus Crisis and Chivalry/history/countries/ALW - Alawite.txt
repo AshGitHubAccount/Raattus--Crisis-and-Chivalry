@@ -1,13 +1,12 @@
 capital = 905
-primary_culture = dummy
-culture = zzz_religion_shamanist
-religion = shamanist
+primary_culture = quechua
+culture = zzz_religion_initi
+religion = initi
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_order
-literacy = 0
+literacy = 0.19002
 
-civilized = yes
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -20,11 +19,11 @@ school_reforms = no_schools
 # Political Reforms
 slavery=yes_slavery
 vote_franschise=none_voting
-upper_house_composition=appointed
-voting_system=jefferson_method
-public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=no_trade_unions
+upper_house_composition=party_appointed
+voting_system=first_past_the_post
+public_meetings=no_meeting
+press_rights=state_press
+trade_unions=no_unions
 political_parties=underground_parties
 
 ruling_party = SYR_reactionary
@@ -44,7 +43,22 @@ consciousness = 0
 nonstate_consciousness= 0
 
 # Technologies
-prestige=0
+land_reform=yes_land_reform
+admin_reform=yes_admin_reform
+finance_reform=no_finance_reform
+education_reform=no_education_reform
+transport_improv=no_transport_improv
+pre_indust=no_pre_indust
+industrial_construction=no_industrial_construction
+foreign_training=yes_foreign_training
+foreign_weapons=yes_foreign_weapons
+military_constructions=yes_military_constructions
+foreign_officers=no_foreign_officers
+army_schools=no_army_schools
+foreign_naval_officers=no_foreign_naval_officers
+naval_schools=no_naval_schools
+foreign_navies=no_foreign_navies
+prestige=1
 oob = "ALW_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_ALW

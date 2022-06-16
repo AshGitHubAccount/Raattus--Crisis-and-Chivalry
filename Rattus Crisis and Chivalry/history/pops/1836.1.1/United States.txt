@@ -4547,63 +4547,63 @@
 
 	craftsmen=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 6462
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 295
 	}
 
 	clerks=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 493
 	}
 
 	capitalists=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 192
 	}
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 17
 	}
 
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 46
 	}
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 5
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 4
 	}
@@ -6990,7 +6990,7 @@
 139 = {
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = totemism
 		size= 2998
 	}
@@ -7032,42 +7032,42 @@
 
 	soldiers=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 1
 	}
 
 	artisans=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 45
 	}
 
 	clergymen=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 4
 	}
 
 	aristocrats=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 6
 	}
 
 	farmers=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 33
 	}
 
 	officers=
 	{
-		culture = caddoan
+		culture = americano
 		religion = totemism
 		size= 1
 	}
@@ -7088,7 +7088,7 @@
 
 	slaves=
 	{
-		culture = native_american_minor
+		culture = americano
 		religion = catholic
 		size= 11135
 	}
@@ -9252,49 +9252,49 @@
 
 	farmers=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 782
 	}
 
 	artisans=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 178
 	}
 
 	aristocrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 10
 	}
 
 	soldiers=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 27
 	}
 
 	clergymen=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 7
 	}
 
 	bureaucrats=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 3
 	}
 
 	officers=
 	{
-		culture = french_american
+		culture = americano
 		religion = protestant
 		size= 2
 	}

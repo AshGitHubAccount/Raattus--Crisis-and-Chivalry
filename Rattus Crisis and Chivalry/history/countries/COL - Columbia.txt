@@ -1,5 +1,5 @@
 capital = 14
-primary_culture = anglo_canadian
+primary_culture = maranon
 culture = zzz_religion_protestant
 religion = protestant
 government = democracy

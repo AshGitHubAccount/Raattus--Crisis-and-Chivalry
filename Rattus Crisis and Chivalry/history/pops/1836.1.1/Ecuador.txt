@@ -115,112 +115,112 @@
 2280 = {
 	slaves=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 800
 	}
 
 	soldiers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 102
 	}
 
 	artisans=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 102
 	}
 
 	clergymen=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 17
 	}
 
 	bureaucrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 5
 	}
 
 	officers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 21
 	}
 
 	farmers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 4066
 	}
 
 	slaves=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 2280
 	}
 
 	soldiers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 292
 	}
 
 	artisans=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 686
 	}
 
 	clergymen=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 111
 	}
 
 	bureaucrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 34
 	}
 
 	officers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 14
 	}
 
 	aristocrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 144
 	}
 
 	farmers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 11026
 	}
@@ -229,112 +229,112 @@
 2281 = {
 	slaves=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 2357
 	}
 
 	soldiers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 79
 	}
 
 	artisans=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 79
 	}
 
 	clergymen=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 13
 	}
 
 	bureaucrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 4
 	}
 
 	officers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 17
 	}
 
 	farmers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = inti
 		size= 1421
 	}
 
 	slaves=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 6643
 	}
 
 	soldiers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 224
 	}
 
 	artisans=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 527
 	}
 
 	clergymen=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 86
 	}
 
 	bureaucrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 26
 	}
 
 	officers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 11
 	}
 
 	aristocrats=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 111
 	}
 
 	farmers=
 	{
-		culture = chibchan
+		culture = maranon
 		religion = catholic
 		size= 3565
 	}
@@ -606,49 +606,49 @@
 
 	soldiers=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 138
 	}
 
 	artisans=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 295
 	}
 
 	clergymen=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 48
 	}
 
 	bureaucrats=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 22
 	}
 
 	officers=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 6
 	}
 
 	aristocrats=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 62
 	}
 
 	farmers=
 	{
-		culture = brazilian
+		culture = south_andean
 		religion = catholic
 		size= 6338
 	}

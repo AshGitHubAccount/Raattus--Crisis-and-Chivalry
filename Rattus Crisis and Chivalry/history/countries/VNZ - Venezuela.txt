@@ -1,7 +1,5 @@
 capital = 2269
 primary_culture = north_andean
-culture = carribean
-culture = guajiro
 culture = zzz_religion_catholic
 religion = catholic
 government = democracy

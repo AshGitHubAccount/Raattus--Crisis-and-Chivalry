@@ -3,7 +3,7 @@ primary_culture = platinean
 culture = guarani
 culture = zzz_religion_catholic
 religion = catholic
-government = absolute_monarchy
+government = democracy
 plurality = 0
 nationalvalue = nv_tradition
 literacy = 0.420177
@@ -21,13 +21,13 @@ school_reforms = no_schools
 
 # political reforms
 slavery=yes_slavery
-vote_franschise=none_voting
-upper_house_composition=party_appointed
+vote_franschise=wealth_voting
+upper_house_composition=state_equal_weight
 voting_system=first_past_the_post
-public_meetings=no_meeting
-press_rights=state_press
-trade_unions=no_trade_unions
-political_parties=underground_parties
+public_meetings=yes_meeting
+press_rights=censored_press
+trade_unions=state_controlled
+political_parties=gerrymandering
 
 ruling_party = ARG_reactionary
 upper_house = 
@@ -71,7 +71,7 @@ private_banks = 1
 romanticism = 1
 stock_exchange = 1
 the_command_principle = 1
-prestige=0
+prestige=1
 oob = "ARG_OOB.txt"
 set_country_flag = new_world_nation
 set_country_flag = post_colonial_country
