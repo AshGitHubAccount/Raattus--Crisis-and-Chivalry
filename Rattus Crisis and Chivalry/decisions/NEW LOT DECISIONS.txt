@@ -2,39 +2,255 @@
 ###	New LOTHARINGIAN DECISIONS ###
 ######################
 political_decisions = {
-	rhenish_lowlander = {
+	rhenish_flemish_picard = {
 	picture = italian_islands
 		potential = {
 			tag = LOT
 			year = 1845
-			NOT = { has_global_flag = integrating_rhenish}
-			has_global_flag = lot_lowlands_focus
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_flemish_picard}
+			has_global_flag = lot_lowland_larp
 		}
 		allow = {
 			state_n_government = 1
 			year = 1850
 			}
 		effect = {
-			add_accepted_culture = rhenish_german
-            set_global_flag = integrating_rhenish
+			add_accepted_culture = picard
+			add_accepted_culture = flemish
+            set_global_flag = integrating_flemish_picard
         }
 		}
-	rhenish_frencher = {
+	rhenish_cosmo = {
 	picture = italian_islands
 		potential = {
 			tag = LOT
 			year = 1855
-			NOT = { has_global_flag = integrating_rhenish}
-			has_global_flag = lot_lowlands_focus
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_cosmo}
+			has_global_flag = lot_lowland_larp
 		}
 		allow = {
 			nationalism_n_imperialism = 1
 			year = 1860
 			}
 		effect = {
-			add_accepted_culture = rhenish_german
-			add_accepted_culture = breton
-            set_global_flag = integrating_rhenish
+			add_accepted_culture = french
+            set_global_flag = integrating_cosmo
         }
 		}
+	rhenish_dutch_norman = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1855
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_dutch_norman }
+			has_global_flag = lot_lowland_larp
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			year = 1860
+			}
+		effect = {
+			add_accepted_culture = dutch
+			add_accepted_culture = rollonian
+            set_global_flag = integrating_dutch_norman 
+        }
+		}
+	rhenish_breton = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1855
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_breton}
+			has_global_flag = lot_lowland_larp
+		}
+		allow = {
+			mass_politics = 1
+			year = 1880
+			}
+		effect = {
+			add_accepted_culture = breton
+            set_global_flag = integrating_breton
+        }
+		}
+	french_norman_picard = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1845
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_norman_picard}
+			has_global_flag = lot_french_larp
+		}
+		allow = {
+			state_n_government = 1
+			year = 1850
+			}
+		effect = {
+			add_accepted_culture = picard
+			add_accepted_culture = rollonian
+            set_global_flag = integrating_norman_picard
+        }
+		}
+	french_breton_picard = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1855
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_breton_picard}
+			has_global_flag = lot_french_larp
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			year = 1860
+			}
+		effect = {
+			add_accepted_culture = breton
+			add_accepted_culture = picard
+            set_global_flag = integrating_breton_picard
+        }
+		}
+	french_occitan = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1855
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_occitan}
+			has_global_flag = lot_french_larp
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			year = 1860
+			}
+		effect = {
+			add_accepted_culture = occitan
+            set_global_flag = integrating_occitan
+        }
+		}
+	french_flemish = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1855
+			is_greater_power = yes
+			NOT = { has_global_flag = integrating_flemish}
+			has_global_flag = lot_french_larp
+		}
+		allow = {
+			mass_politics = 1
+			year = 1880
+			}
+		effect = {
+			add_accepted_culture = flemish
+            set_global_flag = integrating_flemish
+        }
+		}
+	loth_military_mission_to_japan = {
+        picture = french_military_exp_japan
+        potential = {
+            primary_culture = frankish
+            is_greater_power = yes
+            exists = JAP
+            NOT = { has_country_flag = military_mission_in_japan }
+        }
+
+        allow = {
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            prestige = 5
+            any_country = {
+                limit = {
+					tag = JAP
+                    exists = yes
+					NOT = {
+						foreign_training = yes_foreign_training
+					}
+                }
+                relation = { who = THIS value = 50 }
+                military_reform = yes_foreign_training
+				set_country_flag = only_one_tech_for_you_tkg
+            }
+            any_country = {
+                limit = {
+					tag = TKG
+                    exists = yes
+					NOT = {
+						foreign_officers = yes_foreign_officers
+						has_country_flag = only_one_tech_for_you_tkg
+					}
+                }
+				set_country_flag = only_one_tech_for_you_tkg
+                relation = { who = THIS value = 50 }
+                military_reform = yes_foreign_officers
+            }
+            any_country = {
+                limit = {
+					tag = TKG
+                    exists = yes
+					NOT = {
+						foreign_naval_officers = yes_foreign_naval_officers
+						has_country_flag = only_one_tech_for_you_tkg
+					}
+                }
+                relation = { who = THIS value = 50 }
+                military_reform = yes_foreign_naval_officers
+            }
+            LOT = { set_country_flag = military_mission_in_japan }
+            JAP = { set_country_flag = military_mission_in_japan }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	garnier_frankland = {
+		picture = garnier_frankland
+        potential = {
+            NOT = { has_country_flag = garnier_frankland_built }
+            primary_culture = frankish
+            is_greater_power = yes
+            capital = 425
+        }
+
+        allow = {
+            impressionism = 1
+        }
+
+        effect = {
+            prestige = 10
+            LOT = { set_country_flag = garnier_frankland_built }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+	build_the_eiffel_tower = {
+        picture = build_the_eiffel_tower
+        potential = {
+            primary_culture = frankish
+            is_greater_power = yes
+            NOT = {
+                has_global_flag = the_eiffel_tower_was_built
+            }
+        }
+
+        allow = {
+            war = no
+            regenerative_furnaces = 1
+            OR = {
+                money = 30000
+                ai = yes
+            }
+        }
+
+        effect = {
+            country_event = 37236
+            set_global_flag = the_eiffel_tower_was_built
+        }
+        ai_will_do = { factor = 1 }
+    }
 }

@@ -81,7 +81,18 @@ lothars_will = {
 population_growth = 0.008
     assimilation_rate = 0.15
 	}
-	
+real_reforms_spa = {
+pop_militancy_modifier = -0.01
+}
+fake_reforms_spa = {
+pop_militancy_modifier = -0.03
+}
+spa_harsh_integration = {
+pop_militancy_modifier = 0.025
+}
+spa_gentle_integration = {
+pop_militancy_modifier = 0.01
+}
 ####AI Personalities
 
 coward_ai = {

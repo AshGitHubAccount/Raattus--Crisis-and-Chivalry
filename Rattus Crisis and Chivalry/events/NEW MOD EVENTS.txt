@@ -337,8 +337,8 @@ country_event = {
 #}
 # RESERVERED FOR NORTH ITALY WINNING  country_event = {
 #	id = 72915
-#	title = "ITA9013.T"
-#	desc = "ITA9013.D"
+#	title = "ITA9015.T"
+#	desc = "ITA9015.D"
 #	
 #	trigger = { 
 #	has_country_flag = ita_north_integration
@@ -353,7 +353,7 @@ country_event = {
 #	}
 #	
 #	option = { 
-#	name = "ITA9012.A"
+#	name = "ITA9015.A"
 #	inherit = VEN
 #	inherit = GEN
 #	inherit = TUS
@@ -364,8 +364,8 @@ country_event = {
 #}
 # RESERVERED FOR NORTH ITALY WINNING  country_event = {
 #	id = 72916
-#	title = "ITA9013.T"
-#	desc = "ITA9013.D"
+#	title = "ITA9016.T"
+#	desc = "ITA9016.D"
 #	
 #	trigger = { 
 #	has_country_flag = ita_north_integration
@@ -380,7 +380,7 @@ country_event = {
 #	}
 #	
 #	option = { 
-#	name = "ITA9012.A"
+#	name = "ITA9016.A"
 #	inherit = VEN
 #	inherit = GEN
 #	inherit = TUS
@@ -390,7 +390,214 @@ country_event = {
 #}
 #}
 # END NORTH ITALIAN EVENT CHAIN
-
+country_event = {
+	id = 72917
+	title = "ITA9017.T"
+	desc = "ITA9017.D" #flavor event italy 1860
+	
+	trigger = {
+	year = 1860
+	tag = ITA
+	NOT = { has_country_flag = ita_north_countdown}
+	}
+	
+	mean_time_to_happen = { 
+	days = 150
+	}
+	option = { 
+	name = "ITA9017.A"
+	set_country_flag = ita_north_countdown
+}
+}
+#THE CATALINO CONSPIRACY
+country_event = {
+	id = 72918
+	title = "ITA9018.T"
+	desc = "ITA9018.D" #introduction to the conspiracy
+	
+	trigger = {
+	year = 1862
+	tag = ITA
+	NOT = { has_country_flag = catalino_conspiracy_ita_1}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9018.A"
+	set_country_flag = catalino_conspiracy_ita_1
+}
+}
+country_event = {
+	id = 72919
+	title = "ITA9019.T"
+	desc = "ITA9019.D" #the conspiracy deepens, we must pick a side.
+	
+	trigger = {
+	tag = ITA
+	has_country_flag = catalino_conspiracy_ita_1
+	NOT = { has_country_flag = catalino_conspiracy_ita_2}
+	}
+	
+	mean_time_to_happen = { days = 65}
+	
+	option = { 
+	name = "ITA9019.A"
+	set_country_flag = catalino_conspiracy_caesar
+	set_country_flag = catalino_conspiracy_ita_2
+}
+option = { 
+	name = "ITA9019.B"
+	set_country_flag = catalino_conspiracy_senate
+	set_country_flag = catalino_conspiracy_ita_2
+}
+option = { 
+	name = "ITA9019.C"
+	set_country_flag = catalino_conspiracy_neutral
+	set_country_flag = catalino_conspiracy_ita_2
+}
+}
+country_event = {
+	id = 72920
+	title = "ITA9020.T"
+	desc = "ITA9020.D" #you don't pick a side. both sides fight and randomly one wins
+	
+	trigger = {
+	tag = ITA
+	has_country_flag = catalino_conspiracy_ita_2
+	has_country_flag = catalino_conspiracy_neutral
+	NOT = { has_country_flag = catalino_conspiracy_ita_3}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9020.A"
+	random_list = {
+		50 = { country_event = { id = 72921 days = 3 } }
+		50 = { country_event = { id = 72922 days = 3 } }
+	 }
+	set_country_flag = catalino_conspiracy_ita_3
+}
+}
+country_event = {
+	id = 72921
+	title = "ITA9021.T"
+	desc = "ITA9021.D" #the senate wins. republic forever!
+	
+	trigger = {
+	tag = ITA
+	NOT = { has_country_flag = catalino_conspiracy_ita_end}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9021.A"
+	set_country_flag = catalino_conspiracy_ita_end
+	set_country_flag = catalino_conspiracy_ita_senate_wins
+}
+}
+country_event = {
+	id = 72922
+	title = "ITA9022.T"
+	desc = "ITA9022.D" #the caesar wins. the italian empire is established.
+	
+	trigger = {
+	tag = ITA
+	NOT = { has_country_flag = catalino_conspiracy_ita_end}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9022.A"
+	set_country_flag = catalino_conspiracy_ita_caesar_wins
+	set_country_flag = catalino_conspiracy_ita_end
+}
+}
+country_event = {
+	id = 72923
+	title = "ITA9023.T"
+	desc = "ITA9023.D" #we picked the caesar. but there's still a chance the senate rallies. let's see.
+	
+	trigger = {
+	tag = ITA
+	has_country_flag = catalino_conspiracy_ita_3
+	has_country_flag = catalino_conspiracy_caesar
+	NOT = { has_country_flag = catalino_conspiracy_ita_caesar_rolls}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9023.A"
+	set_country_flag = catalino_conspiracy_ita_caesar_rolls
+	set_country_flag = catalino_conspiracy_ita_end
+	random_list = {
+		15 = { country_event = { id = 72921 days = 3 } }
+		85 = { country_event = { id = 72922 days = 3 } }
+	 }
+}
+}
+country_event = {
+	id = 72924
+	title = "ITA9024.T"
+	desc = "ITA9024.D" #we picked the senate. but there's still a chance the caesar rallies. let's see.
+	
+	trigger = {
+	tag = ITA
+	NOT = { has_country_flag = catalino_conspiracy_ita_senate_rolls}
+	}
+	
+	mean_time_to_happen = { days = 150	}
+	
+	option = { 
+	name = "ITA9024.A"
+	set_country_flag = catalino_conspiracy_ita_senate_rolls
+	set_country_flag = catalino_conspiracy_ita_end
+	random_list = {
+		85 = { country_event = { id = 72921 days = 3 } }
+		15 = { country_event = { id = 72922 days = 3 } }
+	 }
+}
+}
+country_event = {
+	id = 72925
+	title = "ITA9025.T"
+	desc = "ITA9025.D" #The senate implements La Reforma. the caesars are hanged.
+	
+	trigger = {
+	tag = ITA
+	has_country_flag = catalino_conspiracy_ita_senate_wins
+	NOT = { has_country_flag = senate_la_reforma}
+	}
+	
+	mean_time_to_happen = { days = 23	}
+	
+	option = { 
+	name = "ITA9025.A"
+	set_country_flag = senate_la_reforma
+}
+}
+country_event = {
+	id = 72926
+	title = "ITA9026.T"
+	desc = "ITA9026.D" #The caesars impelement proscriptions. the senate is purged, and the caesars advocate for pan-italian unity under the roman eagle.
+	
+	trigger = {
+	tag = ITA
+	has_country_flag = catalino_conspiracy_ita_caesar_wins
+	NOT = { has_country_flag = caesar_la_imperial}
+	}
+	
+	mean_time_to_happen = { days = 23	}
+	
+	option = { 
+	name = "ITA9026.A"
+	set_country_flag = caesar_la_imperial
+}
+}
 ######################
 ###	New SPAIN EVENTS 8000###
 ######################
@@ -573,6 +780,30 @@ country_event = {
 	
 	option = { 
 	name = "SPA9007.A"
+	clergymen = {
+            scaled_militancy = {
+                factor = -2
+                ideology = conservative
+            }
+        }
+        clergymen = {
+            scaled_militancy = {
+                factor = -3
+                ideology = reactionary
+            }
+        }
+        aristocrats = {
+            scaled_militancy = {
+                factor = -2
+                ideology = conservative
+            }
+        }
+        aristocrats = {
+            scaled_militancy = {
+                factor = -3
+                ideology = reactionary
+            }
+        }
 	set_country_flag = spanish_flavor_1
 	}
 }
@@ -592,6 +823,7 @@ country_event = {
 	
 	option = { 
 	name = "ITA9008.A"
+	prestige = -1
 	set_country_flag = spanish_italian 
 	}
 }
@@ -639,6 +871,24 @@ country_event = {
 	
 	option = { 
 	name = "SPA9010.A"
+	SPA = { 
+		 add_country_modifier = {
+				name = fake_reforms_spa
+				duration = 2000
+		 }
+		 }
+	set_country_flag = spanish_agitation
+	}
+	option = { 
+	name = "SPA9010.B"
+	SPA = { 
+		 add_country_modifier = {
+				name = real_reforms_spa
+				duration = 1000
+		 }
+		 }
+	political_reform = free_press
+	political_reform = federalism
 	set_country_flag = spanish_agitation
 	}
 }
@@ -653,12 +903,18 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 650
+	days = 90
 	}
 	
 	option = { 
 	name = "SPA9011.A"
 	set_country_flag = spanish_springtime
+	set_country_flag = spa_breaks_its_streak
+	}
+	option = { 
+	name = "SPA9011.B"
+	set_country_flag = spanish_springtime
+	set_country_flag = spa_says_no
 	}
 }
 country_event = {
@@ -842,6 +1098,163 @@ country_event = {
             add_province_modifier = { name = silver_mine duration = -1 }
         }
     }
+}
+country_event = {
+	id = 899868
+	title = "SPA9017.T"
+	desc = "SPA9017.D"
+	trigger = { 
+	tag = SPA
+	has_country_flag = spa_breaks_its_streak
+	NOT = { has_country_flag = spa_chooses_king }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "SPA9017.A"
+	prestige = -5
+	set_country_flag = spa_chooses_king
+	set_country_flag = spa_says_yellow
+	}
+	option = { 
+	name = "SPA9017.B"
+	prestige = 5
+	relation = { who = WSF value = 50 }
+	relation = { who = LOT value = 50 }
+	set_country_flag = spa_chooses_king
+	set_country_flag = spa_says_brown
+	}
+	option = { 
+	name = "SPA9017.C"
+	prestige = 1
+	relation = { who = ITA value = 50 }
+	set_country_flag = spa_chooses_king
+	set_country_flag = spa_says_green
+	}
+}
+country_event = {
+	id = 899869
+	title = "SPA9018.T"
+	desc = "SPA9018.D"
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "SPA9018.A"
+	prestige = -5
+	war = {
+		target = POR
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	POR = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = spa_marches_portugal
+	}
+}
+country_event = {
+	id = 899870
+	title = "SPA9019.T"
+	desc = "SPA9019.D"
+	trigger = { 
+	tag = SPA
+	war = no
+	has_country_flag = spa_marches_portugal
+	NOT = { has_country_flag = spa_integrates_portugal }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "SPA9019.A"
+	prestige = 5
+	set_country_flag = spa_integrates_portugal
+	SPA = { 
+		 add_country_modifier = {
+				name = spa_gentle_integration
+				duration = 4000
+		 }
+		 }
+	}
+	option = { 
+	name = "SPA9019.B"
+	prestige = -5
+	set_country_flag = spa_integrates_portugal
+	SPA = { 
+		 add_country_modifier = {
+				name = spa_harsh_integration
+				duration = 2000
+		 }
+		 }
+	}
+}
+country_event = {
+	id = 899871
+	title = "SPA9020.T"
+	desc = "SPA9020.D"
+	trigger = { 
+	tag = SPA
+	war = no
+	has_country_flag = spa_integrates_portugal
+	NOT = { has_country_modifier = spa_harsh_integration }
+	NOT = { has_country_modifier = spa_gentle_integration }
+	NOT = { has_country_flag =  spa_integrates_portugal_finish }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "SPA9020.A"
+	prestige = 5
+	set_country_flag = spa_integrates_portugal_finish
+	POR = { all_core = { add_core = SPA } }
+	}
+}
+country_event = {
+	id = 899872
+	title = "SPA9021.T"
+	desc = "SPA9021.D"
+	trigger = { 
+	tag = SPA
+	year = 1860
+	is_greater_power = yes
+	NOT = { has_country_flag =  spa_chooses_colonial_policy }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "SPA9021.A"
+	prestige = 1
+	set_country_flag = spa_chooses_africa_policy
+	set_country_flag = spa_chooses_colonial_policy
+	}
+	option = { 
+	name = "SPA9021.B"
+	prestige = 1
+	set_country_flag = spa_chooses_asia_policy
+	set_country_flag = spa_chooses_colonial_policy
+	}
 }
 ######################
 ###	New USA EVENTS 7000###
@@ -1217,20 +1630,40 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 60
+	days = 120
 	}
 	
 	option = { 
 	name = "LOT5010.A"
 	add_accepted_culture = rhenish_german
-	set_country_flag = lot_lowland_larp
+	set_global_flag = lot_lowland_larp
 	set_country_flag = lot_decision_time
 	}
 	option = { 
 	name = "LOT5010.B"
 	add_accepted_culture = french
-	set_country_flag = lot_french_larp
+	set_global_flag = lot_french_larp
 	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 599861
+	title = "LOT5011.T"
+	desc = "LOT5011.D"
+	trigger = { 
+	tag = LOT
+	year = 1850
+	NOT = { has_country_flag = lot_sa_event_1}
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "LOT5011.A"
+	set_global_flag = lot_sa_decision
+	set_country_flag = lot_sa_event_1
 	}
 }
 ######################

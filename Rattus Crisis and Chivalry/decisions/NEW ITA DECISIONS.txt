@@ -193,51 +193,87 @@ abolish_italian_minors = {
             }
         }
     }
+accept_the_maltese = {
+		picture = map_malta
+		potential = {
+			tag = ITA
+			owns = 854
+			NOT = { accepted_culture = maltese }
+			OR = {
+				government = hms_government
+				government = democracy
+				government = socialist_republic
+				government = parliamentary_republic
+			}
 		}
-######################
-###	New USA DECISIONS ###
-######################
 
-######################
-###	New BYZANTINE DECISIONS ###
-######################
+		allow = {
+			war = no
+			is_greater_power = yes
+			social_science = 1
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+			854 = {
+				literacy = 0.5
+				NOT = {
+					average_consciousness = 4
+					average_militancy = 3
+				}
+			}
+			OR = {
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+			}
+		}
 
-######################
-###	New COMMONWEALTH DECISIONS ###
-######################
+		effect = {
+			add_accepted_culture = maltese
+			854 = { add_core = ITA }
+		}
+	}
+dalmatia_VEN = { 
+		potential = { 
+		tag = ITA 
+		NOT = { has_country_flag = dalmatia_cores }
+		780 = { owned_by = THIS }
+		}
+		
+		allow = { 
+		state_n_government = 1 
+		OR = {
+		   AND = {
+              exists = CRO
+              NOT = { CRO = { is_secondary_power = yes } }
+           }		   
+		   NOT = { exists = CRO }
+		}
+		}
+		
+		effect = { 
+		AUS_780 = { add_core = ITA }
+		set_country_flag = dalmatia_cores
+		}
+	}
+accademia_della_crusca = {
+        potential = {
+               tag = ITA
+            NOT = { has_country_flag = accademia_della_crusca }
+        }
 
-######################
-###	New JAPAN DECISIONS ###
-######################
+        allow = {
+            romanticism = 1
+            idealism = 1
+            money = 40000
+        }
 
-######################
-###	New SCANDINAVIA DECISIONS ###
-######################
-
-######################
-###	New MEXICO DECISIONS ###
-######################
-
-######################
-###	New SIKH EMPIRE DECISIONS ###
-######################
+        effect = {
+               treasury = -80000
+            prestige = 15
+            political_reform = free_press
+            set_country_flag = accademia_della_crusca
+        }
+    }
 
 ######################
 ###	New PERSIA DECISIONS ###
-######################
-
-######################
-###	New HINDUSTAN DECISIONS ###
-######################
-
-######################
-###	New YUAN DECISIONS ###
-######################
-
-######################
-###	New SOUTH AMERICAN DECISIONS ###
-######################
-
-######################
-###	New OTHER DECISIONS ###
 ######################

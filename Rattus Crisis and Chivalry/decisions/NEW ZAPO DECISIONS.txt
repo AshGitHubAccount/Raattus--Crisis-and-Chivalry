@@ -1,0 +1,105 @@
+######################
+###	New ZAPADOSLAVIA DECISIONS ###
+######################
+political_decisions = {
+buy_colony_zapo = {
+        picture = trinidad_tobago
+        potential = {
+            OR = {
+                tag = WSF
+                tag = PLR
+            }
+            NOT = {
+                has_country_flag = buy_colony_zapo
+            }
+            ENG = {
+                owns = 2237
+                owns = 2238
+            }
+        }
+        allow = {
+            relation = { who = ENG value = 100 }
+            money = 75000
+        }
+        effect = {
+            ENG = { country_event = 21370001 }
+            set_country_flag = buy_colony_zapo
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+buy_gambia_poland = {
+        picture = map_gambia
+        potential = {
+            OR = {
+                tag = PLC
+                tag = PLR
+            }
+            NOT = {
+                has_country_flag = buy_gambia_polania
+            }
+            ENG = {
+                owns = 1785
+            }
+        }
+        allow = {
+            relation = { who = ENG value = 100 }
+            money = 50000
+        }
+        effect = {
+            ENG = { country_event = 21371001 }
+            set_country_flag = buy_gambia_polania
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	claim_lost_plc_lands = {
+        picture = become_poland_lithuania
+        potential = {
+            OR = {
+                tag = PLC
+                tag = WSF
+            }
+            NOT = { has_country_flag = claim_lost_plc_lands }
+        }
+        allow = {
+            THIS = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            nationalism_n_imperialism = 1
+            war_policy = jingoism
+        }
+        effect = {
+            943 = {
+                add_core = THIS
+            }
+            1007 = {
+                add_core = THIS
+            }
+            1016 = {
+                add_core = THIS
+            }
+            962 = {
+                add_core = THIS
+            }
+            963 = {
+                add_core = THIS
+            }
+            954 = {
+                add_core = THIS
+            }
+            961 = {
+                add_core =     THIS
+            }
+            badboy = 6
+            prestige = 20
+            set_country_flag = claim_lost_plc_lands
+        }
+    }
+}
