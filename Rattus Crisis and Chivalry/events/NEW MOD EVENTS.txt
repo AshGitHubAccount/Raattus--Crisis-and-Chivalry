@@ -48,7 +48,7 @@ country_event = {
 	trigger = { 
 	tag = ITA
 	year = 1837
-	NOT = { has_country_flag = ita_malta_intro}
+	NOT = { has_country_flag = maltese_officers}
 	}
 	
 	mean_time_to_happen = { 
@@ -398,15 +398,33 @@ country_event = {
 	trigger = {
 	year = 1860
 	tag = ITA
-	NOT = { has_country_flag = ita_north_countdown}
+	NOT = { has_country_flag = ita_flavor_1860}
 	}
 	
 	mean_time_to_happen = { 
 	days = 150
 	}
-	option = { 
+	option = {
+any_pop = {
+            scaled_militancy = {
+                ideology = reactionary
+                factor = 8
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = 4
+            }
+            scaled_militancy = {
+                ideology = liberal
+                factor = -6
+            }
+            scaled_militancy = {
+                ideology = anarcho_liberal
+                factor = -2
+            }
+        }	
 	name = "ITA9017.A"
-	set_country_flag = ita_north_countdown
+	set_country_flag = ita_flavor_1860
 }
 }
 #THE CATALINO CONSPIRACY
@@ -493,6 +511,7 @@ country_event = {
 	mean_time_to_happen = { days = 150	}
 	
 	option = { 
+	
 	name = "ITA9021.A"
 	set_country_flag = catalino_conspiracy_ita_end
 	set_country_flag = catalino_conspiracy_ita_senate_wins
@@ -510,7 +529,15 @@ country_event = {
 	
 	mean_time_to_happen = { days = 150	}
 	
-	option = { 
+	option = {
+		government = absolute_monarchy
+        ruling_party_ideology = reactionary
+        political_reform = none_voting
+        political_reform = party_appointed
+        political_reform = no_meeting
+        political_reform = state_press
+        political_reform = state_controlled
+        political_reform = underground_parties
 	name = "ITA9022.A"
 	set_country_flag = catalino_conspiracy_ita_caesar_wins
 	set_country_flag = catalino_conspiracy_ita_end
@@ -1662,7 +1689,6 @@ country_event = {
 	
 	option = { 
 	name = "LOT5011.A"
-	set_global_flag = lot_sa_decision
 	set_country_flag = lot_sa_event_1
 	}
 }
