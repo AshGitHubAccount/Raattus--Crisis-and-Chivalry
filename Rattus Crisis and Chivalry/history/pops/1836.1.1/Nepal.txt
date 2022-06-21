@@ -164,7 +164,7 @@
 	{
 		culture = nepali
 		religion = gelugpa
-		size= 8306
+		size= 183062
 	}
 
 }
@@ -222,7 +222,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 74070
+		size= 174070
 	}
 
 }

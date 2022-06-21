@@ -94,7 +94,7 @@
 	{
 		culture = sinhala
 		religion = hindu
-		size= 15326
+		size= 55326
 	}
 
 }
@@ -194,7 +194,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 23332
+		size= 90332
 	}
 
 }
@@ -245,7 +245,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 64414
+		size= 88414
 	}
 
 }
@@ -296,7 +296,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 44405
+		size= 80405
 	}
 
 }
@@ -396,7 +396,7 @@
 	{
 		culture = malayalam
 		religion = hindu
-		size= 3071
+		size= 33071
 	}
 
 }

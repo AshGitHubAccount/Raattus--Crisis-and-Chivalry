@@ -536,7 +536,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 940821
+		size= 300821
 	}
 
 }
@@ -859,7 +859,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 871756
+		size= 400756
 	}
 
 }
@@ -1359,7 +1359,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 200828
+		size= 100828
 	}
 
 	soldiers=
@@ -1408,7 +1408,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 355944
+		size= 100944
 	}
 
 }
@@ -1561,7 +1561,7 @@
 	{
 		culture = hakka
 		religion = mahayana
-		size= 508725
+		size= 100725
 	}
 
 }
@@ -1663,7 +1663,7 @@
 	{
 		culture = mongol
 		religion = gelugpa
-		size= 391890
+		size= 200890
 	}
 
 	soldiers=
@@ -1804,13 +1804,6 @@
 		culture = beifaren
 		religion = tengri_pagan_reformed
 		size= 1678
-	}
-
-	farmers=
-	{
-		culture = beifaren
-		religion = tengri_pagan_reformed
-		size= 185643
 	}
 
 }
@@ -2543,7 +2536,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 300122
+		size= 100122
 	}
 
 }
@@ -2752,7 +2745,7 @@
 	{
 		culture = hakka
 		religion = mahayana
-		size= 416584
+		size= 100584
 	}
 
 }
@@ -2986,7 +2979,7 @@
 	{
 		culture = zhuang
 		religion = mahayana
-		size= 230806
+		size= 130806
 	}
 
 	soldiers=
@@ -3091,7 +3084,7 @@
 	{
 		culture = zhuang
 		religion = theravada
-		size= 19968
+		size= 10068
 	}
 
 }
@@ -5903,7 +5896,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 300827
+		size= 100827
 	}
 
 	soldiers=
@@ -5952,7 +5945,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 400146
+		size= 200146
 	}
 
 }
@@ -6365,7 +6358,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 731601
+		size= 300601
 	}
 
 }
@@ -6518,7 +6511,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 400695
+		size= 100695
 	}
 
 }
@@ -6636,7 +6629,7 @@
 	{
 		culture = hakka
 		religion = mahayana
-		size= 189041
+		size= 100041
 	}
 
 	soldiers=
@@ -6685,7 +6678,7 @@
 	{
 		culture = hakka
 		religion = mahayana
-		size= 400107
+		size= 200107
 	}
 
 }
@@ -8319,7 +8312,7 @@
 	{
 		culture = beifaren
 		religion = shinto
-		size= 232682
+		size= 100682
 	}
 
 }
@@ -8742,7 +8735,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 339840
+		size= 100840
 	}
 
 	soldiers=
@@ -9005,14 +8998,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 223746
-	}
-
-	slaves=
-	{
-		culture = beifaren
-		religion = shinto
-		size= 157062
+		size= 100746
 	}
 
 	soldiers=
@@ -9070,7 +9056,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 342075
+		size= 100075
 	}
 
 	soldiers=

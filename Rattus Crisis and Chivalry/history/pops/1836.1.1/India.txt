@@ -1157,7 +1157,7 @@
 	{
 		culture = panjabi
 		religion = sunni
-		size= 139553
+		size= 339553
 	}
 
 	soldiers=
@@ -1569,7 +1569,7 @@
 	{
 		culture = panjabi
 		religion = sunni
-		size= 80372
+		size= 380372
 	}
 
 }
@@ -3583,7 +3583,7 @@
 	{
 		culture = assamese
 		religion = hindu
-		size= 212702
+		size= 412702
 	}
 
 }
@@ -4626,7 +4626,7 @@
 	{
 		culture = rajput
 		religion = sunni
-		size= 44411
+		size= 244411
 	}
 
 }
@@ -4875,7 +4875,7 @@
 	{
 		culture = panjabi
 		religion = sunni
-		size= 90375
+		size= 290375
 	}
 
 }
@@ -5681,7 +5681,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 263855
+		size= 663855
 	}
 
 }
@@ -6101,7 +6101,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 28588
+		size= 128588
 	}
 
 	clergymen=
@@ -6136,7 +6136,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 162609
+		size= 362609
 	}
 
 }
@@ -6289,7 +6289,7 @@
 	{
 		culture = sindi
 		religion = sunni
-		size= 193096
+		size= 343096
 	}
 
 }
@@ -6946,7 +6946,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 184291
+		size= 464291
 	}
 
 }
@@ -6997,7 +6997,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 239878
+		size= 439878
 	}
 
 }
@@ -7048,7 +7048,7 @@
 	{
 		culture = kannada
 		religion = hindu
-		size= 121930
+		size= 321930
 	}
 
 	soldiers=
@@ -7865,7 +7865,7 @@
 	{
 		culture = frankish
 		religion = protestant
-		size= 22781
+		size= 422781
 	}
 
 }
@@ -8590,7 +8590,7 @@
 	{
 		culture = kannada
 		religion = hindu
-		size= 86837
+		size= 386837
 	}
 
 }
@@ -8690,7 +8690,7 @@
 	{
 		culture = malayalam
 		religion = hindu
-		size= 80877
+		size= 680877
 	}
 
 }
@@ -9101,7 +9101,7 @@
 	{
 		culture = manipuri
 		religion = hindu
-		size= 75108
+		size= 275108
 	}
 
 	soldiers=

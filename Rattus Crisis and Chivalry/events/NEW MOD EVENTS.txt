@@ -959,10 +959,13 @@ country_event = {
 	
 	option = { 
 	2211 = { add_core = CUB }
+	2219 = { add_core = BAH }
+	2220 = { add_core = BAH }
 	2212 = { add_core = CUB }
 	2210 = { add_core = CUB }
 	2209 = { add_core = CUB }
-	2218 = { add_core = CUB }
+	2218 = { add_core = JAM }
+	44 = { add_core = CUB }
 	2217 = { add_core = JAM }
 	2215 = { add_core = HAI }
 	2213 = { add_core = HAI }
@@ -982,6 +985,7 @@ country_event = {
 	2231 = { add_core = SAT }
 	2409 = { add_core = SAT }
 	2233 = { add_core = SAT }
+	2222 = { add_core = PRI }
 	2238 = { add_core = SAT }
 	2237 = { add_core = SAT }
 	2234 = { add_core = VNZ }
@@ -1009,6 +1013,8 @@ country_event = {
 	release = HAI
 	release = JAM
 	release = CUB
+	release = PRI
+	release = BAH
 	name = "SPA9012.A"
 	set_country_flag = wsi_breaks
 	}
@@ -2769,6 +2775,57 @@ country_event = {
 	name = heavy_be_the_lesser_crowns
 				duration = -1
 				}
+	}
+}
+country_event = {
+	id = 2603
+	title = "HDU2603.T"
+	desc = "HDU2603.D" #Telling Hindustan their decadent, ancient and slow-moving government has completely collapsed following the deep opium addictions of the ceylon port.
+	major = yes
+	trigger = { 
+	year = 1850
+	tag = HND
+	NOT = { has_country_flag = ind_broken }
+	}
+	
+	mean_time_to_happen = { 
+	days = 250
+	}
+	
+	option = { 
+	name = "HDU2603.A"
+	release_vassal = BNG
+	release_vassal = DLH
+	release_vassal = MAW
+	release_vassal = NEP
+	release_vassal = KAT
+	release_vassal = KAS
+	release_vassal = XMA
+	set_country_flag = ind_broken
+	}
+}
+country_event = {
+	id = 2604
+	title = "HDU2604.T"
+	desc = "HDU2604.D" #Telling Hindustan that them surviving was not planned. But they are free to attempt to retake their lost territory.
+	major = yes
+	trigger = { 
+	year = 1867
+	tag = HND
+	NOT = { has_country_flag = ind_fix_time }
+	}
+	
+	mean_time_to_happen = { 
+	days = 250
+	}
+	
+	option = { 
+	name = "HDU2603.A"
+	XMA = { all_core = { add_core = HND } }
+	DLH = { all_core = { add_core = HND } }
+	MAW = { all_core = { add_core = HND } }
+	KAT = { all_core = { add_core = HND } }
+	set_country_flag = ind_fix_time
 	}
 }
 ######################

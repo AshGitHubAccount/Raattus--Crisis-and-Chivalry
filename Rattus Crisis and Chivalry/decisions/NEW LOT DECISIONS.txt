@@ -253,4 +253,46 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+	#THE MAJAPAHIT DECISIONS
+	give_MJP_your_spherelings = {
+	picture = italian_islands
+		potential = {
+			tag = LOT
+			year = 1840
+			is_sphere_leader_of = MJP
+		}
+		allow = {
+			any_country = {
+				limit = {
+					OR = {
+					primary_culture = malay
+					primary_culture = bornean
+					accepted_culture = malay
+					accepted_culture = bornean
+					}
+					ai = yes
+					in_sphere = THIS
+				}
+				}
+				}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+					primary_culture = malay
+					primary_culture = bornean
+					accepted_culture = malay
+					accepted_culture = bornean
+					}
+					ai = yes
+					in_sphere = THIS
+				}
+				annex_to = MJP
+				any_owned = {
+			NOT = { is_core = THIS }
+			add_core = MJP
+		    }
+			}
+        }
+		}
 }

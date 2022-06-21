@@ -477,112 +477,112 @@
 1405 = {
 	slaves=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 177
 	}
 
 	soldiers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 1494
 	}
 
 	artisans=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 2096
 	}
 
 	clergymen=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 303
 	}
 
 	bureaucrats=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 21
 	}
 
 	officers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 36
 	}
 
 	aristocrats=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 294
 	}
 
 	farmers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 22253
 	}
 
 	slaves=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 30
 	}
 
 	soldiers=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 255
 	}
 
 	artisans=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 713
 	}
 
 	clergymen=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 103
 	}
 
 	bureaucrats=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 7
 	}
 
 	officers=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 100
 	}
 
 	farmers=
 	{
-		culture = javan
+		culture = malay
 		religion = theravada
 		size= 3324
 	}
@@ -789,98 +789,98 @@
 1407 = {
 	soldiers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 387
 	}
 
 	artisans=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 2729
 	}
 
 	clergymen=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 254
 	}
 
 	bureaucrats=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 18
 	}
 
 	officers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 164
 	}
 
 	farmers=
 	{
-		culture = javan
+		culture = malay
 		religion = sunni
 		size= 15764
 	}
 
 	soldiers=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 86
 	}
 
 	artisans=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 578
 	}
 
 	clergymen=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 54
 	}
 
 	bureaucrats=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 4
 	}
 
 	officers=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 3
 	}
 
 	aristocrats=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 35
 	}
 
 	farmers=
 	{
-		culture = javan
+		culture = malay
 		religion = shiite
 		size= 3527
 	}
