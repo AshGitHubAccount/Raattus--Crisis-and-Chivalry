@@ -103,49 +103,49 @@
 307 = {
 	soldiers=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 157
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 313
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 51
 	}
 
 	bureaucrats=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 8
 	}
 
 	officers=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 10
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 66
 	}
 
 	farmers=
 	{
-		culture = sami
+		culture = norwegian
 		religion = catholic
 		size= 7222
 	}

@@ -807,70 +807,70 @@
 982 = {
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 3
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 3
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 1
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 158
 	}
 
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 6
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 14
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 3
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 254
 	}
@@ -879,84 +879,84 @@
 983 = {
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 10
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 10
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 2
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 496
 	}
 
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 18
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 45
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 7
 	}
 
 	bureaucrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 1
 	}
 
 	officers=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 10
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 793
 	}
@@ -13220,70 +13220,70 @@ serfs=
 2587 = {
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 3
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 3
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 1
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 1
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = orthodox
 		size= 151
 	}
 
 	soldiers=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 5
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 14
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 2
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 3
 	}
 
 	serfs=
 	{
-		culture = sami
+		culture = finnish
 		religion = catholic
 		size= 243
 	}

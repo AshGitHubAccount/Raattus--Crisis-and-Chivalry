@@ -196,7 +196,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 150
+	days = 90
 	}
 	
 	option = { 
@@ -217,7 +217,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 150
+	days = 80
 	}
 	
 	option = { 
@@ -238,7 +238,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 150
+	days = 70
 	}
 	option = { 
 	name = "ITA9010.A"
@@ -258,7 +258,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 150
+	days = 60
 	}
 	
 	option = { 

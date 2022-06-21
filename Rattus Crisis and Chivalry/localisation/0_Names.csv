@@ -971,6 +971,14 @@ WRS_presidential_dictatorship;Somaliland;Somaliland;Somaliland;Somaliland;Somali
 WRS_presidential_dictatorship_ADJ;Somaliland;Somalilandais;Somalilandisch;somalilandzk;Somalilandesa;del Somaliland;Somaliland;Somaliland;Somaliland;Somaliland;Somalilandês;ñîìàëèëåíäñê;Somaliland;x
 WSF;Zapadoslavia;Zapadoslavie;Sapadoslawien;Zachodnios³awia;Zapadoslavia;Zapadoslavia;Zapadoslavia;Zapadoslavie;Zapadoslavia;Zapadoslavia;A Zapadoslávia;Çàïàäíîñëàâèÿ;Zapadoslavia;x
 WSF_ADJ;West Slavic;Slave Occidental;Westslawisch;zachodnios³owiañsk;Zapadoslava;Slava Occidentale;Nyugat-szláv;Západoslovanskı;Nyugat-szláv;West Slavic;Zapadoslava;çàïàäíîñëàâÿíñê;West Slavic;x
+WSF_absolute_monarchy;Kounic Empire;;;;;;;x;;;;;;
+WSF_prussian_constitutionalism;Commonwealth of Nations;;;;;;;;;x;;;;;;;;;;
+WSF_hms_government;Zapadoslavia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+WSF_democracy;Interslavia;;;;;;;;;;;;;;x;;;;;;;;;
+WSF_presidential_dictatorship; Interslav Junta;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+WSF_proletarian_dictatorship;Interslavic Union of Socialist Republics;;;;;;;;;;;;;x;;;;;;;;;;;;;
+WSF_bourgeois_dictatorship;Interslavic Order;;;;;;;;;;;;;x;;;;;;;;;;;;;
+WSF_fascist_dictatorship;Carolingian Empire;;;;;x;;;;;;;;;;;;;
 WSH;Western Sahara;Sahara Occidental;Westsahara;Sahara Zachodnia;Sahara Occidental;Sahara Occidentale;nyugat-Szahara;západní Sahara;nyugat-Szahara;Westelijke Sahara;Saara Ocidental;Çàïàäíàÿ Ñàõàğà;Länsi-Sahara;x
 WSH_ADJ;Western Saharan;Sahraoui;Westsaharisch;zachodniosaharyjsk;Saharaui;Sahariana Occidentale;Nyugat-szaharai;Západní saharskı;Nyugat-szaharai;Westelijke Sahara;Saaráui;çàïàäíîñàõàğñê;Länsi-Saharan;x
 WSI;The West Indies;Antilles;Die Westindische Inseln;Zachodnie Indie;Las Indias Occidentales;Le Indie Occidentali;Nyugat-India;Západní Indie;Nyugat-India;West Indië;As Índias Ocidentais;Çàïàäíûå Èíäèè;Länsi-Intia;x
@@ -2055,6 +2063,14 @@ LNG_liberal;Liberal Party;Parti Libéral;Liberale Partei;Partia Liberalna;Partido
 LNG_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;Partido Nacional;Partito Nazionale;Nemzeti Párt;Národní Strana;Nemzeti Párt;Nationale Partij;Partido Nacional;Iaoeiiaeuiay Ia0oey;Kansallispuolue;x
 LNG_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Nioeaeenoe0aneay Ia0oey;Sosialistinenpuolue;x
 LOT;Lotharingia;Lotharingie;Lotharingien;Lotharingia;Lotaringia;Lotharingia;Lotharingia;Lotharingia;Lotharingia;Lotharingia;Lotharingia;Lotharingia;Lotharingia;x
+LOT_absolute_monarchy;Lotharingian Empire;;;;;;;x;;;;;;
+LOT_prussian_constitutionalism;Lotharingia;;;;;;;;;x;;;;;;;;;;
+LOT_hms_government;Lotharingia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LOT_democracy;Lotharingian Republic;;;;;;;;;;;;;;x;;;;;;;;;
+LOT_presidential_dictatorship;United Francia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+LOT_proletarian_dictatorship;Frankish Syndicate;;;;;;;;;;;;;x;;;;;;;;;;;;;
+LOT_bourgeois_dictatorship;Wilder State;;;;;;;;;;;;;x;;;;;;;;;;;;;
+LOT_fascist_dictatorship;Carolingian Empire;;;;;x;;;;;;;;;;;;;
 LOT_ADJ;Lotharingian;lotharingienne;Lotharingisch;Lotharingian;lotaringio;Lotharingian;Lotharingian;Lotharingian;Lotharingian;Lotharingian;Lotharingian;Lotharingian;Lotharingian;x
 LOT_anarcho_liberal;Parti Flamande;;;;;;;;;;;;;
 LOT_communist;Grand Rhin Partei;;;;;;;;;;;;;
@@ -2953,6 +2969,14 @@ WCR_reactionary;National Party;Parti National;Nationale Partei;Partia Narodowa;P
 WCR_socialist;Socialist Party;Parti Socialiste;Sozialistische Partei;Partia Socjalistyczna;Partido Socialista;Partito Socialista;Szocialista Párt;Socialistická Strana;Szocialista Párt;Socialistische Partij;Partido Socialista;Nioeaeenoe0aneay Ia0oey;Sosialistinenpuolue;x
 X00;Aksum;Aksoum;Aksum;Aksumite Empire;Aksum;Aksumite Empire;Aksumite Empire;Aksumite Empire;Aksumite Empire;Aksumite Empire;Aksumite Empire;Aksumite Empire;Aksumite Empire;x
 X00_ADJ;Aksumite;aksoumite;Aksumitisch;Aksumite;aksumita;Aksumite;Aksumite;Aksumite;Aksumite;Aksumite;Aksumite;Aksumite;Aksumite;x
+X00_absolute_monarchy;Aksumite Empire;;;;;;;x;;;;;;
+X00_prussian_constitutionalism;Aksum;;;;;;;;;x;;;;;;;;;;
+X00_hms_government;Aksum;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+X00_democracy;Amhara Republic;;;;;;;;;;;;;;x;;;;;;;;;
+X00_presidential_dictatorship;Ethiopia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+X00_proletarian_dictatorship;Union of the Horn;;;;;;;;;;;;;x;;;;;;;;;;;;;
+X00_bourgeois_dictatorship;Abyssnia;;;;;;;;;;;;;x;;;;;;;;;;;;;
+X00_fascist_dictatorship;Abyssinia;;;;;x;;;;;;;;;;;;;
 X00_anarcho_liberal;Radical Party;Parti Radical;Radikale Partei;Partia Radykalna;Partido Radical;Partito Radicale;Radikális Párt;Radikální Strana;Radikális Párt;Radicale Partij;Partido Radical;0aaeeaeuiay Ia0oey;Radikaalipuolue;x
 X00_communist;Communist Party;Parti Communiste;Kommunistische Partei;Partia Komunistyczna;Partido Comunista;Partito Comunista;Kommunista Párt;Komunistická Strana;Kommunista Párt;Communistische Partij;Partido Comunista;Eiiioienoe0aneay Ia0oey;Kommunistinenpuolue;x
 X00_conservative;Conservative Party;Parti Conservateur;Konservative Partei;Partia Konserwatywna;Partido Conservador;Partito Conservatore;Konzervatív Párt;Konzervativní Strana;Konzervatív Párt;Conservatieve Partij;Partido Conservador;Eiina0aaoeaiay Ia0oey;Konservatiivipuolue;x

@@ -154,49 +154,49 @@
 320 = {
 	soldiers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 246
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 492
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 80
 	}
 
 	bureaucrats=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 12
 	}
 
 	officers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 103
 	}
 
 	farmers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 11356
 	}
@@ -254,49 +254,49 @@
 
 	soldiers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 53
 	}
 
 	artisans=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 239
 	}
 
 	clergymen=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 17
 	}
 
 	bureaucrats=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 3
 	}
 
 	officers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 3
 	}
 
 	aristocrats=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 22
 	}
 
 	farmers=
 	{
-		culture = sami
+		culture = swedish
 		religion = catholic
 		size= 2320
 	}

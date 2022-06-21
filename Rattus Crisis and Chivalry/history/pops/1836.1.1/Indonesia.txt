@@ -477,112 +477,112 @@
 1405 = {
 	slaves=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 177
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 1494
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 2096
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 303
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 21
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 36
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 294
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 22253
 	}
 
 	slaves=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 30
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 255
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 713
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 103
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 7
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 13
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 100
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 3324
 	}
@@ -591,98 +591,98 @@
 1406 = {
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 706
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 252
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 41
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 6
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 10
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 80
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 11505
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 842
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 854
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 139
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 19
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 34
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 269
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = theravada
 		size= 12888
 	}
@@ -789,196 +789,196 @@
 1407 = {
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 387
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 2729
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 254
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 18
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 16
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 164
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 15764
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 86
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 578
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 54
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 4
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 3
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 35
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = shiite
 		size= 3527
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 236
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 827
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 77
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 5
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 5
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 50
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = hindu
 		size= 10620
 	}
 
 	soldiers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 88
 	}
 
 	artisans=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 1446
 	}
 
 	clergymen=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 134
 	}
 
 	bureaucrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 9
 	}
 
 	officers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 8
 	}
 
 	aristocrats=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 87
 	}
 
 	farmers=
 	{
-		culture = malay
+		culture = sumatran
 		religion = sunni
 		size= 2646
 	}
@@ -3656,7 +3656,7 @@
 1438 = {
 	slaves=
 	{
-		culture = javan
+		culture = sundanese
 		religion = hindu
 		size= 20000
 	}
@@ -3670,7 +3670,7 @@
 
 	artisans=
 	{
-		culture = javan
+		culture = sundanese
 		religion = hindu
 		size= 6371
 	}
@@ -3707,7 +3707,13 @@
 	{
 		culture = javan
 		religion = hindu
-		size= 125736
+		size= 605736
+	}
+	farmers=
+	{
+		culture = sundanese
+		religion = hindu
+		size= 805736
 	}
 
 }
@@ -3765,9 +3771,14 @@
 	{
 		culture = javan
 		religion = animist
-		size= 22198
+		size= 7198
 	}
-
+farmers=
+	{
+		culture = sundanese
+		religion = animist
+		size= 15198
+	}
 	slaves=
 	{
 		culture = javan
@@ -3851,9 +3862,14 @@
 	{
 		culture = javan
 		religion = hindu
+		size= 5603
+	}
+farmers=
+	{
+		culture = sundanese
+		religion = hindu
 		size= 23603
 	}
-
 	artisans=
 	{
 		culture = javan
@@ -3893,14 +3909,14 @@
 1441 = {
 	soldiers=
 	{
-		culture = javan
+		culture = sumatran
 		religion = animist
 		size= 456
 	}
 
 	farmers=
 	{
-		culture = javan
+		culture = sumatran
 		religion = animist
 		size= 22324
 	}
@@ -4002,7 +4018,13 @@
 	{
 		culture = javan
 		religion = animist
-		size= 40840
+		size= 15840
+	}
+	farmers=
+	{
+		culture = sundanese
+		religion = animist
+		size= 25840
 	}
 
 }
@@ -4051,7 +4073,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = animist
 		size= 2496
 	}
@@ -4100,7 +4122,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = catholic
 		size= 2259
 	}
@@ -4200,7 +4222,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = hindu
 		size= 3487
 	}
@@ -4300,7 +4322,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = catholic
 		size= 2322
 	}
@@ -4316,7 +4338,7 @@
 
 	artisans=
 	{
-		culture = javan
+		culture = sundanese
 		religion = animist
 		size= 699
 	}
@@ -4351,7 +4373,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = animist
 		size= 8924
 	}
@@ -4400,7 +4422,7 @@
 
 	farmers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = catholic
 		size= 8633
 	}

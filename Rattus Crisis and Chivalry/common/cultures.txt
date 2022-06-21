@@ -3083,7 +3083,7 @@ native_american = {
 		
 	}
 	sonoran = {
-		color = { 222 238 156 }
+		color = { 195 145 89 }
 		
 		first_names = { "Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil" "Quintioosan" "Talsapeer" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala" "Mequah" "Yackatee" "Tophor" "Hallale" "Pulktah" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate" "Lalbick" "Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Pulican" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek" "Yeptah" "Satinvose" "Sequoyah" "Attakullaculla" "Johan Ross" "Moytoy" "Yonaguska" "Dragging" "Canoe" "Agi" "It" "Boudinot" "Oacpicagiguya" "Kaviu" "Papago" "Panhop" "Cajemé" "Popé" "Ku-htihth" "Galisteo" "Xenome" "Ollito" "Tagu" "Bolsas" "Naranjo" "Catiti" }
 		
@@ -4521,7 +4521,7 @@ southeast_asian = {
 		
 	}
 	bornean = {
-		color = { 75 68 79 }
+		color = { 106 134 226 }
 		
 		first_names = { "Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn" }
 		
@@ -4594,7 +4594,7 @@ southeast_asian = {
 		
 	}
 	malay = {
-		color = { 85 78 89 }
+		color = { 105 56 162 }
 		
 		first_names = { "Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin" "Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz" }
 		
@@ -4652,7 +4652,23 @@ southeast_asian = {
 		last_names = { "vinh Thuy" "Han" "Tuan" "Vinh San" "Cuong" "Khai" "Nien" "Than" "Quang" "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan" }
 		
 	}
-	
+	sumatran = {
+		color = { 132 64 105 }
+		radicalism = 5
+		
+		first_names = { "Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" "Nguyen" "Truong" "Tran" }
+		
+		last_names = { "vinh Thuy" "Han" "Tuan" "Vinh San" "Cuong" "Khai" "Nien" "Than" "Quang" "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan" }
+		
+	}
+	sundanese = {
+		color = { 72 154 102 }
+		
+		first_names = { "Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin" "Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz" }
+		
+		last_names = { "Raja Inu" "al-Marhum" "Raja Ahmad" "Riayat Shah" "al-Khairat" "Muadzam" "Bendahara" "Aadzam" "Murshidul" }
+		
+	}
 }
 
 southern_african = {

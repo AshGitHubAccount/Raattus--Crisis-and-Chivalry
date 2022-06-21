@@ -322,7 +322,7 @@ political_decisions = {
 					in_sphere = THIS
 					ai = yes
 				}
-				country_event = 599862
+				country_event = 599864
 			}
     }
 	}
