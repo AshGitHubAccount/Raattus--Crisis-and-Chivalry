@@ -1,5 +1,5 @@
 # Rattus: Crisis and Chivalry
- A Victoria 2 Mod based on a converted EU4 game on the foundations of HPM.
+ A Victoria 2 Mod based on a converted EU4 game, built on the foundations of HPM.
 
 A bit of a wacky, unrealistic world where the global powers of the world have recently collapsed from a chain-reaction of economic tragedy and plagues. Countries with flavor or planned flavor:
 
