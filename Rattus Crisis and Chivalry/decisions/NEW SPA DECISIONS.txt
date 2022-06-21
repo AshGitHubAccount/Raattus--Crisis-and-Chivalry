@@ -38,6 +38,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			badboy = 12
             set_global_flag = spa_conquer_governates
            country_event = 899866
         }

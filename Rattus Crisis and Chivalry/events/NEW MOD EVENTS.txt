@@ -504,6 +504,7 @@ country_event = {
 	desc = "ITA9021.D" #the senate wins. republic forever!
 	
 	trigger = {
+	has_country_flag = catalino_conspiracy_ita_3
 	tag = ITA
 	NOT = { has_country_flag = catalino_conspiracy_ita_end}
 	}
@@ -523,6 +524,7 @@ country_event = {
 	desc = "ITA9022.D" #the caesar wins. the italian empire is established.
 	
 	trigger = {
+	has_country_flag = catalino_conspiracy_ita_3
 	tag = ITA
 	NOT = { has_country_flag = catalino_conspiracy_ita_end}
 	}
@@ -550,7 +552,7 @@ country_event = {
 	
 	trigger = {
 	tag = ITA
-	has_country_flag = catalino_conspiracy_ita_3
+	has_country_flag = catalino_conspiracy_ita_2
 	has_country_flag = catalino_conspiracy_caesar
 	NOT = { has_country_flag = catalino_conspiracy_ita_caesar_rolls}
 	}
@@ -573,6 +575,7 @@ country_event = {
 	desc = "ITA9024.D" #we picked the senate. but there's still a chance the caesar rallies. let's see.
 	
 	trigger = {
+	has_country_flag = catalino_conspiracy_ita_2
 	tag = ITA
 	NOT = { has_country_flag = catalino_conspiracy_ita_senate_rolls}
 	}
