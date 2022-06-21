@@ -295,6 +295,7 @@ political_decisions = {
 	give_mjp_support = {
         picture = french_military_exp_japan
         potential = {
+			tag = LOT
             is_greater_power = yes
             exists = MJP
             NOT = { has_country_modifier = aid_to_our_dual_monarchy }

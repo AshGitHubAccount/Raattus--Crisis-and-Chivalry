@@ -6,6 +6,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = italia_ulterior
 			}
+			year = 1865
 		}
 		
 		allow = {

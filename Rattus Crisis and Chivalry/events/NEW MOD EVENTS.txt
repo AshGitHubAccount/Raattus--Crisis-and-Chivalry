@@ -949,6 +949,7 @@ country_event = {
 	title = "SPA9013.T"
 	desc = "SPA9013.D" #1840 west indies begin to break
 	trigger = {
+	tag = WSI
 	year = 1840
 	NOT = { has_country_flag = wsi_failing }
 	}
@@ -1173,10 +1174,6 @@ country_event = {
 	title = "SPA9018.T"
 	desc = "SPA9018.D"
 	is_triggered_only = yes
-	
-	mean_time_to_happen = { 
-	days = 5
-	}
 	
 	option = { 
 	name = "SPA9018.A"

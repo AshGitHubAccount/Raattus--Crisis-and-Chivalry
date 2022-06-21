@@ -20,12 +20,12 @@ pensions = no_pensions
 school_reforms = no_schools
 # Political Reforms
 slavery=no_slavery
-vote_franschise=none_voting
-upper_house_composition=state_equal_weight 
+vote_franschise=wealth_weighted_voting
+upper_house_composition=state_equal_weight
 voting_system=first_past_the_post
 public_meetings=yes_meeting
 press_rights=censored_press
-trade_unions=no_trade_unions
+trade_unions=no_unions
 political_parties=gerrymandering
 
 ruling_party = PLC_conservative
