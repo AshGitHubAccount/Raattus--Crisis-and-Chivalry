@@ -7,6 +7,9 @@ supporting_mjp = {
 tax_efficiency = -0.05
 prestige = 0.01
 }
+aid_to_our_dual_monarchy = {
+prestige = 0.001
+}
 kounic_dynasty = {
 prestige = 0.01
 }

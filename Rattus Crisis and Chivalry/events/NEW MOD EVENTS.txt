@@ -1698,6 +1698,70 @@ country_event = {
 	set_country_flag = lot_sa_event_1
 	}
 }
+country_event = {
+	id = 599862
+	title = "LOT5012.T"
+	desc = "LOT5012.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5012.A"
+	set_country_flag = cored_by_lot_n_mjp
+	all_core = { add_core = MJP }
+	}
+}
+country_event = {
+	id = 599863
+	title = "LOT5013.T"
+	desc = "LOT5013.D"
+	
+	trigger = { 
+	has_country_flag = cored_by_lot_n_mjp
+	NOT = { has_country_flag = annexed_by_lot_n_mjp}
+	}
+	
+	mean_time_to_happen = { 
+	days = 2
+	}
+	
+	option = { 
+	name = "LOT5013"
+	set_country_flag = annexed_by_lot_n_mjp
+	annex_to = MJP
+	}
+}
+country_event = {
+	id = 599864
+	title = "LOT5014.T"
+	desc = "LOT5014.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5014.A"
+	treasury = 150000
+	prestige = 2
+	research_points = 5000
+	random_list = {
+	    25 = { 
+		prestige = -1
+	    military_reform = yes_foreign_training		
+		}
+		25 = { 
+		prestige = -1
+		military_reform = yes_foreign_naval_officers
+	    }
+		25 = { 
+		prestige = -1
+		economic_reform = yes_admin_reform
+	    }
+		25 = { 
+		prestige = -1
+		economic_reform = yes_finance_reform
+	    }
+		}
+	relation = { who = LOT value = 50 }
+	}
+}
 ######################
 ###	New INTERSLAVIA 4000 EVENTS ###
 ######################

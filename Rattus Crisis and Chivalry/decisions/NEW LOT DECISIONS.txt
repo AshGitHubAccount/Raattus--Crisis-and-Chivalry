@@ -259,40 +259,71 @@ political_decisions = {
 		potential = {
 			tag = LOT
 			year = 1840
-			is_sphere_leader_of = MJP
 		}
 		allow = {
-			any_country = {
-				limit = {
-					OR = {
-					primary_culture = malay
-					primary_culture = bornean
-					accepted_culture = malay
-					accepted_culture = bornean
-					}
-					ai = yes
-					in_sphere = THIS
-				}
-				}
-				}
+			war = no
+			is_sphere_leader_of = MJP
+			is_greater_power = yes
+			OR = {
+			is_sphere_leader_of = PLB
+			is_sphere_leader_of = PGR
+			is_sphere_leader_of = DLI
+			is_sphere_leader_of = ATJ
+			is_sphere_leader_of = LAN
+			is_sphere_leader_of = KTI
+			is_sphere_leader_of = BRU
+			is_sphere_leader_of = MLC
+			is_sphere_leader_of = KEL
+			}
+			}
 		effect = {
+		badboy = 5
 			any_country = {
 				limit = {
 					OR = {
-					primary_culture = malay
-					primary_culture = bornean
+					is_culture_group = southeast_asian
 					accepted_culture = malay
 					accepted_culture = bornean
 					}
-					ai = yes
 					in_sphere = THIS
+					ai = yes
 				}
-				annex_to = MJP
-				any_owned = {
-			NOT = { is_core = THIS }
-			add_core = MJP
-		    }
+				country_event = 599862
+			}
 			}
         }
-		}
+	give_mjp_support = {
+        picture = french_military_exp_japan
+        potential = {
+            is_greater_power = yes
+            exists = MJP
+            NOT = { has_country_modifier = aid_to_our_dual_monarchy }
+        }
+
+        allow = {
+			is_sphere_leader_of = MJP
+			is_greater_power = yes
+        }
+
+        effect = {
+            prestige = -1
+			treasury = -250000
+			add_country_modifier = {
+			    name = aid_to_our_dual_monarchy
+			    duration = 1400
+		        }
+            any_country = {
+				limit = {
+					OR = {
+					is_culture_group = southeast_asian
+					accepted_culture = malay
+					accepted_culture = bornean
+					}
+					in_sphere = THIS
+					ai = yes
+				}
+				country_event = 599862
+			}
+    }
+	}
 }
