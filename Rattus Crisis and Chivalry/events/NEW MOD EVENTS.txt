@@ -1060,6 +1060,18 @@ country_event = {
 	
 	option = { 
 	name = "SPA9015.A"
+	ARN = {
+	relation = { who = SPA value = -400 }
+	}
+	relation = { who = ARN value = -400 }
+	X19 = {
+	relation = { who = SPA value = -400 }
+	}
+	relation = { who = X19 value = -400 }
+	NAV = {
+	relation = { who = SPA value = -400 }
+	}
+	relation = { who = NAV value = -400 }
 	war = {
 		target = ARN
 			attacker_goal = {
