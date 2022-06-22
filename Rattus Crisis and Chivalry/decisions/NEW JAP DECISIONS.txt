@@ -1,3 +1,32 @@
 ######################
 ###	New JAPAN DECISIONS ###
 ######################
+political_decisions = {
+destroy_joseon = {
+		 picture = annex_korea
+	     potential = {
+           tag = JAP
+		   exists = KOR
+		   OTM = { exists = no }
+		   NOT = { has_country_flag = annex_korea_now }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = RYU }
+			NOT = { exists = AIN }
+			war = no
+			KOR = { war = no }			 
+		}
+	
+	   effect = { 
+	     set_country_flag = annex_korea_now
+		 any_country = {
+			 limit = {
+				 tag = KOR
+			 }	 
+             country_event = { id = 334757 days = 3 }			    
+		 }	 
+	  }
+   }
+}

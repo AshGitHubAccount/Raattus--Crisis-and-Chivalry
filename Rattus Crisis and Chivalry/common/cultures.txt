@@ -757,7 +757,7 @@ celtic = {
 		
 	}
 	belgian = {
-		color = { 103 83 47 }
+		color = { 54 178 153 }
 		
 		first_names = { "Acco" "Addedomarus" "Adiatuanus" "Adminius" "Aiorix" "Ambicatos" "Andecombogius" "Aneroestes" "Ariovistus" "Arverus" "Arvirargus" "Atis" "Avitus" "Bellicianus" "Bellovesus" "Boduognatus" "Boio" "Boiorix" "Bolgios" "Brennus" "Bricussa" "Britomaris" "Brucetius" "Buite" "Cailtram" "Caractacus" "Carvilius" "Cassivellaunus" "Cattulanus" "Cartorites" "Catugnatus" "Cavarinus" "Cavarus" "Celatus" "Cingetorix" "Coilus" "Commios" "Comux" "Concolitanus" "Correus" "Cottius" "Crixus" "Cunobelinus" "Diviciacus" "Divico" "Donnus" "Drappes" "Dubnovellaunus" "Dumnacus" "Ducarius" "Duratios" "Dumnocoveros" "Dumnorix" "Elitovius" "Etitovius" "Epatticus" "Galan" "Galba" "Guiderius" "Iacus" "Iccius" "Immanuentius" "Inamarcus" "Inammicus" "Indutiomarus" "Kimarcus" "Lucterius" "Lugotorix" "Lutarius" "Mallaius" "Mandubracius" "Marganus" "Mascelio" "Orgetorix" "Prasutagus" "Segovax" "Sinatus" "Sinorix" "Sisillius" "Talorc" "Tasciovanus" "Tasgetius" "Taximagulus" "Teutomalius" "Tincomarus" "Togodumnus" "Vertiscus" "Venutius" "Viridorix" "Vosenius" "Vodenos" }
 		

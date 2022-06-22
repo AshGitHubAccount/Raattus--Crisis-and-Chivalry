@@ -3,6 +3,19 @@
 ##################################################################################################
 
 ####NEW MOD RAT STUFF###########
+ita_eagle_caesarism = {
+immigrant_attract = -0.2
+assimilation_rate = 0.25
+land_organisation = 0.05
+org_regain = 0.05
+ruling_party_support = 0.40
+}
+la_reforma_ita = {
+pop_militancy_modifier = -0.01
+research_points_modifier = 0.1
+immigrant_attract = 0.5
+population_growth = 0.001
+}
 supporting_mjp = {
 tax_efficiency = -0.05
 prestige = 0.01

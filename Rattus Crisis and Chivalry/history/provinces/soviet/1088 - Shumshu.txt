@@ -1,6 +1,7 @@
 owner=AIN
 controller=AIN
 add_core=AIN
+add_core=JAP
 trade_goods = coal
 life_rating = 15
 terrain = arctic

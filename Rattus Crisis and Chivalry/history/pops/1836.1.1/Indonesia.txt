@@ -3771,13 +3771,13 @@
 	{
 		culture = javan
 		religion = animist
-		size= 7198
+		size= 5198
 	}
 farmers=
 	{
 		culture = sundanese
 		religion = animist
-		size= 15198
+		size= 25198
 	}
 	slaves=
 	{
@@ -3797,7 +3797,7 @@ farmers=
 	{
 		culture = javan
 		religion = hindu
-		size= 7039
+		size= 5039
 	}
 
 	clergymen=
@@ -3839,7 +3839,7 @@ farmers=
 1440 = {
 	soldiers=
 	{
-		culture = javan
+		culture = sundanese
 		religion = animist
 		size= 1104
 	}
@@ -3848,7 +3848,7 @@ farmers=
 	{
 		culture = javan
 		religion = animist
-		size= 27945
+		size= 18945
 	}
 
 	soldiers=
@@ -3868,7 +3868,7 @@ farmers=
 	{
 		culture = sundanese
 		religion = hindu
-		size= 23603
+		size= 35603
 	}
 	artisans=
 	{

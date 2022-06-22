@@ -24,7 +24,7 @@ country_event = {
 	id = 72902
 	title = "ITA9002.T"
 	desc = "ITA9002.D" #italy intro, north italy and cilli
-	
+	picture = "theatre"
 	trigger = { 
 	tag = ITA
 	NOT = { has_country_flag = ita_intro }
@@ -52,7 +52,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 300
+	days = 20
 	}
 	
 	option = { 
@@ -77,7 +77,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 300
+	days = 164
 	}
 	
 	option = { 
@@ -98,7 +98,7 @@ country_event = {
 	id = 72905
 	title = "ITA9005.T"
 	desc = "ITA9005.D"
-	
+	picture = "Harassment"
 	trigger = { 
 	tag = ITA
 	year = 1843
@@ -106,7 +106,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 500
+	days = 222
 	}
 	
 	option = { 
@@ -136,7 +136,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 250
+	days = 187
 	}
 	
 	option = { 
@@ -172,7 +172,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 800
+	days = 150
 	}
 	
 	option = { 
@@ -432,7 +432,7 @@ country_event = {
 	id = 72918
 	title = "ITA9018.T"
 	desc = "ITA9018.D" #introduction to the conspiracy
-	
+	picture = "meeting3"
 	trigger = {
 	year = 1862
 	tag = ITA
@@ -450,7 +450,7 @@ country_event = {
 	id = 72919
 	title = "ITA9019.T"
 	desc = "ITA9019.D" #the conspiracy deepens, we must pick a side.
-	
+	picture = "meeting3"
 	trigger = {
 	tag = ITA
 	has_country_flag = catalino_conspiracy_ita_1
@@ -479,7 +479,7 @@ country_event = {
 	id = 72920
 	title = "ITA9020.T"
 	desc = "ITA9020.D" #you don't pick a side. both sides fight and randomly one wins
-	
+	picture = "Factoryattack"
 	trigger = {
 	tag = ITA
 	has_country_flag = catalino_conspiracy_ita_2
@@ -502,7 +502,7 @@ country_event = {
 	id = 72921
 	title = "ITA9021.T"
 	desc = "ITA9021.D" #the senate wins. republic forever!
-	
+	picture = "Strike"
 	trigger = {
 	has_country_flag = catalino_conspiracy_ita_3
 	tag = ITA
@@ -522,7 +522,7 @@ country_event = {
 	id = 72922
 	title = "ITA9022.T"
 	desc = "ITA9022.D" #the caesar wins. the italian empire is established.
-	
+	picture = "Strike"
 	trigger = {
 	has_country_flag = catalino_conspiracy_ita_3
 	tag = ITA
@@ -549,7 +549,7 @@ country_event = {
 	id = 72923
 	title = "ITA9023.T"
 	desc = "ITA9023.D" #we picked the caesar. but there's still a chance the senate rallies. let's see.
-	
+	picture = "Revolution"
 	trigger = {
 	tag = ITA
 	has_country_flag = catalino_conspiracy_ita_2
@@ -573,7 +573,7 @@ country_event = {
 	id = 72924
 	title = "ITA9024.T"
 	desc = "ITA9024.D" #we picked the senate. but there's still a chance the caesar rallies. let's see.
-	
+	picture = "Revolution"
 	trigger = {
 	has_country_flag = catalino_conspiracy_ita_2
 	tag = ITA
@@ -596,7 +596,7 @@ country_event = {
 	id = 72925
 	title = "ITA9025.T"
 	desc = "ITA9025.D" #The senate implements La Reforma. the caesars are hanged.
-	
+	picture = "treaty"
 	trigger = {
 	tag = ITA
 	has_country_flag = catalino_conspiracy_ita_senate_wins
@@ -608,13 +608,35 @@ country_event = {
 	option = { 
 	name = "ITA9025.A"
 	set_country_flag = senate_la_reforma
+	add_country_modifier = {
+				name = la_reforma_ita
+				duration = 3300
+		 }
+	any_pop = {
+            scaled_militancy = {
+                ideology = reactionary
+                factor = 4
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = 4
+            }
+            scaled_militancy = {
+                ideology = liberal
+                factor = -6
+            }
+            scaled_militancy = {
+                ideology = anarcho_liberal
+                factor = -8
+            }
+        }
 }
 }
 country_event = {
 	id = 72926
 	title = "ITA9026.T"
 	desc = "ITA9026.D" #The caesars impelement proscriptions. the senate is purged, and the caesars advocate for pan-italian unity under the roman eagle.
-	
+	picture = "treaty"
 	trigger = {
 	tag = ITA
 	has_country_flag = catalino_conspiracy_ita_caesar_wins
@@ -625,7 +647,29 @@ country_event = {
 	
 	option = { 
 	name = "ITA9026.A"
+	add_country_modifier = {
+				name = ita_eagle_caesarism
+				duration = 3300
+		 }
 	set_country_flag = caesar_la_imperial
+	any_pop = {
+            scaled_militancy = {
+                ideology = reactionary
+                factor = -8
+            }
+            scaled_militancy = {
+                ideology = conservative
+                factor = -4
+            }
+            scaled_militancy = {
+                ideology = liberal
+                factor = 6
+            }
+            scaled_militancy = {
+                ideology = anarcho_liberal
+                factor = 8
+            }
+        }	
 }
 }
 ######################
@@ -635,6 +679,7 @@ country_event = {
 	id = 899850
 	title = "SPA8000.T"
 	desc = "SPA8000.D" #spain's a country, but it's also a country at war. let's kill these guys before we talk about more
+	
 	trigger = { 
 	tag = SPA
 	NOT = { has_country_flag = spa_die_glc }
@@ -861,6 +906,8 @@ country_event = {
 	id = 899859
 	title = "SPA9009.T"
 	desc = "SPA9009.D"
+	picture = "Prosper"
+	
 	trigger = { 
 	tag = SPA
 	year = 1842
@@ -889,6 +936,7 @@ country_event = {
 	id = 899860
 	title = "SPA9010.T"
 	desc = "SPA9010.D"
+	picture = "Riot"
 	trigger = { 
 	tag = SPA
 	year = 1844
@@ -926,6 +974,7 @@ country_event = {
 	id = 899861
 	title = "SPA9011.T"
 	desc = "SPA9011.D"
+	picture = "Riot"
 	trigger = { 
 	tag = SPA
 	year = 1847
@@ -1027,7 +1076,7 @@ country_event = {
 	id = 899865
 	title = "SPA9014.T"
 	desc = "SPA9014.D"
-	
+	picture = "Merchants"
 	is_triggered_only = yes
 	
 	option = { 
@@ -1152,6 +1201,7 @@ country_event = {
 	id = 899868
 	title = "SPA9017.T"
 	desc = "SPA9017.D"
+	picture = "Administration"
 	trigger = { 
 	tag = SPA
 	has_country_flag = spa_breaks_its_streak
@@ -1299,6 +1349,28 @@ country_event = {
 	prestige = 1
 	set_country_flag = spa_chooses_asia_policy
 	set_country_flag = spa_chooses_colonial_policy
+	}
+}
+country_event = {
+	id = 899873
+	title = "SPA9022.T"
+	desc = "SPA9022.D"
+	trigger = { 
+	tag = SPA
+	war = no
+	has_country_flag = spa_integrates_portugal_finish
+	NOT = { has_country_flag =  spa_integrates_portugal_finish_integrated }
+	}
+	
+	mean_time_to_happen = { 
+	days = 500
+	}
+	
+	option = { 
+	name = "SPA9022.A"
+	prestige = 10
+	set_country_flag = spa_integrates_portugal_finish_integrated
+	add_accepted_culture = portuguese
 	}
 }
 ######################
@@ -1514,6 +1586,7 @@ country_event = {
 	id = 599854
 	title = "LOT5004.T"
 	desc = "LOT5004.D"
+	picture = "sax"
 	trigger = { 
 	tag = LOT
 	year = 1842
@@ -1526,6 +1599,9 @@ country_event = {
 	
 	option = { 
 	name = "LOT5004.A"
+	ITA = {
+	relation = { who = LOT value = -25 }
+	}
 	set_country_flag = lot_spy_italy
 	}
 }
@@ -1555,6 +1631,7 @@ country_event = {
 	id = 599856
 	title = "LOT5006.T"
 	desc = "LOT5006.D"
+	picture = "observer"
 	trigger = { 
 	tag = LOT
 	year = 1844
@@ -1574,6 +1651,7 @@ country_event = {
 	id = 599858
 	title = "LOT5008.T"
 	desc = "LOT5008.D"
+	picture = "anarchism"
 	trigger = { 
 	year = 1840
 	tag = LOT
@@ -1638,7 +1716,7 @@ country_event = {
 	id = 599859
 	title = "LOT5009.T"
 	desc = "LOT5009.D"
-	
+	picture = "Western_education"
 	is_triggered_only = yes
 	
 	option = { 
@@ -1695,6 +1773,7 @@ country_event = {
 	id = 599861
 	title = "LOT5011.T"
 	desc = "LOT5011.D"
+	picture = "Outside_influences"
 	trigger = { 
 	tag = LOT
 	year = 1850
@@ -2157,18 +2236,47 @@ country_event = {
 	option = { 
 	name = "WSF4010.A"
 	set_country_flag = wsf_reform_republic
+	government = absolute_monarchy
 	set_country_flag = wsf_reform_or_strangle
 	}
 	option = { 
 	name = "WSF4010.B"
 	set_country_flag = wsf_reform_monarchy
+	government = absolute_monarchy
 	set_country_flag = wsf_reform_or_strangle
 	}
 	option = { 
 	name = "WSF4010.C"
 	set_country_flag = wsf_kounic_monarchy
+	government = absolute_monarchy
 	set_country_flag = wsf_reform_or_strangle
 	}
+}
+country_event = {
+    id = 499861
+    title = "WSF4011.T"
+    desc = "WSF4011.D"
+    picture = "goldrush"
+
+    trigger = {
+        year = 1840
+        690 = {
+            owned_by = THIS
+            NOT = { trade_goods = precious_metal }
+        }
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = { months = 6 }
+
+    option = {
+        name = "WSF4011.A"
+        690 = {
+            trade_goods = precious_metal
+            add_province_modifier = { name = silver_mine duration = -1 }
+        }
+    }
 }
 ######################
 ###	New JAPAN EVENTS 3000 ###
@@ -2177,6 +2285,7 @@ country_event = {
 	id = 399850 
 	title = "JAP3000.T"
 	desc = "JAP3000.D" #Telling japan they have about 60 days to prepare for war.
+	picture = "Military_reform"
 	trigger = { 
 	tag = JAP
 	NOT = { has_country_flag = jap_imperial_wrath }
@@ -2199,6 +2308,7 @@ country_event = {
 	id = 399851
 	title = "JAP3001.T"
 	desc = "JAP3001.D" #Telling japan they have to win this war or die with dishonor
+	picture = "Outside_influences"
 	trigger = { 
 	tag = JAP
 	NOT = { has_country_flag = jap_imperial_fury }
@@ -2233,6 +2343,7 @@ country_event = {
 	id = 399852
 	title = "JAP3002.T"
 	desc = "JAP3002.D" #Japan reintegrates the traitors. the ringleaders commit seppuku. the emperor learns spains schemeing
+	picture = "Opium"
 	trigger = { 
 	war = no
 	tag = JAP
@@ -2324,7 +2435,7 @@ country_event = {
 	trigger = { 
 	year = 1840
 	tag = JAP
-	NOT = { has_country_flag = jap_intro }
+	NOT = { has_country_flag = jap_kurafura_mission}
 	has_country_flag = jap_repatriation
 	}
 	
@@ -2333,14 +2444,22 @@ country_event = {
 	}
 	
 	option = { 
+	years_of_research = 1
+	LSK = {
+	relation = { who = JAP value = 100 }
+	}
+	LOT = {
+	relation = { who = JAP value = 100 }
+	}
 	name = "JAP3005.A"
-	set_country_flag = jap_intro
+	set_country_flag = jap_kurafura_mission
 	}
 }
 country_event = {
 	id = 399856
 	title = "JAP3006.T"
 	desc = "JAP3006.D" #Japanese marines land in Api?
+	picture = "Opiumwar"
 	trigger = { 
 	year = 1843
 	tag = JAP
@@ -2445,7 +2564,7 @@ country_event = {
 	id = 399861
 	title = "JAP3011.T"
 	desc = "JAP3011.D"
-	
+	picture = "treaty"
 	is_triggered_only = yes
 	
 	option = { 
@@ -2471,6 +2590,38 @@ country_event = {
 	}
 	}
 }
+country_event = {
+	id = 399862
+	title = "JAP3012.T"
+	desc = "JAP3012.T"
+	
+	is_triggered_only = yes	
+	option = {
+		name = "NJAP58.A"	
+		JAP = { inherit = THIS }
+	    ai_chance = {
+	       factor = 25
+		}
+	}
+	
+	option = {
+		name = "JAP3012.A"	
+		JAP = {
+ 	    war = {
+			target = KOR
+			attacker_goal =  { 
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}	
+	    }
+        }		
+	    ai_chance = {
+	       factor = 75
+		}
+	}
+}
 ######################
 ###	New AKSUM (X00) EVENTS 2000 ###
 ######################
@@ -2478,6 +2629,7 @@ country_event = {
 	id = 299860 
 	title = "AKS2000.T"
 	desc = "AKS2000.D"
+	picture = "Revolution"
 	trigger = { 
 	tag = X00
 	NOT = { has_country_flag = aks_intro }
@@ -2552,6 +2704,7 @@ country_event = {
 	id = 299864
 	title = "AKS2004.T"
 	desc = "AKS2004.D"
+	picture = "cityfire"
 	trigger = { 
 	year = 1844
 	tag = X00
@@ -2571,7 +2724,7 @@ country_event = {
 	id = 299865
 	title = "AKS2005.T"
 	desc = "AKS2005.D"
-	
+	picture = "treaty"
 	is_triggered_only = yes 
 	
 	
@@ -2590,7 +2743,7 @@ country_event = {
 	id = 299866
 	title = "AKS2006.T"
 	desc = "AKS2006.D"
-	
+	picture = "treaty"
 	is_triggered_only = yes 
 	
 	
@@ -2609,7 +2762,7 @@ country_event = {
 	id = 299867
 	title = "AKS2007.T"
 	desc = "AKS2007.D"
-	
+	picture = "treaty"
 	is_triggered_only = yes 
 	
 	
@@ -2916,6 +3069,7 @@ country_event = {
 	id = 3599 
 	title = "RUS3599.T"
 	desc = "RUS3599.D" #Telling russia they are cursed but if they unite they will be slightly less cursed
+	picture = "cityfire"
 	trigger = { 
 	has_country_flag = russian_warlord_phase
 	NOT = { has_country_flag = russian_warlord_intro }
