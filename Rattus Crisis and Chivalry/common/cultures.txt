@@ -3188,7 +3188,7 @@ neo_european_cultures = {
 		
 	}
 	australienne = {
-		color = { 151 129 165 }
+		color = { 54 178 153 }
 		radicalism = 10
 		
 		first_names = { "Narcisse" "René" "Èdouard" "Luc" "Letellier" "Théodore" "Louis" "Francois" "Auguste" "Joseph" "Pierre" "Luis-Phillippe" "Jean" "Gaspard" "Eugéne" "Èssioff" "Huguel" "Jean-Pierre" "Gilles" }
