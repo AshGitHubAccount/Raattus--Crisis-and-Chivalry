@@ -618,7 +618,7 @@ leader = {
 #Armies
 army = {
 	name="Ashikaga Gun"
-	location=1634
+	location=1657
 	regiment = {
 		name="1st Kobe Infantry"
 		type=infantry
@@ -666,7 +666,7 @@ navy = {
 
 army = {
 	name="Kyoto Gun"
-	location=1554
+	location=1675
 	regiment = {
 		name="1st Kyoto Infantry"
 		type=infantry
@@ -696,7 +696,7 @@ army = {
 
 army = {
 	name="Kyoto Zei"
-	location=1672
+	location=1669
 	regiment = {
 		name="1st Nara Infantry"
 		type=infantry
@@ -736,7 +736,7 @@ army = {
 
 army = {
 	name="Chikuzen Gun"
-	location=1566
+	location=1670
 	regiment = {
 		name="2nd Nara Infantry"
 		type=infantry
@@ -761,7 +761,7 @@ army = {
 
 army = {
 	name="Tokachi Gun"
-	location=1641
+	location=1656
 	regiment = {
 		name="1st Kumamoto Infantry"
 		type=infantry
@@ -781,7 +781,7 @@ army = {
 
 navy = {
 	name="Imperial Navy"
-	location=1660
+	location=1658
 	ship = {
 		name="Kaiyo Maru"
 		type=manowar
@@ -870,7 +870,7 @@ navy = {
 
 navy = {
 	name="Chikuzen Suigun"
-	location=2829
+	location=1650
 	ship = {
 		name="Keyaki"
 		type=frigate
@@ -895,7 +895,7 @@ navy = {
 
 navy = {
 	name="Bohai Sea Suigun"
-	location=1660
+	location=1669
 	ship = {
 		name="Ibuki"
 		type=frigate
@@ -908,7 +908,7 @@ navy = {
 
 navy = {
 	name="Butei Sendan"
-	location=2827
+	location=1647
 	ship = {
 		name="1st Sendai Clipper Transport"
 		type=clipper_transport
@@ -1033,7 +1033,7 @@ navy = {
 
 army = {
 	name="Yanzhou Gun"
-	location=1568
+	location=1672
 	regiment = {
 		name="1st Utsunomiya Infantry"
 		type=infantry
@@ -1058,7 +1058,7 @@ army = {
 
 army = {
 	name="Mergen Gun"
-	location=1553
+	location=1674
 	regiment = {
 		name="1st Fukui Infantry"
 		type=infantry
@@ -1093,7 +1093,7 @@ army = {
 
 army = {
 	name="Yanzhou Zei"
-	location=1568
+	location=1677
 	regiment = {
 		name="3rd Nara Infantry"
 		type=infantry

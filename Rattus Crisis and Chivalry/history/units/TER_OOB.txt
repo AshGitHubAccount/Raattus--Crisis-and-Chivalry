@@ -121,3 +121,27 @@ ZAZ = {
 #Leaders
 
 #Armies
+army = {
+	name="Holy Guard"
+	location=2087
+	regiment = {
+		name="1st Macon Infantry"
+		type=cursassier
+		home=2087
+	}
+	regiment = {
+		name="2nd Macon Infantry"
+		type=infantry
+		home=2089
+	}
+	regiment = {
+		name="1st Macon Artillery"
+		type=artillery
+		home=2090
+	}
+	regiment = {
+		name="4th Macon Infantry"
+		type=cavalry
+		home=431
+	}
+}

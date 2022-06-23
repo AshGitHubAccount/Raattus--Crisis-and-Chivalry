@@ -491,3 +491,91 @@ leader = {
 
 
 #Armies
+army = {
+	name="2nd Army"
+	location=1585
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1585
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1507
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1507
+	}
+}
+army = {
+	name="2nd Army"
+	location=1602
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1602
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1602
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1602
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1603
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1603
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1603
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=irregular
+		home=1603
+	}
+	regiment = {
+		name="2nd Wonsan Artillery"
+		type=irregular
+		home=1603
+	}
+}

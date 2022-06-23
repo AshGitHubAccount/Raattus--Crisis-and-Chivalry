@@ -641,36 +641,69 @@ leader = {
 #Armies
 army = {
 	name="5th Army"
-	location=1229
+	location=1236
 	regiment = {
 		name="1st Lahore Irregulars"
 		type=irregular
 		home=1227
 	}
 	regiment = {
-		name="1st Lahore Cavalry"
-		type=cavalry
-		home=1227
+		name="1st Lahore hussar"
+		type=hussar
+		home=1240
 	}
 	regiment = {
 		name="1st Delhi Artillery"
-		type=artillery
-		home=1236
+		type=irregular
+		home=1240
 	}
 	regiment = {
 		name="2nd Lahore Irregulars"
 		type=irregular
-		home=1227
+		home=1240
 	}
 	regiment = {
-		name="1st Amritsar Cavalry"
-		type=cavalry
-		home=1233
+		name="1st Amritsar hussar"
+		type=hussar
+		home=1240
 	}
 	regiment = {
 		name="1st Lahore Artillery"
-		type=artillery
-		home=1227
+		type=irregular
+		home=1240
 	}
 }
-
+army = {
+	name="5th Army"
+	location=1239
+	regiment = {
+		name="1st Lahore Irregulars"
+		type=irregular
+		home=1239
+	}
+	regiment = {
+		name="1st Lahore hussar"
+		type=hussar
+		home=1239
+	}
+	regiment = {
+		name="1st Delhi Artillery"
+		type=irregular
+		home=1239
+	}
+	regiment = {
+		name="2nd Lahore Irregulars"
+		type=irregular
+		home=1237
+	}
+	regiment = {
+		name="1st Amritsar hussar"
+		type=hussar
+		home=1237
+	}
+	regiment = {
+		name="1st Lahore Artillery"
+		type=irregular
+		home=1237
+	}
+}
