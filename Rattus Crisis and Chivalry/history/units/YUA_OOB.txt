@@ -132,3 +132,287 @@ leader = {
 
 
 #Armies
+army = {
+name="1st Army"
+	location=1492
+regiment = {
+		name="1st Yuan Unit"
+		type=infantry
+		home=1492
+}
+regiment = {
+		name="2st Yuan Unit"
+		type=hussar
+		home=1492
+}
+regiment = {
+		name="3st Yuan Unit"
+		type=hussar
+		home=1492
+}
+regiment = {
+		name="4st Yuan Unit"
+		type=infantry
+		home=1575
+}
+regiment = {
+		name="5st Yuan Unit"
+		type=hussar
+		home=1575
+}
+regiment = {
+		name="6st Yuan Unit"
+		type=hussar
+		home=1575
+}
+}
+army = {
+name="2st Army"
+	location=1488
+regiment = {
+		name="7st Yuan Unit"
+		type=hussar
+		home=1488
+}
+regiment = {
+		name="8st Yuan Unit"
+		type=hussar
+		home=1488
+}
+regiment = {
+		name="9st Yuan Unit"
+		type=infantry
+		home=1488
+}
+regiment = {
+		name="10st Yuan Unit"
+		type=hussar
+		home=1572
+}
+regiment = {
+		name="11st Yuan Unit"
+		type=hussar
+		home=1572
+}
+regiment = {
+		name="12st Yuan Unit"
+		type=infantry
+		home=1572
+}
+}
+army = {
+name="1st Army"
+	location=1617
+regiment = {
+		name="13st Yuan Unit"
+		type=hussar
+		home=1617
+}
+regiment = {
+		name="14st Yuan Unit"
+		type=hussar
+		home=1617
+}
+regiment = {
+		name="15st Yuan Unit"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="16st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="17st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="18st Yuan Unit"
+		type=infantry
+		home=1614
+}
+regiment = {
+		name="91st Yuan Unit"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="20st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="21st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="22st Yuan Unit"
+		type=infantry
+		home=1612
+}
+}
+army = {
+name="3st Army"
+	location=1574
+regiment = {
+		name="23st Yuan Unit"
+		type=hussar
+		home=1617
+}
+regiment = {
+		name="24st Yuan Unit"
+		type=hussar
+		home=1617
+}
+regiment = {
+		name="26st Yuan Unit"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="25st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="27st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="28st Yuan Unit"
+		type=infantry
+		home=1614
+}
+regiment = {
+		name="29st Yuan Unit"
+		type=infantry
+		home=1617
+}
+regiment = {
+		name="30st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="31st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="32st Yuan Unit"
+		type=infantry
+		home=1612
+}
+}
+army = {
+name="1st Army"
+	location=1617
+regiment = {
+		name="33st Yuan Unit"
+		type=hussar
+		home=1617
+}
+regiment = {
+		name="34st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="35st Yuan Unit"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="36st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="37st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="38st Yuan Unit"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="39st Yuan Unit"
+		type=infantry
+		home=1612
+}
+regiment = {
+		name="41st Yuan Unit"
+		type=hussar
+		home=1614
+}
+regiment = {
+		name="40st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="42st Yuan Unit"
+		type=infantry
+		home=1612
+}
+}
+army = {
+name="4st Army"
+	location=1534
+regiment = {
+		name="43st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="44st Yuan Unit"
+		type=hussar
+		home=1612
+}
+regiment = {
+		name="45st Yuan Unit"
+		type=infantry
+		home=1574
+}
+regiment = {
+		name="46st Yuan Unit"
+		type=hussar
+		home=1574
+}
+regiment = {
+		name="47st Yuan Unit"
+		type=hussar
+		home=1574
+}
+regiment = {
+		name="48st Yuan Unit"
+		type=infantry
+		home=1490
+}
+regiment = {
+		name="49st Yuan Unit"
+		type=infantry
+		home=1490
+}
+regiment = {
+		name="50st Yuan Unit"
+		type=hussar
+		home=1490
+}
+regiment = {
+		name="51st Yuan Unit"
+		type=hussar
+		home=1490
+}
+regiment = {
+		name="52st Yuan Unit"
+		type=infantry
+		home=1490
+}
+}

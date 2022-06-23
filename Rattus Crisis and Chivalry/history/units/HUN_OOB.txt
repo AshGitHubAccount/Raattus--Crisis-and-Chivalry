@@ -122,5 +122,30 @@ army = {
 		type=infantry
 		home=950
 	}
+	regiment = {
+		name="1st Ungváre Infantry"
+		type=infantry
+		home=641
+	}
+	regiment = {
+		name="1st Ungváry Infantry"
+		type=infantry
+		home=639
+	}
+	regiment = {
+		name="1st Ungvári Infantry"
+		type=infantry
+		home=652
+	}
+	regiment = {
+		name="1st Ungvárs Infantry"
+		type=infantry
+		home=652
+	}
+	regiment = {
+		name="1st Ungvársh Hussars"
+		type=hussar
+		home=652
+	}
 }
 
