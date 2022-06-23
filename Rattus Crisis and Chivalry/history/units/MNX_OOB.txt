@@ -461,30 +461,242 @@ leader = {
 #Armies
 army = {
 	name="2nd Army"
-	location=1573
+	location=1549
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1549
+	}
+}
+army = {
+	name="2th Army"
+	location=1581
+regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1510
+	}
+}
+army = {
+	name="2th Army"
+	location=1517
+regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Dean Irregulars"
+		type=irregular
+		home=1517
+	}
 	regiment = {
 		name="1st Dean Irregulars"
 		type=irregular
 		home=1517
 	}
 }
-
-navy = {
-	name="1st Fleet"
-	location=1542
-	ship = {
-		name="1st Ming Frigate"
-		type=frigate
-	}
-	ship = {
-		name="2nd Ming Frigate"
-		type=frigate
-	}
-}
-
 army = {
 	name="6th Army"
-	location=1573
+	location=1474
+	regiment = {
+		name="2nd Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Yingzhou Irregulars"
+		type=irregular
+		home=1478
+	}
+	regiment = {
+		name="1st Xuzhou Irregulars"
+		type=irregular
+		home=1542
+	}
+	regiment = {
+		name="2nd Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Yingzhou Irregulars"
+		type=irregular
+		home=1478
+	}
+	regiment = {
+		name="1st Xuzhou Irregulars"
+		type=irregular
+		home=1542
+	}
+	regiment = {
+		name="2nd Dean Irregulars"
+		type=irregular
+		home=1517
+	}
+	regiment = {
+		name="1st Yingzhou Irregulars"
+		type=irregular
+		home=1478
+	}
+	regiment = {
+		name="1st Xuzhou Irregulars"
+		type=irregular
+		home=1542
+	}
 	regiment = {
 		name="2nd Dean Irregulars"
 		type=irregular
@@ -501,7 +713,6 @@ army = {
 		home=1542
 	}
 }
-
 navy = {
 	name="4th Fleet"
 	location=1542
@@ -518,4 +729,3 @@ navy = {
 		type=clipper_transport
 	}
 }
-

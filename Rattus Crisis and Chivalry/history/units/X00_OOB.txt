@@ -685,100 +685,6 @@ leader = {
 
 #Armies
 army = {
-	name="3rd Army"
-	location=1851
-	regiment = {
-		name="1st Bayda Infantry"
-		type=infantry
-		home=1176
-	}
-	regiment = {
-		name="1st Antalo Infantry"
-		type=infantry
-		home=1857
-	}
-	regiment = {
-		name="1st Bale Infantry"
-		type=infantry
-		home=1866
-	}
-	regiment = {
-		name="1st Ankober Artillery"
-		type=artillery
-		home=1859
-	}
-	regiment = {
-		name="2nd Ankober Artillery"
-		type=artillery
-		home=1859
-	}
-	regiment = {
-		name="1st Asaita Infantry"
-		type=infantry
-		home=1858
-	}
-	regiment = {
-		name="4th Ankober Artillery"
-		type=artillery
-		home=1859
-	}
-}
-
-army = {
-	name="12th Army"
-	location=1154
-	regiment = {
-		name="1st Harer Infantry"
-		type=infantry
-		home=1865
-	}
-	regiment = {
-		name="3rd Ankober Artillery"
-		type=artillery
-		home=1859
-	}
-	regiment = {
-		name="2nd Hobyo Infantry"
-		type=infantry
-		home=1871
-	}
-	regiment = {
-		name="1st Matamma Artillery"
-		type=artillery
-		home=1854
-	}
-}
-
-navy = {
-	name="8th Fleet"
-	location=2899
-	ship = {
-		name="1st Taizz Frigate"
-		type=frigate
-	}
-	ship = {
-		name="2nd Taizz Frigate"
-		type=frigate
-	}
-	ship = {
-		name="1st Mogadishu Frigate"
-		type=frigate
-	}
-	ship = {
-		name="1st Ghayda Frigate"
-		type=frigate
-	}
-	ship = {
-		name="1st Salalah Frigate"
-		type=frigate
-	}
-	ship = {
-		name="3rd Taizz Frigate"
-		type=frigate
-	}
-}
-
-army = {
 	name="6th Army"
 	location=988
 	regiment = {
@@ -841,11 +747,31 @@ army = {
 		type=artillery
 		home=1855
 	}
+	regiment = {
+		name="1st Harer Infantry"
+		type=infantry
+		home=1865
+	}
+	regiment = {
+		name="3rd Ankober Artillery"
+		type=artillery
+		home=1859
+	}
+	regiment = {
+		name="2nd Hobyo Infantry"
+		type=infantry
+		home=1871
+	}
+	regiment = {
+		name="1st Matamma Artillery"
+		type=artillery
+		home=1854
+	}
 }
 
 navy = {
 	name="2nd Fleet"
-	location=2745
+	location=1175
 	ship = {
 		name="1st Djibuti Frigate"
 		type=frigate
@@ -858,11 +784,12 @@ navy = {
 		name="2nd Bosaso Frigate"
 		type=frigate
 	}
+	
 }
 
 navy = {
 	name="4th Fleet"
-	location=2782
+	location=1174
 	ship = {
 		name="1st Mzizima Frigate"
 		type=frigate
@@ -883,7 +810,7 @@ navy = {
 
 navy = {
 	name="6th Fleet"
-	location=2755
+	location=1875
 	ship = {
 		name="1st Berbera Clipper Transport"
 		type=clipper_transport
@@ -944,7 +871,7 @@ navy = {
 
 army = {
 	name="11th Army"
-	location=1154
+	location=1161
 	regiment = {
 		name="1st Bonga Infantry"
 		type=infantry
@@ -969,7 +896,7 @@ army = {
 
 army = {
 	name="13th Army"
-	location=357
+	location=1167
 	regiment = {
 		name="1st Hawassa Infantry"
 		type=infantry
@@ -994,7 +921,7 @@ army = {
 
 army = {
 	name="14th Army"
-	location=2586
+	location=1175
 	regiment = {
 		name="1st Ankober Infantry"
 		type=infantry
@@ -1034,7 +961,7 @@ army = {
 
 army = {
 	name="16th Army"
-	location=1194
+	location=1178
 	regiment = {
 		name="1st Ogaden Infantry"
 		type=infantry
@@ -1064,7 +991,7 @@ army = {
 
 army = {
 	name="29th Army"
-	location=357
+	location=1155
 	regiment = {
 		name="2nd Jimma Infantry"
 		type=infantry
@@ -1089,7 +1016,7 @@ army = {
 
 army = {
 	name="30th Army"
-	location=1600
+	location=1152
 	regiment = {
 		name="1st Debre Markos Infantry"
 		type=infantry
@@ -1114,7 +1041,7 @@ army = {
 
 army = {
 	name="31st Army"
-	location=1222
+	location=1151
 	regiment = {
 		name="1st Matamma Infantry"
 		type=infantry
@@ -1134,7 +1061,7 @@ army = {
 
 army = {
 	name="32nd Army"
-	location=1194
+	location=1161
 	regiment = {
 		name="2nd Bale Infantry"
 		type=infantry
@@ -1149,7 +1076,7 @@ army = {
 
 navy = {
 	name="1st Fleet"
-	location=1179
+	location=1174
 	ship = {
 		name="1st Berbera Man'o'war"
 		type=manowar
@@ -1190,7 +1117,7 @@ navy = {
 
 navy = {
 	name="3rd Fleet"
-	location=2782
+	location=1152
 	ship = {
 		name="1st Suakin Frigate"
 		type=frigate
@@ -1223,7 +1150,7 @@ navy = {
 
 army = {
 	name="38th Army"
-	location=1182
+	location=1863
 	regiment = {
 		name="1st Gonder Infantry"
 		type=infantry
@@ -1238,7 +1165,7 @@ army = {
 
 army = {
 	name="40th Army"
-	location=1182
+	location=1852
 	regiment = {
 		name="1st Zeyla Infantry"
 		type=infantry
@@ -1253,7 +1180,7 @@ army = {
 
 navy = {
 	name="5th Fleet"
-	location=2744
+	location=1173
 	ship = {
 		name="2nd Mogadishu Clipper Transport"
 		type=clipper_transport
@@ -1310,7 +1237,7 @@ navy = {
 
 army = {
 	name="39th Army"
-	location=1193
+	location=1412
 	regiment = {
 		name="1st Debre Tabor Infantry"
 		type=infantry
@@ -1345,7 +1272,7 @@ army = {
 
 army = {
 	name="42nd Army"
-	location=1182
+	location=1875
 	regiment = {
 		name="2nd Matamma Infantry"
 		type=infantry

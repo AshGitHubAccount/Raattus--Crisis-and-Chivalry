@@ -528,3 +528,73 @@ ZAZ = {
 #Leaders
 
 #Armies
+army = {
+name="1st Army"
+	location=722
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=722
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=722
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=722
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=726
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=726
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=726
+}
+}
+
+army = {
+name="2nd Army"
+	location=722
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=728
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=728
+}
+
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=728
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=738
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=738
+}
+regiment = {
+		name="1st Lidian Irregulars"
+		type=infantry
+		home=738
+}
+}
