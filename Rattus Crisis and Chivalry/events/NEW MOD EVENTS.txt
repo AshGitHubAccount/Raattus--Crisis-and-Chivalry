@@ -2084,6 +2084,7 @@ country_event = {
 		target = HUN
 			attacker_goal = {
 				casus_belli = acquire_any_state
+				state_province_id = 654
 			}
 			defender_goal = {
 				casus_belli = status_quo
@@ -3060,7 +3061,230 @@ country_event = {
 ######################
 ###	New YUAN EVENTS 2099-2499###
 ######################
-
+country_event = {
+	id = 2099
+	title = "YUA2099.T"
+	desc = "YUA2099.D" #We are a horde-state led by a Scandinavian prince who has no true loyalty to the people of the nation. We are a ticking time bomb.
+	picture = "cityfire"
+	trigger = { 
+	tag = YUA
+	NOT = { has_country_flag = yuan_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "YUA2099.A"
+	set_country_flag = yuan_intro
+	}
+}
+country_event = {
+	id = 2100
+	title = "YUA2100.T"
+	desc = "YUA2100.D" #decision time. west or east?
+	picture = "cityfire"
+	trigger = { 
+	tag = YUA
+	has_country_flag = yuan_intro
+	NOT = { has_country_flag = yuan_tick_tock }
+	NOT = { has_country_flag = yuan_west }
+	NOT = { has_country_flag = yuan_east }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "YUA2100.A"
+	set_country_flag = yuan_tick_tock
+	set_country_flag = yuan_west
+	ai_chance = {
+	factor = 0
+	   }
+	}
+	option = { 
+	name = "YUA2100.B"
+	set_country_flag = yuan_tick_tock
+	set_country_flag = yuan_east
+	ai_chance = {
+	factor = 100
+	   }
+	}
+}
+country_event = {
+	id = 2101
+	title = "YUA2101.T"
+	desc = "YUA2101.D" #We didn't conquer the East in time. die.
+	picture = "cityfire"
+	trigger = { 
+	year = 1846
+	tag = YUA
+	NOT = { has_country_flag = yuan_eastern_collapse }
+	has_country_flag = yuan_tick_tock
+	NOT = { has_country_flag = yuan_east_win }
+	}
+	
+	mean_time_to_happen = { 
+	days = 250
+	}
+	
+	option = { 
+	release = JIN
+	release = MGL
+	release = OIR
+	release = YRK
+	release = CSH
+	release = SOL
+	release = KLK
+	release = ZUN
+	name = "YUA2103.A"
+	set_country_flag = yuan_eastern_collapse
+	clr_country_flag = yuan_tick_tock
+	 clr_country_flag = yuan_east
+	}
+}
+country_event = {
+	id = 2102
+	title = "YUA2102.T"
+	desc = "YUA2102.D" #We didn't conquer the West in time. die.
+	picture = "cityfire"
+	trigger = { 
+	year = 1855
+	tag = YUA
+	NOT = { has_country_flag = yuan_western_collapse }
+	has_country_flag = yuan_tick_tock
+	NOT = { has_country_flag = yuan_west_win }
+	}
+	
+	mean_time_to_happen = { 
+	days = 250
+	}
+	
+	option = { 
+	release = JIN
+	release = MGL
+	release = OIR
+	release = YRK
+	release = CSH
+	release = SOL
+	release = KLK
+	release = ZUN
+	name = "YUA2102.A"
+	set_country_flag = yuan_western_collapse
+	clr_country_flag = yuan_tick_tock
+	 clr_country_flag = yuan_west
+	}
+}
+country_event = {
+	id = 2103
+	title = "YUA2103.T"
+	desc = "YUA2103.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "YUA2103.A"
+	release_vassal = X12
+	release_vassal = TRX
+	X12 = {
+	relation = { who = YUA value = -400 }
+	}
+	relation = { who = X12 value = -400 }
+	TRX = {
+	relation = { who = YUA value = -400 }
+	}
+	relation = { who = TRX value = -400 }
+	war = {
+		target = X12
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	war = {
+		target = TRX
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	X12 = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	TRX = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+}
+country_event = {
+	id = 2104
+	title = "YUA2104.T"
+	desc = "YUA2104.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "YUA2104.A"
+	release_vassal = X12
+	release_vassal = TRX
+	release_vassal = QIC
+	X12 = {
+	relation = { who = YUA value = -400 }
+	}
+	relation = { who = X12 value = -400 }
+	TRX = {
+	relation = { who = YUA value = -400 }
+	}
+	relation = { who = TRX value = -400 }
+	QIC = {
+	relation = { who = YUA value = -400 }
+	}
+	relation = { who = QIC value = -400 }
+	war = {
+		target = QIC
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	war = {
+		target = MNX
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	QIC = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	CDL = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+}
 ######################
 ###	New RUSSIAN EVENTS 3599 -3999###
 ######################

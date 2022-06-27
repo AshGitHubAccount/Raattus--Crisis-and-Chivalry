@@ -1,3 +1,84 @@
 ######################
 ###	New YUAN DECISIONS ###
 ######################
+political_decisions = { 
+proclaim_western_yua = {
+		 picture = annex_korea
+	     potential = {
+           tag = YUA
+		   has_country_flag = yuan_tick_tock
+		   X12 = { exists = no }
+		   TRX = { exists = no }
+		   NOT = { has_country_flag = yuan_west_win }
+	    }
+	
+		allow = {
+			NOT = { exists = NOG }
+			war = no
+			NOT = { exists = KAZ }
+			NOT = { exists = SIB }
+			NOT = { exists = BSK }
+			NOT = { exists = QAS }
+		}
+	
+	   effect = { 
+	     set_country_flag = yuan_west_win
+		 clr_country_flag = yuan_tick_tock	 
+	  }
+   }
+ proclaim_eastern_yua = {
+		 picture = annex_korea
+	     potential = {
+           tag = YUA
+		   has_country_flag = yuan_tick_tock
+		   NOT = { has_country_flag = yuan_east_win }
+	    }
+	
+		allow = {
+			NOT = { exists = MNX }
+			war = no
+			NOT = { exists = QIC }
+		}
+	
+	   effect = { 
+	     set_country_flag = yuan_east_win
+		 clr_country_flag = yuan_tick_tock	 
+	  }
+   }
+  yua_conquer_west_puppets = {
+	picture = italian_islands
+		potential = {
+		tag = YUA
+			has_country_flag = yuan_west
+			NOT = { has_global_flag = yua_conquer_puppets }
+		}
+		allow = {		
+			year = 1837
+			war = no
+		}
+		
+		effect = {
+			badboy = 8
+            set_global_flag = yua_conquer_puppets
+           country_event = 2103
+        }
+		}	
+	yua_eastern_war = {
+	picture = italian_islands
+		potential = {
+		tag = YUA
+			has_country_flag = yuan_east
+			NOT = { has_global_flag = yua_conquer_puppets }
+		}
+		allow = {			
+			war = no
+			year = 1837
+		}
+		
+		effect = {
+			badboy = 15
+            set_global_flag = yua_declares_eastern_war
+           country_event = 2104
+        }
+		}	
+}

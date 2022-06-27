@@ -548,13 +548,6 @@
 		size= 241897
 	}
 
-	soldiers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 50347
-	}
-
 	artisans=
 	{
 		culture = nanfaren
@@ -3463,13 +3456,6 @@
 		size= 390123
 	}
 
-	soldiers=
-	{
-		culture = beifaren
-		religion = mahayana
-		size= 52875
-	}
-
 	artisans=
 	{
 		culture = beifaren
@@ -4099,12 +4085,6 @@
 
 }
 1518 = {
-	soldiers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 61645
-	}
 
 	artisans=
 	{
@@ -4359,13 +4339,6 @@
 		culture = nanfaren
 		religion = mahayana
 		size= 385126
-	}
-
-	soldiers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 51060
 	}
 
 	artisans=
@@ -6572,13 +6545,6 @@
 		culture = nanfaren
 		religion = mahayana
 		size= 502706
-	}
-
-	soldiers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 73035
 	}
 
 	artisans=
@@ -9593,13 +9559,6 @@
 		culture = nanfaren
 		religion = mahayana
 		size= 340868
-	}
-
-	soldiers=
-	{
-		culture = nanfaren
-		religion = mahayana
-		size= 56148
 	}
 
 	artisans=
