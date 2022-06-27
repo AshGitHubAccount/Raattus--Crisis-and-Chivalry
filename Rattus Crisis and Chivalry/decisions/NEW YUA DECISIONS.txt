@@ -5,6 +5,7 @@ political_decisions = {
 proclaim_western_yua = {
 		 picture = annex_korea
 	     potential = {
+			has_country_flag = yuan_west
            tag = YUA
 		   has_country_flag = yuan_tick_tock
 		   X12 = { exists = no }
@@ -29,6 +30,7 @@ proclaim_western_yua = {
  proclaim_eastern_yua = {
 		 picture = annex_korea
 	     potential = {
+		 has_country_flag = yuan_east
            tag = YUA
 		   has_country_flag = yuan_tick_tock
 		   NOT = { has_country_flag = yuan_east_win }

@@ -2198,6 +2198,13 @@ country_event = {
 			}
 		}
 	set_country_flag = wsf_flavor_2
+	any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 2
+		   militancy = 2
+	    }
 	}
 
 }
@@ -2237,20 +2244,41 @@ country_event = {
 	option = { 
 	name = "WSF4010.A"
 	set_country_flag = wsf_reform_republic
-	government = absolute_monarchy
+	government = democracy
 	set_country_flag = wsf_reform_or_strangle
+	any_pop = { 
+		   limit = { 
+	       culture = interslavic
+		   }
+		   consciousness = 6
+		   militancy = 6
+	    }
 	}
 	option = { 
 	name = "WSF4010.B"
 	set_country_flag = wsf_reform_monarchy
-	government = absolute_monarchy
+	government = hms_government
 	set_country_flag = wsf_reform_or_strangle
+	any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 6
+		   militancy = 6
+	    }
 	}
 	option = { 
 	name = "WSF4010.C"
 	set_country_flag = wsf_kounic_monarchy
 	government = absolute_monarchy
 	set_country_flag = wsf_reform_or_strangle
+	any_pop = { 
+		   limit = { 
+	       culture = czech
+		   }
+		   consciousness = 6
+		   militancy = 6
+	    }
 	}
 }
 country_event = {
@@ -2279,6 +2307,145 @@ country_event = {
         }
     }
 }
+country_event = {
+	id = 499862
+	title = "WSF4012.T"
+	desc = "WSF4012.D" #sorbian reaccepted
+	trigger = {
+	has_country_flag = wsf_sorbian_random
+	year = 1850
+	tag = WSF
+	NOT = { has_country_flag = wsf_sorbian_loser_raffle }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4012.A"
+			set_country_flag = wsf_sorbian_loser_raffle
+			add_accepted_culture = sorbian
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 2
+		   militancy = 2
+	    }
+		}
+	}
+country_event = {
+	id = 499863
+	title = "WSF4013.T"
+	desc = "WSF4013.D" #slovak reaccepted
+	trigger = {
+	has_country_flag = wsf_slovak_random
+	year = 1850
+	tag = WSF
+	NOT = { has_country_flag = wsf_slovak_loser_raffle }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4013.A"
+			set_country_flag = wsf_slovak_loser_raffle
+			add_accepted_culture = slovak
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 2
+		   militancy = 2
+	    }
+		}
+	}
+country_event = {
+	id = 499864
+	title = "WSF4014.T"
+	desc = "WSF4014.D" #you own lithuania, they accept us now
+	trigger = {
+	has_country_flag = wsf_slovak_random
+	own = 360
+	tag = WSF
+	NOT = { has_country_flag = wsf_lit_accept_us }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4014.A"
+			set_country_flag = wsf_lit_accept_us
+			add_accepted_culture = lithuanian
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 3
+		   militancy = 3
+	    }
+		}
+	}
+country_event = {
+	id = 499865
+	title = "WSF4015.T"
+	desc = "WSF4015.D" #you own pomerania proper, they accept us now
+	trigger = {
+	own = 679
+	tag = WSF
+	NOT = { has_country_flag = wsf_pom_accept_time }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4015.A"
+			set_country_flag = wsf_pom_accept_time
+			add_accepted_culture = pomeranian
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 6
+		   militancy = 6
+	    }
+		}
+	}
+country_event = {
+	id = 499866
+	title = "WSF4016.T"
+	desc = "WSF4016.D" #you parts of ukraine, cool
+	trigger = {
+	own = 958
+	has_country_flag = wsf_slovak_random
+	tag = WSF
+	NOT = { has_country_flag = wsf_ukraine_cooler}
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "WSF4016.A"
+			set_country_flag = wsf_ukraine_cooler
+			add_accepted_culture = ukranian
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = 6
+		   militancy = 6
+	    }
+		}
+	}
 ######################
 ###	New JAPAN EVENTS 3000 ###
 ######################
@@ -3311,3 +3478,185 @@ country_event = {
 ######################
 ###	New SOUTH AMERICAN 3099 - 3499EVENTS ###
 ######################
+country_event = {
+	id = 3099
+	title = "SAA3099.T"
+	desc = "SAA3099.D"
+	
+	trigger = { 
+	year = 1837
+	tag = BDN
+	NOT = { has_country_flag = BDN_attack_question }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "SAA3099.A"
+	ARG = {
+	relation = { who = BDN value = -400 }
+	}
+	relation = { who = ARG value = -400 }
+	war = {
+		target = ARG
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+	set_country_flag = BDN_attack_question
+	ai_chance = { 
+	   factor = 50
+	   }
+	}
+	option = { 
+	name = "SAA3099.B"
+	prestige = -1
+	set_country_flag = BDN_attack_question
+	ai_chance = { 
+	   factor = 50
+	   }
+	}
+}
+country_event = {
+	id = 3100
+	title = "SAA3100.T"
+	desc = "SAA3100.D"
+	
+	trigger = { 
+	own = 2432
+	year = 1840
+	tag = BRA
+	NOT = { has_country_flag = BRA_attack_question }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "SAA3100.A"
+	BAS = {
+	relation = { who = BRA value = -400 }
+	}
+	relation = { who = BAS value = -400 }
+	war = {
+		target = BAS
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	set_country_flag = BRA_attack_question_1
+	ai_chance = { 
+	   factor = 50
+	   }
+	}
+	option = { 
+	name = "SAA3099.B"
+	prestige = -1
+	set_country_flag = BDN_attack_question_1
+	ai_chance = { 
+	   factor = 50
+	   }
+	}
+}
+
+country_event = {
+	id = 3102
+	title = "SAA3102.T"
+	desc = "SAA3102.D"
+	
+	trigger = { 
+	own = 2434
+	year = 1845
+	tag = BRA
+	NOT = { has_country_flag = BRA_attack_question }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "SAA3102.A"
+	AGC = {
+	relation = { who = BRA value = -400 }
+	}
+	relation = { who = AGC value = -400 }
+	war = {
+		target = AGC
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = acquire_any_state
+				state_province_id = 2413
+			}
+		}
+	set_country_flag = BRA_attack_question_2
+	ai_chance = { 
+	   factor = 75
+	   }
+	}
+	option = { 
+	name = "SAA3102.B"
+	prestige = -1
+	set_country_flag = BDN_attack_question_2
+	ai_chance = { 
+	   factor = 25
+	   }
+	}
+}
+country_event = {
+	id = 3103
+	title = "SAA3103.T"
+	desc = "SAA3103.D"
+	
+	trigger = { 
+	own = 2421
+	year = 1850
+	tag = BRA
+	NOT = { has_country_flag = BRA_attack_question }
+	}
+	
+	mean_time_to_happen = { 
+	days = 300
+	}
+	
+	option = { 
+	name = "SAA3103.A"
+	AES = {
+	relation = { who = BRA value = -400 }
+	}
+	relation = { who = AES value = -400 }
+	war = {
+		target = AES
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = acquire_any_state
+				state_province_id = 2413
+			}
+		}
+	set_country_flag = BRA_attack_question_3
+	ai_chance = { 
+	   factor = 75
+	   }
+	}
+	option = { 
+	name = "SAA3103.B"
+	prestige = -1
+	set_country_flag = BDN_attack_question_3
+	ai_chance = { 
+	   factor = 25
+	   }
+	}
+}
