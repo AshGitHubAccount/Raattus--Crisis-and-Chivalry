@@ -1880,6 +1880,10 @@ country_event = {
 	remove_accepted_culture = sorbian
 	remove_accepted_culture = slovak
 	set_country_flag = wsf_intro
+	set_variable = {
+		   which = WSF_slavism
+		   value = 3
+	    }
 	}
 }
 country_event = {
@@ -2205,6 +2209,10 @@ country_event = {
 		   consciousness = 2
 		   militancy = 2
 	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
+	    }
 	}
 
 }
@@ -2235,6 +2243,10 @@ country_event = {
 	year = 1847
 	tag = WSF
 	NOT = { has_country_flag = wsf_reform_or_strangle }
+	check_variable = {
+		   which = WSF_slavism
+		   value = 8
+	    }
 	}
 	
 	mean_time_to_happen = { 
@@ -2253,6 +2265,10 @@ country_event = {
 		   consciousness = 6
 		   militancy = 6
 	    }
+	add_country_modifier = {
+			name = wsf_transition
+			duration = 2600
+		}
 	}
 	option = { 
 	name = "WSF4010.B"
@@ -2266,6 +2282,10 @@ country_event = {
 		   consciousness = 6
 		   militancy = 6
 	    }
+		add_country_modifier = {
+			name = wsf_transition
+			duration = 2000
+		}
 	}
 	option = { 
 	name = "WSF4010.C"
@@ -2279,6 +2299,10 @@ country_event = {
 		   consciousness = 6
 		   militancy = 6
 	    }
+		add_country_modifier = {
+			name = wsf_transition
+			duration = 1500
+		}
 	}
 }
 country_event = {
@@ -2333,6 +2357,10 @@ country_event = {
 		   consciousness = 2
 		   militancy = 2
 	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
+	    }
 		}
 	}
 country_event = {
@@ -2360,6 +2388,10 @@ country_event = {
 		   }
 		   consciousness = 2
 		   militancy = 2
+	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
 	    }
 		}
 	}
@@ -2389,6 +2421,10 @@ country_event = {
 		   consciousness = 3
 		   militancy = 3
 	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
+	    }
 		}
 	}
 country_event = {
@@ -2415,6 +2451,10 @@ country_event = {
 		   }
 		   consciousness = 6
 		   militancy = 6
+	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
 	    }
 		}
 	}
@@ -2444,8 +2484,105 @@ country_event = {
 		   consciousness = 6
 		   militancy = 6
 	    }
+		change_variable = {
+		   which = WSF_slavism
+		   value = 1
+	    }
 		}
 	}
+country_event = {
+    id = 499867
+    title = "WSF4017.T"
+    desc = "WSF4017.D"
+    picture = "goldrush"
+
+    trigger = {
+        NOT = {
+		has_country_modifier = wsf_transition
+		}
+	is_greater_power = 1
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = { 
+	days = 5
+	}
+
+    option = {
+        name = "WSF4017.A"
+            add_country_modifier = { wsf_democracy_slav }
+any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = -6
+		   militancy = -6
+	    }
+        }
+    }
+country_event = {
+    id = 499868
+    title = "WSF4018.T"
+    desc = "WSF4018.D"
+    picture = "goldrush"
+
+    trigger = {
+        NOT = {
+		has_country_modifier = wsf_transition
+		}
+	is_greater_power = 1
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = { 
+	days = 5
+	}
+
+    option = {
+        name = "WSF4018.A"
+            add_country_modifier = { wsf_commonwealth_slav }
+any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = -6
+		   militancy = -6
+	    }
+        }
+    }
+country_event = {
+    id = 499869
+    title = "WSF4019.T"
+    desc = "WSF4019.D"
+    picture = "goldrush"
+
+    trigger = {
+        NOT = {
+		has_country_modifier = wsf_transition
+		}
+	is_greater_power = 1
+    }
+
+    fire_only_once = yes
+
+    mean_time_to_happen = { 
+	days = 5
+	}
+
+    option = {
+        name = "WSF4019.A"
+            add_country_modifier = { wsf_kounic_slav }
+			any_pop = { 
+		   limit = { 
+	       culture = polish
+		   }
+		   consciousness = -6
+		   militancy = -6
+	    }
+        }
+    }
 ######################
 ###	New JAPAN EVENTS 3000 ###
 ######################
@@ -3459,7 +3596,7 @@ country_event = {
 country_event = {
 	id = 3599 
 	title = "RUS3599.T"
-	desc = "RUS3599.D" #Telling russia they are cursed but if they unite they will be slightly less cursed
+	desc = "RUS3599.D" #Telling russia they are cursed but if they unite they will be slightly less cursed. nobody wants our land and we can not be declared on traditionally.
 	picture = "cityfire"
 	trigger = { 
 	has_country_flag = russian_warlord_phase
@@ -3473,6 +3610,27 @@ country_event = {
 	option = { 
 	name = "RUS3599.A"
 	set_country_flag = russian_warlord_intro
+	}
+}
+country_event = {
+	id = 3600
+	title = "RUS3600.T"
+	desc = "RUS3600.D" #Telling russia the world is the same size but people's ambitions are larger than ever. we are no longer safe from expansionism.
+	picture = "cityfire"
+	trigger = { 
+	year = 1855
+	has_country_flag = russian_warlord_phase
+	NOT = { has_country_flag = russian_failure_fail }
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "RUS3600.A"
+	clr_country_flag = russian_warlord_phase
+	set_country_flag = russian_failure_fail
 	}
 }
 ######################
@@ -3531,7 +3689,7 @@ country_event = {
 	own = 2432
 	year = 1840
 	tag = BRA
-	NOT = { has_country_flag = BRA_attack_question }
+	NOT = { has_country_flag = BRA_attack_question_1 }
 	}
 	
 	mean_time_to_happen = { 
@@ -3577,7 +3735,7 @@ country_event = {
 	own = 2434
 	year = 1845
 	tag = BRA
-	NOT = { has_country_flag = BRA_attack_question }
+	NOT = { has_country_flag = BRA_attack_question_2 }
 	}
 	
 	mean_time_to_happen = { 
@@ -3608,7 +3766,7 @@ country_event = {
 	option = { 
 	name = "SAA3102.B"
 	prestige = -1
-	set_country_flag = BDN_attack_question_2
+	set_country_flag = BRA_attack_question_2
 	ai_chance = { 
 	   factor = 25
 	   }
@@ -3623,7 +3781,7 @@ country_event = {
 	own = 2421
 	year = 1850
 	tag = BRA
-	NOT = { has_country_flag = BRA_attack_question }
+	NOT = { has_country_flag = BRA_attack_question_3 }
 	}
 	
 	mean_time_to_happen = { 
@@ -3654,7 +3812,7 @@ country_event = {
 	option = { 
 	name = "SAA3103.B"
 	prestige = -1
-	set_country_flag = BDN_attack_question_3
+	set_country_flag = BRA_attack_question_3
 	ai_chance = { 
 	   factor = 25
 	   }
