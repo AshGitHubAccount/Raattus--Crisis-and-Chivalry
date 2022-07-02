@@ -2941,12 +2941,19 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 30
+	days = 5
 	}
 	
 	option = { 
 	name = "AKS2000.A"
 	set_country_flag = aks_intro
+	1851 = { add_core = X00 }
+	1856 = { add_core = X00 }
+	1858 = { add_core = X00 }
+	1875 = { add_core = X00 }
+	1865 = { add_core = X00 }
+	1861 = { add_core = X00 }
+	prestige = -2
 	}
 }
 country_event = {
@@ -2955,7 +2962,7 @@ country_event = {
 	desc = "AKS2001.D"
 	trigger = { 
 	tag = X00
-	NOT = { has_country_flag = aks_history }
+	NOT = { has_country_flag = aks_bedouin_attack_1 }
 	}
 	
 	mean_time_to_happen = { 
@@ -2964,7 +2971,14 @@ country_event = {
 	
 	option = { 
 	name = "AKS2001.A"
-	set_country_flag = aks_history
+	set_country_flag = aks_bedouin_attack_1
+	prestige = -1
+	any_pop = { 
+		   limit = { 
+	       culture = bedouin
+		   }
+		   militancy = 1
+	    }
 	}
 }
 country_event = {
@@ -2984,6 +2998,18 @@ country_event = {
 	option = { 
 	name = "AKS2002.A"
 	set_country_flag = aks_narrow_sea
+	any_pop = { 
+		   limit = { 
+	       culture = bedouin
+		   }
+		   militancy = 1
+	    }
+	any_pop = {
+		scaled_militancy = {
+				ideology = liberal
+				factor = 2
+		}
+	}
 	}
 }
 country_event = {
@@ -3003,6 +3029,10 @@ country_event = {
 	option = { 
 	name = "AKS2003.A"
 	set_country_flag = aks_monopoly
+	add_country_modifier = {
+		name = red_sea_monopoly_aks
+		duration = 5000
+	}
 	}
 }
 country_event = {
@@ -3023,6 +3053,20 @@ country_event = {
 	option = { 
 	name = "AKS2004.A"
 	set_country_flag = aks_sena_rebels
+	any_pop = { 
+		   limit = { 
+	       culture = amhara
+		   }
+		   militancy = 1
+	    }
+	1862 = {
+		poor_strata = {
+            reduce_pop = 0.10
+	    }
+		middle_strata = {
+			reduce_pop = 0.10
+	    }
+	}
 	}
 }
 country_event = {
@@ -3202,6 +3246,99 @@ is_triggered_only = yes
 	option = { 
 	name = "AKS2013.A"
 	set_country_flag = aks_secret_silk_no
+	}
+}
+country_event = {
+	id = 299874
+	title = "AKS2014.T"
+	desc = "AKS2014.D"
+	picture = "cityfire"
+	trigger = {
+	is_greater_power = yes
+	year = 1850
+	tag = X00
+	NOT = { has_country_flag = aks_capital_decision }
+	}
+	
+	mean_time_to_happen = { 
+	days = 25
+	}
+	
+	option = { 
+	name = "AKS2014.A"
+	set_country_flag = aks_capital_decision
+	any_pop = { 
+		   limit = { 
+	       culture = bedouin
+		   }
+		   militancy = 4
+	    }
+	capital = 1852
+	}
+	option = { 
+	name = "AKS2014.B"
+	set_country_flag = aks_capital_decision
+	any_pop = { 
+		   limit = { 
+	       culture = african_minor
+		   }
+		   militancy = 4
+	    }
+	capital = 1875
+	}
+	option = { 
+	name = "AKS2014.C"
+	set_country_flag = aks_capital_decision
+	any_pop = { 
+		   limit = { 
+	       culture = bedouin
+		   }
+		   militancy = 4
+	    }
+	capital = 1853
+	1853 = {
+			change_province_name = "Adulis"
+		}
+	}
+	option = { 
+	name = "AKS2014.D"
+	set_country_flag = aks_capital_decision
+	any_pop = { 
+		   limit = { 
+	       culture = amhara
+		   }
+		   militancy = 4
+	    }
+	1180 = {
+			change_province_name = "Mokha"
+		}
+	}
+}
+country_event = {
+	id = 299875
+	title = "AKS2016.T"
+	desc = "AKS2016.D"
+	picture = "cityfire"
+	trigger = {
+	is_greater_power = yes
+	year = 1847
+	tag = X00
+	NOT = { has_country_flag = aks_springtime }
+	}
+	
+	mean_time_to_happen = { 
+	days = 45
+	}
+	
+	option = { 
+	name = "AKS2016.A"
+	set_country_flag = aks_springtime
+	any_pop = { 
+		   limit = { 
+	       culture = bedouin
+		   }
+		   militancy = 1
+	    }
 	}
 }
 ######################

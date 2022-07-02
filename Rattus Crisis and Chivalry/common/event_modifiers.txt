@@ -3,6 +3,10 @@
 ##################################################################################################
 
 ####NEW MOD RAT STUFF###########
+red_sea_monopoly_aks = {
+tax_efficiency = 0.05
+prestige = 0.01
+}
 ita_eagle_caesarism = {
 immigrant_attract = -0.2
 assimilation_rate = 0.25
