@@ -1,5 +1,5 @@
 graphical_culture = EuropeanGC
-color = { 150  165  115 }
+color = { 130  130  50 }
 
 party = {
 	name = "OCC_liberal"

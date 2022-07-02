@@ -1,5 +1,5 @@
 graphical_culture = AsianGC
-color = { 23 66 141 }
+color = { 41 89 174 }
 
 party = {
 	name = "BRU_conservative"
