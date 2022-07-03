@@ -1900,7 +1900,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 2
 	}
 	
 	option = { 
@@ -2005,7 +2005,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 30
 	}
 	
 	option = { 
@@ -2045,7 +2045,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 2
+	days = 20
 	}
 	
 	option = { 
@@ -2083,7 +2083,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 1
+	days = 20
 	}
 	
 	option = { 
@@ -2112,7 +2112,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	days = 2
+	days = 20
 	}
 	
 	option = { 
@@ -2127,7 +2127,7 @@ country_event = {
 	war = {
 		target = HUN
 			attacker_goal = {
-				casus_belli = acquire_state
+				casus_belli = acquire_all_cores
 			}
 			defender_goal = {
 				casus_belli = status_quo
