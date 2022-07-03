@@ -3,6 +3,26 @@
 ##################################################################################################
 
 ####NEW MOD RAT STUFF###########
+wsf_democracy_slav = {
+immigrant_attract = 0.2
+assimilation_rate = 0.25
+org_regain = 0.1
+}
+wsf_commonwealth_slav = {
+assimilation_rate = 0.25
+mobilisation_size = -0.05
+}
+wsf_kounic_slav = {
+prestige = 0.05
+ruling_party_support = 2
+}
+wsf_transition = {
+immigrant_attract = -0.2
+}
+last_hope = {
+org_regain = 0.1
+research_points_modifier = 0.1
+}
 red_sea_monopoly_aks = {
 tax_efficiency = 0.05
 prestige = 0.01

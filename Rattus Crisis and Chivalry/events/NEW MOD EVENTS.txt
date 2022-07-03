@@ -43,7 +43,7 @@ country_event = {
 country_event = {
 	id = 72903
 	title = "ITA9003.T" 
-	desc = "ITA9003.D" #malta left our nation to ensure it's own survival in north africa. should we return to glory we could use their officers
+	desc = "ITA9003.D" #malta left our nation to ensure it's owns survival in north africa. should we return to glory we could use their officers
 	
 	trigger = { 
 	tag = ITA
@@ -192,7 +192,7 @@ country_event = {
 	trigger = { 
 	year = 1837
 	tag = ITA
-	NOT = { has_country_flag = ita_north_staredown}
+	NOT = { has_country_flag = ita_north_staredowns}
 	}
 	
 	mean_time_to_happen = { 
@@ -201,7 +201,7 @@ country_event = {
 	
 	option = { 
 	name = "ITA9008.A"
-	set_country_flag = ita_north_staredown
+	set_country_flag = ita_north_staredowns
 	set_country_flag = ita_brothers_war
 }
 }
@@ -234,7 +234,7 @@ country_event = {
 	has_country_flag = ita_brothers_war
 	has_country_flag = ita_north_gov_declaration
 	tag = ITA
-	NOT = { has_country_flag = ita_north_countdown}
+	NOT = { has_country_flag = ita_north_countdowns}
 	}
 	
 	mean_time_to_happen = { 
@@ -242,7 +242,7 @@ country_event = {
 	}
 	option = { 
 	name = "ITA9010.A"
-	set_country_flag = ita_north_countdown
+	set_country_flag = ita_north_countdowns
 }
 }
 country_event = {
@@ -252,9 +252,9 @@ country_event = {
 	
 	trigger = { 
 	has_country_flag = ita_brothers_war
-	has_country_flag = ita_north_countdown
+	has_country_flag = ita_north_countdowns
 	tag = ITA
-	NOT = { has_country_flag = ita_north_showdown}
+	NOT = { has_country_flag = ita_north_showdowns}
 	}
 	
 	mean_time_to_happen = { 
@@ -272,7 +272,7 @@ country_event = {
 				casus_belli = status_quo
 			}
 		}
-	set_country_flag = ita_north_showdown
+	set_country_flag = ita_north_showdowns
 }
 }
 country_event = {
@@ -281,7 +281,7 @@ country_event = {
 	desc = "ITA9013.D"
 	
 	trigger = { 
-	has_country_flag = ita_north_showdown
+	has_country_flag = ita_north_showdowns
 	war = no
 	tag = ITA
 	owns = 726
@@ -1228,7 +1228,7 @@ country_event = {
 	relation = { who = WSF value = 50 }
 	relation = { who = LOT value = 50 }
 	set_country_flag = spa_chooses_king
-	set_country_flag = spa_says_brown
+	set_country_flag = spa_says_browns
 	}
 	option = { 
 	name = "SPA9017.C"
@@ -1930,7 +1930,7 @@ country_event = {
 	set_country_flag = wsf_scheme
 	}
 	option = { 
-	name = "WSF4001.B" #just go in on our own
+	name = "WSF4001.B" #just go in on our owns
 	war = {
 		target = HUN
 			attacker_goal = {
@@ -2156,7 +2156,7 @@ country_event = {
 		 }
 	}
 	option = { 
-	name = "WSF4006.C" #moldavia declined, we'll go in on our own in '37
+	name = "WSF4006.C" #moldavia declined, we'll go in on our owns in '37
 	set_country_flag = wsf_patient_tiger
 	set_country_flag = wsf_deciding_strategy
 	}
@@ -2402,10 +2402,10 @@ country_event = {
 country_event = {
 	id = 499864
 	title = "WSF4014.T"
-	desc = "WSF4014.D" #you own lithuania, they accept us now
+	desc = "WSF4014.D" #you owns lithuania, they accept us now
 	trigger = {
 	has_country_flag = wsf_slovak_random
-	own = 360
+	owns = 360
 	tag = WSF
 	NOT = { has_country_flag = wsf_lit_accept_us }
 	}
@@ -2434,9 +2434,9 @@ country_event = {
 country_event = {
 	id = 499865
 	title = "WSF4015.T"
-	desc = "WSF4015.D" #you own pomerania proper, they accept us now
+	desc = "WSF4015.D" #you owns pomerania proper, they accept us now
 	trigger = {
-	own = 679
+	owns = 679
 	tag = WSF
 	NOT = { has_country_flag = wsf_pom_accept_time }
 	}
@@ -2467,7 +2467,7 @@ country_event = {
 	title = "WSF4016.T"
 	desc = "WSF4016.D" #you parts of ukraine, cool
 	trigger = {
-	own = 958
+	owns = 958
 	has_country_flag = wsf_slovak_random
 	tag = WSF
 	NOT = { has_country_flag = wsf_ukraine_cooler}
@@ -2480,7 +2480,7 @@ country_event = {
 	option = { 
 	name = "WSF4016.A"
 			set_country_flag = wsf_ukraine_cooler
-			add_accepted_culture = ukranian
+			add_accepted_culture = ukrainian
 			any_pop = { 
 		   limit = { 
 	       culture = polish
@@ -2504,7 +2504,7 @@ country_event = {
         NOT = {
 		has_country_modifier = wsf_transition
 		}
-	is_greater_power = 1
+	is_greater_power = yes
     }
 
     fire_only_once = yes
@@ -2515,7 +2515,10 @@ country_event = {
 
     option = {
         name = "WSF4017.A"
-            add_country_modifier = { wsf_democracy_slav }
+		add_country_modifier = {
+				name = wsf_democracy_slav 
+				duration = 5000
+		 }
 any_pop = { 
 		   limit = { 
 	       culture = polish
@@ -2535,7 +2538,7 @@ country_event = {
         NOT = {
 		has_country_modifier = wsf_transition
 		}
-	is_greater_power = 1
+	is_greater_power = yes
     }
 
     fire_only_once = yes
@@ -2546,7 +2549,10 @@ country_event = {
 
     option = {
         name = "WSF4018.A"
-            add_country_modifier = { wsf_commonwealth_slav }
+			add_country_modifier = {
+				name = wsf_commonwealth_slav 
+				duration = 5000
+		 }
 any_pop = { 
 		   limit = { 
 	       culture = polish
@@ -2566,7 +2572,7 @@ country_event = {
         NOT = {
 		has_country_modifier = wsf_transition
 		}
-	is_greater_power = 1
+	is_greater_power = yes
     }
 
     fire_only_once = yes
@@ -2577,7 +2583,10 @@ country_event = {
 
     option = {
         name = "WSF4019.A"
-            add_country_modifier = { wsf_kounic_slav }
+			add_country_modifier = {
+				name = wsf_kounic_slav 
+				duration = 5000
+		 }
 			any_pop = { 
 		   limit = { 
 	       culture = polish
@@ -2591,7 +2600,7 @@ country_event = {
 ###	New JAPAN EVENTS 3000 ###
 ######################
 country_event = {
-	id = 399850 
+	id = 39985 
 	title = "JAP3000.T"
 	desc = "JAP3000.D" #Telling japan they have about 60 days to prepare for war.
 	picture = "Military_reform"
@@ -4003,7 +4012,7 @@ country_event = {
 	name = "HDU2600.A"
 	set_country_flag = ind_cursed
 	add_country_modifier = {
-	name = heavy_be_the_lesser_crowns
+	name = heavy_be_the_lesser_crown
 				duration = -1
 				}
 	}
@@ -4025,7 +4034,7 @@ country_event = {
 	name = "HDU2601.A"
 	set_country_flag = ind_cursed
 	add_country_modifier = {
-	name = heavy_be_the_lesser_crowns
+	name = heavy_be_the_lesser_crown
 				duration = -1
 				}
 	}
@@ -4047,7 +4056,7 @@ country_event = {
 	name = "HDU2602.A"
 	set_country_flag = ind_cursed
 	add_country_modifier = {
-	name = heavy_be_the_lesser_crowns
+	name = heavy_be_the_lesser_crown
 				duration = -1
 				}
 	}
@@ -4354,7 +4363,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 3600
+	id = 3598
 	title = "RUS3600.T"
 	desc = "RUS3600.D" #Telling russia the world is the same size but people's ambitions are larger than ever. we are no longer safe from expansionism.
 	picture = "cityfire"
@@ -4427,7 +4436,7 @@ country_event = {
 	desc = "SAA3100.D"
 	
 	trigger = { 
-	own = 2432
+	owns = 2432
 	year = 1840
 	tag = BRA
 	NOT = { has_country_flag = BRA_attack_question_1 }
@@ -4473,7 +4482,7 @@ country_event = {
 	desc = "SAA3102.D"
 	
 	trigger = { 
-	own = 2434
+	owns = 2434
 	year = 1845
 	tag = BRA
 	NOT = { has_country_flag = BRA_attack_question_2 }
@@ -4519,7 +4528,7 @@ country_event = {
 	desc = "SAA3103.D"
 	
 	trigger = { 
-	own = 2421
+	owns = 2421
 	year = 1850
 	tag = BRA
 	NOT = { has_country_flag = BRA_attack_question_3 }
