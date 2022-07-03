@@ -3,7 +3,7 @@
 	{
 		culture = tibetan
 		religion = gelugpa
-		size= 2953
+		size= 29532
 	}
 
 	soldiers=
@@ -66,14 +66,14 @@
 	{
 		culture = tibetan
 		religion = sunni
-		size= 157
+		size= 1572
 	}
 
 	artisans=
 	{
 		culture = tibetan
 		religion = sunni
-		size= 527
+		size= 5272
 	}
 
 	clergymen=
@@ -108,7 +108,7 @@
 	{
 		culture = tibetan
 		religion = sunni
-		size= 5555
+		size= 55552
 	}
 
 	slaves=

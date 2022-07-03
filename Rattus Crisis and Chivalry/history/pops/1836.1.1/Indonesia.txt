@@ -68,7 +68,7 @@
 	{
 		culture = malay
 		religion = hindu
-		size= 2759
+		size= 5759
 	}
 
 	artisans=
@@ -110,7 +110,7 @@
 	{
 		culture = malay
 		religion = hindu
-		size= 110556
+		size= 210556
 	}
 
 }
@@ -370,7 +370,7 @@
 	{
 		culture = malay
 		religion = hindu
-		size= 102870
+		size= 202870
 	}
 
 }
@@ -2178,7 +2178,7 @@
 	{
 		culture = bornean
 		religion = hindu
-		size= 882
+		size= 8822
 	}
 
 	artisans=
@@ -2220,7 +2220,7 @@
 	{
 		culture = bornean
 		religion = hindu
-		size= 20573
+		size= 90573
 	}
 
 	soldiers=

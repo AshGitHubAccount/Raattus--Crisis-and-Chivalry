@@ -126,7 +126,7 @@ army = {
 	location=2087
 	regiment = {
 		name="1st Macon Infantry"
-		type=cursassier
+		type=hussar
 		home=2087
 	}
 	regiment = {
@@ -141,7 +141,7 @@ army = {
 	}
 	regiment = {
 		name="4th Macon Infantry"
-		type=cavalry
+		type=hussar
 		home=431
 	}
 }

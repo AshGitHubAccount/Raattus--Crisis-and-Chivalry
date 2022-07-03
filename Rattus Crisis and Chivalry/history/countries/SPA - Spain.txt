@@ -5,8 +5,8 @@ religion = catholic
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_order
-literacy = 0.37355
-
+literacy = 0.47355
+non_state_culture_literacy = 0.47
 civilized = yes
 
 # Social Reforms

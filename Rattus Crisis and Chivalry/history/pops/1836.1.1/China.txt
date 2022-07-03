@@ -485,7 +485,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 457308
+		size= 100308
 	}
 
 }
@@ -1503,7 +1503,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 528774
+		size= 100774
 	}
 
 }
@@ -1750,13 +1750,6 @@
 		size= 4883
 	}
 
-	farmers=
-	{
-		culture = beifaren
-		religion = mahayana
-		size= 438391
-	}
-
 	soldiers=
 	{
 		culture = beifaren
@@ -1978,13 +1971,6 @@
 		size= 592
 	}
 
-	farmers=
-	{
-		culture = beifaren
-		religion = mahayana
-		size= 135536
-	}
-
 	soldiers=
 	{
 		culture = beifaren
@@ -2031,7 +2017,7 @@
 	{
 		culture = beifaren
 		religion = tengri_pagan_reformed
-		size= 160842
+		size= 60842
 	}
 
 	soldiers=
@@ -2478,7 +2464,7 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 301790
+		size= 55790
 	}
 
 }
@@ -2538,7 +2524,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 187697
+		size= 100697
 	}
 
 	soldiers=
@@ -2587,7 +2573,7 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 107886
+		size= 59886
 	}
 
 	soldiers=
@@ -2636,7 +2622,7 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 85924
+		size= 20924
 	}
 
 }
@@ -2645,49 +2631,49 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 88
+		size= 882
 	}
 
 	artisans=
 	{
 		culture = yue
 		religion = mahayana
-		size= 220
+		size= 2202
 	}
 
 	clergymen=
 	{
 		culture = yue
 		religion = mahayana
-		size= 20
+		size= 202
 	}
 
 	bureaucrats=
 	{
 		culture = yue
 		religion = mahayana
-		size= 2
+		size= 22
 	}
 
 	officers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 3
+		size= 32
 	}
 
 	aristocrats=
 	{
 		culture = yue
 		religion = mahayana
-		size= 20
+		size= 202
 	}
 
 	farmers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 1216
+		size= 12162
 	}
 
 }
@@ -2747,56 +2733,56 @@
 	{
 		culture = yue
 		religion = mahayana
-		size= 463
+		size= 4632
 	}
 
 	soldiers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 515
+		size= 5152
 	}
 
 	artisans=
 	{
 		culture = yue
 		religion = mahayana
-		size= 1287
+		size= 12872
 	}
 
 	clergymen=
 	{
 		culture = yue
 		religion = mahayana
-		size= 60
+		size= 602
 	}
 
 	bureaucrats=
 	{
 		culture = yue
 		religion = mahayana
-		size= 8
+		size= 82
 	}
 
 	officers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 15
+		size= 152
 	}
 
 	aristocrats=
 	{
 		culture = yue
 		religion = mahayana
-		size= 77
+		size= 772
 	}
 
 	farmers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 6769
+		size= 12692
 	}
 
 }
@@ -2905,7 +2891,7 @@
 	{
 		culture = hakka
 		religion = mahayana
-		size= 455478
+		size= 100478
 	}
 
 }
@@ -3021,7 +3007,7 @@
 	{
 		culture = zhuang
 		religion = mahayana
-		size= 253685
+		size= 53685
 	}
 
 	slaves=
@@ -3128,7 +3114,7 @@
 	{
 		culture = zhuang
 		religion = mahayana
-		size= 300476
+		size= 100476
 	}
 
 }
@@ -3453,7 +3439,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 390123
+		size= 1123
 	}
 
 	artisans=
@@ -4029,7 +4015,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 681319
+		size= 100319
 	}
 
 }
@@ -4125,7 +4111,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 671424
+		size= 100424
 	}
 
 }
@@ -4278,7 +4264,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 684557
+		size= 100557
 	}
 
 }
@@ -4338,7 +4324,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 385126
+		size= 100126
 	}
 
 	artisans=
@@ -4903,7 +4889,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 429287
+		size= 100287
 	}
 
 	soldiers=
@@ -6020,7 +6006,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 500942
+		size= 100942
 	}
 
 }
@@ -6080,7 +6066,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 200197
+		size= 100197
 	}
 
 	soldiers=
@@ -6129,7 +6115,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 300336
+		size= 56336
 	}
 
 }
@@ -6382,7 +6368,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 578011
+		size= 100011
 	}
 
 }
@@ -6695,7 +6681,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 612448
+		size= 100448
 	}
 
 }
@@ -9136,14 +9122,14 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 457551
+		size= 100551
 	}
 
 	soldiers=
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 10148
+		size= 50148
 	}
 
 	artisans=
@@ -9185,7 +9171,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 481591
+		size= 100591
 	}
 
 }
@@ -9440,7 +9426,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 400586
+		size= 100586
 	}
 
 }
@@ -9558,7 +9544,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 340868
+		size= 1868
 	}
 
 	artisans=
@@ -9600,7 +9586,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 195531
+		size= 100531
 	}
 
 }
@@ -10731,7 +10717,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 370642
+		size= 100642
 	}
 
 }
@@ -10782,7 +10768,7 @@
 	{
 		culture = nanfaren
 		religion = mahayana
-		size= 366657
+		size= 100657
 	}
 
 }
@@ -11492,14 +11478,14 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 312288
+		size= 100288
 	}
 
 	soldiers=
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 25292
+		size= 50292
 	}
 
 	artisans=
@@ -11541,7 +11527,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 508120
+		size= 200120
 	}
 
 	slaves=
@@ -11760,7 +11746,7 @@
 	{
 		culture = beifaren
 		religion = mahayana
-		size= 1208166
+		size= 508166
 	}
 
 }
@@ -11971,7 +11957,7 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 952
+		size= 9522
 	}
 
 	artisans=
@@ -11985,42 +11971,42 @@
 	{
 		culture = min
 		religion = mahayana
-		size= 110
+		size= 1102
 	}
 
 	bureaucrats=
 	{
 		culture = min
 		religion = mahayana
-		size= 15
+		size= 152
 	}
 
 	officers=
 	{
 		culture = min
 		religion = mahayana
-		size= 27
+		size= 272
 	}
 
 	aristocrats=
 	{
 		culture = min
 		religion = mahayana
-		size= 285
+		size= 2852
 	}
 
 	farmers=
 	{
 		culture = min
 		religion = mahayana
-		size= 13224
+		size= 29224
 	}
 
 	soldiers=
 	{
 		culture = yue
 		religion = mahayana
-		size= 357
+		size= 3572
 	}
 
 	artisans=

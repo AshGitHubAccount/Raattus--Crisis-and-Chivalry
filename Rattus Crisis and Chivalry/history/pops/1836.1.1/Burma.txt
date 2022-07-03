@@ -66,7 +66,7 @@
 	{
 		culture = burmese
 		religion = catholic
-		size= 207
+		size= 2072
 	}
 
 	artisans=
@@ -108,7 +108,7 @@
 	{
 		culture = burmese
 		religion = catholic
-		size= 3444
+		size= 344412
 	}
 
 }
@@ -117,7 +117,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 553
+		size= 5532
 	}
 
 	artisans=
@@ -159,7 +159,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 22515
+		size= 222515
 	}
 
 }
@@ -168,7 +168,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 18683
+		size= 186832
 	}
 
 	soldiers=
@@ -273,7 +273,7 @@
 	{
 		culture = burmese
 		religion = catholic
-		size= 5907
+		size= 290722
 	}
 
 }
@@ -282,7 +282,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 4133
+		size= 41332
 	}
 
 	artisans=
@@ -324,7 +324,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 46428
+		size= 96428
 	}
 
 	soldiers=
@@ -554,7 +554,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 1136
+		size= 11362
 	}
 
 	artisans=
@@ -596,7 +596,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 24405
+		size= 94405
 	}
 
 }
@@ -1008,7 +1008,7 @@
 	{
 		culture = shan
 		religion = animist
-		size= 2394
+		size= 23942
 	}
 
 	soldiers=
@@ -1204,7 +1204,7 @@
 	{
 		culture = manipuri
 		religion = hindu
-		size= 417
+		size= 43172
 	}
 
 }
@@ -1660,7 +1660,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 1172
+		size= 11722
 	}
 
 	artisans=
@@ -1702,7 +1702,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 38230
+		size= 382302
 	}
 
 }
@@ -1762,7 +1762,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 450
+		size= 4502
 	}
 
 	artisans=
@@ -1804,7 +1804,7 @@
 	{
 		culture = burmese
 		religion = theravada
-		size= 36915
+		size= 369152
 	}
 
 }

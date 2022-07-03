@@ -3,7 +3,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 6090
+		size= 60902
 	}
 
 	soldiers=
@@ -59,7 +59,7 @@
 	{
 		culture = nepali
 		religion = sunni
-		size= 6150
+		size= 61502
 	}
 
 	soldiers=
@@ -108,7 +108,7 @@
 	{
 		culture = nepali
 		religion = sunni
-		size= 39782
+		size= 397822
 	}
 
 	slaves=
@@ -173,7 +173,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 15900
+		size= 159002
 	}
 
 	soldiers=
@@ -222,7 +222,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 174070
+		size= 574070
 	}
 
 }

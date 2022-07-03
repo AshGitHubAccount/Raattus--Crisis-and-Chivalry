@@ -792,14 +792,14 @@
 	{
 		culture = assamese
 		religion = hindu
-		size= 1320
+		size= 13202
 	}
 
 	artisans=
 	{
 		culture = assamese
 		religion = hindu
-		size= 1859
+		size= 18592
 	}
 
 	clergymen=
@@ -834,7 +834,7 @@
 	{
 		culture = assamese
 		religion = hindu
-		size= 19873
+		size= 198732
 	}
 
 	soldiers=

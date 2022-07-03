@@ -1068,6 +1068,10 @@ country_event = {
 	release = CUB
 	release = PRI
 	release = BAH
+	2235 = { secede_province = ARW }
+	2234 = { secede_province = ARW }
+	2237 = { secede_province = VNZ }
+	2238 = { secede_province = VNZ }
 	name = "SPA9012.A"
 	set_country_flag = wsi_breaks
 	}
@@ -2927,6 +2931,187 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 399863
+	title = "JAP3013.T"
+	desc = "JAP3013.D" #the beginning of the reform war
+	trigger = {
+	year = 1850
+	war = no
+	tag = JAP
+	is_greater_power = yes
+	NOT = { has_country_flag = jap_intro_reform_war }
+	owns = 1642
+	owns = 1664
+	owns = 1624
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "JAP3013.A"
+	1642 = { add_core = EZO }
+	1643 = { add_core = EZO }
+	1644 = { add_core = EZO }
+	1089 = { add_core = EZO }
+	1088 = { add_core = EZO }
+	1087 = { add_core = EZO }
+	1672 = { add_core = EZO }
+	1671 = { add_core = EZO }
+	1670 = { add_core = EZO }
+	1668 = { add_core = EZO }
+	1673 = { add_core = EZO }
+	1645 = { add_core = EZO }
+	1669 = { add_core = EZO }
+	1674 = { add_core = EZO }
+	1653 = { add_core = EZO }
+	1650 = { add_core = EZO }
+	1649 = { add_core = EZO }
+	1651 = { add_core = EZO }
+	1652 = { add_core = EZO }
+	12 = { add_core = EZO }
+	set_country_flag = jap_intro_reform_war
+	}
+	option = { 
+	name = "JAP3013.B"
+	1642 = { add_core = EZO }
+	1643 = { add_core = EZO }
+	1644 = { add_core = EZO }
+	1089 = { add_core = EZO }
+	1088 = { add_core = EZO }
+	1087 = { add_core = EZO }
+	1672 = { add_core = EZO }
+	1671 = { add_core = EZO }
+	1670 = { add_core = EZO }
+	1668 = { add_core = EZO }
+	1673 = { add_core = EZO }
+	1645 = { add_core = EZO }
+	1669 = { add_core = EZO }
+	1674 = { add_core = EZO }
+	1653 = { add_core = EZO }
+	1650 = { add_core = EZO }
+	1649 = { add_core = EZO }
+	1651 = { add_core = EZO }
+	1652 = { add_core = EZO }
+	12 = { add_core = EZO }
+	change_tag_no_core_switch = EZO
+	set_country_flag = jap_intro_reform_war
+	}
+}
+country_event = {
+	id = 399864
+	title = "JAP3014.T"
+	desc = "JAP3014.D" #the radical liberals break off. founding the ezo republic. prepare for war.
+	trigger = {
+	year = 1850
+	war = no
+	tag = JAP
+	is_greater_power = yes
+	NOT = { has_country_flag = jap_reform_war_prep }
+	has_country_flag = jap_intro_reform_war
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "JAP3014.A"
+	release = EZO
+	set_country_flag = jap_reform_war_prep
+	}
+}
+country_event = {
+	major = yes
+	id = 399865
+	title = "JAP3015.T"
+	desc = "JAP3015.D" #the war begins
+	trigger = {
+	war = no
+	tag = JAP
+	is_greater_power = yes
+	NOT = { has_country_flag = jap_reform_war_begin }
+	has_country_flag = jap_reform_war_prep
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "JAP3014.A"
+	war = {
+		target = EZO
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+	set_country_flag = jap_reform_war_begin
+	}
+}
+country_event = {
+	major = yes
+	id = 399866
+	title = "JAP3015.T"
+	desc = "JAP3015.D" #the war ends, ezo victory
+	trigger = {
+	war = no
+	tag = EZO
+	owns = 1657
+	NOT = { has_country_flag = jap_reform_war_end }
+	has_country_flag = jap_reform_war_begin
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "JAP3014.A"
+	war = {
+		target = EZO
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+	set_country_flag = jap_reform_war_end
+	all_core = {
+	   remove_core = JAP
+	   }
+	}
+}
+country_event = {
+	major = yes
+	id = 399867
+	title = "JAP3015.T"
+	desc = "JAP3015.D" #the war ends, japan victory
+	trigger = {
+	war = no
+	owns = 1672
+	NOT = { has_country_flag = jap_reform_war_end }
+	has_country_flag = jap_reform_war_begin
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "JAP3014.A"
+	all_core = {
+	   remove_core = EZO
+	   }
+	set_country_flag = jap_reform_war_end
+	}
+}
 ######################
 ###	New AKSUM (X00) EVENTS 2000 ###
 ######################
@@ -3342,11 +3527,134 @@ country_event = {
 	}
 }
 ######################
-###	New SCANDINAVIA 1000 EVENTS ###
+###	New SCANDINAVIA 1630-1649 EVENTS ###
 ######################
-
+country_event = {
+	id = 1630 
+	title = "SCA1630.T"
+	desc = "SCA1630.D"
+	picture = "Revolution"
+	trigger = { 
+	tag = SCA
+	NOT = { has_country_flag = sca_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "SCA1630.A"
+	set_country_flag = sca_intro
+	prestige = -5
+	}
+}
+country_event = {
+	id = 1631
+	title = "SCA1631.T"
+	desc = "SCA1631.D"
+	picture = "Revolution"
+	trigger = { 
+	year = 1838
+	tag = SCA
+	NOT = { has_country_flag = sca_holstein_war }
+	}
+	
+	mean_time_to_happen = { 
+	days = 90
+	}
+	
+	option = { 
+	name = "SCA1631.A"
+	set_country_flag = sca_holstein_war 
+	ai_chance = {
+	factor = 80
+	   }
+	  diplomatic_influence = {
+	who = HOL
+	value = -200
+	}
+	HOL = {
+	relation = { who = SCA value = -400 }
+	}
+	   war = {
+		target = HOL
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	HOL = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+	option = { 
+	name = "SCA1631.B"
+	set_country_flag = sca_holstein_war 
+	ai_chance = {
+	factor = 20
+	   }
+	}
+}
+country_event = {
+	id = 1632
+	title = "SCA1632.T"
+	desc = "SCA1632.D"
+	picture = "Revolution"
+	trigger = { 
+	year = 1841
+	tag = SCA
+	NOT = { has_country_flag = sca_ingria_war }
+	}
+	
+	mean_time_to_happen = { 
+	days = 90
+	}
+	
+	option = { 
+	name = "SCA1632.A"
+	set_country_flag = sca_ingria_war
+	ai_chance = {
+	factor = 80
+	   }
+	   diplomatic_influence = {
+	who = IZH
+	value = -200
+	}
+	IZH = {
+	relation = { who = SCA value = -400 }
+	}
+	   war = {
+		target = IZH
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	IZH = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+	option = { 
+	name = "SCA1632.B"
+	set_country_flag = sca_ingria_war
+	ai_chance = {
+	factor = 20
+	   }
+	}
+}
 ######################
-###	New MEXICO EVENTS 000 ###
+###	New MEXICO EVENTS 1650-1669 ###
 ######################
 
 ######################

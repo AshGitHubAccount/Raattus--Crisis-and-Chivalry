@@ -3,7 +3,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 852
+		size= 8522
 	}
 
 	artisans=
@@ -31,7 +31,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 66
+		size= 662
 	}
 
 	aristocrats=
@@ -45,7 +45,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 79155
+		size= 491552
 	}
 
 	soldiers=
@@ -145,7 +145,7 @@
 	{
 		culture = tamil
 		religion = hindu
-		size= 34999
+		size= 349992
 	}
 
 	soldiers=
@@ -203,7 +203,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 734
+		size= 7342
 	}
 
 	artisans=
@@ -245,7 +245,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 88414
+		size= 484142
 	}
 
 }
@@ -296,7 +296,7 @@
 	{
 		culture = sinhala
 		religion = theravada
-		size= 80405
+		size= 304053
 	}
 
 }

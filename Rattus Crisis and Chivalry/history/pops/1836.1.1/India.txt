@@ -475,7 +475,7 @@
 	{
 		culture = kashmiri
 		religion = theravada
-		size= 11354
+		size= 113542
 	}
 
 	soldiers=
@@ -582,14 +582,14 @@
 	{
 		culture = kashmiri
 		religion = hindu
-		size= 655
+		size= 6552
 	}
 
 	artisans=
 	{
 		culture = kashmiri
 		religion = hindu
-		size= 5898
+		size= 58982
 	}
 
 	clergymen=
@@ -673,7 +673,7 @@
 	{
 		culture = kashmiri
 		religion = gelugpa
-		size= 42105
+		size= 421052
 	}
 
 	soldiers=
@@ -773,7 +773,7 @@
 	{
 		culture = kashmiri
 		religion = theravada
-		size= 16587
+		size= 165872
 	}
 
 	soldiers=
@@ -922,7 +922,7 @@
 	{
 		culture = kashmiri
 		religion = gelugpa
-		size= 18686
+		size= 186862
 	}
 
 	soldiers=
@@ -1157,7 +1157,7 @@
 	{
 		culture = panjabi
 		religion = sunni
-		size= 339553
+		size= 639553
 	}
 
 	soldiers=
@@ -1208,7 +1208,7 @@
 	{
 		culture = panjabi
 		religion = hindu
-		size= 2055
+		size= 20552
 	}
 
 	artisans=
@@ -1383,7 +1383,7 @@
 	{
 		culture = kashmiri
 		religion = hindu
-		size= 18002
+		size= 380022
 	}
 
 }
@@ -1927,14 +1927,14 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 1401
+		size= 14012
 	}
 
 	artisans=
 	{
 		culture = nepali
 		religion = hindu
-		size= 12611
+		size= 126112
 	}
 
 	clergymen=
@@ -1969,7 +1969,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 122323
+		size= 422323
 	}
 
 }
@@ -3781,7 +3781,7 @@
 	{
 		culture = manipuri
 		religion = animist
-		size= 15280
+		size= 152802
 	}
 
 }
@@ -3881,7 +3881,7 @@
 	{
 		culture = assamese
 		religion = sunni
-		size= 14519
+		size= 145192
 	}
 
 	soldiers=
@@ -4677,7 +4677,7 @@
 	{
 		culture = rajput
 		religion = hindu
-		size= 235556
+		size= 735556
 	}
 
 	soldiers=
@@ -4963,7 +4963,7 @@
 	{
 		culture = rajput
 		religion = hindu
-		size= 422
+		size= 4222
 	}
 
 	aristocrats=
@@ -4977,7 +4977,7 @@
 	{
 		culture = rajput
 		religion = hindu
-		size= 218184
+		size= 518184
 	}
 
 	soldiers=
@@ -5077,7 +5077,7 @@
 	{
 		culture = kanauji
 		religion = hindu
-		size= 76997
+		size= 276997
 	}
 
 	soldiers=
@@ -6298,7 +6298,7 @@
 	{
 		culture = sindi
 		religion = sunni
-		size= 4836
+		size= 48362
 	}
 
 	artisans=
@@ -6389,7 +6389,7 @@
 	{
 		culture = sindi
 		religion = shiite
-		size= 564
+		size= 564222
 	}
 
 }
@@ -6440,7 +6440,7 @@
 	{
 		culture = sindi
 		religion = sunni
-		size= 123598
+		size= 500598
 	}
 
 }
@@ -7215,7 +7215,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 648
+		size= 6482
 	}
 
 	artisans=
@@ -7243,7 +7243,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 11
+		size= 112
 	}
 
 	aristocrats=
@@ -7257,7 +7257,7 @@
 	{
 		culture = marathi
 		religion = hindu
-		size= 27964
+		size= 57964
 	}
 
 	slaves=
@@ -8276,7 +8276,7 @@
 	{
 		culture = tamil
 		religion = hindu
-		size= 3556
+		size= 35562
 	}
 
 	soldiers=
@@ -8325,7 +8325,7 @@
 	{
 		culture = tamil
 		religion = hindu
-		size= 15770
+		size= 33770
 	}
 
 	slaves=
@@ -8917,7 +8917,7 @@
 	{
 		culture = nepali
 		religion = gelugpa
-		size= 40
+		size= 402
 	}
 
 	artisans=
@@ -9001,7 +9001,7 @@
 	{
 		culture = nepali
 		religion = hindu
-		size= 3143
+		size= 31432
 	}
 
 }
@@ -9052,7 +9052,7 @@
 	{
 		culture = bengali
 		religion = hindu
-		size= 39853
+		size= 398532
 	}
 
 	soldiers=
@@ -9208,7 +9208,7 @@
 	{
 		culture = tamil
 		religion = hindu
-		size= 521
+		size= 5212
 	}
 
 	artisans=
@@ -9250,7 +9250,7 @@
 	{
 		culture = tamil
 		religion = hindu
-		size= 7325
+		size= 29325
 	}
 
 }

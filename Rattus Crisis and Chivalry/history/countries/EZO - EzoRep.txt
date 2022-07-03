@@ -2,10 +2,10 @@ capital = 1642
 primary_culture = japanese
 culture = zzz_religion_shinto
 religion = shinto
-government = presidential_dictatorship
+government = democracy
 plurality = 0
-nationalvalue = nv_autocracy
-literacy = 0
+nationalvalue = nv_equality
+literacy = 0.4920
 
 civilized = yes
 
@@ -19,14 +19,14 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # political reforms
-slavery=yes_slavery
-vote_franschise=none_voting
-upper_house_composition=party_appointed
+slavery=no_slavery
+vote_franschise=wealth_voting
+upper_house_composition=state_equal_weight
 voting_system=first_past_the_post
-public_meetings=no_meeting
-press_rights=state_press
-trade_unions=no_trade_unions
-political_parties=underground_parties
+public_meetings=yes_meeting
+press_rights=censored_press
+trade_unions=state_controlled
+political_parties=gerrymandering
 
 ruling_party = EZO_conservative
 upper_house = 
@@ -45,7 +45,40 @@ consciousness = 0
 nonstate_consciousness= 0
 
 # Technologies
-prestige=0
+ad_hoc_money_bill_printing = 1
+army_command_principle = 1
+army_professionalism = 1
+basic_chemistry = 1
+the_command_principle = 1
+bronze_muzzle_loaded_artillery = 1
+classicism_n_early_romanticism = 1
+early_classical_theory_and_critique = 1
+experimental_railroad = 1
+flintlock_rifles = 1
+freedom_of_trade = 1
+clipper_design = 1
+post_nelsonian_thought = 1
+guild_based_production = 1
+high_pressure_steam_engine = 1
+hot_blast = 1
+military_plans = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+naval_plans = 1
+naval_professionalism = 1
+interchangeable_parts = 1
+late_classical_theory = 1
+late_enlightenment_philosophy = 1
+market_structure = 1
+mechanical_production = 1
+mechanized_mining = 1
+military_staff_system = 1
+no_standard = 1
+piston_steam_engine = 1
+post_napoleonic_thought = 1
+private_banks = 1
+stock_exchange = 1
+prestige=1
 oob = "EZO_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_EZO

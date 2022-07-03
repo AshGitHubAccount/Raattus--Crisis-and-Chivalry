@@ -6,7 +6,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_tradition
-literacy = 0.132519
+literacy = 0.092519
 
 
 # Social Reforms
@@ -46,8 +46,8 @@ nonstate_consciousness= 0.470445
 
 # Technologies
 flintlock_rifles = 1
-land_reform=yes_land_reform
-admin_reform=yes_admin_reform
+land_reform=no_land_reform
+admin_reform=no_admin_reform
 finance_reform=no_finance_reform
 education_reform=no_education_reform
 transport_improv=no_transport_improv
@@ -61,7 +61,7 @@ army_schools=no_army_schools
 foreign_naval_officers=no_foreign_naval_officers
 naval_schools=no_naval_schools
 foreign_navies=no_foreign_navies
-prestige=0.000624899
+prestige=1
 oob = "MAW_OOB.txt"
 set_country_flag = religi
 set_country_flag = vic2_country_MAW

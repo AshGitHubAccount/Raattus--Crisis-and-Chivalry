@@ -54,7 +54,7 @@
 	{
 		culture = malay
 		religion = sunni
-		size= 545
+		size= 5452
 	}
 
 	artisans=
@@ -96,7 +96,7 @@
 	{
 		culture = malay
 		religion = sunni
-		size= 23396
+		size= 48396
 	}
 
 }
@@ -105,7 +105,7 @@
 	{
 		culture = malay
 		religion = sunni
-		size= 390
+		size= 3902
 	}
 
 	artisans=
@@ -147,7 +147,7 @@
 	{
 		culture = malay
 		religion = sunni
-		size= 11178
+		size= 29178
 	}
 
 }
