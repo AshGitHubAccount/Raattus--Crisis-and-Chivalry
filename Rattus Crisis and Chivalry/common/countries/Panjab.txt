@@ -1,5 +1,5 @@
 graphical_culture = IndianGC
-color = { 169 46 54 }
+color = { 213 59 36 }
 
 party = {
 	name = "PNJ_conservative"
