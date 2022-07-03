@@ -1,5 +1,5 @@
 graphical_culture = EuropeanGC
-color = { 80 57 17 }
+color = { 154 140 97 }
 
 party = {
 	name = "CAT_conservative"

@@ -1,5 +1,5 @@
 graphical_culture = ChineseGC
-color = { 188 18 18 }
+color = { 107 4 4 }
 
 party = {
 	name = "CHI_conservative"

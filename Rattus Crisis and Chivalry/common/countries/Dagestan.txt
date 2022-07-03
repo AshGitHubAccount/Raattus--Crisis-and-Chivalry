@@ -1,5 +1,5 @@
 graphical_culture = MiddleEasternGC
-color = { 56 232 32 }
+color = { 192 196 149 }
 
 party = {
 	name = "DAG_reactionary"
