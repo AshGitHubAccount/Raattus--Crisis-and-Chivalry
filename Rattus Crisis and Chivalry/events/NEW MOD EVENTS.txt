@@ -2899,6 +2899,7 @@ country_event = {
 	}
 	}
 }
+
 country_event = {
 	id = 399862
 	title = "JAP3012.T"
@@ -3041,7 +3042,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "JAP3014.A"
+	name = "JAP3015.A"
 	war = {
 		target = EZO
 			attacker_goal = {
@@ -3057,8 +3058,8 @@ country_event = {
 country_event = {
 	major = yes
 	id = 399866
-	title = "JAP3015.T"
-	desc = "JAP3015.D" #the war ends, ezo victory
+	title = "JAP3016.T"
+	desc = "JAP3016.D" #the war ends, ezo victory
 	trigger = {
 	war = no
 	tag = EZO
@@ -3072,7 +3073,7 @@ country_event = {
 	}
 	
 	option = { 
-	name = "JAP3014.A"
+	name = "JAP3016.A"
 	war = {
 		target = EZO
 			attacker_goal = {
@@ -3086,13 +3087,14 @@ country_event = {
 	all_core = {
 	   remove_core = JAP
 	   }
+	set_country_flag = ezo_inward_focus
 	}
 }
 country_event = {
 	major = yes
 	id = 399867
-	title = "JAP3015.T"
-	desc = "JAP3015.D" #the war ends, japan victory
+	title = "JAP3017.T"
+	desc = "JAP3017.D" #the war ends, japan victory
 	trigger = {
 	war = no
 	owns = 1672
@@ -3110,6 +3112,7 @@ country_event = {
 	   remove_core = EZO
 	   }
 	set_country_flag = jap_reform_war_end
+	set_country_flag = japan_outward_expansionism
 	}
 }
 ######################

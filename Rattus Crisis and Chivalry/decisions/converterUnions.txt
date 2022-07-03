@@ -652,13 +652,6 @@ political_decisions = {
 			2534 = { add_core = SLM remove_core = PPG } # Solomon Islands
 			#
 			#Adding Japanese cores to have Tokugawa become Japan if needed
-			JAP_1088 = { add_core = JAP }
-			JAP_1640 = { add_core = JAP }
-			JAP_1649 = { add_core = JAP }
-			JAP_1655 = { add_core = JAP }
-			JAP_1660 = { add_core = JAP }
-			JAP_1672 = { add_core = JAP }
-			JAP_1675 = { add_core = JAP }
 			#
 			# Inner Mongolia fixes
 			CHI_1465 = { remove_core = MGL add_core = IMG }

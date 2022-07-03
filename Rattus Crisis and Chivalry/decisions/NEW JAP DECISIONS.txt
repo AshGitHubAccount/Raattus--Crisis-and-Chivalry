@@ -25,8 +25,81 @@ destroy_joseon = {
 			 limit = {
 				 tag = KOR
 			 }	 
-             country_event = { id = 334757 days = 3 }			    
+             country_event = { id = 399862 days = 3 }			    
 		 }	 
+	  }
+   }
+core_siberia = {
+		 picture = annex_korea
+	     potential = {
+           tag = EZO
+		   JAP = { exists = no }
+		   has_country_flag = ezo_inward_focus
+		   NOT = { has_country_flag = coring_siberia }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = JAP }
+			war = no	 
+		}
+	
+	   effect = { 
+	     HOD_962 = { add_core = THIS }
+		HOD_2648 = { add_core = THIS }
+HOD_2633 = { add_core = THIS }		
+HOD_2622 = { add_core = THIS }
+set_country_flag = coring_siberia
+	badboy = 4
+	  }
+   }
+core_chinese_ports = {
+		 picture = annex_korea
+	     potential = {
+           tag = JAP
+		   EZO = { exists = no }
+		   has_country_flag = japan_outward_expansionism
+		   NOT = { has_country_flag = coring_treaty_ports }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = JAP }
+			war = no	
+			year = 1860
+		}
+	
+	   effect = { 
+	     set_country_flag = coring_treaty_ports
+		1481 = { add_core = JAP }
+		1479 = { add_core = JAP }
+		1566 = { add_core = JAP }
+		1569 = { add_core = JAP }
+		1540 = { add_core = JAP }
+		1538 = { add_core = JAP }
+		badboy = 8
+	  }
+   }
+core_manchuria = {
+		 picture = annex_korea
+	     potential = {
+           tag = JAP
+		   EZO = { exists = no }
+		   has_country_flag = japan_outward_expansionism
+		   NOT = { has_country_flag = coring_treaty_ports }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = JAP }
+			war = no
+			has = revolution_n_counterrevolution
+		}
+	
+	   effect = { 
+	     set_country_flag = coring_manchuria
+		MCK = { all_core = { add_core = JAP } }
+		badboy = 15
 	  }
    }
 }
