@@ -3712,7 +3712,6 @@ country_event = {
 	factor = 20
 	   }
 	}
-	}
 	option = { 
 	name = "HDU1600.B"
 	set_country_flag = afg_pnj_a_chance
@@ -3728,7 +3727,6 @@ country_event = {
 	   }
 	}
 	}
-}
 country_event = {
 	id = 1601
 	title = "SIK1601.T"
@@ -3754,7 +3752,6 @@ country_event = {
 	ai_chance = {
 	factor = 80
 	   }
-	}
 	}
 	option = { 
 	name = "HDU1601.B"
