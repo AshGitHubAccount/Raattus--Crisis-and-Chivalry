@@ -2,5 +2,6 @@ owner=HDU
 controller=HDU
 add_core=AWA
 add_core=HND
+add_core=TRT
 trade_goods = timber
 life_rating = 32

@@ -3352,7 +3352,303 @@ country_event = {
 ######################
 ###	New SIKH EMPIRE 1599-1899EVENTS ###
 ######################
-
+country_event = {
+	id = 1599 
+	title = "SIK1599.T"
+	desc = "SIK1599.D" #sikh empire intro, conquer india and westernize!
+	trigger = { 
+	tag = PNJ
+	NOT = { has_country_flag = pnj_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "SIK1599.A"
+	set_country_flag = pnjIntro
+	add_country_modifier = {
+	name = last_hope
+				duration = -1
+				}
+	}
+}
+country_event = {
+	id = 1600
+	title = "SIK1600.T"
+	desc = "SIK1600.D" #our master
+	trigger = { 
+	tag = PNJ
+	NOT = { has_country_flag = pnj_master_choice }
+	}
+	
+	mean_time_to_happen = { 
+	days = 90
+	}
+	
+	option = { 
+	name = "HDU1600.A"
+	set_country_flag = afg_pnj_no_point
+	set_country_flag = pnj_master_choice
+	any_country = {
+			limit = { 
+			tag = AFG
+			}
+       country_event = { id = 1602 days = 1 }
+	}
+	ai_chance = {
+	factor = 20
+	   }
+	}
+	}
+	option = { 
+	name = "HDU1600.B"
+	set_country_flag = afg_pnj_a_chance
+	set_country_flag = pnj_master_choice
+	any_country = {
+			limit = { 
+			tag = AFG
+			}
+       country_event = { id = 1601 days = 1 }
+	}
+	ai_chance = {
+	factor = 80
+	   }
+	}
+	}
+}
+country_event = {
+	id = 1601
+	title = "SIK1601.T"
+	desc = "SIK1601.D" #afghanistans choice
+	trigger = { 
+	tag = HDU
+	NOT = { has_country_flag = hdu_cursed }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "HDU1601.A"
+	set_country_flag = afg_choice_peace
+	any_country = {
+			limit = { 
+			tag = PNJ
+			}
+       country_event = { id = 399861 days = 1 }
+	}
+	ai_chance = {
+	factor = 80
+	   }
+	}
+	}
+	option = { 
+	name = "HDU1601.B"
+	set_country_flag = afg_choice_war
+	add_country_modifier = {
+	name = small_country_draft
+				duration = 1095
+				}
+	war = {
+		target = PNJ
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+	ai_chance = {
+	factor = 20
+	   }
+	}
+}
+country_event = {
+	id = 1602
+	title = "SIK1602.T"
+	desc = "SIK1602.D" #afghanistan just gets told about it
+	trigger = { 
+	tag = AFG
+	NOT = { has_country_flag = afg_no_choice_war }
+	}
+	
+	mean_time_to_happen = { 
+	days = 5
+	}
+	
+	option = { 
+	name = "HDU1602.A"
+	set_country_flag = afg_no_choice_war
+	add_country_modifier = {
+	name = small_country_draft
+				duration = 1095
+				}
+	war = {
+		target = PNJ
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+		}
+	}
+}
+country_event = {
+	id = 1603
+	title = "SIK1602.T"
+	desc = "SIK1602.D" #afghanistan let us go. we will stay allies
+	trigger = { 
+	tag = PNJ
+	NOT = { has_country_flag = pnj_afg_allies }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "HDU1602.A"
+	set_country_flag = pnj_afg_allies
+	AFG = {
+	relation = { who = PNJ value = 400 }
+	}
+	relation = { who = AFG value = 400 }
+	}
+}
+country_event = {
+	id = 1604
+	title = "SIK1604.T"
+	desc = "SIK1604.D" #hindustan is breaking. now it is the time
+	trigger = { 
+	year = 1850
+	tag = PNJ
+	NOT = { has_country_flag = pnj_hindustan_opp }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "SIK1604.A"
+	set_country_flag = pnj_hindustan_opp
+	MUL = { all_core = { add_core = PNJ } }
+	KAS = { all_core = { add_core = PNJ } }
+	DLH = { all_core = { add_core = PNJ } }
+	add_accepted_culture = kanauji
+	add_accepted_culture = kashmiri
+	}
+}
+country_event = {
+	id = 1605
+	title = "SIK1605.T"
+	desc = "SIK1605.D" #we took our first step. now for thr next.
+	trigger = { 
+	year = 1865
+	owns = 1236
+	owns = 1224
+	owns = 1228
+	tag = PNJ
+	NOT = { has_country_flag = pnj_conquer_1 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = {
+	
+	name = "SIK1605.A"
+	set_country_flag = pnj_conquer_1
+	KAT = { all_core = { add_core = PNJ } }
+	MLW = { all_core = { add_core = PNJ } }
+	TRT = { all_core = { add_core = PNJ } }
+	add_accepted_culture = rajput
+	add_accepted_culture = avadhi
+	add_accepted_culture = bihari
+	}
+}
+country_event = {
+	id = 1607
+	title = "SIK1607.T"
+	desc = "SIK1607.D" #we took our medium steps. now bengal is next
+	trigger = { 
+	year = 1878
+	owns = 1236
+	owns = 1224
+	owns = 1228
+	tag = PNJ
+	NOT = { has_country_flag = pnj_conquer_3 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = {
+	name = "SIK1607.A"
+	set_country_flag = pnj_conquer_3
+	BNG = { all_core = { add_core = PNJ } }
+	add_accepted_culture = bengali
+	}
+}
+country_event = {
+	id = 1606
+	title = "SIK1606.T"
+	desc = "SIK1606.D" #we have conquered. Now it is hindustan's turn
+	trigger = { 
+	year = 1890
+	owns = 1272
+	owns = 1290
+	owns = 1246
+	tag = PNJ
+	NOT = { has_country_flag = pnj_conquer_2 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "SIK1606.A"
+	set_country_flag = pnj_conquer_2
+	HDU = { all_core = { add_core = PNJ } }
+	add_accepted_culture = asian_minor
+	add_accepted_culture = marathi
+	add_accepted_culture = kannada
+	add_accepted_culture = gujurati
+	}
+}
+country_event = {
+	id = 1608
+	title = "SIK1608.T"
+	desc = "SIK1608.D" #we have conquered. pretty much everything, but theres some annoying parts left. claim all of india
+	trigger = { 
+	year = 1900
+	owns = 1286
+	owns = 1257
+	owns = 1280
+	tag = PNJ
+	NOT = { has_country_flag = pnj_conquer_4 }
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "SIK1608.A"
+	set_country_flag = pnj_conquer_4
+	XMA = { all_core = { add_core = PNJ } }
+	SRI = { all_core = { add_core = PNJ } }
+	add_accepted_culture = telegu
+	HND = { all_core = { add_core = PNJ } }
+	}
+}
 ######################
 ###	New PERSIA EVENTS 1099-1499###
 ######################
