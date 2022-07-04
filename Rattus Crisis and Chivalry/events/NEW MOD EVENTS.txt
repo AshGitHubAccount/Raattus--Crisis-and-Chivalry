@@ -3687,7 +3687,7 @@ country_event = {
 	
 	option = { 
 	name = "SIK1599.A"
-	set_country_flag = pnjIntro
+	set_country_flag = pnj_intro
 	add_country_modifier = {
 	name = last_hope
 				duration = -1
@@ -3756,7 +3756,7 @@ country_event = {
 			limit = { 
 			tag = PNJ
 			}
-       country_event = { id = 399861 days = 1 }
+       country_event = { id = 1603 days = 1 }
 	}
 	ai_chance = {
 	factor = 80
@@ -3878,15 +3878,11 @@ country_event = {
 	}
 	
 	option = {
-	
 	name = "SIK1605.A"
 	set_country_flag = pnj_conquer_1
 	KAT = { all_core = { add_core = PNJ } }
 	MLW = { all_core = { add_core = PNJ } }
 	TRT = { all_core = { add_core = PNJ } }
-	add_accepted_culture = rajput
-	add_accepted_culture = avadhi
-	add_accepted_culture = bihari
 	}
 }
 country_event = {
@@ -3910,7 +3906,6 @@ country_event = {
 	name = "SIK1607.A"
 	set_country_flag = pnj_conquer_3
 	BNG = { all_core = { add_core = PNJ } }
-	add_accepted_culture = bengali
 	}
 }
 country_event = {
@@ -3934,10 +3929,6 @@ country_event = {
 	name = "SIK1606.A"
 	set_country_flag = pnj_conquer_2
 	HDU = { all_core = { add_core = PNJ } }
-	add_accepted_culture = asian_minor
-	add_accepted_culture = marathi
-	add_accepted_culture = kannada
-	add_accepted_culture = gujurati
 	}
 }
 country_event = {
@@ -3962,7 +3953,6 @@ country_event = {
 	set_country_flag = pnj_conquer_4
 	XMA = { all_core = { add_core = PNJ } }
 	SRI = { all_core = { add_core = PNJ } }
-	add_accepted_culture = telegu
 	HND = { all_core = { add_core = PNJ } }
 	}
 }
