@@ -3,6 +3,18 @@
 ##################################################################################################
 
 ####NEW MOD RAT STUFF###########
+liberal_beacon_ezo = {
+immigrant_attract = 0.1
+mobilisation_size = 0.10
+research_points_modifier = 0.05
+pop_militancy_modifier = -0.01
+ruling_party_support = 2
+}
+crouching_persian_tiger = {
+population_growth = 0.002
+mobilisation_size = 0.15
+research_points_modifier = 0.15
+}
 wsf_democracy_slav = {
 immigrant_attract = 0.2
 assimilation_rate = 0.25

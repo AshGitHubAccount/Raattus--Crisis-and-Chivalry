@@ -2779,7 +2779,7 @@ country_event = {
 	desc = "JAP3006.D" #Japanese marines land in Api?
 	picture = "Opiumwar"
 	trigger = { 
-	year = 1843
+	year = 1839
 	tag = JAP
 	NOT = { has_country_flag = jap_intro }
 	has_country_flag = jap_repatriation
@@ -2791,6 +2791,7 @@ country_event = {
 	
 	option = { 
 	name = "JAP3005.A"
+	AIN = { all_core = { add_core = JAP } }
 	set_country_flag = jap_intro
 	}
 }
@@ -2916,7 +2917,7 @@ country_event = {
 	
 	is_triggered_only = yes	
 	option = {
-		name = "NJAP58.A"	
+		name = "JAP3012.A"	
 		JAP = { inherit = THIS }
 	    ai_chance = {
 	       factor = 25
@@ -2924,7 +2925,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "JAP3012.A"	
+		name = "JAP3012.B"	
 		JAP = {
  	    war = {
 			target = KOR
@@ -2954,6 +2955,7 @@ country_event = {
 	owns = 1642
 	owns = 1664
 	owns = 1624
+	has_country_flag = the_bill_dies
 	}
 	
 	mean_time_to_happen = { 
@@ -3097,6 +3099,14 @@ country_event = {
 	   remove_core = JAP
 	   }
 	set_country_flag = ezo_inward_focus
+	1657 = {
+		poor_strata = {
+            reduce_pop = 0.10
+	    }
+		middle_strata = {
+			reduce_pop = 0.10
+	    }
+	}
 	}
 }
 country_event = {
@@ -3116,12 +3126,126 @@ country_event = {
 	}
 	
 	option = { 
-	name = "JAP3014.A"
+	name = "JAP3017.A"
 	all_core = {
 	   remove_core = EZO
 	   }
 	set_country_flag = jap_reform_war_end
 	set_country_flag = japan_outward_expansionism
+	1649 = {
+		poor_strata = {
+            reduce_pop = 0.10
+	    }
+		middle_strata = {
+			reduce_pop = 0.10
+	    }
+	}
+	}
+}
+country_event = {
+	id = 399868
+	title = "JAP3018.T"
+	desc = "JAP3018.D" #the beginning of the reform war
+	trigger = {
+	year = 1855
+	war = no
+	tag = JAP
+	is_greater_power = yes
+	NOT = { has_country_flag = jap_intro_reform_war }
+	owns = 1642
+	owns = 1664
+	owns = 1624
+	has_country_flag = the_bill_lives
+	}
+	
+	mean_time_to_happen = { 
+	days = 30
+	}
+	
+	option = { 
+	name = "JAP3018.A"
+	1642 = { add_core = EZO }
+	1643 = { add_core = EZO }
+	1644 = { add_core = EZO }
+	1089 = { add_core = EZO }
+	1088 = { add_core = EZO }
+	1087 = { add_core = EZO }
+	1672 = { add_core = EZO }
+	1671 = { add_core = EZO }
+	1670 = { add_core = EZO }
+	1668 = { add_core = EZO }
+	1673 = { add_core = EZO }
+	1645 = { add_core = EZO }
+	1669 = { add_core = EZO }
+	1674 = { add_core = EZO }
+	1653 = { add_core = EZO }
+	1650 = { add_core = EZO }
+	1649 = { add_core = EZO }
+	1651 = { add_core = EZO }
+	1652 = { add_core = EZO }
+	12 = { add_core = EZO }
+	set_country_flag = jap_intro_reform_war
+	}
+	option = { 
+	name = "JAP3018.B"
+	1642 = { add_core = EZO }
+	1643 = { add_core = EZO }
+	1644 = { add_core = EZO }
+	1089 = { add_core = EZO }
+	1088 = { add_core = EZO }
+	1087 = { add_core = EZO }
+	1672 = { add_core = EZO }
+	1671 = { add_core = EZO }
+	1670 = { add_core = EZO }
+	1668 = { add_core = EZO }
+	1673 = { add_core = EZO }
+	1645 = { add_core = EZO }
+	1669 = { add_core = EZO }
+	1674 = { add_core = EZO }
+	1653 = { add_core = EZO }
+	1650 = { add_core = EZO }
+	1649 = { add_core = EZO }
+	1651 = { add_core = EZO }
+	1652 = { add_core = EZO }
+	12 = { add_core = EZO }
+	change_tag_no_core_switch = EZO
+	set_country_flag = jap_intro_reform_war
+	}
+}
+country_event = {
+	id = 399869
+	title = "JAP3019.T"
+	desc = "JAP3019.T"
+	
+	is_triggered_only = yes	
+	option = {
+		name = "JAP3019.A"	
+		EZO = { create_vassal = MCK}
+	    ai_chance = {
+	       factor = 25
+		}
+	}
+	
+	option = {
+		name = "JAP3019.B"	
+		EZO = {
+ 	    war = {
+			target = MCK
+			attacker_goal =  { 
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}	
+	    }
+        }		
+	    ai_chance = {
+	       factor = 75
+		}
+		add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
 	}
 }
 ######################
@@ -3536,6 +3660,63 @@ country_event = {
 		   }
 		   militancy = 1
 	    }
+	war = {
+		target = SOM
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = acquire_any_state
+				state_province_id = 1867
+			}
+		}
+	SOM = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	war = {
+		target = SUD
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = acquire_any_state
+				state_province_id = 1851
+			}
+		}
+	SUD = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+}
+country_event = {
+	id = 299876
+	title = "AKS2017.T"
+	desc = "AKS2017.D" #the arabian 
+	
+is_triggered_only = yes
+	
+	option = { 
+	random_list = {
+			35 = { 
+			set_country_flag = aks_secret_silk_yes_2
+	        prestige = 5
+	        1875 = { trade_goods = silk }
+			1151 = { trade_goods = silk }
+			}
+			65 = {
+			1875 = { trade_goods = silk }
+			prestige = 3
+	        set_country_flag = aks_secret_silk_yes_1
+			}
+		}
+	name = "AKS2017.A"
+	set_country_flag = aks_secret_silk_yes
 	}
 }
 ######################
@@ -3741,13 +3922,12 @@ country_event = {
 	title = "SIK1601.T"
 	desc = "SIK1601.D" #afghanistans choice
 	trigger = { 
-	tag = HDU
+	tag = AFG
 	NOT = { has_country_flag = hdu_cursed }
+	
 	}
 	
-	mean_time_to_happen = { 
-	days = 5
-	}
+	is_triggered_only = yes
 	
 	option = { 
 	name = "HDU1601.A"
@@ -3787,14 +3967,8 @@ country_event = {
 	id = 1602
 	title = "SIK1602.T"
 	desc = "SIK1602.D" #afghanistan just gets told about it
-	trigger = { 
-	tag = AFG
-	NOT = { has_country_flag = afg_no_choice_war }
-	}
 	
-	mean_time_to_happen = { 
-	days = 5
-	}
+	is_triggered_only = yes
 	
 	option = { 
 	name = "HDU1602.A"
@@ -3818,14 +3992,7 @@ country_event = {
 	id = 1603
 	title = "SIK1602.T"
 	desc = "SIK1602.D" #afghanistan let us go. we will stay allies
-	trigger = { 
-	tag = PNJ
-	NOT = { has_country_flag = pnj_afg_allies }
-	}
-	
-	mean_time_to_happen = { 
-	days = 1
-	}
+	is_triggered_only = yes
 	
 	option = { 
 	name = "HDU1602.A"
@@ -3840,15 +4007,7 @@ country_event = {
 	id = 1604
 	title = "SIK1604.T"
 	desc = "SIK1604.D" #hindustan is breaking. now it is the time
-	trigger = { 
-	year = 1850
-	tag = PNJ
-	NOT = { has_country_flag = pnj_hindustan_opp }
-	}
-	
-	mean_time_to_happen = { 
-	days = 100
-	}
+	is_triggered_only = yes
 	
 	option = { 
 	name = "SIK1604.A"
@@ -3957,9 +4116,120 @@ country_event = {
 	}
 }
 ######################
-###	New PERSIA EVENTS 1099-1499###
+###	New PERSIA EVENTS 589860 - 589890###
 ######################
-
+country_event = {
+	id = 589860 
+	title = "PER9000.T"
+	desc = "PER9000.D" #Telling hindustan they are the china of this world and are thus, cursed
+	trigger = { 
+	tag = PER
+	NOT = { has_country_flag = per_intro }
+	}
+	
+	mean_time_to_happen = { 
+	days = 1
+	}
+	
+	option = { 
+	name = "PER9000.A"
+	set_country_flag = per_intro
+	add_country_modifier = {
+	name = crouching_persian_tiger
+				duration = -1
+				}
+	}
+}
+country_event = {
+	id = 589861
+	title = "PER9001.T"
+	desc = "PER9001.D" #luristan integrated
+	trigger = {
+	military_score = 35
+	tag = PER
+	NOT = { has_country_flag = per_luri }
+	year = 1845
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "PER9001.A"
+	set_country_flag = per_luri
+	inherit = X20
+	prestige = 5
+	badboy = 2
+	}
+}
+country_event = {
+	id = 589862
+	title = "PER9002.T"
+	desc = "PER9002.D" #khorasan integrated
+	trigger = {
+	military_score = 55
+	tag = PER
+	NOT = { has_country_flag = per_khora }
+	year = 1855
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "PER9002.A"
+	set_country_flag = per_khora
+	inherit = KHO
+	prestige = 5
+	badboy = 4
+	}
+}
+country_event = {
+	id = 589863
+	title = "PER9003.T"
+	desc = "PER9003.D" #baluchistan integrated
+	trigger = {
+	military_score = 65
+	tag = PER
+	NOT = { has_country_flag = per_baluch }
+	year = 1865
+	}
+	
+	mean_time_to_happen = { 
+	days = 100
+	}
+	
+	option = { 
+	name = "PER9003.A"
+	set_country_flag = per_baluch
+	prestige = 5
+	badboy = 2
+	inherit = BLC
+	}
+}
+country_event = {
+	id = 589860 
+	title = "PER9000.T"
+	desc = "PER9000.D" #Telling hindustan they are the china of this world and are thus, cursed
+	trigger = {
+	lost_national = 25
+	national_provinces_occupied = 20
+	tag = PER
+	NOT = { has_country_flag = per_lost_it_all }
+	}
+	
+	mean_time_to_happen = { 
+	days = 200
+	}
+	
+	option = { 
+	name = "PER9000.A"
+	set_country_flag = per_lost_it_all
+	remove_country_modifier = {	name = crouching_persian_tiger }
+	}
+}
 ######################
 ###	New HINDUSTAN EVENTS 2599-2999###
 ######################
@@ -4076,6 +4346,12 @@ country_event = {
 	release_vassal = KAS
 	release_vassal = XMA
 	set_country_flag = ind_broken
+	any_country = {
+			limit = { 
+			tag = PNJ
+			}
+       country_event = { id = 1604 days = 1 }
+	}
 	}
 }
 country_event = {
@@ -4312,7 +4588,7 @@ country_event = {
 				casus_belli = conquest_any
 			}
 			defender_goal = {
-				casus_belli = status_quo
+				casus_belli = acquire_all_cores
 			}
 		}
 	QIC = { 

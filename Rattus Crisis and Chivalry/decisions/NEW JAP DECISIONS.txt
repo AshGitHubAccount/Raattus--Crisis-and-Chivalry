@@ -102,4 +102,54 @@ core_manchuria = {
 		badboy = 15
 	  }
    }
+puppet_manchuria = {
+		 picture = annex_korea
+	     potential = {
+           tag = JAP
+		   EZO = { exists = no }
+		   has_country_flag = ezo_inward_focus
+		   NOT = { has_country_flag = coring_treaty_ports }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = JAP }
+			war = no
+			has = revolution_n_counterrevolution
+		}
+	
+	   effect = { 
+	     set_country_flag = coring_manchuria
+		any_country = {
+			 limit = {
+				 tag = MCK
+			 }	 
+             country_event = { id = 399862 days = 3 }			    
+		 }	
+		badboy = 15
+	  }
+   }
+shining_beacon = {
+		 picture = annex_korea
+	     potential = {
+           tag = EZO
+		   JAP = { exists = no }
+		   has_country_flag = ezo_inward_focus
+		   NOT = { has_country_flag = shining_light_forever }
+	    }
+	
+		allow = {
+		    is_greater_power = yes
+			NOT = { exists = JAP }
+			war = no	 
+		}
+	
+	   effect = { 
+	     add_country_modifier = {
+		name = liberal_beacon_ezo
+		duration = -1
+	} 
+set_country_flag = shining_light_forever
+	  }
+   }
 }
