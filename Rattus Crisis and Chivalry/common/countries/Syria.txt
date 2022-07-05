@@ -1,5 +1,5 @@
 graphical_culture = MiddleEasternGC
-color = { 130 169 90 }
+color = { 142 93 56 }
 
 party = {
 	name = "SYR_reactionary"

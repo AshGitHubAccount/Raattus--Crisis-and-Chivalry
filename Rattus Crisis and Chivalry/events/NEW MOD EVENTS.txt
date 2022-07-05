@@ -652,6 +652,16 @@ country_event = {
 				duration = 3300
 		 }
 	set_country_flag = caesar_la_imperial
+	government = absolute_monarchy
+	political_reform = none_voting
+		   political_reform = party_appointed
+		   political_reform = no_meeting
+		   political_reform = state_press
+		   political_reform = state_controlled
+		   political_reform = underground_parties
+		   political_reform = closed_borders
+		   political_reform = mandatory_service
+		   political_reform = primary_culture_only
 	any_pop = {
             scaled_militancy = {
                 ideology = reactionary
