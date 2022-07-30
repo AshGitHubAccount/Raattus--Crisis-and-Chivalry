@@ -1867,6 +1867,811 @@ country_event = {
 	relation = { who = LOT value = 50 }
 	}
 }
+country_event = {
+    id = 599865
+    title = "LOT5015.T"
+    desc = "LOT5015.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1870
+	is_greater_power = yes
+   
+	NOT = {
+		has_country_flag = lot_germany_dilemma
+		}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+        name = "LOT5015.A" #ally with the beast
+			set_country_flag = lot_germany_dilemma
+			set_country_flag = lot_germany_dilemma_ally
+				369 = { add_core = LIP }
+				530 = { add_core = LIP }
+				529 = { add_core = LIP }
+				528 = { add_core = LIP }
+				532 = { add_core = LIP }
+				531 = { add_core = LIP }
+				544 = { add_core = LIP }
+				557 = { add_core = LIP }
+				553 = { add_core = LIP }
+				539 = { add_core = LIP }
+				540 = { add_core = LIP }
+				541 = { add_core = LIP }
+				535 = { add_core = LIP }
+				534 = { add_core = LIP }
+				536 = { add_core = LIP }
+				537 = { add_core = LIP }
+				554 = { add_core = LIP }
+				582 = { add_core = LIP }
+				581 = { add_core = LIP }
+				580 = { add_core = LIP }
+				542 = { add_core = LIP }
+				538 = { add_core = LIP }
+				584 = { add_core = LIP }
+				565 = { add_core = LIP }
+				567 = { add_core = LIP }
+				568 = { add_core = LIP }
+				562 = { add_core = LIP }
+				561 = { add_core = LIP }
+				563 = { add_core = LIP }
+				any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499870 days = 3 }			    
+		 }
+        }
+		option = {
+        name = "LOT5015.B" # attack the beast
+			set_country_flag = lot_germany_dilemma
+			set_country_flag = lot_germany_dilemma_attack
+			369 = { add_core = LIP }
+				530 = { add_core = LIP }
+				529 = { add_core = LIP }
+				528 = { add_core = LIP }
+				532 = { add_core = LIP }
+				531 = { add_core = LIP }
+				544 = { add_core = LIP }
+				557 = { add_core = LIP }
+				553 = { add_core = LIP }
+				539 = { add_core = LIP }
+				540 = { add_core = LIP }
+				541 = { add_core = LIP }
+				535 = { add_core = LIP }
+				534 = { add_core = LIP }
+				536 = { add_core = LIP }
+				537 = { add_core = LIP }
+				554 = { add_core = LIP }
+				582 = { add_core = LIP }
+				581 = { add_core = LIP }
+				580 = { add_core = LIP }
+				542 = { add_core = LIP }
+				538 = { add_core = LIP }
+				584 = { add_core = LIP }
+				565 = { add_core = LIP }
+				567 = { add_core = LIP }
+				568 = { add_core = LIP }
+				562 = { add_core = LIP }
+				561 = { add_core = LIP }
+				563 = { add_core = LIP }
+				any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499870 days = 3 }			    
+		 }
+        }
+		option = {
+        name = "LOT5015.C" # leave the beast alone
+			set_country_flag = lot_germany_dilemma
+			set_country_flag = lot_germany_dilemma_alone
+			369 = { add_core = LIP }
+				530 = { add_core = LIP }
+				529 = { add_core = LIP }
+				528 = { add_core = LIP }
+				532 = { add_core = LIP }
+				531 = { add_core = LIP }
+				544 = { add_core = LIP }
+				557 = { add_core = LIP }
+				553 = { add_core = LIP }
+				539 = { add_core = LIP }
+				540 = { add_core = LIP }
+				541 = { add_core = LIP }
+				535 = { add_core = LIP }
+				534 = { add_core = LIP }
+				536 = { add_core = LIP }
+				537 = { add_core = LIP }
+				554 = { add_core = LIP }
+				582 = { add_core = LIP }
+				581 = { add_core = LIP }
+				580 = { add_core = LIP }
+				542 = { add_core = LIP }
+				538 = { add_core = LIP }
+				584 = { add_core = LIP }
+				565 = { add_core = LIP }
+				567 = { add_core = LIP }
+				568 = { add_core = LIP }
+				562 = { add_core = LIP }
+				561 = { add_core = LIP }
+				563 = { add_core = LIP }
+				any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499870 days = 3 }			    
+		 }	 
+        }
+    }
+country_event = {
+major = yes
+    id = 599866
+    title = "LOT5016.T"
+    desc = "LOT5016.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+	tag = LOT
+    fire_only_once = yes
+	OR = {
+					has_country_flag = lot_germany_dilemma_ally
+					has_country_flag = wsf_germany_dilemma_attack
+				}
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499871 days = 3 }			    
+		 }	 
+		 any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599878 days = 3 }			    
+		 }
+        name = "LOT5016.A" #lotharingia allies and zapo fights
+		set_country_flag = lot_wsf_ally_fight
+		}
+}
+country_event = {
+major = yes
+    id = 599867
+    title = "LOT5017.T"
+    desc = "LOT5017.D"
+    picture = "goldrush"
+fire_only_once = yes
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_ally
+					has_country_flag = wsf_germany_dilemma_alone
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599878 days = 3 }			    
+		 }
+        name = "LOT5017.A" #lotharingia allies and zapo does nothing
+		set_country_flag = lot_wsf_ally_nothing
+		}
+}
+country_event = {
+major = yes
+    id = 599868
+    title = "LOT5018.T"
+    desc = "LOT5018.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1870
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_ally
+					has_country_flag = wsf_germany_dilemma_ally
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499872 days = 3 }			    
+		 }	 
+		any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599878 days = 3 }			    
+		 }
+        name = "LOT5018.A" #both ally with the beast. for now.
+		set_country_flag = lot_wsf_ally_ally
+		}
+}
+country_event = {
+major = yes
+    id = 599869
+    title = "LOT5019.T"
+    desc = "LOT5019.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_attack
+					has_country_flag = wsf_germany_dilemma_ally
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499873 days = 3 }			    
+		 }	 
+		 any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599877 days = 3 }			    
+		 }
+        name = "LOT5019.A" #lotharingia fights the beast and zapo allies
+		set_country_flag = lot_wsf_fight_ally
+		}
+}
+country_event = {
+major = yes
+    id = 599870
+    title = "LOT5020.T"
+    desc = "LOT5020.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_attack
+					has_country_flag = wsf_germany_dilemma_alone
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+				any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599876 days = 3 }			    
+		 }
+        name = "LOT5020.A" #lotharingia fights the beast and zapo does nothing
+		set_country_flag = lot_wsf_fight_nothing
+		}
+}
+country_event = {
+major = yes
+    id = 599871
+    title = "LOT5021.T"
+    desc = "LOT5021.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_attack
+					has_country_flag = wsf_germany_dilemma_attack
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499874 days = 3 }			    
+		 }	 
+		 any_country = {
+			 limit = {
+				 tag = LOT
+			 }	 
+             country_event = { id = 599875 days = 3 }			    
+		 }	
+        name = "LOT5021.A" #lotharingia and zapo have both declared war on germany
+		set_country_flag = lot_wsf_fight_fight
+		}
+}
+country_event = {
+major = yes
+    id = 599872
+    title = "LOT5022.T"
+    desc = "LOT5022.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_alone 
+					has_country_flag = wsf_germany_dilemma_ally
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+		any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499875 days = 3 }			    
+		 }	 
+        name = "LOT5022.A" #lotharinga doesn't care and zapo allies it
+		set_country_flag = lot_wsf_nothing_ally
+		}
+}
+country_event = {
+major = yes
+    id = 599873
+    title = "LOT5023.T"
+    desc = "LOT5023.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+   tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_alone
+					has_country_flag = wsf_germany_dilemma_attack
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+				any_country = {
+			 limit = {
+				 tag = WSF
+			 }	 
+             country_event = { id = 499876 days = 3 }			    
+		 }	 
+        name = "LOT5023.A" #lotharingia has chosen to do nothing. zapadoslavia has chosen to fight
+		set_country_flag = lot_wsf_nothing_fight
+		}
+}
+country_event = {
+major = yes
+    id = 599874
+    title = "LOT5024.T"
+    desc = "LOT5024.D"
+    picture = "goldrush"
+
+    trigger = {
+    year = 1871
+	is_greater_power = yes
+	tag = LOT
+	tag = WSF
+	OR = {
+					has_country_flag = lot_germany_dilemma_alone
+					has_country_flag = wsf_germany_dilemma_alone
+				}
+    fire_only_once = yes
+}
+    mean_time_to_happen = { 
+	days = 25
+	}
+
+    option = {
+	369 = { secede_province = LIP }
+				530 = { secede_province = LIP }
+				529 = { secede_province = LIP }
+				528 = { secede_province = LIP }
+				532 = { secede_province = LIP }
+				531 = { secede_province = LIP }
+				544 = { secede_province = LIP }
+				557 = { secede_province = LIP }
+				553 = { secede_province = LIP }
+				539 = { secede_province = LIP }
+				540 = { secede_province = LIP }
+				541 = { secede_province = LIP }
+				535 = { secede_province = LIP }
+				534 = { secede_province = LIP }
+				536 = { secede_province = LIP }
+				537 = { secede_province = LIP }
+				554 = { secede_province = LIP }
+				582 = { secede_province = LIP }
+				581 = { secede_province = LIP }
+				580 = { secede_province = LIP }
+				542 = { secede_province = LIP }
+				538 = { secede_province = LIP }
+				584 = { secede_province = LIP }
+				565 = { secede_province = LIP }
+				567 = { secede_province = LIP }
+				568 = { secede_province = LIP }
+				562 = { secede_province = LIP }
+				561 = { secede_province = LIP }
+				563 = { secede_province = LIP }
+        name = "LOT5025.A" #both powers have chosen not to interfere in the formation of germany. wow.
+		set_country_flag = lot_wsf_nothing_nothing
+		}
+}
+country_event = {
+	id = 599875
+	title = "LOT5026.T"
+	desc = "LOT5026.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5026.A"
+	war = {
+		target = LIP
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	LIP = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 599876
+	title = "LOT5027.T"
+	desc = "LOT5027.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5027.A"
+	war = {
+		target = LIP
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	LIP = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 599877
+	title = "LOT5028.T"
+	desc = "LOT5028.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5028.A"
+	war = {
+		target = LIP
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 599878
+	title = "LOT5029.T"
+	desc = "LOT5029.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "LOT5029.A"
+	create_alliance = LIP
+	LIP = {
+	relation = { who = LOT value = 100 }
+	}
+	LOT = {
+	relation = { who = LIP value = 100 }
+	}
+	set_country_flag = lot_decision_time
+	}
+}
 ######################
 ###	New INTERSLAVIA 4000 EVENTS ###
 ######################
@@ -2606,6 +3411,99 @@ country_event = {
 	    }
         }
     }
+country_event = {
+    id = 499870
+    title = "WSF4020.T"
+    desc = "WSF4020.D"
+    picture = "goldrush"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "WSF4020.A" #ally with the beast
+			set_country_flag = wsf_germany_dilemma
+			set_country_flag = wsf_germany_dilemma_ally
+        }
+		option = {
+        name = "WSF4020.B" # attack the beast
+			set_country_flag = wsf_germany_dilemma
+			set_country_flag = wsf_germany_dilemma_attack
+        }
+		option = {
+        name = "WSF4020.C" # leave the beast alone
+			set_country_flag = wsf_germany_dilemma
+			set_country_flag = wsf_germany_dilemma_alone
+        }
+    }
+country_event = {
+	id = 499874
+	title = "WSF4021.T"
+	desc = "WSF4021.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "WSF4021.A"
+	war = {
+		target = LIP
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	LIP = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 499875
+	title = "WSF4022.T"
+	desc = "WSF4022.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "WSF4022.A"
+	create_alliance = LIP
+	WSF = {
+	relation = { who = LIP value = 100 }
+	}
+	LIP = {
+	relation = { who = WSF value = 100 }
+	}
+	set_country_flag = lot_decision_time
+	}
+}
+country_event = {
+	id = 499876
+	title = "WSF4023.T"
+	desc = "WSF4023.D"
+	is_triggered_only = yes
+	
+	option = { 
+	name = "WSF4023.A"
+	war = {
+		target = LIP
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	LIP = { 
+		 add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+		 }
+		 }
+	}
+}
 ######################
 ###	New JAPAN EVENTS 3000 ###
 ######################
