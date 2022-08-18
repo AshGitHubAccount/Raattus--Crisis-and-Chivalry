@@ -23,3 +23,8 @@ level=1
 	building = explosives_factory
 	upgrade = yes
 	}
+{
+level=2
+	building = artillery_factory
+	upgrade = yes
+	}

@@ -2514,6 +2514,8 @@ country_event = {
         NOT = {
 		has_country_modifier = wsf_transition
 		}
+	has_country_flag = wsf_reform_or_strangle
+	tag = WSF
 	is_greater_power = yes
     }
 
@@ -2545,9 +2547,11 @@ country_event = {
     picture = "goldrush"
 
     trigger = {
+	has_country_flag = wsf_reform_or_strangle
         NOT = {
 		has_country_modifier = wsf_transition
 		}
+	tag = WSF
 	is_greater_power = yes
     }
 
@@ -2579,9 +2583,11 @@ country_event = {
     picture = "goldrush"
 
     trigger = {
+	has_country_flag = wsf_reform_or_strangle
         NOT = {
 		has_country_modifier = wsf_transition
 		}
+	tag = WSF
 	is_greater_power = yes
     }
 
@@ -4220,7 +4226,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 589860 
+	id = 589864
 	title = "PER9000.T"
 	desc = "PER9000.D" #Telling hindustan they are the china of this world and are thus, cursed
 	trigger = {
@@ -4237,7 +4243,7 @@ country_event = {
 	option = { 
 	name = "PER9000.A"
 	set_country_flag = per_lost_it_all
-	remove_country_modifier = {	name = crouching_persian_tiger }
+	remove_country_modifier = crouching_persian_tiger
 	}
 }
 ######################

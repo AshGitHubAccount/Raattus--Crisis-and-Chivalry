@@ -16,3 +16,8 @@ state_building=
 	building = fertilizer_factory
 	upgrade = yes
 }
+{
+level=2
+	building = artillery_factory
+	upgrade = yes
+	}
