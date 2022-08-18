@@ -4,3 +4,9 @@ add_core=WSF
 add_core=POL
 trade_goods = grain
 life_rating = 35
+state_building= 
+{
+level=1
+	building = artillery_factory
+	upgrade = yes
+	}

@@ -5,3 +5,9 @@ add_core=OCC
 add_core=TUL
 trade_goods = coal
 life_rating = 32
+state_building= 
+{
+level=1
+	building = artillery_factory
+	upgrade = yes
+	}

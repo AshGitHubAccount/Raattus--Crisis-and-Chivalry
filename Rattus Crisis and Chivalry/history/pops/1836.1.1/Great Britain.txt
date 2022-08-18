@@ -112,7 +112,7 @@
 	{
 		culture = scottish
 		religion = catholic
-		size= 3504
+		size= 8504
 	}
 
 	clergymen=
@@ -148,6 +148,12 @@
 		culture = scottish
 		religion = catholic
 		size= 80806
+	}
+	craftsmen=
+	{
+		culture = scottish
+		religion = catholic
+		size= 7000
 	}
 
 }
@@ -199,6 +205,13 @@
 		culture = scottish
 		religion = catholic
 		size= 103451
+	}
+	
+	craftsmen=
+	{
+		culture = scottish
+		religion = catholic
+		size= 14000
 	}
 
 }

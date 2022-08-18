@@ -4109,7 +4109,12 @@
 		religion = catholic
 		size= 31062
 	}
-
+craftsmen=
+	{
+		culture = mexican
+		religion = catholic
+		size= 18000
+	}
 }
 2168 = {
 	soldiers=

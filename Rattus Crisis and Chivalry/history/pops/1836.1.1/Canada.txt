@@ -4693,7 +4693,12 @@
 		religion = catholic
 		size= 32033
 	}
-
+craftsmen=
+	{
+		culture = french_canadian
+		religion = catholic
+		size= 18000
+	}
 }
 59 = {
 	soldiers=

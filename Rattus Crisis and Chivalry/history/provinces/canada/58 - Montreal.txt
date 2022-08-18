@@ -3,3 +3,9 @@ controller=CAN
 add_core=CAN
 trade_goods = cattle
 life_rating = 38
+state_building= 
+{
+level=1
+	building = artillery_factory
+	upgrade = yes
+	}

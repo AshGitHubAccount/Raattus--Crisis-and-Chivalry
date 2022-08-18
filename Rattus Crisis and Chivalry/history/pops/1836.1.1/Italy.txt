@@ -2970,7 +2970,7 @@ craftsmen=
 	{
 		culture = south_italian
 		religion = catholic
-		size= 10000
+		size= 18000
 	}
 	artisans=
 	{

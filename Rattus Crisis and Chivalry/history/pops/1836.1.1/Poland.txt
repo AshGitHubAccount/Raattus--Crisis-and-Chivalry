@@ -2287,7 +2287,12 @@ farmers=
 		religion = protestant
 		size= 54806
 	}
-
+craftsmen=
+	{
+		culture = polish
+		religion = protestant
+		size= 14000
+	}
 }
 705 = {
 	soldiers=
